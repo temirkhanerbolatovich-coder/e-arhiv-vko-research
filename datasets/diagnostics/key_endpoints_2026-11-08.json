@@ -1,0 +1,82 @@
+[
+  {
+    "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Method",
+    "started_at": "2026-11-08T17:18:17+05:00",
+    "method": "GET",
+    "timeout_seconds": 10,
+    "status_code": 500,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "status": "http_error_or_redirect"
+  },
+  {
+    "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Document",
+    "started_at": "2026-11-08T17:18:19+05:00",
+    "method": "GET",
+    "timeout_seconds": 10,
+    "status_code": 500,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "status": "http_error_or_redirect"
+  },
+  {
+    "url": "http://e-arhiv.vko.gov.kz/kk/NamedContent?type=Method",
+    "started_at": "2026-11-08T17:18:20+05:00",
+    "method": "GET",
+    "timeout_seconds": 10,
+    "status_code": 500,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "status": "http_error_or_redirect"
+  },
+  {
+    "url": "http://e-arhiv.vko.gov.kz/kk/NamedContent?type=Document",
+    "started_at": "2026-11-08T17:18:22+05:00",
+    "method": "GET",
+    "timeout_seconds": 10,
+    "status_code": 500,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "status": "http_error_or_redirect"
+  },
+  {
+    "url": "http://e-arhiv.vko.gov.kz/ru/DataBases/BaseAreas",
+    "started_at": "2026-11-08T17:18:23+05:00",
+    "method": "GET",
+    "timeout_seconds": 10,
+    "status": "request_error",
+    "error": "ReadTimeout: HTTPConnectionPool(host='e-arhiv.vko.gov.kz', port=80): Read timed out. (read timeout=10)"
+  },
+  {
+    "url": "http://e-arhiv.vko.gov.kz/ru/DataBases/BaseBooks",
+    "started_at": "2026-11-08T17:18:35+05:00",
+    "method": "GET",
+    "timeout_seconds": 10,
+    "status": "request_error",
+    "error": "ReadTimeout: HTTPConnectionPool(host='e-arhiv.vko.gov.kz', port=80): Read timed out. (read timeout=10)"
+  },
+  {
+    "url": "http://e-arhiv.vko.gov.kz/ru/DataBases/BaseHistMark",
+    "started_at": "2026-11-08T17:18:46+05:00",
+    "method": "GET",
+    "timeout_seconds": 10,
+    "status": "request_error",
+    "error": "ReadTimeout: HTTPConnectionPool(host='e-arhiv.vko.gov.kz', port=80): Read timed out. (read timeout=10)"
+  },
+  {
+    "url": "http://e-arhiv.vko.gov.kz/kk/DataBases/BaseAreas",
+    "started_at": "2026-11-08T17:18:58+05:00",
+    "method": "GET",
+    "timeout_seconds": 10,
+    "status": "request_error",
+    "error": "ReadTimeout: HTTPConnectionPool(host='e-arhiv.vko.gov.kz', port=80): Read timed out. (read timeout=10)"
+  },
+  {
+    "url": "http://e-arhiv.vko.gov.kz/ru/DataBases/LoadBaseEFond",
+    "started_at": "2026-11-08T17:19:10+05:00",
+    "method": "GET",
+    "timeout_seconds": 10,
+    "status": "request_error",
+    "error": "ReadTimeout: HTTPConnectionPool(host='e-arhiv.vko.gov.kz', port=80): Read timed out. (read timeout=10)"
+  }
+]

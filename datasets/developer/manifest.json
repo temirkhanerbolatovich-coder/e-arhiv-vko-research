@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-11-08T13:16:09+00:00",
+  "counts": {
+    "pages": 3021,
+    "files": 3234,
+    "links": 188442,
+    "comment_occurrences": 8880
+  },
+  "source": "metadata/crawl_state.sqlite3 (single SQLite read transaction)",
+  "comment_source": {
+    "path": "datasets/comments/occurrences.jsonl",
+    "sha256": "9b29e0d635ce97705ad2955432ea6aaa2450890a5c590c484e6b207b159342e2",
+    "last_modified_utc": "2026-11-08T12:18:28+00:00"
+  },
+  "errors": [],
+  "files": {
+    "comment_occurrences.jsonl": {
+      "sha256": "4320350289da126a11fbf0af1a26c4ce1491f8b7537fbc8d24e605c6e5442713",
+      "bytes": 13062464
+    },
+    "files.jsonl": {
+      "sha256": "4bc3ad9c2f679a14825d82cb0ffffcb801a2088f51685af6b9915dbcfc01c503",
+      "bytes": 1581606
+    },
+    "items.csv": {
+      "sha256": "9fea6cf06cbcbef50964d1f68db2054186ae3fabf9a1de131e6e3dbb5b27c7db",
+      "bytes": 1834770
+    },
+    "links.jsonl": {
+      "sha256": "72075f2c8b67c17630abc049b142d8dccdf487c42625a9d9e9f066c0a57a0388",
+      "bytes": 44015882
+    },
+    "pages.jsonl": {
+      "sha256": "ad4bb790289edc25c98bd33d76866eb4a6bfdeada3da401a2c73fc00c3f6e4e9",
+      "bytes": 25266393
+    }
+  },
+  "limitations": [
+    "Public-site crawl is incomplete where items are pending or failed.",
+    "Page text may include navigation and other boilerplate.",
+    "Comments may contain personal data and repeated appearances.",
+    "SHA-256 from the index is not independently recalculated by this exporter."
+  ]
+}

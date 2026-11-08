@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-11-08T18:16:38+05:00",
+  "listing_url": "http://e-arhiv.vko.gov.kz/ru/SiteGallery",
+  "listing_html": "pages/html/ce326cda00f481568bdd.html",
+  "albums_discovered": 32,
+  "albums_processed": 32,
+  "photo_entries": 1299,
+  "album_statuses": {
+    "saved_from_main_crawl": 32
+  },
+  "limitations": "Only album pages linked by IDs in the saved Russian gallery listing. Image and photo-detail endpoints were not requested; template captions may be incomplete. No coverage of unlisted albums is implied."
+}

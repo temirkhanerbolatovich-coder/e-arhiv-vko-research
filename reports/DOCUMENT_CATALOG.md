@@ -1,6 +1,6 @@
 # Каталог файлов
 
-Снимок: 2026-11-08T15:35:48+05:00. Строки соответствуют URL; одинаковые хэши могут ссылаться на один локальный файл. Файлы включают изображения оформления.
+Снимок: 2026-11-08T18:16:35+05:00. Строки соответствуют URL; одинаковые хэши могут ссылаться на один локальный файл. Файлы включают изображения оформления.
 
 ## opros_ru.png
 
@@ -21332,6 +21332,5820 @@
 - SHA-256: `aa89643e23499d75d8f1d7b44150751252f5ad8a250e74ef793f1ec15160e6bd`
 - Дубликат: нет
 
+## IMG_5493.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/IMG_5493.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/42338
+- Файл: `../downloads/images/f62c7818e3118f537c3e.jpg`
+- MIME: image/jpeg; размер по базе: 2814517 байт
+- SHA-256: `1b05fcb1027560b9b03b3bb2229aad2ce7c28b9e4ece94a926c8f777c2ad485d`
+- Дубликат: нет
+
+## фото 2.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/%D1%84%D0%BE%D1%82%D0%BE%202.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/42337
+- Файл: `../downloads/images/f1cec3189e4c4feb9833.jpg`
+- MIME: image/jpeg; размер по базе: 193737 байт
+- SHA-256: `c203e0f567a8fa7dd75360e685df4ae5ef99f7a84643aab765f70a7476f0e772`
+- Дубликат: downloads/images/f1cec3189e4c4feb9833.jpg
+
+## фото 1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/%D1%84%D0%BE%D1%82%D0%BE%201.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/42337
+- Файл: `../downloads/images/40ac7ba249093b5b0359.jpg`
+- MIME: image/jpeg; размер по базе: 43705 байт
+- SHA-256: `9168f5b9084649bb4e26c6af22bcd5300d516a0083808a6c997a1140a838cc77`
+- Дубликат: downloads/images/40ac7ba249093b5b0359.jpg
+
+## IMG-20190503-WA0019.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/IMG-20190503-WA0019.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/42339
+- Файл: `../downloads/images/9358dbbd25d51765d9f3.jpg`
+- MIME: image/jpeg; размер по базе: 69094 байт
+- SHA-256: `f549c6ed528bbf281cd5f0c8be58cc0d822a798aa951e9bfdd02548ec0c64d13`
+- Дубликат: нет
+
+## IMG-20190503-WA0001.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/IMG-20190503-WA0001.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/42339
+- Файл: `../downloads/images/88e91386641ee8cc8719.jpg`
+- MIME: image/jpeg; размер по базе: 45394 байт
+- SHA-256: `f8c9d0955a3baca7fa9850b4a834ffb80ced2124148ebe20f4e381029dd76c2e`
+- Дубликат: нет
+
+## 20190424_143952.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/20190424_143952.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/42335
+- Файл: `../downloads/images/297e639457fe41035535.jpg`
+- MIME: image/jpeg; размер по базе: 245357 байт
+- SHA-256: `fdc508ca0abe941261f13b12abca7c4b029ef132a4ea66c42ebc6c7423e05ac9`
+- Дубликат: нет
+
+## 20190424_114329.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/20190424_114329.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/42335
+- Файл: `../downloads/images/20cb04c4f9362faca84e.jpg`
+- MIME: image/jpeg; размер по базе: 255221 байт
+- SHA-256: `b3f0d633667dafd89f730b3a3820e8a4114a897c62ba46261225f92c6865c6cf`
+- Дубликат: нет
+
+## gpVbCUaYyNM.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/gpVbCUaYyNM.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/42334
+- Файл: `../downloads/images/b1611b24381fed3a5b95.jpg`
+- MIME: image/jpeg; размер по базе: 152798 байт
+- SHA-256: `b52269c1efbd534bc03eb8003eb6bcda22d9ad12b85a4bfd9ac83bf4cb797ffb`
+- Дубликат: нет
+
+## фото(1).jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/%D1%84%D0%BE%D1%82%D0%BE(1).jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32333
+- Файл: `../downloads/images/df52c1bd979183dadb7e.jpg`
+- MIME: image/jpeg; размер по базе: 281593 байт
+- SHA-256: `57ee65eedad2934566776457dcc066c9b119be43c6c639fb7c068338097012a7`
+- Дубликат: нет
+
+## IMG_5385.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/IMG_5385.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32332
+- Файл: `../downloads/images/3344e48b43f1ec551f9f.jpg`
+- MIME: image/jpeg; размер по базе: 1044105 байт
+- SHA-256: `d96b50923ac171a279939e5f88a25764bff48a07b5948deb75e9f7c9139fd2b8`
+- Дубликат: нет
+
+## IMG_5417.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/IMG_5417.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32332
+- Файл: `../downloads/images/5febff8116abff3b4be7.jpg`
+- MIME: image/jpeg; размер по базе: 1115786 байт
+- SHA-256: `99ff82609f18ca11b0aeb411981ba17e146112aedccaa2577a87b96f0f389c5d`
+- Дубликат: нет
+
+## IMG_5426.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/IMG_5426.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32332
+- Файл: `../downloads/images/7ef641d8d438fe451847.jpg`
+- MIME: image/jpeg; размер по базе: 1226002 байт
+- SHA-256: `34fa1594a1167231acbc20988b915e06cb68ffb285fc7db012dbc49524449cfe`
+- Дубликат: нет
+
+## IMG_5428.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/IMG_5428.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32332
+- Файл: `../downloads/images/1ebadfc39abbfa325c72.jpg`
+- MIME: image/jpeg; размер по базе: 1181029 байт
+- SHA-256: `e87cf804986bc13ce5583edf244b0f5753445ea487bf9852408a9514764ead82`
+- Дубликат: нет
+
+## IMG_5422.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/IMG_5422.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32332
+- Файл: `../downloads/images/4588c67fbf1a959f912c.jpg`
+- MIME: image/jpeg; размер по базе: 1396090 байт
+- SHA-256: `2e1ebb3636d41eec344a36cdc54b68f802f3deeea415d7aec363edfe6f25bd1a`
+- Дубликат: нет
+
+## суб1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/%D1%81%D1%83%D0%B11.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32326
+- Файл: `../downloads/images/7cbf1e1a8e5a20bd40ea.jpg`
+- MIME: image/jpeg; размер по базе: 108203 байт
+- SHA-256: `888e3461832023fcc96710d8ffd8d1fdbcc25da4ae34728cb6f7a870cc4f6482`
+- Дубликат: нет
+
+## IMG-20190411-WA0004.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20190411-WA0004.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32323
+- Файл: `../downloads/images/fd3ad1d0409f5c29bd43.jpg`
+- MIME: image/jpeg; размер по базе: 46776 байт
+- SHA-256: `c4f63536ed333122ba71b3c65532a10d4da40a98d43af5aad899436ad2c03faf`
+- Дубликат: нет
+
+## 20190408_151449.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190408_151449.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32322
+- Файл: `../downloads/images/18007c6a65d4e47d0d63.jpg`
+- MIME: image/jpeg; размер по базе: 2459938 байт
+- SHA-256: `748a56615d4207a3448d2702464eb14025edf0ed896f3598c60b21651834d0f7`
+- Дубликат: нет
+
+## 20190408_151957.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190408_151957.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32322
+- Файл: `../downloads/images/29cca824400c3b4e19ac.jpg`
+- MIME: image/jpeg; размер по базе: 1550608 байт
+- SHA-256: `de26d9bf560df3bb6cedfa226d7e76e45171578c2400a3e222013071a92f2733`
+- Дубликат: нет
+
+## 20190405_150941.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190405_150941.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32320
+- Файл: `../downloads/images/9ec4d670492f7073b745.jpg`
+- MIME: image/jpeg; размер по базе: 2872769 байт
+- SHA-256: `5864dbee0efbc25b087260d23351c792dcec8dbba3f7647558e230557cafdd3d`
+- Дубликат: нет
+
+## 20190405_151358.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190405_151358.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32320
+- Файл: `../downloads/images/756ca23a7483936988e3.jpg`
+- MIME: image/jpeg; размер по базе: 1299525 байт
+- SHA-256: `fcdf6d547e9e03dada5ca3441784b5c15861ddb943ef2ee8fa89d17c17945d12`
+- Дубликат: нет
+
+## 20190405_151850.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190405_151850.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32320
+- Файл: `../downloads/images/b58b5668a71cac967517.jpg`
+- MIME: image/jpeg; размер по базе: 1181516 байт
+- SHA-256: `7213166a5ab05d223eb0c7dbbdc9daa038eccd3e20799de9237e38db7d996192`
+- Дубликат: нет
+
+## 20190405_152000.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190405_152000.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32320
+- Файл: `../downloads/images/51d16f0b8cd9bdf63e7c.jpg`
+- MIME: image/jpeg; размер по базе: 2978252 байт
+- SHA-256: `f256f3954e6073dee54a4d5ee31e28ec8c0360e8f526d58298da6926abcfb012`
+- Дубликат: нет
+
+## 20190405_152813.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190405_152813.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32320
+- Файл: `../downloads/images/126400c34fe1eeb7aad7.jpg`
+- MIME: image/jpeg; размер по базе: 3344736 байт
+- SHA-256: `521dcac171e6d5dffa511b0badf940bb268b74e009837a34075ebff9e3d1f16f`
+- Дубликат: нет
+
+## 20190403_100121.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190403_100121.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32319
+- Файл: `../downloads/images/9e95278e90d9a967fa3d.jpg`
+- MIME: image/jpeg; размер по базе: 2495753 байт
+- SHA-256: `9c8073c7753b00d3407a78207f12172f25fc709f64297846d520165221e46d77`
+- Дубликат: нет
+
+## 20190403_100009.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190403_100009.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32319
+- Файл: `../downloads/images/27efeaeda55d305774a1.jpg`
+- MIME: image/jpeg; размер по базе: 2335404 байт
+- SHA-256: `c6427b393b20ae864f21f9b4c881f1bf49450f543cef555c534ee923fb3f493f`
+- Дубликат: нет
+
+## Г.В. Антропова.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/%D0%93.%D0%92.%20%D0%90%D0%BD%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%B2%D0%B0.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32318
+- Файл: `../downloads/images/2246b5f5e2139a7c4799.jpg`
+- MIME: image/jpeg; размер по базе: 2661406 байт
+- SHA-256: `28f845230a6f338fc35ae1cd0bb1887d82510ea8d44a6a84afb7dabba78de22b`
+- Дубликат: нет
+
+## 20190327_114455.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/20190327_114455.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32314
+- Файл: `../downloads/images/de0b2e2f4b32956d02af.jpg`
+- MIME: image/jpeg; размер по базе: 9240912 байт
+- SHA-256: `b9937d47d8b4749a458f6d928aae9e47871cd04cfcb133137f2da7efacffeb08`
+- Дубликат: нет
+
+## 20190327_104542.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/20190327_104542.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32314
+- Файл: `../downloads/images/050754eaf1edc2a40b11.jpg`
+- MIME: image/jpeg; размер по базе: 7220825 байт
+- SHA-256: `3940e5dc180cba7dfa5ac33cc8598ccc5975cbbbce1580dc3fe6b09ac1a18b10`
+- Дубликат: нет
+
+## 20190327_104549.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/20190327_104549.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32314
+- Файл: `../downloads/images/0159168287ac9687a608.jpg`
+- MIME: image/jpeg; размер по базе: 8207949 байт
+- SHA-256: `f9fdf09c254eb2853f5a6891aea9e8179677b91cf4b0cde9af4e6bdbb089ca9c`
+- Дубликат: нет
+
+## 20190327_104529.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/20190327_104529.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32314
+- Файл: `../downloads/images/9da7aec7846c5bb48ea0.jpg`
+- MIME: image/jpeg; размер по базе: 3548246 байт
+- SHA-256: `e7bf097666a9099fef1233f237c8031c21c637c11ff7e86ec5c9291578364d36`
+- Дубликат: нет
+
+## IMG_5320.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/IMG_5320.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32314
+- Файл: `../downloads/images/4fb7a56f42c74155a25f.jpg`
+- MIME: image/jpeg; размер по базе: 2142751 байт
+- SHA-256: `b3f6ed2555e0282eebdfe522ad13afece1db0ba7465ade7bb3fc8494e02ea984`
+- Дубликат: нет
+
+## 20190327_121247.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/20190327_121247.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32314
+- Файл: `../downloads/images/7937fda15b37fdfba0d3.jpg`
+- MIME: image/jpeg; размер по базе: 9935341 байт
+- SHA-256: `f9970ec425ec4950e4272fc7f9227545b7d6f6ccab6bf7c75de24d09b569d386`
+- Дубликат: нет
+
+## 20190318_163628.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190318_163628.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32310
+- Файл: `../downloads/images/b289c839a98150e48b3d.jpg`
+- MIME: image/jpeg; размер по базе: 2013634 байт
+- SHA-256: `12342f8e81b43e524689219c70f1a1d401f53739ee02383c23a41c817552e8a4`
+- Дубликат: нет
+
+## 20190318_163943.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190318_163943.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32310
+- Файл: `../downloads/images/f044a9205a64469bdfed.jpg`
+- MIME: image/jpeg; размер по базе: 1253111 байт
+- SHA-256: `71143045fa368473f723a8482095de525eafe6bf326246751995a61a12e4841b`
+- Дубликат: нет
+
+## IMG-20190320-WA0026.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20190320-WA0026.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32311
+- Файл: `../downloads/images/eb9e68f7d61af9f615ab.jpg`
+- MIME: image/jpeg; размер по базе: 55448 байт
+- SHA-256: `7eb332e5051534bb17dcd29b37f77e68d9ed51c8d26b41b7c36d512fbe64cf5b`
+- Дубликат: нет
+
+## IMG-20190321-WA0001.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20190321-WA0001.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32311
+- Файл: `../downloads/images/14d6f3a66b9e162a5c3a.jpg`
+- MIME: image/jpeg; размер по базе: 94898 байт
+- SHA-256: `200074e34649cfd1c9ea765ae8ed446e7bc9a6a0e3a06044aa256900c55fcaa2`
+- Дубликат: нет
+
+## IMG-20190326-WA0004.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20190326-WA0004.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32311
+- Файл: `../downloads/images/762869c542f289392081.jpg`
+- MIME: image/jpeg; размер по базе: 49358 байт
+- SHA-256: `5cef049626d61e9f0b214cfe22dd268c0a31044c9ccb92bae00785b5d0a177fa`
+- Дубликат: нет
+
+## 20190319_112600.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190319_112600.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32312
+- Файл: `../downloads/images/c17e60d6cb01d30d8bf1.jpg`
+- MIME: image/jpeg; размер по базе: 1757477 байт
+- SHA-256: `4b84f335c029ee95f96ec2cabae54ab842877cf0eaa60f6d7f5dae3721456d6e`
+- Дубликат: нет
+
+## 20190319_120405.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190319_120405.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32312
+- Файл: `../downloads/images/2ddf3587ae5218083a8b.jpg`
+- MIME: image/jpeg; размер по базе: 689716 байт
+- SHA-256: `c6c8d772483722033fe10a65ec4537dbdca988f36be957378c5fd27544775612`
+- Дубликат: нет
+
+## 20190319_122019.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190319_122019.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32312
+- Файл: `../downloads/images/bdc4fd48afaa629fb052.jpg`
+- MIME: image/jpeg; размер по базе: 1802917 байт
+- SHA-256: `effd48c9cd03530b32422b0e2eca2f87598a03c809939f23a47bb0a5dbd4dbc4`
+- Дубликат: нет
+
+## 20190319_122941.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190319_122941.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32312
+- Файл: `../downloads/images/1378c4ac57da917c5fc6.jpg`
+- MIME: image/jpeg; размер по базе: 1408680 байт
+- SHA-256: `50171957308eee7c1b29fb12163df4ae93e404c35c14da72e804a550ef2b99b9`
+- Дубликат: нет
+
+## 19-1.03.2019.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/19-1.03.2019.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32308
+- Файл: `../downloads/images/5d156a891ee454686cc5.jpg`
+- MIME: image/jpeg; размер по базе: 2910121 байт
+- SHA-256: `b39e62aa14214f7284adb5543df5fad7742cc29db0ac9027722009e3b4ca52cc`
+- Дубликат: нет
+
+## IMG-20190319-WA0008.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG-20190319-WA0008.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32307
+- Файл: `../downloads/images/cef32327337d3dcdd706.jpg`
+- MIME: image/jpeg; размер по базе: 141703 байт
+- SHA-256: `f987929a80d99c465ba0d355a439e84e1ffc3230b32eacd7dab89c2153193b24`
+- Дубликат: нет
+
+## IMG-20190319-WA0017.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG-20190319-WA0017.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32307
+- Файл: `../downloads/images/e720fe05bc3960fdcc3b.jpg`
+- MIME: image/jpeg; размер по базе: 121217 байт
+- SHA-256: `c557d4c2e1c5d3105e15181bc95617764427683f59b4d1972674963f7348621a`
+- Дубликат: нет
+
+## К.С. Первушин.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/%D0%9A.%D0%A1.%20%D0%9F%D0%B5%D1%80%D0%B2%D1%83%D1%88%D0%B8%D0%BD.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32305
+- Файл: `../downloads/images/8f92af7208a9f70b8898.jpg`
+- MIME: image/jpeg; размер по базе: 476764 байт
+- SHA-256: `c0b8e4b596a51abfedf5b73d3ac0f0b573a91934902bb8d87234a681274572ec`
+- Дубликат: downloads/images/8f92af7208a9f70b8898.jpg
+
+## IMG-20190305-WA0006.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG-20190305-WA0006.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32302
+- Файл: `../downloads/images/af0487202f089ed488fb.jpg`
+- MIME: image/jpeg; размер по базе: 95050 байт
+- SHA-256: `faa28dca3312fed31a045122e901f532a433af66ec181ca053da0ae535ef0a42`
+- Дубликат: нет
+
+## 20190221_103352.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190221_103352.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32301
+- Файл: `../downloads/images/104d0abdb2d23f98e764.jpg`
+- MIME: image/jpeg; размер по базе: 800638 байт
+- SHA-256: `99159d4308a22d78518e9a381ac32e287ae44a6dca94ce654b715b3344e44b84`
+- Дубликат: нет
+
+## 20190221_095047.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190221_095047.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32301
+- Файл: `../downloads/images/2b214b7694285f6fc140.jpg`
+- MIME: image/jpeg; размер по базе: 1429939 байт
+- SHA-256: `d0521704a4edd51141d07f736667b68388a7bea7d13829384326b8d0e92674c5`
+- Дубликат: нет
+
+## IMG-20190219-WA0001.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG-20190219-WA0001.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32300
+- Файл: `../downloads/images/9d5a6992fe27ca2ddcd6.jpg`
+- MIME: image/jpeg; размер по базе: 91538 байт
+- SHA-256: `fd2fc8a21fd9d97d2f703dad7182c37444a267968f74e97b1ea9876108f3c014`
+- Дубликат: нет
+
+## 20190205_124503.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190205_124503.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32298
+- Файл: `../downloads/images/dabf30c74f51b77d196f.jpg`
+- MIME: image/jpeg; размер по базе: 1022119 байт
+- SHA-256: `f414b8c969c6c8a748b0be74057dc7f87faae156f18249b82f42743ed41c6aa4`
+- Дубликат: нет
+
+## 20190205_104918.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190205_104918.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32298
+- Файл: `../downloads/images/cdbfce976309f78e2622.jpg`
+- MIME: image/jpeg; размер по базе: 924503 байт
+- SHA-256: `ed08c906a49eeed2b297729f277c51cdd5207359ee0369e8d60bd62999cb79a5`
+- Дубликат: нет
+
+## IMG-20190128-WA0038.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20190128-WA0038.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32295
+- Файл: `../downloads/images/1dac4fdb48785bc6e09c.jpg`
+- MIME: image/jpeg; размер по базе: 70391 байт
+- SHA-256: `6cf67d5c9fe45b1dec023fae35c375401c4697e5a2faf0c0903e8797ffac5bb3`
+- Дубликат: нет
+
+## IMG-20190128-WA0041.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20190128-WA0041.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32295
+- Файл: `../downloads/images/6dccaf4a0c38d199730e.jpg`
+- MIME: image/jpeg; размер по базе: 52154 байт
+- SHA-256: `76a4f2b95900010d5f1026b71190b0bbdd14ba716f49a66f77bfb241f9d298b1`
+- Дубликат: нет
+
+## IMG-20190128-WA0044.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20190128-WA0044.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32295
+- Файл: `../downloads/images/32222fb56fa23749c026.jpg`
+- MIME: image/jpeg; размер по базе: 101129 байт
+- SHA-256: `2ad0bcf0f953611c8fa9b47050f1cd39fafc1482243fcc8aaa6e19896d360b6a`
+- Дубликат: нет
+
+## IMG-20190128-WA0053.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20190128-WA0053.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32295
+- Файл: `../downloads/images/f44dc49e032bd8e8b2ee.jpg`
+- MIME: image/jpeg; размер по базе: 29897 байт
+- SHA-256: `3dce9e6321fcfad271913da8cf05ec791efecb71f945cfca50f03d37ba38cb4a`
+- Дубликат: нет
+
+## 20190110_113659.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190110_113659.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32288
+- Файл: `../downloads/images/970e46e5f07dfd24ce41.jpg`
+- MIME: image/jpeg; размер по базе: 295665 байт
+- SHA-256: `71494d1e314312815cb4cf0a4c062e0d002ab70b5e1b7f38047b1671e3f7e1c4`
+- Дубликат: нет
+
+## 20190110_114500.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190110_114500.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32288
+- Файл: `../downloads/images/a5cd5f6ae8fb3893a1f2.jpg`
+- MIME: image/jpeg; размер по базе: 662197 байт
+- SHA-256: `dd7ecf9aa05b4d405df6190f058986416e138eaa9c0b604a16b8c1c7ae83f024`
+- Дубликат: нет
+
+## 20190110_112745.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190110_112745.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32288
+- Файл: `../downloads/images/9a1ce91f75f0c241fdde.jpg`
+- MIME: image/jpeg; размер по базе: 639320 байт
+- SHA-256: `039b4a7c2edeb6c86f6c4d879d2a5c5872b884544b49d2dce5c0488840d643c8`
+- Дубликат: нет
+
+## 20190110_110233.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20190110_110233.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32288
+- Файл: `../downloads/images/93855b46ff2d4c29a1ee.jpg`
+- MIME: image/jpeg; размер по базе: 1315349 байт
+- SHA-256: `5d5221b3cced4664f4695bace430a8c90b3f8497e60778c08384b2bef8f28f2b`
+- Дубликат: нет
+
+## 20181229_092120.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181229_092120.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32283
+- Файл: `../downloads/images/d47166a1b5ef6a078125.jpg`
+- MIME: image/jpeg; размер по базе: 986223 байт
+- SHA-256: `e617863fab61342b49bf3f8bf6fafdd47185daa834ea80c00fe67fc0ce65d229`
+- Дубликат: нет
+
+## 20181229_092135.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181229_092135.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32283
+- Файл: `../downloads/images/87b220e7297161d79f6b.jpg`
+- MIME: image/jpeg; размер по базе: 1112015 байт
+- SHA-256: `5fe8074799b42ec12d057a391ff5445e6b83e0dc81279a05b1e5687f9f49514a`
+- Дубликат: нет
+
+## 20181229_092156.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181229_092156.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32283
+- Файл: `../downloads/images/f4e4845494a85894d9df.jpg`
+- MIME: image/jpeg; размер по базе: 834988 байт
+- SHA-256: `8b31691ee7e5d7614d612069554442666a159658ff5ac19dfd029938245d9c9c`
+- Дубликат: нет
+
+## 20181229_092416.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181229_092416.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32283
+- Файл: `../downloads/images/19900d106f53d9c737bd.jpg`
+- MIME: image/jpeg; размер по базе: 1285397 байт
+- SHA-256: `c75c4015e372a13afec8ce3cfe96d643a77466f3325f7a9052dd2bb998c515b9`
+- Дубликат: нет
+
+## 20181229_093007.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181229_093007.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32283
+- Файл: `../downloads/images/4a172ff182b92fdfa108.jpg`
+- MIME: image/jpeg; размер по базе: 1026009 байт
+- SHA-256: `35c32e6665d91ded1d95df39a5923d0733cb9a5aa84d1fac581c25d6dc82eea1`
+- Дубликат: нет
+
+## IMG-20181225-WA0027.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG-20181225-WA0027.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32281
+- Файл: `../downloads/images/f046d249c8395fcf79af.jpg`
+- MIME: image/jpeg; размер по базе: 316300 байт
+- SHA-256: `1062d59ab8fee8b828007a7d26696ab56d662d14279b95cd869dee8290c0e8f1`
+- Дубликат: нет
+
+## IMG-20181225-WA0028.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG-20181225-WA0028.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32281
+- Файл: `../downloads/images/18591dbf3731f0b0d53c.jpg`
+- MIME: image/jpeg; размер по базе: 237267 байт
+- SHA-256: `4193e5f25fd51e412fbf634775e13249529e809b5e0f232024e6ff3e3a3fe514`
+- Дубликат: нет
+
+## IMG_5007.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_5007.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/bac67d45369196ea1f60.jpg`
+- MIME: image/jpeg; размер по базе: 2512137 байт
+- SHA-256: `cb6ab6e3f7ecf237467b21d33ab7d99b5151cc2dec35ddeff29c63e59ee66a77`
+- Дубликат: нет
+
+## IMG_5005.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_5005.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/ae79cd0274aa9f9b96ee.jpg`
+- MIME: image/jpeg; размер по базе: 3225876 байт
+- SHA-256: `68e8592b21102120129ccfdbfd801274d12dfefcf9762e0c43df2b17a9756618`
+- Дубликат: нет
+
+## IMG_4972.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4972.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/7a7e10e215a1d28cd00d.jpg`
+- MIME: image/jpeg; размер по базе: 2040728 байт
+- SHA-256: `9e251c9ae977c148dcacfe2cb6b5794902e64e7641b434c7bc712a1fa9a804a5`
+- Дубликат: нет
+
+## IMG_4971.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4971.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/a385c70051486e1105f3.jpg`
+- MIME: image/jpeg; размер по базе: 1985452 байт
+- SHA-256: `fd00cb811215bb84441b7759b82d841299522d5a67fec511453200eb2ec65ec2`
+- Дубликат: нет
+
+## IMG_4973.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4973.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/cedd56a6b9722380268f.jpg`
+- MIME: image/jpeg; размер по базе: 1960829 байт
+- SHA-256: `570d16305d2f1a96c1463d0104517f857baf0e2990b16e5bd25ff217f83add5b`
+- Дубликат: нет
+
+## IMG_4974.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4974.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/36c2e996c5dd4b0d5c3f.jpg`
+- MIME: image/jpeg; размер по базе: 2306557 байт
+- SHA-256: `8444e1898435ec4cdf3d6125ebb9066748cdd3d32dcd4f21ae93d10db9c50d80`
+- Дубликат: нет
+
+## IMG_4976.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4976.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/f03490b02b96572c6f61.jpg`
+- MIME: image/jpeg; размер по базе: 2429407 байт
+- SHA-256: `5db13137202bfcfec2f06797dc047a6274fdfdec604e2c56b434458f24ee2f30`
+- Дубликат: нет
+
+## IMG_4978.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4978.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/1f1be80eb35efa153fbb.jpg`
+- MIME: image/jpeg; размер по базе: 2572392 байт
+- SHA-256: `adf9620da72bb45ec8336bf1d5238f1ae1471654fe7ff78d23f2d683f8264f25`
+- Дубликат: нет
+
+## IMG_4999.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4999.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/800f971ba347775a3d0c.jpg`
+- MIME: image/jpeg; размер по базе: 1488471 байт
+- SHA-256: `11f717d704c8d6d924bb3b8f33dda15e9ad5181a026b862adab97290debf59c0`
+- Дубликат: нет
+
+## IMG_5009.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_5009.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/238b4cb2a5cf75effde4.jpg`
+- MIME: image/jpeg; размер по базе: 1868550 байт
+- SHA-256: `efd4cb82cd3c6cc5ac89bc9f353cf72481f0c64e16015031b3ff0371f0dd77b5`
+- Дубликат: нет
+
+## IMG_5021.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_5021.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/e020395fdf6b3cdc4d82.jpg`
+- MIME: image/jpeg; размер по базе: 2324343 байт
+- SHA-256: `e33f12af8da89e14e511f6dab0b3d9f22f51364a197c80942a6b8f20524845fd`
+- Дубликат: нет
+
+## IMG_5015.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_5015.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/92fec5d15743d5e0e186.jpg`
+- MIME: image/jpeg; размер по базе: 2269055 байт
+- SHA-256: `259d5e1d7ce31d23223b9ae91760e7ebb195d34cf391b31ffae3375f6d418b4d`
+- Дубликат: нет
+
+## IMG_5044.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_5044.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32280
+- Файл: `../downloads/images/ea7e21c3a2d471bb4bc8.jpg`
+- MIME: image/jpeg; размер по базе: 1185527 байт
+- SHA-256: `8123738d2ac436ce991f38c6d6f76e9f187e302b06fde4409c18da19dcfc4c01`
+- Дубликат: нет
+
+## 20181219_161217.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/20181219_161217.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32279
+- Файл: `../downloads/images/34c1213e92e26e1dcf31.jpg`
+- MIME: image/jpeg; размер по базе: 405701 байт
+- SHA-256: `f287bca6a3d8908ca1f7777e276e8d19950249546288d076c8ee94768c482c9e`
+- Дубликат: нет
+
+## Планшет 1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/%D0%9F%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82%201.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32278
+- Файл: `../downloads/images/740589d3c21b9efe8e9f.jpg`
+- MIME: image/jpeg; размер по базе: 2552094 байт
+- SHA-256: `d2956f0a7d55a8a8a42bf53dd10a6b7a1d0e78930129ec9017ec7187030c4ddb`
+- Дубликат: downloads/images/740589d3c21b9efe8e9f.jpg
+
+## Планшет 2.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/%D0%9F%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82%202.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32278
+- Файл: `../downloads/images/6f57f3c492e230c744d4.jpg`
+- MIME: image/jpeg; размер по базе: 1715458 байт
+- SHA-256: `dacef01c47d081d16b582777636bd078513d898516b4e3d1e5b3e88402192350`
+- Дубликат: нет
+
+## Планшет 3.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/%D0%9F%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82%203.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32278
+- Файл: `../downloads/images/350e47b7b82d910fef18.jpg`
+- MIME: image/jpeg; размер по базе: 1895904 байт
+- SHA-256: `b1183cdc88616a6ae294c4b4fc321e6f93df22ee13377392a800ed105934b1d8`
+- Дубликат: нет
+
+## Планшет 4.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/%D0%9F%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82%204.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32278
+- Файл: `../downloads/images/26c6f39e3aeaaa4dab6e.jpg`
+- MIME: image/jpeg; размер по базе: 1523495 байт
+- SHA-256: `bb3636a6ffd7a639dce3c3257e95c21a2948018f53660cb4eb253e283aba1bd0`
+- Дубликат: нет
+
+## После экскурсии1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D0%B81.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32278
+- Файл: `../downloads/images/6f936aa9bcdbb316b3ff.jpg`
+- MIME: image/jpeg; размер по базе: 4020818 байт
+- SHA-256: `039a298244d510369c3c823010388ccabc5e7bc664bfc3e6b3253349ced87f99`
+- Дубликат: нет
+
+## 20181213_152843.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/20181213_152843.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32276
+- Файл: `../downloads/images/53a1da49417593293aba.jpg`
+- MIME: image/jpeg; размер по базе: 327799 байт
+- SHA-256: `09daaff5a03f96698e715cdf5353a3a544f551a5d4dcbd4be51da2213b38f497`
+- Дубликат: нет
+
+## 07,12,18(09-56-28).jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/07,12,18(09-56-28).jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32274
+- Файл: `../downloads/images/ffaa0e20d9db6f7eb93e.jpg`
+- MIME: image/jpeg; размер по базе: 79342 байт
+- SHA-256: `2e44275aee5f4fd864199fdac57f3256a0baeaf5a90382dd5c11bd5d1b4ace39`
+- Дубликат: нет
+
+## 07,12,18(09-56-56).jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/07,12,18(09-56-56).jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32274
+- Файл: `../downloads/images/bed7fcf2b8ffa581f7c4.jpg`
+- MIME: image/jpeg; размер по базе: 56836 байт
+- SHA-256: `b0d08ac3b46cec16c1409230c924e39b647943c5736677de94d44e4a724ba677`
+- Дубликат: нет
+
+## 07,12,18(10-00-01).jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/07,12,18(10-00-01).jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32274
+- Файл: `../downloads/images/f5a020a2eca7c48bc8fb.jpg`
+- MIME: image/jpeg; размер по базе: 70874 байт
+- SHA-256: `58183113bd1462ddd56e757940bd020e9f4c1770dd72d6d34666fe5d408d773b`
+- Дубликат: нет
+
+## 07,12,18(10-01-15).jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/07,12,18(10-01-15).jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32274
+- Файл: `../downloads/images/294300548d938b94fd3a.jpg`
+- MIME: image/jpeg; размер по базе: 78781 байт
+- SHA-256: `1410e99329a7794b99da21b03165e4150894a3ae80e67f088ca3a44737e0961a`
+- Дубликат: нет
+
+## IMG20181201111729.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG20181201111729.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32272
+- Файл: `../downloads/images/653391dca6074c149545.jpg`
+- MIME: image/jpeg; размер по базе: 643151 байт
+- SHA-256: `6c272928f9e03daf6c562ba57f059c043f95db356883640b88f986b5253ac273`
+- Дубликат: нет
+
+## IMG20181201115015.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG20181201115015.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32272
+- Файл: `../downloads/images/9289db8592735f9d020f.jpg`
+- MIME: image/jpeg; размер по базе: 589627 байт
+- SHA-256: `e0bdbbaeeaf1aacfd7714a38faa90d930531faef8f67326a7c85966346014a78`
+- Дубликат: нет
+
+## IMG20181201120216.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG20181201120216.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32272
+- Файл: `../downloads/images/de0d569b6137292cdd31.jpg`
+- MIME: image/jpeg; размер по базе: 685783 байт
+- SHA-256: `0b846b3b9e7f3f5df68a9235838210be80698622f52c178a9e2f5043dcbecd9e`
+- Дубликат: нет
+
+## IMG20181201120801.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG20181201120801.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32272
+- Файл: `../downloads/images/70bc232e2e12423e16d2.jpg`
+- MIME: image/jpeg; размер по базе: 631370 байт
+- SHA-256: `f94193db27ba43f7075bab1ece8455128ad730034bac31563da20a864e065b82`
+- Дубликат: нет
+
+## Обзорная экскурсия.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/%D0%9E%D0%B1%D0%B7%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8F.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32271
+- Файл: `../downloads/images/126ee792acc0610bb2eb.jpg`
+- MIME: image/jpeg; размер по базе: 37967 байт
+- SHA-256: `4d80ba059900c466eefffaa4c6e503e3a4837e8d723854d8f4ed190ff73212da`
+- Дубликат: нет
+
+## IMG-20181130-WA0004.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20181130-WA0004.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32270
+- Файл: `../downloads/images/7717309fff15f8f8e1f4.jpg`
+- MIME: image/jpeg; размер по базе: 56573 байт
+- SHA-256: `bdb50b36d5f5a3b918d1a4c898a3ed868b1532a722d410bcb18ee4df39703049`
+- Дубликат: нет
+
+## IMG-20181130-WA0005.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20181130-WA0005.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32270
+- Файл: `../downloads/images/e2413399db8e49b81dfd.jpg`
+- MIME: image/jpeg; размер по базе: 53749 байт
+- SHA-256: `d4fedb32c36bb3d0612febe3f04bd73659af358c488be771fc7effc62baa6b1b`
+- Дубликат: нет
+
+## IMG-20181130-WA0013.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20181130-WA0013.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32270
+- Файл: `../downloads/images/95b3e3cb1a75a67709e3.jpg`
+- MIME: image/jpeg; размер по базе: 58340 байт
+- SHA-256: `217b3dafb539db6372ef51509a3780e5998a26f2f61d8d0685e0a2f69ea21366`
+- Дубликат: нет
+
+## 20181109_112409.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/20181109_112409.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32266
+- Файл: `../downloads/images/00557a03f4c100fc0917.jpg`
+- MIME: image/jpeg; размер по базе: 190861 байт
+- SHA-256: `9281bfc358f91cd63c3498df085ffa0e13f2f6ce473285a4928873b7a0b540ce`
+- Дубликат: нет
+
+## 20181108_142652.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/20181108_142652.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32266
+- Файл: `../downloads/images/70a7ff7e75bbf6e0a7b9.jpg`
+- MIME: image/jpeg; размер по базе: 162963 байт
+- SHA-256: `c041b8b1c7e7bab34bbfcfb526eabb708182ea8feb3ae39fabb7714af1e90f06`
+- Дубликат: нет
+
+## 20181109_101404.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/20181109_101404.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32266
+- Файл: `../downloads/images/fb9d97568bfb6c61dcb8.jpg`
+- MIME: image/jpeg; размер по базе: 89573 байт
+- SHA-256: `10d18f537e366b90a6a80478439aa1485327dcb723200000ae36e82aeb7cc742`
+- Дубликат: нет
+
+## IMG-20181031-WA0014.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20181031-WA0014.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32265
+- Файл: `../downloads/images/ea53237fd9cb8808bb2b.jpg`
+- MIME: image/jpeg; размер по базе: 128336 байт
+- SHA-256: `2ba918229480dbebd358ffeb7fcd58931362b986b4986a0a59030dca7caef6b5`
+- Дубликат: нет
+
+## IMG-20181031-WA0017.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20181031-WA0017.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32265
+- Файл: `../downloads/images/c877a8491e0fcf883794.jpg`
+- MIME: image/jpeg; размер по базе: 138372 байт
+- SHA-256: `593337c0b20762039956a2a879e12c69228b2f7a016fd2bd3e7934f8c02c413e`
+- Дубликат: нет
+
+## IMG-20181031-WA0019.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20181031-WA0019.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32265
+- Файл: `../downloads/images/d612f3563bc98217b1d2.jpg`
+- MIME: image/jpeg; размер по базе: 125167 байт
+- SHA-256: `437e1a82d0ac14245b9c663ed0c950888465189912814bf2a7cf132bdc7f1220`
+- Дубликат: нет
+
+## 20181012_105205.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181012_105205.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32262
+- Файл: `../downloads/images/c966de709d223ecc1e8b.jpg`
+- MIME: image/jpeg; размер по базе: 946086 байт
+- SHA-256: `7931050b0ee02a38be59b867fd5a2b20b8a560e23f0daea1d9e3fa1026e8d657`
+- Дубликат: нет
+
+## 20181012_111031.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181012_111031.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32262
+- Файл: `../downloads/images/3b5d398e3f47dcd6d8d5.jpg`
+- MIME: image/jpeg; размер по базе: 2915035 байт
+- SHA-256: `9eeeba05b74552048454955269e2a67cba33a49a3bc26fdd229836de18b499d5`
+- Дубликат: нет
+
+## 20181012_111611.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181012_111611.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32262
+- Файл: `../downloads/images/3b78572d89a893ba5165.jpg`
+- MIME: image/jpeg; размер по базе: 1168954 байт
+- SHA-256: `448ca0c0ae43bab885f63201cc61d8108b9385d0beb5b91be82d26da3c4e06a4`
+- Дубликат: нет
+
+## 20181012_111056.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181012_111056.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32262
+- Файл: `../downloads/images/5bf4a0c786f341da548d.jpg`
+- MIME: image/jpeg; размер по базе: 3356687 байт
+- SHA-256: `aeaf400e47597f82086df93d0899f37182e89ee68b09803903a07ad95405145d`
+- Дубликат: нет
+
+## 20181012_111224.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181012_111224.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32262
+- Файл: `../downloads/images/ea1a1fcd7cfc7baaa71b.jpg`
+- MIME: image/jpeg; размер по базе: 1412741 байт
+- SHA-256: `8be54e632e90f863d2ac9c886fa225ad6f96812de247ed637536bb5f6f564607`
+- Дубликат: нет
+
+## 20181012_111324.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181012_111324.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32262
+- Файл: `../downloads/images/9c6acc7368645b39ecc4.jpg`
+- MIME: image/jpeg; размер по базе: 2664112 байт
+- SHA-256: `f224ae1920770233b1ea3a3e1b176c7113d5e5a6377ca93722e82334d9c583b2`
+- Дубликат: нет
+
+## 20181012_111349.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181012_111349.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32262
+- Файл: `../downloads/images/1a0b4ea5a1e845ebe536.jpg`
+- MIME: image/jpeg; размер по базе: 2296151 байт
+- SHA-256: `542ee3b9b87d002ac9104ecc938af82fdb7caf4733866ea0a5b980c283a38b35`
+- Дубликат: нет
+
+## 20181012_111443.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20181012_111443.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32262
+- Файл: `../downloads/images/829d356d95d9691183d9.jpg`
+- MIME: image/jpeg; размер по базе: 1945639 байт
+- SHA-256: `af4d0092fb7d337b46bfee6411b7c074e171ded885f0afa2499badeb35e1a95b`
+- Дубликат: нет
+
+## IMG_4729.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4729.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32260
+- Файл: `../downloads/images/85170f2c6ed56472f347.jpg`
+- MIME: image/jpeg; размер по базе: 3082454 байт
+- SHA-256: `68a62a4c398a812e3051207aedf8dcb3fa754f4e09a991f6a4254bae36c286cb`
+- Дубликат: нет
+
+## IMG_4716.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4716.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32260
+- Файл: `../downloads/images/1dca664dfea89f6440c7.jpg`
+- MIME: image/jpeg; размер по базе: 2865853 байт
+- SHA-256: `b8d77d6b21f23eb73133b885e662755ae2f44767608d6a68ce568b862c844b82`
+- Дубликат: нет
+
+## IMG_4749.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4749.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32260
+- Файл: `../downloads/images/d871f0f6ecf75fe64eea.jpg`
+- MIME: image/jpeg; размер по базе: 2787045 байт
+- SHA-256: `e5ef5e0df490b217de1d1cad178c308f3c127ff9380642782a624c655f8daf71`
+- Дубликат: нет
+
+## IMG_4750.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4750.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32260
+- Файл: `../downloads/images/7b46ce08360e8b87a399.jpg`
+- MIME: image/jpeg; размер по базе: 2125857 байт
+- SHA-256: `1e4a454bde9683cdca0cc038c0f0d8ce1489b30722eff3bd85d806bf2c4e1de3`
+- Дубликат: нет
+
+## IMG_4733.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4733.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32260
+- Файл: `../downloads/images/189a44b7e18572d5c99e.jpg`
+- MIME: image/jpeg; размер по базе: 2323402 байт
+- SHA-256: `c19250900300487c0a0063d378623d9f2f66cbfb98447f868dac8dc66a9fcda0`
+- Дубликат: нет
+
+## IMG-20181003-WA0008.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG-20181003-WA0008.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32259
+- Файл: `../downloads/images/58891d08aa697f0e995e.jpg`
+- MIME: image/jpeg; размер по базе: 43927 байт
+- SHA-256: `b3fbbcda224aa38e10d2843b21ff0fd3468f5c06ac470bdc698eb2c1a756ee03`
+- Дубликат: нет
+
+## IMG-20181003-WA0007.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG-20181003-WA0007.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32259
+- Файл: `../downloads/images/f5b2a269328e07679a35.jpg`
+- MIME: image/jpeg; размер по базе: 44258 байт
+- SHA-256: `e37d4c1103195b2ac55144ce05e1b2454bdd0e386dcf223e129ae730c4e039c7`
+- Дубликат: нет
+
+## IMG-20181003-WA0006.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG-20181003-WA0006.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32259
+- Файл: `../downloads/images/617ddf3d17ee42bd0657.jpg`
+- MIME: image/jpeg; размер по базе: 39091 байт
+- SHA-256: `b62e49add412527229ac6a4b96dcd8839fa9317823df059e2d71c342f7debcde`
+- Дубликат: нет
+
+## IMG-20180927-WA0004.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20180927-WA0004.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32258
+- Файл: `../downloads/images/29352ed87424e3977abe.jpg`
+- MIME: image/jpeg; размер по базе: 104600 байт
+- SHA-256: `293ef5dfb178c0085614886dd90590fe28a9cfa2da779a72446bb54ed37e85f5`
+- Дубликат: нет
+
+## DSC_0125.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0125.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32257
+- Файл: `../downloads/images/e9a8a286ca0a3f08ded2.jpg`
+- MIME: image/jpeg; размер по базе: 217416 байт
+- SHA-256: `18737e4ff7714bae39ee8a5ee7b2d5eb7bbbdf5ca1af204f99bc96a158727afd`
+- Дубликат: нет
+
+## DSC_0132.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0132.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32257
+- Файл: `../downloads/images/614ad44c46a0fe0fea9d.jpg`
+- MIME: image/jpeg; размер по базе: 241365 байт
+- SHA-256: `02291e3caa9ae5cd4a16a3e33c71670ba84ce52d7dda6b8b97bdfa507a054006`
+- Дубликат: нет
+
+## DSC_0144.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0144.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32257
+- Файл: `../downloads/images/fb019ea627ce2c39ed18.jpg`
+- MIME: image/jpeg; размер по базе: 247757 байт
+- SHA-256: `71119f33d1903ba1788887920a24990aeb49b16e6aeaa253c63d70592c99a23b`
+- Дубликат: нет
+
+## DSC_0117.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0117.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/32257
+- Файл: `../downloads/images/ddbc443f3c50a0e583cb.jpg`
+- MIME: image/jpeg; размер по базе: 220084 байт
+- SHA-256: `b43e4e46053d36446262695b369ae4d8c5d25881b63b7a28128d744f6e4f7f77`
+- Дубликат: нет
+
+## DSC_3457.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/DSC_3457.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22256
+- Файл: `../downloads/images/091df4605adb8b7fba19.jpg`
+- MIME: image/jpeg; размер по базе: 308113 байт
+- SHA-256: `8dd1ab4df79a02d5f4d2062dea6a415bdbfa8a611d0a4a4fdef5f8897014c356`
+- Дубликат: нет
+
+## DSC_3469.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/DSC_3469.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22256
+- Файл: `../downloads/images/fb65179db869a61151e0.jpg`
+- MIME: image/jpeg; размер по базе: 223927 байт
+- SHA-256: `b1882eaa390b4462172abc722b27c22937b81a7f50b5bddce2bca1675a5b5d02`
+- Дубликат: нет
+
+## IMG_20180920_154607.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_20180920_154607.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22255
+- Файл: `../downloads/images/85ab3aef81d5eef9c3b2.jpg`
+- MIME: image/jpeg; размер по базе: 1147160 байт
+- SHA-256: `680c1c9e4e0ccd2ce80b0d24848ac15ea0c8c720a3e229a7ce31b6073e0bfceb`
+- Дубликат: нет
+
+## IMG_20180920_154331.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_20180920_154331.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22255
+- Файл: `../downloads/images/2264a99ae1f905aed7f0.jpg`
+- MIME: image/jpeg; размер по базе: 1037779 байт
+- SHA-256: `2b4c0e749f5347bc0654b21e0759508447abff247a3f7d29cd9b1fef8886c59e`
+- Дубликат: нет
+
+## IMG_20180920_160034.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_20180920_160034.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22255
+- Файл: `../downloads/images/c3ca6838dbeaded68ee4.jpg`
+- MIME: image/jpeg; размер по базе: 547633 байт
+- SHA-256: `834ea4f2d244b0443d430398f419c9947caefee8d3bc92cf99e886ffc3fbf8df`
+- Дубликат: нет
+
+## 20180823_154640.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/20180823_154640.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22252
+- Файл: `../downloads/images/337788b91e7abf094dfb.jpg`
+- MIME: image/jpeg; размер по базе: 230061 байт
+- SHA-256: `ae7702ed77ca57113daaeac95d64ee612601c6ee53d40311a567fdba58cbf8be`
+- Дубликат: нет
+
+## 20180823_155444.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/20180823_155444.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22252
+- Файл: `../downloads/images/496d9c82854ea48646e6.jpg`
+- MIME: image/jpeg; размер по базе: 250800 байт
+- SHA-256: `888b3499708f5a396c33c3f4de9c713e4dbe2ed7632b1892ffd3e3755b019cf8`
+- Дубликат: нет
+
+## 20180823_155459.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/20180823_155459.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22252
+- Файл: `../downloads/images/654a6a87d7077534d98f.jpg`
+- MIME: image/jpeg; размер по базе: 265969 байт
+- SHA-256: `9099afb0b3d92e69af048045467543ba152dcf3b78477f2ac210dc932d49e364`
+- Дубликат: нет
+
+## IMG_4543.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4543.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22249
+- Файл: `../downloads/images/23455cec3af293171eab.jpg`
+- MIME: image/jpeg; размер по базе: 2353093 байт
+- SHA-256: `2841ab7d7cae296c79766ec11d4db4966ecfa6e2d22e73742879ad23e1d82a54`
+- Дубликат: нет
+
+## IMG_4545.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4545.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22249
+- Файл: `../downloads/images/4d8746ad18831d2f798d.jpg`
+- MIME: image/jpeg; размер по базе: 1631325 байт
+- SHA-256: `bc091d746caf3866574e4aaa3534026791372d9dad1632f2dd7086b6375badbf`
+- Дубликат: нет
+
+## IMG_4607.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4607.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22249
+- Файл: `../downloads/images/39760691ff1e055fadec.jpg`
+- MIME: image/jpeg; размер по базе: 1415404 байт
+- SHA-256: `a4bfd0d191bfd0a9b4d525c002d24eaae4bd88d3ded4e60899650252e4b9b12e`
+- Дубликат: нет
+
+## IMG_4589.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4589.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22249
+- Файл: `../downloads/images/641cdb4110bd9c21c136.jpg`
+- MIME: image/jpeg; размер по базе: 2605440 байт
+- SHA-256: `4e0d6d246aafa76943e043e2086b5d81a07d9cbf8249657b7388d9addee4edcb`
+- Дубликат: нет
+
+## IMG_4530.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4530.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22246
+- Файл: `../downloads/images/7fa23bc172b5da82d9b9.jpg`
+- MIME: image/jpeg; размер по базе: 2917559 байт
+- SHA-256: `691d3baee36945b387f1b725a3887245a61e3106840a8a6da0024cb589c349ee`
+- Дубликат: нет
+
+## IMG_4514.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4514.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22246
+- Файл: `../downloads/images/20ebd4bfc2683aea9696.jpg`
+- MIME: image/jpeg; размер по базе: 2211967 байт
+- SHA-256: `ecffad06d65e7be7e50f328006f530c1a9d60c1c041cb3183da2d62c7af316eb`
+- Дубликат: нет
+
+## IMG_4516.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4516.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22246
+- Файл: `../downloads/images/c1d6c33831f759c957a1.jpg`
+- MIME: image/jpeg; размер по базе: 2535582 байт
+- SHA-256: `88fe35ca2e790757793add963e153be4065dadf1f2546dca2573ee8909595ec9`
+- Дубликат: нет
+
+## IMG_4532.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4532.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22246
+- Файл: `../downloads/images/5874ef6c1c2ba6f46828.jpg`
+- MIME: image/jpeg; размер по базе: 2834677 байт
+- SHA-256: `25b8732ad6dd254f6efc9264c66339dd361bafe4a02f5391b9433fad660dc360`
+- Дубликат: нет
+
+## DSC_0012.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0012.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22244
+- Файл: `../downloads/images/3a11d53c8972d09b4125.jpg`
+- MIME: image/jpeg; размер по базе: 6895588 байт
+- SHA-256: `02e2898cef0f9f45fade60ed65ae71480519ad25189cf75e23f405769f8b377a`
+- Дубликат: нет
+
+## IMG_4465.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4465.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22237
+- Файл: `../downloads/images/02ce3e97965aa810fec4.jpg`
+- MIME: image/jpeg; размер по базе: 2817279 байт
+- SHA-256: `78ca60f5ecbe6bd416998ff6304daba4454ee6d37532966fc39a61578cec25cb`
+- Дубликат: нет
+
+## IMG_4458.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4458.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22237
+- Файл: `../downloads/images/e2a3dc2c92125eb9c0ea.jpg`
+- MIME: image/jpeg; размер по базе: 2099762 байт
+- SHA-256: `447dc34116f0079fa04946cd42793b3e865f3789579e94815cc867dd02d4a84d`
+- Дубликат: нет
+
+## IMG-20180524-WA0039.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/IMG-20180524-WA0039.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22236
+- Файл: `../downloads/images/0fad668f2e35f2e838f0.jpg`
+- MIME: image/jpeg; размер по базе: 110466 байт
+- SHA-256: `393141f6ba4a6e422f4c769134dbc8acbb695c94de0d284d6c19431952120e11`
+- Дубликат: нет
+
+## IMG-20180524-WA0033.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/IMG-20180524-WA0033.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22236
+- Файл: `../downloads/images/a673faa3b1f8cf68437d.jpg`
+- MIME: image/jpeg; размер по базе: 157014 байт
+- SHA-256: `28be932585a48d93bf9c220ff08f9d5338f645c0d987efb550f22eba11c79df2`
+- Дубликат: нет
+
+## IMG-20180524-WA0025.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/IMG-20180524-WA0025.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22236
+- Файл: `../downloads/images/448804520d977003dc7c.jpg`
+- MIME: image/jpeg; размер по базе: 97670 байт
+- SHA-256: `46f9cb4b42b4a3bf462eef9896ff71d566747a5c3c04ea19b645df277aa1f0aa`
+- Дубликат: нет
+
+## Планшет ¦ 1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/%D0%9F%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82%20%C2%A6%201.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22233
+- Файл: `../downloads/images/1382d6f8f9c876455d44.jpg`
+- MIME: image/jpeg; размер по базе: 2206277 байт
+- SHA-256: `377cb528a243fdc06ee2decb088673a658212b5507ec2a181c133398ddf1eaa8`
+- Дубликат: нет
+
+## Планшет ¦ 3.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/%D0%9F%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82%20%C2%A6%203.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22233
+- Файл: `../downloads/images/ed63a7b1c1d9303e4c80.jpg`
+- MIME: image/jpeg; размер по базе: 1649398 байт
+- SHA-256: `621265e8e9722d04bec2f59c4b88feab17fbb48de7e72e672c5e477d637ee80c`
+- Дубликат: нет
+
+## Планшет ¦ 4.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/%D0%9F%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82%20%C2%A6%204.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22233
+- Файл: `../downloads/images/b7340d7df0a59998ba68.jpg`
+- MIME: image/jpeg; размер по базе: 2139738 байт
+- SHA-256: `d9491121376fd4195f7158cb13fb35c7caa740656c83dc02e468495714cdb487`
+- Дубликат: нет
+
+## Вы живы в нашей памяти.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/%D0%92%D1%8B%20%D0%B6%D0%B8%D0%B2%D1%8B%20%D0%B2%20%D0%BD%D0%B0%D1%88%D0%B5%D0%B9%20%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22233
+- Файл: `../downloads/images/fcc556a88e0261498840.jpg`
+- MIME: image/jpeg; размер по базе: 3823706 байт
+- SHA-256: `09f3fe0eca2f38ebce6c2fad00fe6955aab1d5826eab9836ef1978d0fe14904c`
+- Дубликат: нет
+
+## DSC_0447.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0447.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22231
+- Файл: `../downloads/images/4612e6bfa23d3c296b65.jpg`
+- MIME: image/jpeg; размер по базе: 447880 байт
+- SHA-256: `caca45b9cd4ad18369528546e11ae0773981337c0bf14985b4d1ab036e475a14`
+- Дубликат: нет
+
+## DSC_0474.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0474.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22231
+- Файл: `../downloads/images/e0555fde88bc39e82c0f.jpg`
+- MIME: image/jpeg; размер по базе: 7310940 байт
+- SHA-256: `c775225626359a2feac79a90b5ee0d9401724ab5329e71a5df45d95e0f4183aa`
+- Дубликат: нет
+
+## DSC_0475.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0475.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22231
+- Файл: `../downloads/images/efc3d1ad150dc03d3f16.jpg`
+- MIME: image/jpeg; размер по базе: 391879 байт
+- SHA-256: `a70d1b13243400a6911f242450f169b68020da0c4fdc61656dc69238853a0559`
+- Дубликат: нет
+
+## DSC_0489.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0489.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22231
+- Файл: `../downloads/images/452cf083c7df71570047.jpg`
+- MIME: image/jpeg; размер по базе: 6316512 байт
+- SHA-256: `086c9c9768e35a03ff57f930dd547a31ee2fd13f603c0ddf4893c41fa498eee8`
+- Дубликат: нет
+
+## DSC_0424.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0424.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22229
+- Файл: `../downloads/images/a36df2c267e4eb80ae54.jpg`
+- MIME: image/jpeg; размер по базе: 345505 байт
+- SHA-256: `dc2665b8a2715c6e214383f4f186f07f146fa4c96519c6037e5e9963fdb4e01c`
+- Дубликат: нет
+
+## DSC_0429.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0429.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22229
+- Файл: `../downloads/images/bade0c461151ea562eba.jpg`
+- MIME: image/jpeg; размер по базе: 489121 байт
+- SHA-256: `7cbff229a445aed69c3a211e8b5a707b6ef97931738a40fa40cc6c556dd57869`
+- Дубликат: нет
+
+## DSC_0432.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0432.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22229
+- Файл: `../downloads/images/fae956f0a31c091e4ed6.jpg`
+- MIME: image/jpeg; размер по базе: 536044 байт
+- SHA-256: `52fbb09dec74798f4784f783d7939be1851a0dba392b0245d26e5c7cc50ae71a`
+- Дубликат: нет
+
+## DSC_0437.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0437.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22229
+- Файл: `../downloads/images/728d90d2afdb067fbf54.jpg`
+- MIME: image/jpeg; размер по базе: 415696 байт
+- SHA-256: `ae5b188488e8dbd4dd81a0d61845d023a7d8b30d30aad3c9399154900dfcc1f2`
+- Дубликат: нет
+
+## IMG_4444.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4444.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22228
+- Файл: `../downloads/images/991660c085e607369b8c.jpg`
+- MIME: image/jpeg; размер по базе: 3103588 байт
+- SHA-256: `2c86dc553973abe8b2565b331f67ddfc3474e610ed7abed07a682a1c54d1b0e3`
+- Дубликат: нет
+
+## IMG_4422.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4422.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22228
+- Файл: `../downloads/images/914dbca3310122f32bbb.jpg`
+- MIME: image/jpeg; размер по базе: 1765678 байт
+- SHA-256: `c9cfa462611e2050b0413b8e656e439c8fbff047804df99accf2e9ca7b6d0cbe`
+- Дубликат: нет
+
+## IMG_4415.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4415.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22228
+- Файл: `../downloads/images/bb4213398f889f95952f.jpg`
+- MIME: image/jpeg; размер по базе: 1267612 байт
+- SHA-256: `ad04ed26840c0179043ff300a0d4e7a9466f5029e6364d9604431bb42e346979`
+- Дубликат: нет
+
+## IMG_4434.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4434.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22228
+- Файл: `../downloads/images/40c7aff2e97ae47e2e96.jpg`
+- MIME: image/jpeg; размер по базе: 966443 байт
+- SHA-256: `1feabac72082e177fec87dd9cb564033f49a257b0cada1448ea6a41adea3fcee`
+- Дубликат: нет
+
+## IMG_4436.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4436.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22228
+- Файл: `../downloads/images/04723c7e34601b7e3b27.jpg`
+- MIME: image/jpeg; размер по базе: 2080481 байт
+- SHA-256: `7103c4da48053395675d17499251d229f885011e40813195db7d87230ececbf5`
+- Дубликат: нет
+
+## IMG_4446.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4446.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22228
+- Файл: `../downloads/images/f3fe71c7611333f4b488.jpg`
+- MIME: image/jpeg; размер по базе: 3365155 байт
+- SHA-256: `af51f9ec4d639256b74156d176e1c0de289a9f4390250867b10b565e51bd39fc`
+- Дубликат: нет
+
+## DSC_0319.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0319.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22227
+- Файл: `../downloads/images/f0626d91d54c7f9f256c.jpg`
+- MIME: image/jpeg; размер по базе: 460697 байт
+- SHA-256: `3b0bd9daf8a3a49df2936570c395fac7e7bc12673424f50f2f610deb4ef76311`
+- Дубликат: нет
+
+## DSC_0325.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0325.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22227
+- Файл: `../downloads/images/ac08b7810e63c5986b39.jpg`
+- MIME: image/jpeg; размер по базе: 457082 байт
+- SHA-256: `337e5d9d773ccbcd5ec3aa710487f33425b18c84cb49ad3580403e05e2975fd5`
+- Дубликат: нет
+
+## DSC_0331.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0331.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22227
+- Файл: `../downloads/images/5e89c6a74822b55319c4.jpg`
+- MIME: image/jpeg; размер по базе: 396289 байт
+- SHA-256: `d356504f4f1cc3c978904d79816a8654cf365d1ec1d14bc6cd86d1fd823765b5`
+- Дубликат: нет
+
+## DSC_0361.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0361.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22227
+- Файл: `../downloads/images/36d5e498f82f3adb3f56.jpg`
+- MIME: image/jpeg; размер по базе: 124054 байт
+- SHA-256: `bbe2a6583b29b857f19809e00f63de9a97e4be7bc3cafaade75e2601d0762271`
+- Дубликат: нет
+
+## DSC_0194.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0194.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22226
+- Файл: `../downloads/images/dd71499083c93fc5015b.jpg`
+- MIME: image/jpeg; размер по базе: 384292 байт
+- SHA-256: `ba2a194aa90bb193d4d5772fb2ddb698274063394b65a4dfd9947a016595eca4`
+- Дубликат: нет
+
+## DSC_0158.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0158.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22226
+- Файл: `../downloads/images/5643e75a87d3185b70f6.jpg`
+- MIME: image/jpeg; размер по базе: 551489 байт
+- SHA-256: `410aee7d40f8fbd18b54c6f8c6921138eacde5e1d3e93c9f47cca00d19bf35ea`
+- Дубликат: нет
+
+## IMG_20180509_110234.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_20180509_110234.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22226
+- Файл: `../downloads/images/08a2e181be56e2ff0a4f.jpg`
+- MIME: image/jpeg; размер по базе: 225206 байт
+- SHA-256: `55ea4a03966f2c6b67bf564abdc2b5f61b88e5de33d3c31f232ccc5744cdceea`
+- Дубликат: нет
+
+## DSC_0234.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0234.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22226
+- Файл: `../downloads/images/913a92356dbedcc5ebe2.jpg`
+- MIME: image/jpeg; размер по базе: 506600 байт
+- SHA-256: `4faa63262154a1ae9e6be654d3f2430dcdb4ac303bf93c51c375801bb5eabb1f`
+- Дубликат: нет
+
+## DSC_0147.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0147.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22226
+- Файл: `../downloads/images/3b83aca9f0790222eb8a.jpg`
+- MIME: image/jpeg; размер по базе: 444816 байт
+- SHA-256: `c5ff3de458d21df8c9e392d0817b12640dfaca79ac5e61a027446ab1709ddc3d`
+- Дубликат: нет
+
+## DSC_0008.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0008.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22223
+- Файл: `../downloads/images/0aaa868f5aba736b6c6f.jpg`
+- MIME: image/jpeg; размер по базе: 261134 байт
+- SHA-256: `ffaa12d6660b89ef321fd03e1aa75139a876de92fdbdbdeb1487aaa06baf1455`
+- Дубликат: нет
+
+## DSC_0023.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0023.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22223
+- Файл: `../downloads/images/31c55487068e7db1b56e.jpg`
+- MIME: image/jpeg; размер по базе: 288193 байт
+- SHA-256: `1a67d9371c107969eaaa9e672e8d17944482ec2a95e6e81a17f56e942f1553d3`
+- Дубликат: нет
+
+## DSC_0024.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_0024.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22223
+- Файл: `../downloads/images/a9b4838499d9272d5f68.jpg`
+- MIME: image/jpeg; размер по базе: 281416 байт
+- SHA-256: `e0a58a293e69507a86910d637a72cd8d59744bb37b882f9fe78aaf3c7789f53a`
+- Дубликат: нет
+
+## IMG-20180505-WA0041.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20180505-WA0041.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22223
+- Файл: `../downloads/images/2baa0d8e5a8d081626e9.jpg`
+- MIME: image/jpeg; размер по базе: 104570 байт
+- SHA-256: `0b92de47ed20912ddcd56e88669d9c9c626f0e941f1a5fb91d77f33512e6f99c`
+- Дубликат: нет
+
+## IMG-20180505-WA0036.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20180505-WA0036.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22223
+- Файл: `../downloads/images/1d6d4545e4a13dc75849.jpg`
+- MIME: image/jpeg; размер по базе: 118302 байт
+- SHA-256: `de9c36ffb120d922b6a71a1f984f62bffc2a83bc146fbc772121f1e5fc1ede97`
+- Дубликат: нет
+
+## IMG-20180505-WA0019.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20180505-WA0019.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22223
+- Файл: `../downloads/images/ceadba2e35e0c8e4b179.jpg`
+- MIME: image/jpeg; размер по базе: 77378 байт
+- SHA-256: `47dda50d6d51189468b1bcf6e8b2db0bd08e5fefa4d385fc6d93181102ddef82`
+- Дубликат: нет
+
+## IMG_4234.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4234.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22221
+- Файл: `../downloads/images/42e19f32dd0b6217d31a.jpg`
+- MIME: image/jpeg; размер по базе: 3085633 байт
+- SHA-256: `b4a13280670167e89ec3ed421951960cbce917b71d806994e0511c57082da93c`
+- Дубликат: нет
+
+## IMG_4240.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4240.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22221
+- Файл: `../downloads/images/5af19e975eac87a5972f.jpg`
+- MIME: image/jpeg; размер по базе: 2117115 байт
+- SHA-256: `a8d38d7414a5fa7bc6a828d782f442958a6f048add8bea0de6d412ed22a05643`
+- Дубликат: нет
+
+## IMG_4253.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4253.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22221
+- Файл: `../downloads/images/b623711337a9b8e33dd3.jpg`
+- MIME: image/jpeg; размер по базе: 2329079 байт
+- SHA-256: `680ef95200c102b60691e69ca3285920345cdd7c93ee8c328eac7fa0e5a9e57a`
+- Дубликат: нет
+
+## IMG_4236.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4236.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22221
+- Файл: `../downloads/images/7bbabf1b33d26945c16f.jpg`
+- MIME: image/jpeg; размер по базе: 2778398 байт
+- SHA-256: `9f61c35ee974ee7243540ecabd571133318b5a5fd635f0bf27d2d7c8a58bd77b`
+- Дубликат: нет
+
+## IMG_4261.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4261.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22221
+- Файл: `../downloads/images/4d4a63132f9e63621bc6.jpg`
+- MIME: image/jpeg; размер по базе: 2116574 байт
+- SHA-256: `de97bc6dc976d323eb80c286860bb57a5233c5b67aac0b279e98b40d2f1162f8`
+- Дубликат: нет
+
+## IMG_4275.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_4275.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22221
+- Файл: `../downloads/images/f5c607a6da689ef688cc.jpg`
+- MIME: image/jpeg; размер по базе: 2587288 байт
+- SHA-256: `0a3818dc730c1357c7e2b92bb212d647a1cd9521b6830fca2ba877023eae45fd`
+- Дубликат: нет
+
+## BMPx2UStC3Q.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/BMPx2UStC3Q.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22220
+- Файл: `../downloads/images/fa62d41ded5a6f41fac8.jpg`
+- MIME: image/jpeg; размер по базе: 109200 байт
+- SHA-256: `350e93fcc2cd7cac6cf42eca917e3df9c3dbb60dbc6ab9ee6d8e4ff00781e4b5`
+- Дубликат: нет
+
+## dMCWtOh4H4c.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/dMCWtOh4H4c.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22217
+- Файл: `../downloads/images/a1e8db21d2f0d8572283.jpg`
+- MIME: image/jpeg; размер по базе: 110940 байт
+- SHA-256: `a28d65d4d178bdcc3af44d25bf88fccd24e4390e0967e0252f311bec7952af47`
+- Дубликат: нет
+
+## N8HjSOa2fqI.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/N8HjSOa2fqI.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22217
+- Файл: `../downloads/images/ed798a1fc3d355f83ef8.jpg`
+- MIME: image/jpeg; размер по базе: 139695 байт
+- SHA-256: `c391a11b981ca28178729c5b3cb8e675598858e03510695e7c98b75375aaacfe`
+- Дубликат: нет
+
+## 4-OSxuF0E9U.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/4-OSxuF0E9U.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22217
+- Файл: `../downloads/images/3bf43248c6391fdcb989.jpg`
+- MIME: image/jpeg; размер по базе: 106206 байт
+- SHA-256: `731fe3d54ed7ef1702acc3105ca248a56b47e76071ae0ed0e6a182169a01d963`
+- Дубликат: нет
+
+## RDqQj6pHolg.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/RDqQj6pHolg.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22217
+- Файл: `../downloads/images/5d25be99d4c7436bc34c.jpg`
+- MIME: image/jpeg; размер по базе: 109388 байт
+- SHA-256: `94ab1b8de3d90b4789e8bf71598827aec3661f3e8c936b7a583503a192c224bb`
+- Дубликат: нет
+
+## C9NitxqqQNQ.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/C9NitxqqQNQ.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22217
+- Файл: `../downloads/images/151785490db06fc0ef30.jpg`
+- MIME: image/jpeg; размер по базе: 111904 байт
+- SHA-256: `dbbefc79cc17617d41a6dd29871f0362c51da724efcb2145b0270f6030563808`
+- Дубликат: нет
+
+## 20180329_110704.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/20180329_110704.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22216
+- Файл: `../downloads/images/9f71a701e57bd9e0f290.jpg`
+- MIME: image/jpeg; размер по базе: 183354 байт
+- SHA-256: `729b6892f8d0d9425d3c949f39b065c9eb7dc3ced67d60f822ebff26a4f10792`
+- Дубликат: нет
+
+## 20180329_103543.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/20180329_103543.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22216
+- Файл: `../downloads/images/833d028637e1f38e97cf.jpg`
+- MIME: image/jpeg; размер по базе: 187226 байт
+- SHA-256: `22ca12f7da4fa2deb2c9993412b464e4c1f8f2a18046e702b10b4dc0a17ff6d7`
+- Дубликат: нет
+
+## 20180329_121623.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/20180329_121623.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22216
+- Файл: `../downloads/images/8f7261128c47d2c748f5.jpg`
+- MIME: image/jpeg; размер по базе: 217107 байт
+- SHA-256: `19accb00d9d5d3f8a3b7fc1188f35083db279d15f6d0b8fb4b97adaf954c2398`
+- Дубликат: нет
+
+## 20180329_111043.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/20180329_111043.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22216
+- Файл: `../downloads/images/f6f7166389fb96b34640.jpg`
+- MIME: image/jpeg; размер по базе: 190966 байт
+- SHA-256: `de24d2a04932083fb5b5e13be692c6761133202913048915bcd0a2a9f0d9011c`
+- Дубликат: нет
+
+## 27.03.2018.png
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/27.03.2018.png
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22215
+- Файл: `../downloads/images/48e85165cda15347055d.png`
+- MIME: image/png; размер по базе: 670984 байт
+- SHA-256: `c6a8338f2bb5afa26984ae8a5dadd58e265c192dfb6cf68bf70ea385a0068414`
+- Дубликат: нет
+
+## IMG-20180326-WA0002.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG-20180326-WA0002.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22214
+- Файл: `../downloads/images/106b8d3d0b7cc4a51d17.jpg`
+- MIME: image/jpeg; размер по базе: 48808 байт
+- SHA-256: `a9c1a9c9a4f545d81442516d264e68487646b55467eef20a6054a8bb73d6e435`
+- Дубликат: нет
+
+## IMG-20180326-WA0004.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG-20180326-WA0004.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22214
+- Файл: `../downloads/images/00a14aaa28c88affef60.jpg`
+- MIME: image/jpeg; размер по базе: 34595 байт
+- SHA-256: `22b85075d1a12806eb4266ebacdde3ca705fc1092131a5ccdc5f9fab272549c2`
+- Дубликат: нет
+
+## IMG-20180326-WA0005.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG-20180326-WA0005.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22214
+- Файл: `../downloads/images/074ba33e090120ae95f2.jpg`
+- MIME: image/jpeg; размер по базе: 63355 байт
+- SHA-256: `af9774b468b9a770f0c59a1781d888002d466868ed5826f2609d3ad458e7c020`
+- Дубликат: нет
+
+## 6XeYiF0S2Bo.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/6XeYiF0S2Bo.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22203
+- Файл: `../downloads/images/9b3b7e5cb53358d8d78a.jpg`
+- MIME: image/jpeg; размер по базе: 190142 байт
+- SHA-256: `8eb2bc8ffc6e7497ab6ea2b6c7abfc68e53343f52bad32b8669b7e32a5501a6a`
+- Дубликат: нет
+
+## CMvU3ZPk_xg.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/CMvU3ZPk_xg.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22203
+- Файл: `../downloads/images/29b9e5ddd6f9c3e4b82b.jpg`
+- MIME: image/jpeg; размер по базе: 231485 байт
+- SHA-256: `7e57a8e3b6de82b7ca1dcc555020712a2b12ab7f2388f779a6fe7c3e77cd2a28`
+- Дубликат: нет
+
+## IMG_3702.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_3702.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22202
+- Файл: `../downloads/images/52f71a73b2886f52fefa.jpg`
+- MIME: image/jpeg; размер по базе: 2677749 байт
+- SHA-256: `59ba645b387b881d6557848c97741eac70915917a348ad51d087b5a8afeff2df`
+- Дубликат: нет
+
+## IMG_3698.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_3698.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22202
+- Файл: `../downloads/images/6165d3bdfe461140db90.jpg`
+- MIME: image/jpeg; размер по базе: 1845787 байт
+- SHA-256: `235f3e88d9565b8c8115d8c45bd04bd619c364dc662cc65e70489e2140af35b1`
+- Дубликат: нет
+
+## IMG_3724.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_3724.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22202
+- Файл: `../downloads/images/6b02e8cf6d0beff21bbf.jpg`
+- MIME: image/jpeg; размер по базе: 2710352 байт
+- SHA-256: `2ca98358ac41e22f533c042a8967afcae2fa4a0d17d1a5b481158a1cd68c196e`
+- Дубликат: нет
+
+## DSC_0010,.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/DSC_0010,.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22201
+- Файл: `../downloads/images/494ce5e641ceda0832f2.jpg`
+- MIME: image/jpeg; размер по базе: 442251 байт
+- SHA-256: `eb653e6576da9d6e47060e0b6d6999ff89f5298171b0a937f630aee035f244d3`
+- Дубликат: нет
+
+## DSC_0015,.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/DSC_0015,.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22201
+- Файл: `../downloads/images/0f3ab315755d10e55f5c.jpg`
+- MIME: image/jpeg; размер по базе: 530559 байт
+- SHA-256: `c0cc4e6092d92175dad44b70fa40d3b67db24038775314e0557f9f35300878a2`
+- Дубликат: нет
+
+## DSC_0014,.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/DSC_0014,.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22201
+- Файл: `../downloads/images/b182e699261461239b29.jpg`
+- MIME: image/jpeg; размер по базе: 409698 байт
+- SHA-256: `f44527e58156c1069a4b9956a82963088b66234681b64515400ca8d6c9432485`
+- Дубликат: нет
+
+## DSC_0017,.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/DSC_0017,.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22201
+- Файл: `../downloads/images/f50bdc5f28a61aa6992b.jpg`
+- MIME: image/jpeg; размер по базе: 456876 байт
+- SHA-256: `57c21cc4be5cecc4c05e6bd55f54744ad788c1b9131f1900459f8e40d96e6390`
+- Дубликат: нет
+
+## IMG_3645.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_3645.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22200
+- Файл: `../downloads/images/9f4186226d022d565b4a.jpg`
+- MIME: image/jpeg; размер по базе: 2378955 байт
+- SHA-256: `54a3fd28c3742aea204722c9392e93c0aefefeedc382d733823269caae9c0ea5`
+- Дубликат: нет
+
+## IMG_3641.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_3641.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22200
+- Файл: `../downloads/images/1f9a3e61041a54eaa60d.jpg`
+- MIME: image/jpeg; размер по базе: 1244656 байт
+- SHA-256: `650e0b2c3ce3c657cf0f67f52dfcc7fa2726c2992acfbca163aa82ea9e86c682`
+- Дубликат: нет
+
+## IMG_3656.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_3656.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22200
+- Файл: `../downloads/images/913d8a39000481aa2447.jpg`
+- MIME: image/jpeg; размер по базе: 1925542 байт
+- SHA-256: `4d3c1ceffef73dcfc276fe6872b91e2691f609f8fce3457f2cc6e1619323921c`
+- Дубликат: нет
+
+## IMG_3662.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_3662.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22200
+- Файл: `../downloads/images/f39e35afaab3cfcd7950.jpg`
+- MIME: image/jpeg; размер по базе: 1717229 байт
+- SHA-256: `8a9f21ff8e3507f5b356af91f4e754939381e5a9828665e2fb46932db009fccb`
+- Дубликат: нет
+
+## DSC_0010.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/DSC_0010.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22199
+- Файл: `../downloads/images/494ce5e641ceda0832f2.jpg`
+- MIME: image/jpeg; размер по базе: 442251 байт
+- SHA-256: `eb653e6576da9d6e47060e0b6d6999ff89f5298171b0a937f630aee035f244d3`
+- Дубликат: downloads/images/494ce5e641ceda0832f2.jpg
+
+## DSC_0015.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/DSC_0015.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22199
+- Файл: `../downloads/images/1f677e2d982bfa5b5729.jpg`
+- MIME: image/jpeg; размер по базе: 389672 байт
+- SHA-256: `2b57ccc8f84dbcb7f64c5228cf21bffa2a7b40fd384a1d6c20b998606160ad8b`
+- Дубликат: нет
+
+## DSC_0016.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/DSC_0016.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22199
+- Файл: `../downloads/images/127c5b70dccb53a0788c.jpg`
+- MIME: image/jpeg; размер по базе: 390742 байт
+- SHA-256: `2b952a5bd3c48a5233a601dd374aff7e0f3a82a570945af485b83b094d117c19`
+- Дубликат: нет
+
+## ZKHWAKDm-nU.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/ZKHWAKDm-nU.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22198
+- Файл: `../downloads/images/c17cb7ca612f1b685e84.jpg`
+- MIME: image/jpeg; размер по базе: 112639 байт
+- SHA-256: `33e357fd720f7495bef56888f03e83bceb9281e9cce2ae707b31d6f096695058`
+- Дубликат: нет
+
+## 61xi0XU_M88.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/61xi0XU_M88.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22198
+- Файл: `../downloads/images/68db814d97a6e67cb041.jpg`
+- MIME: image/jpeg; размер по базе: 115920 байт
+- SHA-256: `108ce4d8718c39e19f9d04f231db6666d497777dbf7ccc63a1352358f2445d36`
+- Дубликат: нет
+
+## DSC_0021.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/DSC_0021.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22197
+- Файл: `../downloads/images/655a6e9ad436073a0e92.jpg`
+- MIME: image/jpeg; размер по базе: 449496 байт
+- SHA-256: `41348edbf13653a6fc666c4145dd2bc0d797c74abecc33e69e2c676a3d7958a6`
+- Дубликат: нет
+
+## DSC_0017.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/DSC_0017.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22197
+- Файл: `../downloads/images/127c5b70dccb53a0788c.jpg`
+- MIME: image/jpeg; размер по базе: 390742 байт
+- SHA-256: `2b952a5bd3c48a5233a601dd374aff7e0f3a82a570945af485b83b094d117c19`
+- Дубликат: downloads/images/127c5b70dccb53a0788c.jpg
+
+## IMG_20180126_111102.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_20180126_111102.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22196
+- Файл: `../downloads/images/a03f5147cd3798fd6eef.jpg`
+- MIME: image/jpeg; размер по базе: 2445176 байт
+- SHA-256: `30a4d6adf6a02f31f61ba409f2fef2d88be2b2bc1ac7d93200e819580496ad9c`
+- Дубликат: нет
+
+## IMG_20180126_111414.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_20180126_111414.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22196
+- Файл: `../downloads/images/5b9dcc12ef37253fa4a3.jpg`
+- MIME: image/jpeg; размер по базе: 2671633 байт
+- SHA-256: `4f517d0b0261919c421e633ebafc88c40e2fea1ff2b6037b801d82aac92f9d48`
+- Дубликат: нет
+
+## IMG_20180126_105427.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/IMG_20180126_105427.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22196
+- Файл: `../downloads/images/dee987262d589fb8d660.jpg`
+- MIME: image/jpeg; размер по базе: 276302 байт
+- SHA-256: `a393b98366fe47df166dd34fee355774feb58fa16968718aa3728e9a2c8562f8`
+- Дубликат: нет
+
+## 200111.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/200111.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22194
+- Файл: `../downloads/images/66cd0b38c4d839971907.jpg`
+- MIME: image/jpeg; размер по базе: 334559 байт
+- SHA-256: `aa751570307d8b38337e5cfdcbf6b03e2656306e5ca97b722691ca4a7261f1d7`
+- Дубликат: нет
+
+## IMG-20180118-WA0008.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20180118-WA0008.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22193
+- Файл: `../downloads/images/08308990aa4573e7c5de.jpg`
+- MIME: image/jpeg; размер по базе: 83853 байт
+- SHA-256: `a36c7d1335f8bebf4184648e0e7f89fbe2d8b343c32cc69b52c433a3fffeb322`
+- Дубликат: нет
+
+## IMG-20180116-WA0024.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20180116-WA0024.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22192
+- Файл: `../downloads/images/a7332f4f6c67499b9cf4.jpg`
+- MIME: image/jpeg; размер по базе: 76912 байт
+- SHA-256: `6e80c8466dbbca84a756cd23a807455f6884cd066b0f46ef194bf8b2af4d4e91`
+- Дубликат: нет
+
+## жарма1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/%D0%B6%D0%B0%D1%80%D0%BC%D0%B01.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22185
+- Файл: `../downloads/images/761ca8fa169602f3979d.jpg`
+- MIME: image/jpeg; размер по базе: 178668 байт
+- SHA-256: `0e99bcf805d748e1b825829a3071ef7dbec5196476ae424f896a064c74f84f8e`
+- Дубликат: нет
+
+## жарма2.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/%D0%B6%D0%B0%D1%80%D0%BC%D0%B02.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22185
+- Файл: `../downloads/images/1d39cc4b571e332e1d89.jpg`
+- MIME: image/jpeg; размер по базе: 180348 байт
+- SHA-256: `1568ba1dfafa965a0d0ef5ae31e6129283235df554715a5bc0770836d85df19a`
+- Дубликат: нет
+
+## жарма4.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/%D0%B6%D0%B0%D1%80%D0%BC%D0%B04.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22185
+- Файл: `../downloads/images/8c96c6f11c94c7f748ab.jpg`
+- MIME: image/jpeg; размер по базе: 199146 байт
+- SHA-256: `53b8c7d458bb7e1e5453c75940e34244fa2ccc9c6c5bd7f28c70449018e24a21`
+- Дубликат: нет
+
+## IMG_3282.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_3282.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22184
+- Файл: `../downloads/images/b26173e62617b689c581.jpg`
+- MIME: image/jpeg; размер по базе: 2639280 байт
+- SHA-256: `892aa91b5e702df2420b743915af17abcae05a93763064396076f0b4920dcfae`
+- Дубликат: нет
+
+## IMG_3269.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_3269.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22184
+- Файл: `../downloads/images/9b8182355a7e4a7653c7.jpg`
+- MIME: image/jpeg; размер по базе: 2130816 байт
+- SHA-256: `62bd04717b8f0cd493e66f183cb6c2e8ba9af6672b4ec272d4f19a9d1d42f856`
+- Дубликат: нет
+
+## IMG_3278.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_3278.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22184
+- Файл: `../downloads/images/9d0eda2ffe97bd4e8316.jpg`
+- MIME: image/jpeg; размер по базе: 2800579 байт
+- SHA-256: `6086b7d666d4e0090c5d866b888baed849fba4f195de5acea9ea0d17a40236c3`
+- Дубликат: нет
+
+## IMG_3255.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_3255.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22184
+- Файл: `../downloads/images/720107eb5698b7d65e99.jpg`
+- MIME: image/jpeg; размер по базе: 2803938 байт
+- SHA-256: `60771f15aebf338a44cc2189141947e09ae31486d21c89d38eccfd66518cc492`
+- Дубликат: нет
+
+## IMG_3249.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_3249.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22184
+- Файл: `../downloads/images/512e973051fe22afd313.jpg`
+- MIME: image/jpeg; размер по базе: 2904239 байт
+- SHA-256: `dceb3600a5568d1916da3270bee50acaff425a90bca24a7baf4b2fab280fbc0e`
+- Дубликат: нет
+
+## IMG_3252.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_3252.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22184
+- Файл: `../downloads/images/cb4eb0d80331e5deee81.jpg`
+- MIME: image/jpeg; размер по базе: 2667388 байт
+- SHA-256: `14e22cafff5d803418bbcc8bb07716f43d835b5af4a0861d8fcf6b055f04aae0`
+- Дубликат: нет
+
+## IMG-20171207-WA0010.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20171207-WA0010.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22183
+- Файл: `../downloads/images/e8f539d26553ce2f8f7b.jpg`
+- MIME: image/jpeg; размер по базе: 80482 байт
+- SHA-256: `fe22b880cb0c40f413c7519ec6ce868927062d8869cb1033dcca03bb3a4a7f94`
+- Дубликат: нет
+
+## IMG_3201.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_3201.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22180
+- Файл: `../downloads/images/3c54e914b3d7bd786692.jpg`
+- MIME: image/jpeg; размер по базе: 828367 байт
+- SHA-256: `6c223514aee1c323631b337358a462bbad9614e39f7effd90d730a3f48bd90cf`
+- Дубликат: нет
+
+## IMG_3162.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_3162.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22180
+- Файл: `../downloads/images/9bd65eee1509ffc25c84.jpg`
+- MIME: image/jpeg; размер по базе: 1746156 байт
+- SHA-256: `ea1955c332f1d71d509614d8b53f04543223804b2b9d5551fc94ae208eee1ed7`
+- Дубликат: нет
+
+## IMG_3233.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_3233.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22180
+- Файл: `../downloads/images/f8d7c7f7ada24493f605.jpg`
+- MIME: image/jpeg; размер по базе: 2453047 байт
+- SHA-256: `dc97663ee003d0beca1d29d60a38f60638fdfed38cd7b5ea389ccaa37c540568`
+- Дубликат: нет
+
+## IMG-20171130-WA0027.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20171130-WA0027.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22179
+- Файл: `../downloads/images/2729da5720649b55f60f.jpg`
+- MIME: image/jpeg; размер по базе: 234904 байт
+- SHA-256: `281e8b45358323e30a44e905c392314711d85f09e24fbe075c23a4424b8004f6`
+- Дубликат: нет
+
+## IMG-20171130-WA0040.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20171130-WA0040.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22179
+- Файл: `../downloads/images/7d035e05d15ca7d92df8.jpg`
+- MIME: image/jpeg; размер по базе: 97550 байт
+- SHA-256: `1126a740cf22993a51f1550bb2b034dfec331803babe1665b37f78264df56179`
+- Дубликат: нет
+
+## IMG-20171130-WA0042.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20171130-WA0042.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22179
+- Файл: `../downloads/images/7beda89876e179e4bfef.jpg`
+- MIME: image/jpeg; размер по базе: 117647 байт
+- SHA-256: `1a1b0be6fe2cbf97ca415700f070a768a07206b789b63bc9c9c4e7fe2951d999`
+- Дубликат: нет
+
+## IMG-20171130-WA0045.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20171130-WA0045.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22179
+- Файл: `../downloads/images/79f39ab4ef476e4dfbab.jpg`
+- MIME: image/jpeg; размер по базе: 94683 байт
+- SHA-256: `122546bc0c1d56652dcc57d119cadf574bc3d4d3a74e4d24e49304e34238568c`
+- Дубликат: нет
+
+## IMG-20171130-WA0034.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20171130-WA0034.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22179
+- Файл: `../downloads/images/458fb75f6f5fa6be6da4.jpg`
+- MIME: image/jpeg; размер по базе: 80649 байт
+- SHA-256: `1f32dcbc41d2dfc34cd1ec1a207e49ad82d477b817d2904798ef709032bec321`
+- Дубликат: нет
+
+## IMG_3010.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_3010.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2111
+- Файл: `../downloads/images/79e3858dd8adfbd97be0.jpg`
+- MIME: image/jpeg; размер по базе: 2886371 байт
+- SHA-256: `37a8ced9980f1af172f0d50e30fe7f01e61af72d299bc8ab85c4d713218d95b1`
+- Дубликат: нет
+
+## IMG_3022.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_3022.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2111
+- Файл: `../downloads/images/dd166605d48fc4eef2bc.jpg`
+- MIME: image/jpeg; размер по базе: 2534593 байт
+- SHA-256: `5b04a584f3feb6ccd82b19f0d158f85e98c1016d51da1d640f5b178b5d1ea4a4`
+- Дубликат: нет
+
+## 20171129_095745.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20171129_095745.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22182
+- Файл: `../downloads/images/cb2a5fcbc14f5d6fb8d2.jpg`
+- MIME: image/jpeg; размер по базе: 2477569 байт
+- SHA-256: `e52bc0962412fa9def481346f74cc1743c99093952cd4243f24479bd1852fd7a`
+- Дубликат: нет
+
+## 2kP5viyp5kQ.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2kP5viyp5kQ.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22178
+- Файл: `../downloads/images/0530c7ad163021a89084.jpg`
+- MIME: image/jpeg; размер по базе: 260186 байт
+- SHA-256: `5a68089b60d03d8d4e0d26e7cb73e60ed5f961817e5b78d5cecc01e6996e4a47`
+- Дубликат: нет
+
+## 69Or7-_xAbQ.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/69Or7-_xAbQ.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22178
+- Файл: `../downloads/images/f0047d896db89ab4a348.jpg`
+- MIME: image/jpeg; размер по базе: 230078 байт
+- SHA-256: `e5df2bdbd45becf774fd17d29859da80fb51effdeea02ffc1c4d6c0c5394a863`
+- Дубликат: нет
+
+## R3NJtOqYugw.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/R3NJtOqYugw.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22178
+- Файл: `../downloads/images/a434bec49ca984693dc0.jpg`
+- MIME: image/jpeg; размер по базе: 157488 байт
+- SHA-256: `7edcc51909177bfd79f41460f9649dc210a6798296a1e189adf3a9948346da89`
+- Дубликат: нет
+
+## zmKyGZUV9n0.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/zmKyGZUV9n0.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22176
+- Файл: `../downloads/images/6be64cb465920f19fe55.jpg`
+- MIME: image/jpeg; размер по базе: 247973 байт
+- SHA-256: `6c2e7090542ea2bf2766c6b4fca64553714e7ef4f2fa7847bfd235a3ab6352d5`
+- Дубликат: нет
+
+## 5aVLnlvWnKw.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/5aVLnlvWnKw.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22176
+- Файл: `../downloads/images/b390daa74d592eddaa10.jpg`
+- MIME: image/jpeg; размер по базе: 184502 байт
+- SHA-256: `aea3fb81cec5eb23835c29e5145a63703aff368c63752a4e117cc37e98a497fd`
+- Дубликат: нет
+
+## sh4qVaaOHew.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/sh4qVaaOHew.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22176
+- Файл: `../downloads/images/d09d8bcf412f5dd9aaa2.jpg`
+- MIME: image/jpeg; размер по базе: 195317 байт
+- SHA-256: `8b35cd0b88a42ebf533c588c9f1be5bf5f1d1fe18f5e5140519a22d1f050fa8f`
+- Дубликат: нет
+
+## 20171030_101102.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20171030_101102.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22175
+- Файл: `../downloads/images/ec133aef9c6633151c7f.jpg`
+- MIME: image/jpeg; размер по базе: 380005 байт
+- SHA-256: `99b917e1dd2452cf5fe193bff17a25359bfd0a0013c9e5426ed2436a2d24860b`
+- Дубликат: нет
+
+## 5Y5RN-xeKjQ.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/5Y5RN-xeKjQ.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22174
+- Файл: `../downloads/images/9bd4b7d3874a276e1b3f.jpg`
+- MIME: image/jpeg; размер по базе: 84239 байт
+- SHA-256: `6f5ee241205212f6d7b6e2908e52d6bb2f05a58ab3507a04de62c6f702e708e1`
+- Дубликат: нет
+
+## qO0Ggu7gUYQ.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/qO0Ggu7gUYQ.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22174
+- Файл: `../downloads/images/6ad373e9f9e8114d3399.jpg`
+- MIME: image/jpeg; размер по базе: 74195 байт
+- SHA-256: `89abbdd713bab7f637a51a5f4079a88ff69ae793c44aefe341a20b67ae8903f5`
+- Дубликат: нет
+
+## 24-2.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/24-2.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22173
+- Файл: `../downloads/images/8c446f98997d4306e881.jpg`
+- MIME: image/jpeg; размер по базе: 2365451 байт
+- SHA-256: `ec91c3a02ca3b1f614fa3d3f4097379402c783015fe466b76c4cceaaf80bd58f`
+- Дубликат: нет
+
+## 24-3.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/24-3.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22173
+- Файл: `../downloads/images/451b45f2b85fedaaf336.jpg`
+- MIME: image/jpeg; размер по базе: 2392864 байт
+- SHA-256: `abeea0337aaee3c5385a7a259906de49cb2ffe8f1874ff6047fd504baddfc244`
+- Дубликат: нет
+
+## DSC_0617.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0617.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22172
+- Файл: `../downloads/images/d90bddfee5cd17f4cade.jpg`
+- MIME: image/jpeg; размер по базе: 222390 байт
+- SHA-256: `acd43aa7f40ad7e2488d3d88dddcdf2a581a6e1862c3295e95899bca80310860`
+- Дубликат: нет
+
+## DSC_0608.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0608.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22172
+- Файл: `../downloads/images/8ea19a47089e10958024.jpg`
+- MIME: image/jpeg; размер по базе: 428780 байт
+- SHA-256: `a0c7278e67f989b152acdf62f7ee3898a45d5a397a4a0c70aa0c3a8e97abb8b1`
+- Дубликат: нет
+
+## DSC_0612.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0612.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22172
+- Файл: `../downloads/images/6c187d7aaeb7cb76d376.jpg`
+- MIME: image/jpeg; размер по базе: 405151 байт
+- SHA-256: `6cd3f724161001e58b888adb342a2063075c8b480c326ce858296dc619ecb6c0`
+- Дубликат: нет
+
+## 2.jpeg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2.jpeg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22171
+- Файл: `../downloads/images/252ca6d2348744955bd6.jpeg`
+- MIME: image/jpeg; размер по базе: 182918 байт
+- SHA-256: `848e6770b6069722526a3b099a22cf5b1c52060c5a7f752bff427bfd77675238`
+- Дубликат: нет
+
+## 3.jpeg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/3.jpeg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22171
+- Файл: `../downloads/images/b691e4e15717043b3716.jpeg`
+- MIME: image/jpeg; размер по базе: 117563 байт
+- SHA-256: `6bd4b7dd21e7f2b02d1940b6da36cd269505fbf0657e8150484a30dcc484b4db`
+- Дубликат: нет
+
+## 41.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/41.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22171
+- Файл: `../downloads/images/1115e0fd4ddd97257a30.jpg`
+- MIME: image/jpeg; размер по базе: 192200 байт
+- SHA-256: `cc6821240b697bac1872e8d73c6b0f59dd011a76d6735643d45984959d57239b`
+- Дубликат: downloads/images/1115e0fd4ddd97257a30.jpg
+
+## 5.jpeg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/5.jpeg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22171
+- Файл: `../downloads/images/2b8baf43c9ac7b8735de.jpeg`
+- MIME: image/jpeg; размер по базе: 160991 байт
+- SHA-256: `43d7e603acde9cc4366810c25a226f8cebd79dcf592835737f2f0e9b5ff8c633`
+- Дубликат: нет
+
+## 20171003_093628.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20171003_093628.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22170
+- Файл: `../downloads/images/82ac3cc38c16a4675213.jpg`
+- MIME: image/jpeg; размер по базе: 2578686 байт
+- SHA-256: `1b7fb6e30e286f01c8949df64b3fede9304e6ceee564ad1f0d624369aec465b0`
+- Дубликат: нет
+
+## 20171003_094510.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20171003_094510.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22170
+- Файл: `../downloads/images/4cf90a070b8103c70a16.jpg`
+- MIME: image/jpeg; размер по базе: 2552150 байт
+- SHA-256: `e9590dcdd5414291368f4914f2958b4354c021024131bf519489c0b1e4e711b0`
+- Дубликат: нет
+
+## 20171003_093607.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20171003_093607.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22170
+- Файл: `../downloads/images/2d6e11cd4eaa688034bf.jpg`
+- MIME: image/jpeg; размер по базе: 2548834 байт
+- SHA-256: `f185a3421b0f82ce4216de8e0e7157930200bfa93ebd6cf5b8900eba766587ad`
+- Дубликат: нет
+
+## DSC_0562.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0562.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22169
+- Файл: `../downloads/images/24969d8aa0b4bc41294d.jpg`
+- MIME: image/jpeg; размер по базе: 492137 байт
+- SHA-256: `34627f04e75c62c4523e53ceff3d57b5e4427cbdbbb12c4ccb20b264692c5317`
+- Дубликат: нет
+
+## 20170929_140603.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170929_140603.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/22168
+- Файл: `../downloads/images/5c25ecdcd86548f56adf.jpg`
+- MIME: image/jpeg; размер по базе: 313413 байт
+- SHA-256: `82f75f8e1eb57fc38a6b47f2244599ca90ea45bc9cc1d6bddaa0cb8f18432b50`
+- Дубликат: нет
+
+## IMG_2425.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2425.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12169
+- Файл: `../downloads/images/6fc7722e36354e0bd046.jpg`
+- MIME: image/jpeg; размер по базе: 2743996 байт
+- SHA-256: `fba3b79cccc23c3d671d2a45da2401bc4b53d35def0d034a84d5550557fd7795`
+- Дубликат: нет
+
+## IMG_2435.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2435.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12169
+- Файл: `../downloads/images/d8e5cd1c0058df2658d0.jpg`
+- MIME: image/jpeg; размер по базе: 1802434 байт
+- SHA-256: `55e718b577b1ed28468ccde5c212d7776b6e7e869fc9749c3dfb413743fde453`
+- Дубликат: нет
+
+## IMG_2427.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2427.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12169
+- Файл: `../downloads/images/1a733b77dc69ee6db6e7.jpg`
+- MIME: image/jpeg; размер по базе: 2778978 байт
+- SHA-256: `2ab332b32b389f53e3501bb52bd6e8621e6b80a9610e4d0e884b9a94cfcc50a6`
+- Дубликат: нет
+
+## 20170908_153132.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170908_153132.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12168
+- Файл: `../downloads/images/fc6b76478a211a317e6d.jpg`
+- MIME: image/jpeg; размер по базе: 280590 байт
+- SHA-256: `dc0a2e88d725fe24387da25a018b1fc571ef4c3492b939e48cd61b3f03ccfca6`
+- Дубликат: нет
+
+## 20170908_153308.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170908_153308.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12168
+- Файл: `../downloads/images/86d8fc362a32b5e8e07e.jpg`
+- MIME: image/jpeg; размер по базе: 390940 байт
+- SHA-256: `ab1caeccd84353c19e5162da6f922c62063cbc033d8e71500f4c4a0120c60f39`
+- Дубликат: нет
+
+## 20170908_154601.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170908_154601.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12168
+- Файл: `../downloads/images/875aba982a6f326d60fc.jpg`
+- MIME: image/jpeg; размер по базе: 371721 байт
+- SHA-256: `3aa0fc9a44b891e8868413c485177b03625e3f88622d60a1c33d709ccd036a24`
+- Дубликат: нет
+
+## 20170908_170746.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170908_170746.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12168
+- Файл: `../downloads/images/5f0023894c473b136f8e.jpg`
+- MIME: image/jpeg; размер по базе: 375682 байт
+- SHA-256: `9af2731eb4a5250701730d38edf4582306cff59a163c0a8559a72b3d5ea3ca52`
+- Дубликат: нет
+
+## IMG-20170905-WA0044.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170905-WA0044.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12167
+- Файл: `../downloads/images/a734c4c2010855e5b545.jpg`
+- MIME: image/jpeg; размер по базе: 83052 байт
+- SHA-256: `92473dd94a0802f40dca871a1196c88f17f90359c01a07690ee82547339ce880`
+- Дубликат: нет
+
+## IMG-20170905-WA0046.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170905-WA0046.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12167
+- Файл: `../downloads/images/eb071b393cbbdd744679.jpg`
+- MIME: image/jpeg; размер по базе: 85112 байт
+- SHA-256: `8a76c5a95e6ba66d8b83d07ed4cd7b86d6678443931da7fdd14fe611fc9bb078`
+- Дубликат: нет
+
+## IMG-20170905-WA0050.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170905-WA0050.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12167
+- Файл: `../downloads/images/df257ea24a9f632e6694.jpg`
+- MIME: image/jpeg; размер по базе: 75859 байт
+- SHA-256: `f2706d050cc1c74fe3d468165d63787ddc9efc375613ebe5638fea7172e572be`
+- Дубликат: нет
+
+## IMG-20170905-WA0058.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170905-WA0058.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12167
+- Файл: `../downloads/images/9500217f86045fb400ba.jpg`
+- MIME: image/jpeg; размер по базе: 71924 байт
+- SHA-256: `55b113ccf915393861f0e4493c83f228566d8b99e0105d22747f5c68e028ba1a`
+- Дубликат: нет
+
+## IMG-20170905-WA0066.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170905-WA0066.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12167
+- Файл: `../downloads/images/e053af2c56c65ace1d71.jpg`
+- MIME: image/jpeg; размер по базе: 84981 байт
+- SHA-256: `d93c778ee2a9f613bed53ec32341c2815741289dc783e53a034c966ccc8b56c6`
+- Дубликат: нет
+
+## 20170818_121346.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170818_121346.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12165
+- Файл: `../downloads/images/6e58b842d3b4b95d8d10.jpg`
+- MIME: image/jpeg; размер по базе: 1438048 байт
+- SHA-256: `67544974f833d43c2a7d9cf58bb78b190ba1be16f89571c091eaf74743c9980b`
+- Дубликат: нет
+
+## IMG-20170818-WA0030.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170818-WA0030.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12165
+- Файл: `../downloads/images/28453fe16f3ead6c1c56.jpg`
+- MIME: image/jpeg; размер по базе: 84030 байт
+- SHA-256: `1c25dde31a073c2ef4ad8d093cb011b92c7a4052ad490b06106b99f8f1f00092`
+- Дубликат: нет
+
+## 20170805_091417.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170805_091417.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12164
+- Файл: `../downloads/images/5e5bdf52d963c2850f67.jpg`
+- MIME: image/jpeg; размер по базе: 166279 байт
+- SHA-256: `db199ee175abb62daa84216e7d70d80c6b4100c8537fc5dc23d17a7fcae2f95f`
+- Дубликат: нет
+
+## 20170805_092326.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170805_092326.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12164
+- Файл: `../downloads/images/14113c57992b2c9eeba1.jpg`
+- MIME: image/jpeg; размер по базе: 141328 байт
+- SHA-256: `c71ab2f687d99e3fc43ed44a2a7c59bb4378b010ced449fced2a2c09dd1d6497`
+- Дубликат: нет
+
+## 20170805_093256.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170805_093256.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12164
+- Файл: `../downloads/images/c29b98edf33fa5557fdf.jpg`
+- MIME: image/jpeg; размер по базе: 119250 байт
+- SHA-256: `7e1c89d6cdaa62939929d7fa0cec1f8b3be062c358e37a9398c4df49991f2d10`
+- Дубликат: нет
+
+## IMG_7092 (1).jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_7092%20(1).jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12161
+- Файл: `../downloads/images/8a14739c255892c96d63.jpg`
+- MIME: image/jpeg; размер по базе: 912197 байт
+- SHA-256: `383f3804d4b7fae2f85e9f9c387f962d6dd52c64452ce78946eaac710b03c0e4`
+- Дубликат: нет
+
+## Screenshot_2017-07-20-09-40-39.png
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Screenshot_2017-07-20-09-40-39.png
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12160
+- Файл: `../downloads/images/5bc2bbdefbeca04843b2.png`
+- MIME: image/png; размер по базе: 491635 байт
+- SHA-256: `e50616a9dd067fd321836ce44c2e44534b84511e4fac1c97bb4c6cfaf7f8aaa9`
+- Дубликат: нет
+
+## Screenshot_2017-07-20-09-40-02.png
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Screenshot_2017-07-20-09-40-02.png
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12160
+- Файл: `../downloads/images/caf4a5696863f8dea8db.png`
+- MIME: image/png; размер по базе: 410199 байт
+- SHA-256: `9a0df8c8f38686215112fb28e51a2fd42e74a6e01718337f6e24b7f219a4263b`
+- Дубликат: нет
+
+## 20170718_102027.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170718_102027.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12158
+- Файл: `../downloads/images/26a9a3f2859f9ff616cd.jpg`
+- MIME: image/jpeg; размер по базе: 1562598 байт
+- SHA-256: `af3b4ff0e8b7ca29f3be7afe8f2d85003cb9d18d1f6a98c720c0328e850b2100`
+- Дубликат: нет
+
+## DSC_0414.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0414.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12157
+- Файл: `../downloads/images/05443d97b93da69503f0.jpg`
+- MIME: image/jpeg; размер по базе: 439887 байт
+- SHA-256: `2d1805a8fdb537c7a69d04e751814b7f256b203f28b137b53fe8329ebd3b4189`
+- Дубликат: нет
+
+## DSC_0409.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0409.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12157
+- Файл: `../downloads/images/8a33295069e5ab70e803.jpg`
+- MIME: image/jpeg; размер по базе: 540110 байт
+- SHA-256: `f87d419398c33aaa35b960abc2540c09e1aec133f4daf9bc9ae174372851e7e4`
+- Дубликат: нет
+
+## DSC_0817.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0817.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12156
+- Файл: `../downloads/images/bbf373d1d7f8f226ef2b.jpg`
+- MIME: image/jpeg; размер по базе: 462074 байт
+- SHA-256: `00e354f015ac5414aa5fbcfc2c358c139b2fb1fc98e0cee1156887483cc2b013`
+- Дубликат: нет
+
+## DSC_0823.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0823.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12156
+- Файл: `../downloads/images/8f7c96d8e6cd899c0f06.jpg`
+- MIME: image/jpeg; размер по базе: 443043 байт
+- SHA-256: `cde98b70bf5232fab47d1b162fd30ca84d7b834142a987ec6e4bf9bd03277eaa`
+- Дубликат: нет
+
+## DSC_0833.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0833.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12156
+- Файл: `../downloads/images/c0e1c2f5b8cebb3e9e26.jpg`
+- MIME: image/jpeg; размер по базе: 467899 байт
+- SHA-256: `b560e7235975832e576e67712d52ba2a10f070920350f22e915f170cedfd9ba3`
+- Дубликат: нет
+
+## DSC_0839.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0839.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12156
+- Файл: `../downloads/images/0480543c6cf97e8ca1be.jpg`
+- MIME: image/jpeg; размер по базе: 430377 байт
+- SHA-256: `351b24bec1e9baa66378870739594cdef0da86587f332097ac849156541f4dc7`
+- Дубликат: нет
+
+## DSC_0840.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0840.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12156
+- Файл: `../downloads/images/4b003eceeeb3e9c49bce.jpg`
+- MIME: image/jpeg; размер по базе: 432482 байт
+- SHA-256: `fb5e9da39259ac64cea8a335cb56fb76b804d10252f2f9550d499532faab8eb4`
+- Дубликат: нет
+
+## DSC_0846.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0846.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12156
+- Файл: `../downloads/images/23487037f01c8c8fc362.jpg`
+- MIME: image/jpeg; размер по базе: 443810 байт
+- SHA-256: `efcd789b7f5ba0e524d8f0864cbcd581031e7d74c9efdc34b9d58df96918a69a`
+- Дубликат: нет
+
+## IMG_2247.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2247.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12152
+- Файл: `../downloads/images/035e01c02603e0b24619.jpg`
+- MIME: image/jpeg; размер по базе: 2281017 байт
+- SHA-256: `bd99e17defce579946da80eb3ad76bf3efb868c215a056be40afe55f4cc0e270`
+- Дубликат: нет
+
+## IMG_2246.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2246.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12152
+- Файл: `../downloads/images/d2e9a220530792c82cfd.jpg`
+- MIME: image/jpeg; размер по базе: 1956583 байт
+- SHA-256: `943d00f4e59c5c608c2cbbbc1a4001bf3684ace55c1f89b8b3883a89f9c24f76`
+- Дубликат: нет
+
+## 2017-06-20-2.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-06-20-2.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12147
+- Файл: `../downloads/images/91e8b59b8991cf70a672.jpg`
+- MIME: image/jpeg; размер по базе: 151087 байт
+- SHA-256: `05345ad3487bbb4fcfeda7d68b4afdad21ef4e1c2563a4a8f853c7084680244c`
+- Дубликат: нет
+
+## 2017-06-20-3.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-06-20-3.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12147
+- Файл: `../downloads/images/be98991a06a1e15bfc85.jpg`
+- MIME: image/jpeg; размер по базе: 155608 байт
+- SHA-256: `49ad82a9e5f84d30bebdc13aa1e2323b2cda1a7c5baac4a819452840abf03eb0`
+- Дубликат: нет
+
+## 2017-06-20-4.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-06-20-4.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12147
+- Файл: `../downloads/images/95a28dce5d92b1f35dcd.jpg`
+- MIME: image/jpeg; размер по базе: 134861 байт
+- SHA-256: `5179f35138ee163b680f1e52d40de507057c5100e986a199464f8fca2657d8ec`
+- Дубликат: нет
+
+## 2017-06-20-5.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-06-20-5.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/12147
+- Файл: `../downloads/images/e3450fc8a1f7ff4f209a.jpg`
+- MIME: image/jpeg; размер по базе: 154572 байт
+- SHA-256: `ca79310f192d9b480c65f9c3c7f37e9405413920214a44b540a4063dc05e597f`
+- Дубликат: нет
+
+## 2017-06-16_2183.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-06-16_2183.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2155
+- Файл: `../downloads/images/49df6bede40093f38017.jpg`
+- MIME: image/jpeg; размер по базе: 62281 байт
+- SHA-256: `8cc104b46959f67f0b411ce0a7e2bbc4da2022b0c3dba7068304d1ed2785488a`
+- Дубликат: нет
+
+## 2017-06-16_2202.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-06-16_2202.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2155
+- Файл: `../downloads/images/cbf07b69dbae1b3e6a00.jpg`
+- MIME: image/jpeg; размер по базе: 58521 байт
+- SHA-256: `f9df5c6fdc0621e21c16881658b612654298928f868c058c66ed438d7c21be75`
+- Дубликат: нет
+
+## 2017-06-16_2209.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-06-16_2209.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2155
+- Файл: `../downloads/images/d66fc93d952ebc8570a8.jpg`
+- MIME: image/jpeg; размер по базе: 67393 байт
+- SHA-256: `9d75568543c6d9d647f2b7d789305351c77dd4fc8a3e9ecea25274fc69d2b394`
+- Дубликат: нет
+
+## 2017-06-16_2241.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-06-16_2241.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2155
+- Файл: `../downloads/images/e7b3cbf695f1a06e88c1.jpg`
+- MIME: image/jpeg; размер по базе: 80666 байт
+- SHA-256: `9a25a51acaacf9ffa9ee4e47c6c7143db0324f63debf63970257b238b065bace`
+- Дубликат: нет
+
+## DSC_0031-1.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0031-1.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2154
+- Файл: `../downloads/images/bba52ff2de9f8125a963.jpg`
+- MIME: image/jpeg; размер по базе: 480990 байт
+- SHA-256: `6bdbaab7f55aec98e739242ba8d950d05ec99a57c9972bbc87b061bb9a5b58ee`
+- Дубликат: нет
+
+## DSC_0034.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0034.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2154
+- Файл: `../downloads/images/c0b8974c889a679a7706.jpg`
+- MIME: image/jpeg; размер по базе: 561299 байт
+- SHA-256: `dc70f76ff3b0dee46046c54c07bc9557d71ac1c6aecc3b15342140d792463827`
+- Дубликат: нет
+
+## DSC_0037.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0037.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2154
+- Файл: `../downloads/images/ff539bd0b239b4659a98.jpg`
+- MIME: image/jpeg; размер по базе: 274471 байт
+- SHA-256: `fec21c1299bf9f76c5a32a0e9fe2973db1ae43d05d57f1bea10783fe1a278379`
+- Дубликат: нет
+
+## DSC_0143.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0143.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2154
+- Файл: `../downloads/images/be7fa06c6332e9cd7323.jpg`
+- MIME: image/jpeg; размер по базе: 529045 байт
+- SHA-256: `b27f22c54ed314b29ce2297139a8ec00ac598346166e720b48e267a0b66bc712`
+- Дубликат: нет
+
+## DSC_0278.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0278.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2153
+- Файл: `../downloads/images/fcf8e8c013f757b4c2a5.jpg`
+- MIME: image/jpeg; размер по базе: 162226 байт
+- SHA-256: `abbf050e8d5cd90d56a44ceff725cdb0469c46c83fea378a81f43d917bbba016`
+- Дубликат: нет
+
+## DSC_0233.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0233.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2153
+- Файл: `../downloads/images/614360b2bb2151d7b1bb.jpg`
+- MIME: image/jpeg; размер по базе: 174804 байт
+- SHA-256: `a3bc2e5311280c2283595910471a9b8858b103db19de9b5c6e4c92b7bd4c01b5`
+- Дубликат: нет
+
+## 20170603_095720.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170603_095720.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2153
+- Файл: `../downloads/images/a04c7cb8ef4dc7b3f914.jpg`
+- MIME: image/jpeg; размер по базе: 120294 байт
+- SHA-256: `1ace2691c860f3bc48996f0978cc199245b4ab7d4507ab01d07de5a1850a34ba`
+- Дубликат: нет
+
+## 3Dnz27mgl1Y.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/3Dnz27mgl1Y.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2152
+- Файл: `../downloads/images/2c52f44cf7f621e0efc4.jpg`
+- MIME: image/jpeg; размер по базе: 146345 байт
+- SHA-256: `9ce92598307f60111c54240e9ceb68205617f12d6353b2f7693bb1579bac9e49`
+- Дубликат: нет
+
+## TUCqPupZcWY.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/TUCqPupZcWY.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2152
+- Файл: `../downloads/images/dd56e91c9d9418cf09d9.jpg`
+- MIME: image/jpeg; размер по базе: 112770 байт
+- SHA-256: `a687a64490a4b5ea712e5259b219511166c4aab4167c5eea8263dda434316a5b`
+- Дубликат: нет
+
+## edCbIgntFLI.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/edCbIgntFLI.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2151
+- Файл: `../downloads/images/fdb3783b1ab313f17783.jpg`
+- MIME: image/jpeg; размер по базе: 122757 байт
+- SHA-256: `e8e0709432ae3f2b6fdf70b42e6f6a0b0a0beb2e9c10a43305fa194067f7be9f`
+- Дубликат: нет
+
+## 20170531_104842.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170531_104842.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2150
+- Файл: `../downloads/images/a8b997f753b0bc281ef2.jpg`
+- MIME: image/jpeg; размер по базе: 88205 байт
+- SHA-256: `74ed16f6f1a3481085e05b4b3239f31151467ba152387344ca04dcd3056b6129`
+- Дубликат: нет
+
+## IMG_2038.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2038.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2149
+- Файл: `../downloads/images/823bf4fc20da11c0e431.jpg`
+- MIME: image/jpeg; размер по базе: 149202 байт
+- SHA-256: `ea36e1e3f52367895bf4778a28d2d1ea78f6eafde8f2363920c9c62d190194d4`
+- Дубликат: нет
+
+## IMG_2043.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2043.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2149
+- Файл: `../downloads/images/eea6f982b23d43a1d914.jpg`
+- MIME: image/jpeg; размер по базе: 216518 байт
+- SHA-256: `6cb68afa38cb299f7a21f95ae276e64f2c70dd7aa1d06d61ea89ad27603ff2c2`
+- Дубликат: нет
+
+## IMG_2050.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2050.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2149
+- Файл: `../downloads/images/2ab30ac629625d5b8c5a.jpg`
+- MIME: image/jpeg; размер по базе: 180229 байт
+- SHA-256: `9a922eba1dceb3fe2a7ac8ecaaabb873a9f69bb5ffde43fea0ce9c7bac04125f`
+- Дубликат: нет
+
+## IMG_2075.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2075.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2149
+- Файл: `../downloads/images/e26ac25d25945b1c4909.jpg`
+- MIME: image/jpeg; размер по базе: 193642 байт
+- SHA-256: `3490e0e537ffdfb6721a75e945dd45b2305e4f76b33c47b7a4d6ea64169c495d`
+- Дубликат: нет
+
+## IMG_2126.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2126.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2149
+- Файл: `../downloads/images/96f379545054a99b099b.jpg`
+- MIME: image/jpeg; размер по базе: 107427 байт
+- SHA-256: `c1f1abb1eb46f621e032c307f3bd01546caf7a205a32d0eea849ba7dc1108b12`
+- Дубликат: нет
+
+## IMG_2033.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2033.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2149
+- Файл: `../downloads/images/9e354d97df84f204b45e.jpg`
+- MIME: image/jpeg; размер по базе: 206739 байт
+- SHA-256: `5cf6e946ceeecd9620ff81532d36d43c12c0f0b0c025290da5e265fb0fe397a2`
+- Дубликат: нет
+
+## IMG_2104.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2104.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2149
+- Файл: `../downloads/images/176b4f844290ce25178c.jpg`
+- MIME: image/jpeg; размер по базе: 101013 байт
+- SHA-256: `99851b0e9797d8532a28fa2db2b744472788b51fd46ec0b1e5fe0c7dd5069d5d`
+- Дубликат: нет
+
+## IMG_2100.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2100.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2149
+- Файл: `../downloads/images/9051e4f16672da0be257.jpg`
+- MIME: image/jpeg; размер по базе: 114348 байт
+- SHA-256: `73fe9ac428ee7b745b192f50db9a912d6a8135a3719d6c269f7fc9af4929898a`
+- Дубликат: нет
+
+## IMG_2089.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2089.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2149
+- Файл: `../downloads/images/3ade35509e690059c4f7.jpg`
+- MIME: image/jpeg; размер по базе: 176752 байт
+- SHA-256: `0f5b14577cdea7799e8f1768ebf2715d548393d5c16e54344a6d0ad217c6ac5a`
+- Дубликат: нет
+
+## IMG_1983.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_1983.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2148
+- Файл: `../downloads/images/0327573aca514bf6711f.jpg`
+- MIME: image/jpeg; размер по базе: 105241 байт
+- SHA-256: `c6c1c99a2c862856ca0b5fc8368b9e2327a7ea6d3a89edb285264dfd458df233`
+- Дубликат: нет
+
+## IMG_1987.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_1987.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2148
+- Файл: `../downloads/images/235016864e334b1cd821.jpg`
+- MIME: image/jpeg; размер по базе: 87352 байт
+- SHA-256: `d6fced0a3f2b5c1f1fe1fcb2f84611086f0f7821d775c4bb4f44ee3084de3281`
+- Дубликат: нет
+
+## IMG_2000.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2000.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2148
+- Файл: `../downloads/images/030a71452e00c9c6e92f.jpg`
+- MIME: image/jpeg; размер по базе: 126340 байт
+- SHA-256: `403dfbc13f5a89be603baa17653266f1400ff1ca8fd9c993c41edd810091d9de`
+- Дубликат: нет
+
+## 034.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/034.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2147
+- Файл: `../downloads/images/72bbd489e4fc1de3df2b.jpg`
+- MIME: image/jpeg; размер по базе: 409615 байт
+- SHA-256: `4f4dcff33406c19ff3a3760c969a43a4fa2e41b4c84a7d03829c0b1b7f3b6ebb`
+- Дубликат: нет
+
+## 20170524_142551.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170524_142551.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2147
+- Файл: `../downloads/images/0bce5275b56002eab98f.jpg`
+- MIME: image/jpeg; размер по базе: 175694 байт
+- SHA-256: `eef3f6db4d9110ca83620238d04d64331862a50d9b604106c6d685d9db19b843`
+- Дубликат: нет
+
+## 20170524_142527.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170524_142527.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2147
+- Файл: `../downloads/images/92f75b867b7d97b58b94.jpg`
+- MIME: image/jpeg; размер по базе: 293437 байт
+- SHA-256: `dd8ffd5d7981c69e7654637bd08f690f64fa240a056d87a1eb53e5ddaf1ade8a`
+- Дубликат: нет
+
+## DSC_0313.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0313.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2143
+- Файл: `../downloads/images/61fa4b5366477e9d4e7f.jpg`
+- MIME: image/jpeg; размер по базе: 117029 байт
+- SHA-256: `5292c6be352b0dc94fc05f83b34ddf1dc57c8d181964df92acd82f967bf45fb1`
+- Дубликат: нет
+
+## IMG-20170425-WA0005.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170425-WA0005.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2142
+- Файл: `../downloads/images/ff3f0efe42fd1116b428.jpg`
+- MIME: image/jpeg; размер по базе: 86391 байт
+- SHA-256: `27b03a10dbca4799da5340ee52c326a80b98ea89e96ee1ce9bd9e751e621a910`
+- Дубликат: нет
+
+## Планшет № 2.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/%D0%9F%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82%20%E2%84%96%202.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2141
+- Файл: `../downloads/images/3f86fc45bdd15ccc2b0a.jpg`
+- MIME: image/jpeg; размер по базе: 352724 байт
+- SHA-256: `830b837dc00fec6ff24c61688a2a622bd77624d5e0959568e551cca802e875e7`
+- Дубликат: нет
+
+## Планшет № 3.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/%D0%9F%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82%20%E2%84%96%203.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2141
+- Файл: `../downloads/images/8239ae83a815bbbde1b2.jpg`
+- MIME: image/jpeg; размер по базе: 129870 байт
+- SHA-256: `c8dd24de897064277abc166b30015a62bc5ad83ea1f128a52b3a217d5c5b5799`
+- Дубликат: нет
+
+## Планщет № 4.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/%D0%9F%D0%BB%D0%B0%D0%BD%D1%89%D0%B5%D1%82%20%E2%84%96%204.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2141
+- Файл: `../downloads/images/804a680e06e2ac7fb070.jpg`
+- MIME: image/jpeg; размер по базе: 134176 байт
+- SHA-256: `6cabc5e3bcc6efb91110b0c2743390eee900e79440f706abcc026f6ae1d8da39`
+- Дубликат: нет
+
+## 6-obMqLcB2Q.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/6-obMqLcB2Q.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2140
+- Файл: `../downloads/images/db0cf7899b20be3ec05a.jpg`
+- MIME: image/jpeg; размер по базе: 140173 байт
+- SHA-256: `c1de422fdefe54919b61c96c97dd0388b7939cb460838fa691f4bc790413a61c`
+- Дубликат: нет
+
+## 79jik4I6Z7I.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/79jik4I6Z7I.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2140
+- Файл: `../downloads/images/b443590ff0fcbc767826.jpg`
+- MIME: image/jpeg; размер по базе: 209290 байт
+- SHA-256: `937c8233c0ec143d57937017ca0c214b94fa65c32fb4f9ab9d4fb3986de40455`
+- Дубликат: нет
+
+## 80hDpUnhvJo.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/80hDpUnhvJo.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2140
+- Файл: `../downloads/images/8b31e818465d604d57fd.jpg`
+- MIME: image/jpeg; размер по базе: 274517 байт
+- SHA-256: `c3cc75c2e563e793209102c123c2a6b6d24aa9f8c0a6b04d8e3d6dee1346e68e`
+- Дубликат: нет
+
+## Rjh7sEFoNOs.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Rjh7sEFoNOs.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2140
+- Файл: `../downloads/images/cd21ebd34f8d74a9b3df.jpg`
+- MIME: image/jpeg; размер по базе: 231840 байт
+- SHA-256: `a4ce568aa3ebe52e39ed13a72f2d735790fce460eeed5f8c135552ac25e66208`
+- Дубликат: нет
+
+## W0J-Fmgpsr4.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/W0J-Fmgpsr4.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2140
+- Файл: `../downloads/images/1bcba131bc1c2b4710ae.jpg`
+- MIME: image/jpeg; размер по базе: 278281 байт
+- SHA-256: `e186788ce015e7fae7dc1fe79a50857bd495063f7e8a1eea8627f22754e6e9e9`
+- Дубликат: нет
+
+## lPBOTfElIK0.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/lPBOTfElIK0.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2140
+- Файл: `../downloads/images/69614786e521cb45fb7e.jpg`
+- MIME: image/jpeg; размер по базе: 230445 байт
+- SHA-256: `a6b0bc711e048edb91a5198c2ff317b66e67a988862cd70508c473a617be32d3`
+- Дубликат: нет
+
+## 2.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2139
+- Файл: `../downloads/images/761ca8fa169602f3979d.jpg`
+- MIME: image/jpeg; размер по базе: 178668 байт
+- SHA-256: `0e99bcf805d748e1b825829a3071ef7dbec5196476ae424f896a064c74f84f8e`
+- Дубликат: downloads/images/761ca8fa169602f3979d.jpg
+
+## 3.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/3.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2139
+- Файл: `../downloads/images/281ee80c655f0c20cce2.jpg`
+- MIME: image/jpeg; размер по базе: 102188 байт
+- SHA-256: `0586a6339885a62fc215625da7965585aece103203f127eb24a5b803fd3a1573`
+- Дубликат: нет
+
+## 5.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/5.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2139
+- Файл: `../downloads/images/8ed889b3ea73b7931718.jpg`
+- MIME: image/jpeg; размер по базе: 81173 байт
+- SHA-256: `1fcf796489f7e2a489f4682c3be2df511a7f76542f2fee2bb06cd86102f0feb3`
+- Дубликат: нет
+
+## IMG_1800.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_1800.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2138
+- Файл: `../downloads/images/ed12f10ea6f3a01d64cf.jpg`
+- MIME: image/jpeg; размер по базе: 95135 байт
+- SHA-256: `b02d1075d50229f71c2f37c95bc866264c962243779cef047f105e838e80ba19`
+- Дубликат: нет
+
+## IMG_1789.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_1789.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2138
+- Файл: `../downloads/images/70abf5ded06e4e190216.jpg`
+- MIME: image/jpeg; размер по базе: 199070 байт
+- SHA-256: `d3136d6463a845204952a0a3f7a625e04c7cf893b0b7443d73e9c181c6258451`
+- Дубликат: нет
+
+## IMG_1801.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_1801.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2138
+- Файл: `../downloads/images/61b7abd7ecfbd11b278e.jpg`
+- MIME: image/jpeg; размер по базе: 229705 байт
+- SHA-256: `ca1b4567d13790ed663518d3a92a50742366116325cd1af4d8ca66c556f22271`
+- Дубликат: нет
+
+## 20170509_110108_Film4.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170509_110108_Film4.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2137
+- Файл: `../downloads/images/658f0256352e17a501fa.jpg`
+- MIME: image/jpeg; размер по базе: 228280 байт
+- SHA-256: `3c67f08add9f36dd1190e1406400fe41ac0f753f03cbb65ddd0d1fd50a8b07c7`
+- Дубликат: нет
+
+## DSC_0020.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0020.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2137
+- Файл: `../downloads/images/3f73143410d7e96aaa9f.jpg`
+- MIME: image/jpeg; размер по базе: 506497 байт
+- SHA-256: `d46d8f661e21bd4bf17cbe4d976ece409b5fb1f5ec316d044dd6ee2159302563`
+- Дубликат: нет
+
+## DSC_0040.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0040.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2137
+- Файл: `../downloads/images/ef1c3615ed612137dc40.jpg`
+- MIME: image/jpeg; размер по базе: 579111 байт
+- SHA-256: `caeb72147f8352803730b22c8cddb8fafe200ead2d7fa50a149061e05e1f3e40`
+- Дубликат: нет
+
+## 20170503_100411.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170503_100411.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2136
+- Файл: `../downloads/images/4fc194ed5bba3595a6b7.jpg`
+- MIME: image/jpeg; размер по базе: 750292 байт
+- SHA-256: `de91fb9c8c3ace7cba4b7c736e0820a503a4f9a55a07f718ab8a90c211afe5a7`
+- Дубликат: нет
+
+## 20170503_100527.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170503_100527.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2136
+- Файл: `../downloads/images/405f520f32bde5d203a3.jpg`
+- MIME: image/jpeg; размер по базе: 730117 байт
+- SHA-256: `0201681beb2638d94d785f045e8820507a9497ca51aae51cba88597bd695b6e8`
+- Дубликат: нет
+
+## 20170503_105838.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170503_105838.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2136
+- Файл: `../downloads/images/7d5d54043aa6969a2be4.jpg`
+- MIME: image/jpeg; размер по базе: 787527 байт
+- SHA-256: `485a9331119820fc00e815c0168d75e88376388214368fffb7029eb0f14a6470`
+- Дубликат: нет
+
+## DSC_4748.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_4748.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2135
+- Файл: `../downloads/images/77d310a640b77ebf28bc.jpg`
+- MIME: image/jpeg; размер по базе: 170555 байт
+- SHA-256: `dfeaacdceb24f92126af9789834d66ec89c596508aeb2e9070b4f8a5d7ce03dc`
+- Дубликат: нет
+
+## DSC_4733.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_4733.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2135
+- Файл: `../downloads/images/c5c8cc3de64090d2ab15.jpg`
+- MIME: image/jpeg; размер по базе: 178036 байт
+- SHA-256: `1c208ac8003710d68318709cf0c2682e7313de4eea61d10811044de5887a000d`
+- Дубликат: нет
+
+## DSC_0183.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0183.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2134
+- Файл: `../downloads/images/8d4ef81d63e39b3da464.jpg`
+- MIME: image/jpeg; размер по базе: 400970 байт
+- SHA-256: `3a8f950105285388d28371e3ed996961b4fb8f2119a77d7638ac02392bf64c36`
+- Дубликат: нет
+
+## DSC_0235.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0235.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2134
+- Файл: `../downloads/images/027cf1855e47b5084093.jpg`
+- MIME: image/jpeg; размер по базе: 392957 байт
+- SHA-256: `9d50d042d83342ac395313a08f3a36cfd075f086584092f42a5ef1f3f6c4c595`
+- Дубликат: нет
+
+## DSC_0228.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0228.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2134
+- Файл: `../downloads/images/bea075b64c115b11df2f.jpg`
+- MIME: image/jpeg; размер по базе: 391609 байт
+- SHA-256: `cde50c2f813aaad202f493833850e1c4940bd2ec4c25be52d7d9f11261745dfe`
+- Дубликат: нет
+
+## DSC_0229.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0229.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2134
+- Файл: `../downloads/images/ea9432e8f5f9460b1457.jpg`
+- MIME: image/jpeg; размер по базе: 310822 байт
+- SHA-256: `f4d3aad15c01c3262b712c6049066171dc782a8342959239a924bc6b9c3d55bc`
+- Дубликат: нет
+
+## DSC_0239.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0239.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2134
+- Файл: `../downloads/images/67ff4119d3af608b6e1d.jpg`
+- MIME: image/jpeg; размер по базе: 457256 байт
+- SHA-256: `9824f7c579efef2785db4f4e6e8084cd2a403d183ca868b0b47ca4683dcf761c`
+- Дубликат: нет
+
+## 20170424_092100.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170424_092100.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2133
+- Файл: `../downloads/images/ba663f1c57d7f63e63eb.jpg`
+- MIME: image/jpeg; размер по базе: 226718 байт
+- SHA-256: `fc3e15c185b9ec254c45153c86654bf617331acf5bd65505c90eba03ef026505`
+- Дубликат: нет
+
+## 20170424_092122.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170424_092122.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2133
+- Файл: `../downloads/images/b1e2d1c59acee926de17.jpg`
+- MIME: image/jpeg; размер по базе: 190838 байт
+- SHA-256: `0dcc26aaa08fb7dd0e49f003f778e1327979d6992921f6b47cf927441c46d38d`
+- Дубликат: нет
+
+## Ridder_2017-04-14-2.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Ridder_2017-04-14-2.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/33c3d0c653d8464a7991.jpg`
+- MIME: image/jpeg; размер по базе: 2379396 байт
+- SHA-256: `d13a0d3ba987d309da6d89876ea31f5d78500529088e535714c7d0e8937a0bb9`
+- Дубликат: нет
+
+## Ridder_2017-04-14-1.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Ridder_2017-04-14-1.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/0c042a2c93d0a5da8d81.jpg`
+- MIME: image/jpeg; размер по базе: 3092096 байт
+- SHA-256: `3e1635ee766f7968eba2a3c6db234a191f13fff2fbb04511ef974786eac156cf`
+- Дубликат: нет
+
+## V.Bezgolosov-Khabarov-2008.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/V.Bezgolosov-Khabarov-2008.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/403062c6191952bcb6b2.jpg`
+- MIME: image/jpeg; размер по базе: 87400 байт
+- SHA-256: `1ff9ee1408d9ebf030aaab1098bf69e67af414099c69ea8c2b01e59441a5895e`
+- Дубликат: нет
+
+## Roschin-1945.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Roschin-1945.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/c146c425805edf277d68.jpg`
+- MIME: image/jpeg; размер по базе: 148808 байт
+- SHA-256: `73d06dd04d20fa24d290ffa9e00785baaa691c05f322f841c238b430956c8821`
+- Дубликат: нет
+
+## Portret-A.A.-Kolchina.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Portret-A.A.-Kolchina.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/84a2b576c34b68b7e771.jpg`
+- MIME: image/jpeg; размер по базе: 119730 байт
+- SHA-256: `c6eac8f20b03e3cebf5d36e32cf72f09c1c88f7e566c9533a28ea654052792a1`
+- Дубликат: нет
+
+## V.M.Bezgolosov.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/V.M.Bezgolosov.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/db92d207595ee6099dbf.jpg`
+- MIME: image/jpeg; размер по базе: 266257 байт
+- SHA-256: `dab6070e118621de67970944a4af89054921364a317a98d3d97f75ae877e39f0`
+- Дубликат: нет
+
+## Memorial_Bezgolosov.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Memorial_Bezgolosov.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/ded21ad4ab18735591f8.jpg`
+- MIME: image/jpeg; размер по базе: 139661 байт
+- SHA-256: `72976e01483effd11ab2f7d754b3f89bb45bc9174864a038f1cfb472fd1bb7bb`
+- Дубликат: нет
+
+## Listovka.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Listovka.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/d80758d5c304d276794b.jpg`
+- MIME: image/jpeg; размер по базе: 118754 байт
+- SHA-256: `93c06f331b09906151a2617f3762c53d372eacad6df1e5382f33a16177400ea3`
+- Дубликат: нет
+
+## Gramota-Geroya-SS.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Gramota-Geroya-SS.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/54df8b510431c323650c.jpg`
+- MIME: image/jpeg; размер по базе: 236703 байт
+- SHA-256: `a4f3fd7d18a10fe540e978d50fe80b509a7fa6688e6fccb3cace3db330624495`
+- Дубликат: нет
+
+## Ulitsa-Kolchina-s.Prigorodnoe-2000g.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Ulitsa-Kolchina-s.Prigorodnoe-2000g.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/d8245aa5ae78fdf99a30.jpg`
+- MIME: image/jpeg; размер по базе: 76059 байт
+- SHA-256: `67dd5eed2e72e85dcee03d92f5b7bd0d36ad2a24f609c69eab7b3ef35a2be488`
+- Дубликат: нет
+
+## Roschin-samolet-IL2.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Roschin-samolet-IL2.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/d2ae94190367bacd6e9d.jpg`
+- MIME: image/jpeg; размер по базе: 58726 байт
+- SHA-256: `7e17cff3e892ff1b9738f580ca3508388aa619c7f517b9c8ed2c4e94b7d000d0`
+- Дубликат: нет
+
+## Semya-Roscinyh.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Semya-Roscinyh.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/8c0ccfcea082e3fbffae.jpg`
+- MIME: image/jpeg; размер по базе: 88766 байт
+- SHA-256: `ddfd65e8dd085644152ca6c99ed1a0028879df8d97a66333d66ae53aa3d6e992`
+- Дубликат: нет
+
+## Roschin-1945.png
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Roschin-1945.png
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/47e0283d03a8fecaad5a.png`
+- MIME: image/png; размер по базе: 1671268 байт
+- SHA-256: `aa260503682dff59b819e05f7093d22f81a037252a029bc835cd387d50a91fe2`
+- Дубликат: нет
+
+## Polkovnik-Roschin-1950.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Polkovnik-Roschin-1950.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/2c3096e96112bb89a2cb.jpg`
+- MIME: image/jpeg; размер по базе: 267933 байт
+- SHA-256: `fd00c098fbb2f7ef44b0ad8abb40d4acbac649ac0b3d239ba79ab2cf5bbae920`
+- Дубликат: нет
+
+## Ulitsa-Roschina-2000.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Ulitsa-Roschina-2000.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/b59b1e3975fe5b5fed65.jpg`
+- MIME: image/jpeg; размер по базе: 77585 байт
+- SHA-256: `4fef1eae97df2ef511cea8c14926fc317d4ada1d29a301b5f72ee365831acb90`
+- Дубликат: нет
+
+## Pamyatnik-Tokhtarov.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Pamyatnik-Tokhtarov.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/557340c3fe1219ad5301.jpg`
+- MIME: image/jpeg; размер по базе: 580473 байт
+- SHA-256: `dc94c4413078771d8720426770ab9b19483514ff91cc35749d11ca455cc51af0`
+- Дубликат: нет
+
+## Semiya-Tokhtarovyh-1941.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Semiya-Tokhtarovyh-1941.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/445dec22e60712ba4620.jpg`
+- MIME: image/jpeg; размер по базе: 49054 байт
+- SHA-256: `645245e65ad5900e51acd4f100346045313be2a60827a33dba7d30e23a247f56`
+- Дубликат: нет
+
+## Memorial-Tokhtarov-2000.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Memorial-Tokhtarov-2000.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2132
+- Файл: `../downloads/images/f41ba3003c5f5ebb0ac1.jpg`
+- MIME: image/jpeg; размер по базе: 4810984 байт
+- SHA-256: `b0b401e702e7a603bd841141867df19ba1fe68e44166e57e5457f2f2d8ef9d99`
+- Дубликат: нет
+
+## 2017-04-14-Shemonaixa1.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-04-14-Shemonaixa1.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2131
+- Файл: `../downloads/images/99a8e32097784e65901b.jpg`
+- MIME: image/jpeg; размер по базе: 4294663 байт
+- SHA-256: `6af2bc4f935525cf31f3522508d16593d6425b29dd2898e9f1c6face452e27dc`
+- Дубликат: нет
+
+## 2017-04-14-Shemonaixa2.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-04-14-Shemonaixa2.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2131
+- Файл: `../downloads/images/99c86656258d6422bb62.jpg`
+- MIME: image/jpeg; размер по базе: 3736317 байт
+- SHA-256: `cb7be6542e38ed0069a285f8204cefff8f6b97c95464ca273861bc68ec4398b0`
+- Дубликат: нет
+
+## 2017-04-14-Shemonaixa4.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-04-14-Shemonaixa4.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2131
+- Файл: `../downloads/images/424ea11390ff515dee63.jpg`
+- MIME: image/jpeg; размер по базе: 5075624 байт
+- SHA-256: `10510466f821d53b597d6bc89727fcb677a84f2c882abb4a95511757d025081e`
+- Дубликат: нет
+
+## 2017-04-03-1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-04-03-1.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2130
+- Файл: `../downloads/images/7295854ccf6e102e6501.jpg`
+- MIME: image/jpeg; размер по базе: 819091 байт
+- SHA-256: `a664310bb0cfff16d4d58950ca2aa8ea0845c7468168f599215031d7dc2238b6`
+- Дубликат: нет
+
+## 2017-04-03-3.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-04-03-3.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2130
+- Файл: `../downloads/images/47de2e8abde679821e18.jpg`
+- MIME: image/jpeg; размер по базе: 4539854 байт
+- SHA-256: `a8cb1af944479340627569baf73d793e2ace688cce0bb268f2e00413a85a933a`
+- Дубликат: нет
+
+## 2017-04-03-4.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-04-03-4.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2130
+- Файл: `../downloads/images/cae5ecb9b5a45741768f.jpg`
+- MIME: image/jpeg; размер по базе: 4137770 байт
+- SHA-256: `4b2b653ba61c4d44823b1e9cd21080dcb7babd42cfaae7b38131225922523561`
+- Дубликат: нет
+
+## 2017-04-03-5.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-04-03-5.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2130
+- Файл: `../downloads/images/01597451793c3d0a7f0e.jpg`
+- MIME: image/jpeg; размер по базе: 4100730 байт
+- SHA-256: `575b3a78626951c1f65c655646a56159870d1e29e718b3be5304be5784648dfb`
+- Дубликат: нет
+
+## 2017-04-03-6.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/2017-04-03-6.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2130
+- Файл: `../downloads/images/5b00f6c437317428b56b.jpg`
+- MIME: image/jpeg; размер по базе: 3415850 байт
+- SHA-256: `673641446733761742504f2f54d3601ea47c55048bdc259c19a1d0cbbe5c87bd`
+- Дубликат: нет
+
+## 20170403_170616.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170403_170616.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2130
+- Файл: `../downloads/images/beeb0b5021d3af8b9ef6.jpg`
+- MIME: image/jpeg; размер по базе: 3530472 байт
+- SHA-256: `8d4605d82a3f9d8512b6c6ab4e809ff0ec440b3ce100f88b45eccb27496951c2`
+- Дубликат: нет
+
+## krugli-stol1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/krugli-stol1.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2129
+- Файл: `../downloads/images/a99c4608708840b0261c.jpg`
+- MIME: image/jpeg; размер по базе: 122081 байт
+- SHA-256: `3e62682e6424ed5e904b0a6802423d3f2601cd6eb9a3feb19c4442fd10976eac`
+- Дубликат: нет
+
+## krugli-stol3.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/krugli-stol3.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2129
+- Файл: `../downloads/images/2f5a3ab643b4b3ad7bdd.jpg`
+- MIME: image/jpeg; размер по базе: 123792 байт
+- SHA-256: `ab39f16c77f17dd8103747eeeb1e8106b3b6dbc3aa2e8e127514efc3a9548617`
+- Дубликат: нет
+
+## krugli-stol4.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/krugli-stol4.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2129
+- Файл: `../downloads/images/8efd6e5c81c6c6793096.jpg`
+- MIME: image/jpeg; размер по базе: 122505 байт
+- SHA-256: `2d743ce6ba30d2c1b2ecc4c95a845b657265fa34f3dd7f75e3b8094339457ffa`
+- Дубликат: нет
+
+## Kraski-zhizni-1.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Kraski-zhizni-1.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2128
+- Файл: `../downloads/images/b457ab17749ffb9d4713.jpg`
+- MIME: image/jpeg; размер по базе: 139604 байт
+- SHA-256: `d0024f1c5c07e74c6e4ff238a93f653924862ba6a6a3ae53b07cd2011f7707af`
+- Дубликат: нет
+
+## Kraski-zhizni-2.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Kraski-zhizni-2.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2128
+- Файл: `../downloads/images/6a44ab4c1f56e473afa1.jpg`
+- MIME: image/jpeg; размер по базе: 139099 байт
+- SHA-256: `44ed7225c84e0532a6e16e68181aaf556096e328c410698451dd77d1226c6e0a`
+- Дубликат: нет
+
+## Kraski-zhizni-3.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Kraski-zhizni-3.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2128
+- Файл: `../downloads/images/9e76c3d0efe75f06d292.jpg`
+- MIME: image/jpeg; размер по базе: 159571 байт
+- SHA-256: `36a01647f33c3b7ecefd9c3d5eeb7e830286ee42a4adf057a40446ce775ecb6c`
+- Дубликат: нет
+
+## Kraski-zhizni-4.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/Kraski-zhizni-4.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2128
+- Файл: `../downloads/images/8467d103661ab4a834fc.jpg`
+- MIME: image/jpeg; размер по базе: 150171 байт
+- SHA-256: `1d56f04523f13a3d5e125d5c2d045db466c41191dd6f9ae8c104bd8eb2147152`
+- Дубликат: нет
+
+## 20170325_zaisan_muz3.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170325_zaisan_muz3.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2127
+- Файл: `../downloads/images/798e9c078693b697fa37.jpg`
+- MIME: image/jpeg; размер по базе: 294897 байт
+- SHA-256: `c208f11fd04c36b517091d5285ed1666b35774a5cfe5e3ca6bdfe148db389325`
+- Дубликат: нет
+
+## 20170325_zaisan_muz2.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170325_zaisan_muz2.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2127
+- Файл: `../downloads/images/42631af4d3512f67283e.jpg`
+- MIME: image/jpeg; размер по базе: 261792 байт
+- SHA-256: `adea864442ed22621a851bf96a65003b27ebfcb08c45235d14e10a6e0654077c`
+- Дубликат: нет
+
+## 20170325_zaisan_muz1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170325_zaisan_muz1.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2127
+- Файл: `../downloads/images/7924d433e3b3a20bb249.jpg`
+- MIME: image/jpeg; размер по базе: 241984 байт
+- SHA-256: `dcf03b5d50f2ad3f407800276e14dbcaf595381b2365265e186b1cedfc8be287`
+- Дубликат: нет
+
+## IMG-20170324-WA0009.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170324-WA0009.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2126
+- Файл: `../downloads/images/25e1d1078814a1fc13c3.jpg`
+- MIME: image/jpeg; размер по базе: 94251 байт
+- SHA-256: `9d5d29872838376f4b62996a92e962685db68748a3e2d02de1224bdd1c2851d7`
+- Дубликат: нет
+
+## IMG-20170324-WA0012.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170324-WA0012.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2126
+- Файл: `../downloads/images/0622069fa73c88f70ec5.jpg`
+- MIME: image/jpeg; размер по базе: 98696 байт
+- SHA-256: `6625c722a559bea22ca3abbb7d3b52a5ce4e7a6e4f67aff155ed74e7505df760`
+- Дубликат: нет
+
+## DSC_0927.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0927.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2125
+- Файл: `../downloads/images/0b096ebad1e164b14249.jpg`
+- MIME: image/jpeg; размер по базе: 104239 байт
+- SHA-256: `530cf81109cac4b2d7e6fbd918548c54cb3170043468e7098e3c4a63de20b186`
+- Дубликат: нет
+
+## DSC_0959.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0959.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2125
+- Файл: `../downloads/images/20186c9fe87b93c5ca11.jpg`
+- MIME: image/jpeg; размер по базе: 122806 байт
+- SHA-256: `142c4c77de116e22443e66b438d34fd3c385b403d2a072e74d168b8ac215a94e`
+- Дубликат: нет
+
+## IMG_2017-03-17_152842.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2017-03-17_152842.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2125
+- Файл: `../downloads/images/a920da0f07d18b32956b.jpg`
+- MIME: image/jpeg; размер по базе: 78711 байт
+- SHA-256: `cc669988dc432b2241b82e8a4c0b6ca7232fb797e0adea578e220fca5c2d9642`
+- Дубликат: нет
+
+## IMG_2017-03-17_152949.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2017-03-17_152949.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2125
+- Файл: `../downloads/images/fdd542cbfe00600ac72f.jpg`
+- MIME: image/jpeg; размер по базе: 108923 байт
+- SHA-256: `f2d13c035b7e81d3f786c12b07c41f856acd2b6ffc3b652916e2da7b9cd920ea`
+- Дубликат: нет
+
+## IMG_2017-03-17_152931.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2017-03-17_152931.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2125
+- Файл: `../downloads/images/fae17969e8fb360754db.jpg`
+- MIME: image/jpeg; размер по базе: 117993 байт
+- SHA-256: `6d155e38dd5fa8b8a3a80cfb81e83c9334409bb57c51f894ff6068aa2101a411`
+- Дубликат: нет
+
+## IMG_2017-03-17_153015.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_2017-03-17_153015.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2125
+- Файл: `../downloads/images/068480e187cdef739daf.jpg`
+- MIME: image/jpeg; размер по базе: 136593 байт
+- SHA-256: `170481b2cd0c0cbf0e0b06ed4a6f273b58ed99276b1edf77e95afc2d80ddee81`
+- Дубликат: нет
+
+## IMG-20170324-WA0000.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170324-WA0000.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2124
+- Файл: `../downloads/images/ed3498902551169262c8.jpg`
+- MIME: image/jpeg; размер по базе: 71864 байт
+- SHA-256: `9cae2d7ce5f7d8ed4f979fea2041db78ef765859195b194e5a13cecbc086a71c`
+- Дубликат: нет
+
+## IMG-20170322-WA0072.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170322-WA0072.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2124
+- Файл: `../downloads/images/1afdc9bc2fa87c3704ee.jpg`
+- MIME: image/jpeg; размер по базе: 93542 байт
+- SHA-256: `9a5909cf132fd25efae40b750f7bc34a5cde5d62c05482a2212d4afa03d961a7`
+- Дубликат: нет
+
+## IMG-20170317-WA0041.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170317-WA0041.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2123
+- Файл: `../downloads/images/f7c92358647b4ab90cfa.jpg`
+- MIME: image/jpeg; размер по базе: 84333 байт
+- SHA-256: `f6a7917e9ea65d27c2d3612383cbe1a336c71766e2332cc602659a7e57de13a0`
+- Дубликат: нет
+
+## IMG-20170317-WA0049.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170317-WA0049.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2123
+- Файл: `../downloads/images/201981d129be6c16cdef.jpg`
+- MIME: image/jpeg; размер по базе: 50268 байт
+- SHA-256: `49eeef3ea19c07c1adb5f497fd54fb12dd244f447bf774d04b2c034ebc7cd1fe`
+- Дубликат: нет
+
+## IMG-20170317-WA0040.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG-20170317-WA0040.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2123
+- Файл: `../downloads/images/a94822b5cbe226904e78.jpg`
+- MIME: image/jpeg; размер по базе: 86198 байт
+- SHA-256: `b2202dfc8d287aa086e4af35ef4e7bcf9d0ca6a017e9d29facc22ede5aa7ad5a`
+- Дубликат: нет
+
+## DSC_0883.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0883.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2122
+- Файл: `../downloads/images/d9384df69c1c2b5a3ecd.jpg`
+- MIME: image/jpeg; размер по базе: 124510 байт
+- SHA-256: `be6a438d2f8b285da0fc70aa9306fef05a1dd9b09501344c4d8ce333ad8310dd`
+- Дубликат: нет
+
+## DSC_0904.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/DSC_0904.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2122
+- Файл: `../downloads/images/73abdc2c2ce806b5fd68.jpg`
+- MIME: image/jpeg; размер по базе: 134599 байт
+- SHA-256: `cf91d733ecd3fcc13fbcb39097352ae6c19b58f7f64cb2af179457b5faec5ab8`
+- Дубликат: нет
+
+## 20170306_143745-1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170306_143745-1.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2121
+- Файл: `../downloads/images/1a13d0f92a2cca5fd7e5.jpg`
+- MIME: image/jpeg; размер по базе: 87447 байт
+- SHA-256: `6f797c903ae3d43cf61bff5c6b891c67a0f189372316a22ce980c39d92470763`
+- Дубликат: нет
+
+## 20170307_113110.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170307_113110.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2120
+- Файл: `../downloads/images/53fdcdad67fa15297eaa.jpg`
+- MIME: image/jpeg; размер по базе: 281340 байт
+- SHA-256: `ec6e04ef62799e47a3eca87d433be49fd87ab130325a0dcfc702379011db7cd0`
+- Дубликат: нет
+
+## 20170307_122113.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170307_122113.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2120
+- Файл: `../downloads/images/8114ee36f14d20c9a5bd.jpg`
+- MIME: image/jpeg; размер по базе: 318229 байт
+- SHA-256: `c48cc3e548d74669e7d1fdb59ab00817f06cb248eea0a8275e35b51e4d3b8d68`
+- Дубликат: нет
+
+## 20170303_162434.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170303_162434.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2119
+- Файл: `../downloads/images/c32d705afe5d0f8221e9.jpg`
+- MIME: image/jpeg; размер по базе: 101356 байт
+- SHA-256: `40439a22bd76f42bf5fe21d051b58bdbb58e6465332076f8cc0eb736461efea0`
+- Дубликат: нет
+
+## 20170215_103448.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/20170215_103448.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2116
+- Файл: `../downloads/images/b2662a631caf821bc178.jpg`
+- MIME: image/jpeg; размер по базе: 367679 байт
+- SHA-256: `ceadb982b7b80999c7f7c5ce919ecf48b707bf108a9da8dcf100f1bcc1a6d618`
+- Дубликат: нет
+
+## GE-dFsfluhs.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/GE-dFsfluhs.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2115
+- Файл: `../downloads/images/be5af468caccd5f69461.jpg`
+- MIME: image/jpeg; размер по базе: 123868 байт
+- SHA-256: `aed447fa5ab7e6bb0ea979c50ea256fd0eb520373f954f4de6f95df149a40b10`
+- Дубликат: нет
+
+## wVdHVCb0MpM.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/wVdHVCb0MpM.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2114
+- Файл: `../downloads/images/8960ad72c17a707a538e.jpg`
+- MIME: image/jpeg; размер по базе: 79343 байт
+- SHA-256: `78caa7d9018d1f7bb032c9f732d85afa1f7088c81a0c5f453de59bf04d268dac`
+- Дубликат: нет
+
+## UC5S0rHmHpo.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/UC5S0rHmHpo.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2114
+- Файл: `../downloads/images/cd963da49c62fd4be2bb.jpg`
+- MIME: image/jpeg; размер по базе: 141996 байт
+- SHA-256: `2b83fcdc3cd119a789a5265ed56cd4f09d3c616cdf09bfea7c7f36929fa69858`
+- Дубликат: нет
+
+## WtZHGLf1vV0.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/WtZHGLf1vV0.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2114
+- Файл: `../downloads/images/80eea3ac1f790a9c1224.jpg`
+- MIME: image/jpeg; размер по базе: 74050 байт
+- SHA-256: `b0a7f5f005dd8608acdfcb9c85282be13fc969e45c635e97b40db4d1b65dbefa`
+- Дубликат: нет
+
+## gyG7FM0ZegE.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/gyG7FM0ZegE.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2114
+- Файл: `../downloads/images/5855b00aaf08939c93b5.jpg`
+- MIME: image/jpeg; размер по базе: 125943 байт
+- SHA-256: `b5f89dc123d0e9df830a4864775ea5b37781a4d59f88251e1f027d01a2412ddd`
+- Дубликат: нет
+
+## 001855b.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/001855b.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2113
+- Файл: `../downloads/images/d630b46e22c62820e90d.jpg`
+- MIME: image/jpeg; размер по базе: 58644 байт
+- SHA-256: `e9ea72d992f602d73489f2a49bf31a7c83d59a2e1730cf1e8a44b252d83fce1f`
+- Дубликат: нет
+
+## 001859.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/001859.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2113
+- Файл: `../downloads/images/7ea4852ef246d3b88431.jpg`
+- MIME: image/jpeg; размер по базе: 55774 байт
+- SHA-256: `aef4412522c7b717dcb030bdd4a1e4a024ddd25bb138a3b1147ff0f8a210508d`
+- Дубликат: нет
+
+## 001859b.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/001859b.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2113
+- Файл: `../downloads/images/23b72f8a6062f42fb267.jpg`
+- MIME: image/jpeg; размер по базе: 51273 байт
+- SHA-256: `fac2c84a60556ec8216c54a7b85f33facc87caa14d8237ab97414cdc95c5df68`
+- Дубликат: нет
+
+## 001859d.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/001859d.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2113
+- Файл: `../downloads/images/d9cce5e6c392288114de.jpg`
+- MIME: image/jpeg; размер по базе: 67477 байт
+- SHA-256: `365ef2b4d891c7d88338b8f2af6e819ec497c329673abbdbd0e444cc60e675c4`
+- Дубликат: нет
+
+## IMG_1102.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_1102.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2110
+- Файл: `../downloads/images/ea81c48ad44e9160cddf.jpg`
+- MIME: image/jpeg; размер по базе: 224623 байт
+- SHA-256: `c08d1aae98c0b739c8fb26c2298964d05d073b7f5f8eeb15b9cbdc5bf1d1e58b`
+- Дубликат: нет
+
+## IMG_1120.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_1120.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2110
+- Файл: `../downloads/images/62b541a996a28b25c9f8.jpg`
+- MIME: image/jpeg; размер по базе: 75456 байт
+- SHA-256: `7a29407d665fc6b972dcea4bfae592a48685d95c8d0d81074100c6e9486901d1`
+- Дубликат: нет
+
+## IMG_1107.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/IMG_1107.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2110
+- Файл: `../downloads/images/0f79686ed8c8a6bf74e4.jpg`
+- MIME: image/jpeg; размер по базе: 95996 байт
+- SHA-256: `5523f2efb1d9cbd9c885f5d8e68d108bb0a34a8849fdece9a8b8b7d958b0540a`
+- Дубликат: нет
+
+## DSC_0667.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/DSC_0667.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2108
+- Файл: `../downloads/images/a845f2f0014c9aff0c49.jpg`
+- MIME: image/jpeg; размер по базе: 481781 байт
+- SHA-256: `a55895635fa615c7bfbc3f8bf98f4d1bd20104db0002b4781386584bc29154f2`
+- Дубликат: нет
+
+## DSC_0670.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/DSC_0670.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2108
+- Файл: `../downloads/images/3357c4dcf0bad3cc7504.jpg`
+- MIME: image/jpeg; размер по базе: 456890 байт
+- SHA-256: `8caa03b533cbde5b489837e95a8a7409e6e71d5ffd7a7dae6d4ccea1218011cd`
+- Дубликат: нет
+
+## DSC_0678.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/DSC_0678.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2108
+- Файл: `../downloads/images/1c8dbcdcab91ee273104.jpg`
+- MIME: image/jpeg; размер по базе: 514564 байт
+- SHA-256: `e62fb86cbd7052a28b8abbd5852e56541b7080d20759183c9e638da6a6e96068`
+- Дубликат: нет
+
+## DSC_0690.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/DSC_0690.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2108
+- Файл: `../downloads/images/74278408dcc5776a3bb5.jpg`
+- MIME: image/jpeg; размер по базе: 389163 байт
+- SHA-256: `d38544be003b8b12dd476ead004993cf1239a402662e552b3a285a674e9b2e3d`
+- Дубликат: нет
+
+## 20170120_143703.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/20170120_143703.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2107
+- Файл: `../downloads/images/095a4e3533f429d8bcd0.jpg`
+- MIME: image/jpeg; размер по базе: 211091 байт
+- SHA-256: `52068a2ac1b79cb85d533da20fab8ee33c87f5ff0a78b3c6b620036b5f134154`
+- Дубликат: нет
+
+## 20170120_143926.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/20170120_143926.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2107
+- Файл: `../downloads/images/ebc1ef67501a9d44110d.jpg`
+- MIME: image/jpeg; размер по базе: 161278 байт
+- SHA-256: `4686e68ac51c687227ff1eff9590908163c14bc4de1739e59c754e784909174d`
+- Дубликат: нет
+
+## 20170120_144409.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/20170120_144409.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2107
+- Файл: `../downloads/images/9d17995658af9e041d15.jpg`
+- MIME: image/jpeg; размер по базе: 192608 байт
+- SHA-256: `33f587be48978b5fd55eb20cbc0a632727344272e96445e039e78b78111718a1`
+- Дубликат: нет
+
+## 20170120_145653.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/20170120_145653.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2107
+- Файл: `../downloads/images/f12c15fc8c5dc2c013e9.jpg`
+- MIME: image/jpeg; размер по базе: 166616 байт
+- SHA-256: `7e5fa8352b8eb3c4e9b791fee35fb5cf429aabbce2eb42d5765c32edb629c147`
+- Дубликат: нет
+
+## 20170120_150756.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/20170120_150756.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2107
+- Файл: `../downloads/images/30ba6e14398f4960e0cb.jpg`
+- MIME: image/jpeg; размер по базе: 86939 байт
+- SHA-256: `3bb566907b72cdecf7d0b9edb44b71d6cd862475934be7847d7294711a050aad`
+- Дубликат: нет
+
+## IMG_0911.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0911.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2106
+- Файл: `../downloads/images/453e2589ffad96c5fcdf.jpg`
+- MIME: image/jpeg; размер по базе: 153302 байт
+- SHA-256: `71a9942934168e4fb8eecae8bbe30c0c52fffe29e0e0e083b0c23acc9b2fef43`
+- Дубликат: нет
+
+## IMG_0918.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0918.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2106
+- Файл: `../downloads/images/debc9d26370c85d6f94d.jpg`
+- MIME: image/jpeg; размер по базе: 137732 байт
+- SHA-256: `3e47254f2171e941e0b48b6013fd18888061d13733d0702194e54a11297a8ed8`
+- Дубликат: нет
+
+## IMG_0883.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0883.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2106
+- Файл: `../downloads/images/4bf50266e559713359e0.jpg`
+- MIME: image/jpeg; размер по базе: 128185 байт
+- SHA-256: `f671bfc8363bd7cfc1e7df38ad9fd5df8f27fafb443e4364266c12c95ff40a93`
+- Дубликат: нет
+
+## IMG_0925.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0925.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2106
+- Файл: `../downloads/images/722ecbe682b2969963c8.jpg`
+- MIME: image/jpeg; размер по базе: 101075 байт
+- SHA-256: `a44f8aa5a072d0e56f7204a1218f4f915dff0919bba89a9e187d57f2347bd251`
+- Дубликат: нет
+
+## IMG_0929.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0929.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2106
+- Файл: `../downloads/images/c24973f482c116b5bf7c.jpg`
+- MIME: image/jpeg; размер по базе: 150333 байт
+- SHA-256: `aa4f7d5be0250ecaccf6f7ee6f698c08c0f0cd56447f54eac57c944f920add92`
+- Дубликат: нет
+
+## New-Year-2017-VKO1.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/New-Year-2017-VKO1.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2105
+- Файл: `../downloads/images/1321b6e926fc73ac854a.jpg`
+- MIME: image/jpeg; размер по базе: 2419754 байт
+- SHA-256: `260f71dfb03e832ef43c0a2df1e949bd9ffe9b8143c118e13bc288ece08710fb`
+- Дубликат: нет
+
+## New-Year-2017-VKO2.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/New-Year-2017-VKO2.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2105
+- Файл: `../downloads/images/e2c4cf1c08eea3d9e8b6.jpg`
+- MIME: image/jpeg; размер по базе: 1761319 байт
+- SHA-256: `35506838b511bb4b596bba09fb97aa3c9edcbd015352b23aed6c4939e168232a`
+- Дубликат: нет
+
+## New-Year-2017-VKO3.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/New-Year-2017-VKO3.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2105
+- Файл: `../downloads/images/8a5d2fe0743761a98749.jpg`
+- MIME: image/jpeg; размер по базе: 2877623 байт
+- SHA-256: `9c11d483092eae0c6797f7b7ef4eee33163f67336522ac4a407558dad3550dac`
+- Дубликат: нет
+
+## Gazety-2.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/Gazety-2.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2104
+- Файл: `../downloads/images/5cc9bb6890b349294ff2.jpg`
+- MIME: image/jpeg; размер по базе: 2396995 байт
+- SHA-256: `07c3bbfd13c5b94bed249aedf6e587bde2fa522396cadbc2a8771e39e83f5a88`
+- Дубликат: нет
+
+## Gazety-4.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/Gazety-4.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2104
+- Файл: `../downloads/images/932a9db0d07183f0b8d2.jpg`
+- MIME: image/jpeg; размер по базе: 2429696 байт
+- SHA-256: `b778a0ae02361abe8aec434ba5af1739dbd5a3dc9735094e14391596f51ad997`
+- Дубликат: нет
+
+## 2016-12-27-Zyryan.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/2016-12-27-Zyryan.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2103
+- Файл: `../downloads/images/600f81fdb6686cac9313.jpg`
+- MIME: image/jpeg; размер по базе: 111754 байт
+- SHA-256: `4c94a736411f1d44e94ce2666b0fea177e497eaa8e515c0f09f781a0d14d66c7`
+- Дубликат: нет
+
+## 2016-12-27-Zyryan2.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/2016-12-27-Zyryan2.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2103
+- Файл: `../downloads/images/6b911e817ab5e25a741f.jpg`
+- MIME: image/jpeg; размер по базе: 114731 байт
+- SHA-256: `c4c5f865acc2a825a051a76fe43638176c14bdec8c28921dde8ff1d57e728f02`
+- Дубликат: нет
+
+## 2016-12-27-Zyryan3.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/2016-12-27-Zyryan3.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2103
+- Файл: `../downloads/images/63b058a3d84a922ed848.jpg`
+- MIME: image/jpeg; размер по базе: 111159 байт
+- SHA-256: `00bd3ca37b612d8d22bef7ff868f07710e81e6a975adf3e584f6c7a482cd180c`
+- Дубликат: нет
+
+## 2016-12-27-Zyryan4.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/2016-12-27-Zyryan4.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2103
+- Файл: `../downloads/images/adefbcf82005555083dd.jpg`
+- MIME: image/jpeg; размер по базе: 106856 байт
+- SHA-256: `3223878ab05b57e5746b858ec472acde2803e61fe02007a8ac9ed9715b1a4f58`
+- Дубликат: нет
+
+## 2016-12-27-Zyryan6.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/2016-12-27-Zyryan6.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2103
+- Файл: `../downloads/images/aa14f00f8546d29be99f.jpg`
+- MIME: image/jpeg; размер по базе: 106286 байт
+- SHA-256: `3a39f2ffc46a23e9b23f575679b592e1c2cbf6e3d5e7564f900c8b0cff876cbe`
+- Дубликат: нет
+
+## Абишев 002.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/%D0%90%D0%B1%D0%B8%D1%88%D0%B5%D0%B2%20002.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2101
+- Файл: `../downloads/images/69f35f7a5e7c3aae0bbf.jpg`
+- MIME: image/jpeg; размер по базе: 28496 байт
+- SHA-256: `00138f2b3226b103580dedff6992c109b1db7e8c50fda24693d59b328adbae53`
+- Дубликат: нет
+
+## Абишев 003.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/%D0%90%D0%B1%D0%B8%D1%88%D0%B5%D0%B2%20003.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2101
+- Файл: `../downloads/images/32ed9836d3516d766fd0.jpg`
+- MIME: image/jpeg; размер по базе: 83831 байт
+- SHA-256: `95bfb8de49f6989258bc4366568cbecf2a04290b11fbcc9ef3bc31e141486b55`
+- Дубликат: нет
+
+## IMG_0534.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0534.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2099
+- Файл: `../downloads/images/f8f75abcfc746dd4126f.jpg`
+- MIME: image/jpeg; размер по базе: 182081 байт
+- SHA-256: `43a637b4c3f70437feda1f5c8548ba6eeaa27fa11469dcb8a44ace12a69f3be8`
+- Дубликат: нет
+
+## IMG_0525.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0525.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2099
+- Файл: `../downloads/images/6cf57fde2226c92ddc90.jpg`
+- MIME: image/jpeg; размер по базе: 146430 байт
+- SHA-256: `da94119a95e9bdcaf9c9be4bb7cf11f50dd8d86953677e9c6de67fb5ae8d815e`
+- Дубликат: нет
+
+## IMG_0513.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0513.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2099
+- Файл: `../downloads/images/da49fd2ece475381d09a.jpg`
+- MIME: image/jpeg; размер по базе: 169934 байт
+- SHA-256: `ebfc02ca53ed7bb8b80d30a7bde0b36313e89541928b2016e727047a19a8aa6b`
+- Дубликат: нет
+
+## IMG_0518.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0518.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2099
+- Файл: `../downloads/images/65d2034ca3f5384779cf.jpg`
+- MIME: image/jpeg; размер по базе: 150727 байт
+- SHA-256: `1a96a283e28a0311e655ceefe5fe1659c2101782ff0208545711b6c76b5043c8`
+- Дубликат: нет
+
+## 20161214_154957.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/20161214_154957.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2098
+- Файл: `../downloads/images/154ab173041ddd4f6354.jpg`
+- MIME: image/jpeg; размер по базе: 213700 байт
+- SHA-256: `ab37184165a40c5a2db9f9db24a970de0ef2930ca5c852b8e3d604302c7a0e73`
+- Дубликат: нет
+
+## IMG-20161214-WA0008.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG-20161214-WA0008.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2098
+- Файл: `../downloads/images/540ead9289a042db861a.jpg`
+- MIME: image/jpeg; размер по базе: 66571 байт
+- SHA-256: `6de841fd1d85deaa741390e36bb7ca187249d78f535bf0b893004f51f9de8e14`
+- Дубликат: нет
+
+## IMG_0282.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0282.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2096
+- Файл: `../downloads/images/aba09a7f00f89427556d.jpg`
+- MIME: image/jpeg; размер по базе: 247537 байт
+- SHA-256: `4c50bd311ef3417f15835b8b3cbf81f53801b1d95defc22302eb56904242a421`
+- Дубликат: нет
+
+## IMG_0295.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0295.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2096
+- Файл: `../downloads/images/2e0eb25a4ef8e9974dd1.jpg`
+- MIME: image/jpeg; размер по базе: 253097 байт
+- SHA-256: `5ef671755bdc02e077f261bc11e0d57082de0dd5de99df4c4e88158bdb15b4ea`
+- Дубликат: нет
+
+## IMG_0297.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0297.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2096
+- Файл: `../downloads/images/35a06bdbb4fe6e36d49e.jpg`
+- MIME: image/jpeg; размер по базе: 194969 байт
+- SHA-256: `2358bc513b34e014f9745dede5473f39d7ad66635c239fbe3db68a23e7f3b6c6`
+- Дубликат: нет
+
+## IMG_0321.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0321.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2096
+- Файл: `../downloads/images/cf46bdb0e4afd9dfa38f.jpg`
+- MIME: image/jpeg; размер по базе: 240948 байт
+- SHA-256: `5aa4dd2afa8a123c68d347e5d6d91fb43109b1b5f2b0dedf8fd7f4661cf24a76`
+- Дубликат: нет
+
+## IMG_0339.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0339.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2096
+- Файл: `../downloads/images/58f8b33c55f17006472f.jpg`
+- MIME: image/jpeg; размер по базе: 115598 байт
+- SHA-256: `4b78eccd739773730409d67ec9b235866000b3ccc82be98bf4bed414fe1cbc1d`
+- Дубликат: нет
+
+## IMG_0204.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0204.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2095
+- Файл: `../downloads/images/7311f8b8c03769fca416.jpg`
+- MIME: image/jpeg; размер по базе: 68518 байт
+- SHA-256: `a7d4b92ed415f3f9d8c54f5ca46b2664dfdd96fbc8da4645ef7ab3280ff7ca57`
+- Дубликат: нет
+
+## IMG_0211.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0211.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2095
+- Файл: `../downloads/images/94f7661bcf4e1c642661.jpg`
+- MIME: image/jpeg; размер по базе: 79369 байт
+- SHA-256: `9278a275efe96f92787de7fe25280db48e019f30b435731baf6558a5811b666c`
+- Дубликат: нет
+
+## IMG_0196.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0196.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2095
+- Файл: `../downloads/images/13af7e06ec37eeb26a21.jpg`
+- MIME: image/jpeg; размер по базе: 130009 байт
+- SHA-256: `8f2993355f48bbab944bf6425c9a566f0060a9084a04437802877d1f8136f0b2`
+- Дубликат: нет
+
+## IMG_0273.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0273.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2095
+- Файл: `../downloads/images/5ea12d8f8f28b3957850.jpg`
+- MIME: image/jpeg; размер по базе: 109281 байт
+- SHA-256: `df961f9311a5d9a4eaf304b59272eef71ac391f98c17c65d61afe9d8e6c60475`
+- Дубликат: нет
+
+## IMG_0014.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0014.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2094
+- Файл: `../downloads/images/d1930651012239c6104f.jpg`
+- MIME: image/jpeg; размер по базе: 235716 байт
+- SHA-256: `2898d7abc6d2ad9c92c9a322f707a6f84e0d64693590153079b08031fbc343c0`
+- Дубликат: нет
+
+## IMG_0022.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0022.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2094
+- Файл: `../downloads/images/e2334020a8fd74460665.jpg`
+- MIME: image/jpeg; размер по базе: 197423 байт
+- SHA-256: `361dc965c25d9494f5c6bff65c1d5275cc8ea9a8cef5b3beb3b8c329892c4e47`
+- Дубликат: нет
+
+## IMG_0044.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0044.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2094
+- Файл: `../downloads/images/0dbe921b6c4cb259d497.jpg`
+- MIME: image/jpeg; размер по базе: 232921 байт
+- SHA-256: `f2d59b9c6300d5111f12daa84fcb70a85c9bb961a513d89fbabc289f8ea32cea`
+- Дубликат: нет
+
+## IMG_0027.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0027.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2094
+- Файл: `../downloads/images/4ef929223cc5c95b4ddd.jpg`
+- MIME: image/jpeg; размер по базе: 229131 байт
+- SHA-256: `dc25e552ee71b2165278dc7c5d380323b76ac9c256c8a040becdbbaca243d211`
+- Дубликат: нет
+
+## IMG_0053.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0053.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2094
+- Файл: `../downloads/images/5a7015e31dd929798934.jpg`
+- MIME: image/jpeg; размер по базе: 217362 байт
+- SHA-256: `3fcf6266799d350c247b423e9929cc4c17466e6f572bb8b38d8454205c0478c2`
+- Дубликат: нет
+
+## IMG_0087.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0087.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2094
+- Файл: `../downloads/images/b9c63f6f9d233026aa26.jpg`
+- MIME: image/jpeg; размер по базе: 126471 байт
+- SHA-256: `af813965d0293a485583bbba641d151ac4faa94b3929c13ac9aa56aacf47768e`
+- Дубликат: нет
+
+## IMG_0106.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_0106.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2094
+- Файл: `../downloads/images/f8ed6446b21331c43140.jpg`
+- MIME: image/jpeg; размер по базе: 131778 байт
+- SHA-256: `6cf97e97f6e21cc229e4f4b6db66f487145e3a0e41a3b691127d74f92ef87210`
+- Дубликат: нет
+
+## Ковешников Олег Иванович.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/%D0%9A%D0%BE%D0%B2%D0%B5%D1%88%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%20%D0%9E%D0%BB%D0%B5%D0%B3%20%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2093
+- Файл: `../downloads/images/f436072d9dcc43100db4.jpg`
+- MIME: image/jpeg; размер по базе: 223419 байт
+- SHA-256: `94418dfbbbb7a33c33c68a0d0c8a7dc08816d7ad523af3201013c4c2a67bc65e`
+- Дубликат: нет
+
+## DSC_0330.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_0330.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2092
+- Файл: `../downloads/images/19a8a2adf077cf6814a0.jpg`
+- MIME: image/jpeg; размер по базе: 434113 байт
+- SHA-256: `0a7a6a1cb5423504036c5b5ca0e68cebd41755774f8edfc650847084c34592e1`
+- Дубликат: нет
+
+## DSC_0335.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_0335.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2092
+- Файл: `../downloads/images/0970c33f73fec246d6a1.jpg`
+- MIME: image/jpeg; размер по базе: 358208 байт
+- SHA-256: `3403a4946f24d698581e1d85139913d337472de8ac0ce72e4168ec06bad055e1`
+- Дубликат: нет
+
+## DSC_0339.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_0339.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2092
+- Файл: `../downloads/images/42879c38cfb04350e805.jpg`
+- MIME: image/jpeg; размер по базе: 142758 байт
+- SHA-256: `e9d161053330451089148912476a3b28a20cc4f973362f3214001860931c7de0`
+- Дубликат: нет
+
+## DSC_0126.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_0126.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2091
+- Файл: `../downloads/images/844f4abb0e0892e06b55.jpg`
+- MIME: image/jpeg; размер по базе: 434915 байт
+- SHA-256: `04fd1a3d50858031376e186e957f5f2b486dcc054cfd29cf49effaac76d60bf6`
+- Дубликат: нет
+
+## DSC_0136.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_0136.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2091
+- Файл: `../downloads/images/82409627f1b533b5d668.jpg`
+- MIME: image/jpeg; размер по базе: 395727 байт
+- SHA-256: `26e812daf209c8a73beea6f7b7b8f95b5fb1d8e15000f4559d73210bd114a9cf`
+- Дубликат: нет
+
+## DSC_0141.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_0141.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2091
+- Файл: `../downloads/images/61e4772a9590958bb7ee.jpg`
+- MIME: image/jpeg; размер по базе: 385164 байт
+- SHA-256: `ca39d4afadc3d79554b59bffc972e6a250bc5d10944e8d0c5dbe4a6f3029ada7`
+- Дубликат: нет
+
+## DSC_0176.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_0176.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2091
+- Файл: `../downloads/images/dab3071479ea800fa13c.jpg`
+- MIME: image/jpeg; размер по базе: 480258 байт
+- SHA-256: `008db03363636af3a5073e85075d45b45a6836747690b015469c6bbae2819d9e`
+- Дубликат: нет
+
+## Архивист Бородулина Л.Н..jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/%D0%90%D1%80%D1%85%D0%B8%D0%B2%D0%B8%D1%81%D1%82%20%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%D0%BD%D0%B0%20%D0%9B.%D0%9D..jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2090
+- Файл: `../downloads/images/8459803cac1cadfe7bde.jpg`
+- MIME: image/jpeg; размер по базе: 137522 байт
+- SHA-256: `22c4779ed3156c7107fc75a635acf698137c672e4ba8f74a549d49169438e0ab`
+- Дубликат: нет
+
+## Архивист Давыдова Г.А..jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/%D0%90%D1%80%D1%85%D0%B8%D0%B2%D0%B8%D1%81%D1%82%20%D0%94%D0%B0%D0%B2%D1%8B%D0%B4%D0%BE%D0%B2%D0%B0%20%D0%93.%D0%90..jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2090
+- Файл: `../downloads/images/d83de99c222d67a59725.jpg`
+- MIME: image/jpeg; размер по базе: 199457 байт
+- SHA-256: `d8fdd5aebae6e75674024fa1289c9aa07773ecfff0676945a3e741153ea1167f`
+- Дубликат: нет
+
+## IMG_9999.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9999.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2089
+- Файл: `../downloads/images/f99733714bddf6a3c831.jpg`
+- MIME: image/jpeg; размер по базе: 137347 байт
+- SHA-256: `06252623f4d53462629137b542f52aa2f2ea8a27dc758160c6bfa9a9cb154707`
+- Дубликат: нет
+
+## IMG_9934.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9934.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2089
+- Файл: `../downloads/images/f920a2e0bb4c2c5a8336.jpg`
+- MIME: image/jpeg; размер по базе: 215883 байт
+- SHA-256: `d543b51c7c9c5fba7884d46ad27d01237ccade3593dc7a351f5cff26f07a8cdf`
+- Дубликат: нет
+
+## IMG_9989.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9989.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2089
+- Файл: `../downloads/images/a26d57dcf4b30ae05024.jpg`
+- MIME: image/jpeg; размер по базе: 94836 байт
+- SHA-256: `fe03485c5e3ff31ce05dd7556803a75472676f1b31fb085f2c4370af51540ec1`
+- Дубликат: нет
+
+## IMG_9973.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9973.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2089
+- Файл: `../downloads/images/d83bc1a7c56309d35d52.jpg`
+- MIME: image/jpeg; размер по базе: 222689 байт
+- SHA-256: `e8d088a8ef8cf611d2a8dbc870ee61bbe32543989be5de5193d83cf119edbcf0`
+- Дубликат: нет
+
+## IMG_9980.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9980.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2089
+- Файл: `../downloads/images/6deee7f0c6b4db6d7ced.jpg`
+- MIME: image/jpeg; размер по базе: 218201 байт
+- SHA-256: `68024f060baee25a4e11f96b4cafb1271fb8ccb10eb63d463b627f5a0e2eab7b`
+- Дубликат: нет
+
+## 20161129_104638.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/20161129_104638.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2088
+- Файл: `../downloads/images/670016090968863fbaff.jpg`
+- MIME: image/jpeg; размер по базе: 270605 байт
+- SHA-256: `5b6f914a7b2e402adaad3398aa99dfb56245917eb7838c606dce0cb24ac8af92`
+- Дубликат: нет
+
+## 20161129_120252.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/20161129_120252.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2088
+- Файл: `../downloads/images/01d44056433db36d83a9.jpg`
+- MIME: image/jpeg; размер по базе: 287010 байт
+- SHA-256: `aea71188257109b2e02a2a58af8e9c003b5a9fcf8662b1d7df2004b6fe068cda`
+- Дубликат: нет
+
+## 20161125_090247.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/20161125_090247.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2087
+- Файл: `../downloads/images/3046994a8d1343316929.jpg`
+- MIME: image/jpeg; размер по базе: 213083 байт
+- SHA-256: `9b6fd037938f57f1e54c26109b952f659fddf9f1c4c3fc38f8b391e9d04297f4`
+- Дубликат: нет
+
+## IMG_9769.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9769.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2086
+- Файл: `../downloads/images/0d42b75dd4e3aad4ec0c.jpg`
+- MIME: image/jpeg; размер по базе: 123428 байт
+- SHA-256: `7db431dc23a1241c22b0d9ca589fbd9730221ffbdca9be2fcb74aee8675d5b8d`
+- Дубликат: нет
+
+## IMG_9777.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9777.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2086
+- Файл: `../downloads/images/c5ef968dee3e9bd11dfa.jpg`
+- MIME: image/jpeg; размер по базе: 148349 байт
+- SHA-256: `dd66f270f63bcf3e2a018d01df7d7aa042b1b20bf0404a9d0084062b49095f17`
+- Дубликат: нет
+
+## IMG_9783.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9783.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2086
+- Файл: `../downloads/images/d4d8b083ae2aa3b62437.jpg`
+- MIME: image/jpeg; размер по базе: 140879 байт
+- SHA-256: `023479464f95571c90dd78b058412320f36049d265141eb539e009c92cf8c306`
+- Дубликат: нет
+
+## IMG_9795.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9795.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2086
+- Файл: `../downloads/images/91ce2dc962e8251b2521.jpg`
+- MIME: image/jpeg; размер по базе: 94229 байт
+- SHA-256: `1cfa286f6c1bf163f50a4341f7a443ad0aa0109798854c0fa548345d62368f00`
+- Дубликат: нет
+
+## IMG_9802.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9802.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2086
+- Файл: `../downloads/images/bd04e9f6db97a6e1db8f.jpg`
+- MIME: image/jpeg; размер по базе: 128694 байт
+- SHA-256: `3af937e53c194f72135866f81ef13d9df82ad12983819cc33db8d66d74a69b82`
+- Дубликат: нет
+
+## IMG_9805.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9805.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2086
+- Файл: `../downloads/images/a491a4e69a5415d7271c.jpg`
+- MIME: image/jpeg; размер по базе: 110722 байт
+- SHA-256: `72659cdf5d0e9632490d9d63981128f0d57c889203a0c1d7e86a1e30641f32da`
+- Дубликат: нет
+
+## IMG_9831.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9831.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2086
+- Файл: `../downloads/images/12d3a0dd2ea481c318c8.jpg`
+- MIME: image/jpeg; размер по базе: 142713 байт
+- SHA-256: `903cc4e5001371c07041bd2a91bf56a079bc18c0413c265dbbe62669c511a0d3`
+- Дубликат: нет
+
+## IMG_9825.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG_9825.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2086
+- Файл: `../downloads/images/f0c78d6f5a11e3c9397d.jpg`
+- MIME: image/jpeg; размер по базе: 147265 байт
+- SHA-256: `d8cf6d8fe9511a94da98807a824ac4cf6d90f144f24c63f522945a7d1a9dd04b`
+- Дубликат: нет
+
+## А.А. Мамиева.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/%D0%90.%D0%90.%20%D0%9C%D0%B0%D0%BC%D0%B8%D0%B5%D0%B2%D0%B0.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2085
+- Файл: `../downloads/images/7b4dc69a2a7974454775.jpg`
+- MIME: image/jpeg; размер по базе: 29215 байт
+- SHA-256: `2b4543480d34a8dcbbaf4f5215909f9b60241f4ae67d9260c3a5c0a0c6fb8174`
+- Дубликат: нет
+
+## DSC_0002.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_0002.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2083
+- Файл: `../downloads/images/1e3cf3f258a6594ec88d.jpg`
+- MIME: image/jpeg; размер по базе: 406087 байт
+- SHA-256: `342d1f225425a53de3fc663111746ccbe8add4fba42e1eb2cd67689539a3dfd8`
+- Дубликат: нет
+
+## DSC_0028.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_0028.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2083
+- Файл: `../downloads/images/3f33ac8d283fc7519724.jpg`
+- MIME: image/jpeg; размер по базе: 453700 байт
+- SHA-256: `1fc274c633fe73c9c4c7ab2b988b0626514b795d58771462fd360903a26448ab`
+- Дубликат: нет
+
+## DSC_7457.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_7457.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2083
+- Файл: `../downloads/images/090b6da4640caf4b3fd7.jpg`
+- MIME: image/jpeg; размер по базе: 459813 байт
+- SHA-256: `2331468441a06d74a91f8f6cc7f068fe2887cc3fb238d1372591eb19945e06de`
+- Дубликат: нет
+
+## DSC_7429.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_7429.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2082
+- Файл: `../downloads/images/b597e88604846486d4c6.jpg`
+- MIME: image/jpeg; размер по базе: 433545 байт
+- SHA-256: `4a82a7353f56c758a049572c6f318e991bda3f2bc7b5da6f1926e763f089c18a`
+- Дубликат: нет
+
+## DSC_7417.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_7417.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2082
+- Файл: `../downloads/images/c38abdcf029e7f173097.jpg`
+- MIME: image/jpeg; размер по базе: 478814 байт
+- SHA-256: `978306bf2eed173339f6b9f8a9181889a2862b9b0a2d48538ec365a1cbed2629`
+- Дубликат: нет
+
+## DSC_7436.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/DSC_7436.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2082
+- Файл: `../downloads/images/30b5441616cda57b6ed2.jpg`
+- MIME: image/jpeg; размер по базе: 437870 байт
+- SHA-256: `b67358b9431e5eb5215dffc385dd88b5274f62ae4dfff8460aca4baebd84e816`
+- Дубликат: нет
+
+## IMG-20161109-WA0001.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2016_1/IMG-20161109-WA0001.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2080
+- Файл: `../downloads/images/031f77ee468f24e2073f.jpg`
+- MIME: image/jpeg; размер по базе: 82659 байт
+- SHA-256: `d35b1a4bf63fd81170c9bb86e55a9db66421df58e990a3797da6eed1e4558c0d`
+- Дубликат: нет
+
+## Орманбетов.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/%D0%9E%D1%80%D0%BC%D0%B0%D0%BD%D0%B1%D0%B5%D1%82%D0%BE%D0%B2.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/2079
+- Файл: `../downloads/images/1bf3b4793f1875ea35b0.jpg`
+- MIME: image/jpeg; размер по базе: 11348 байт
+- SHA-256: `7691a6291274edc0fa901746da494aa6eb1bd25804fac7c0b47664db1fadc496`
+- Дубликат: нет
+
+## IMG_3152.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_3152.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1872
+- Файл: `../downloads/images/70393c3f926205e0b11d.jpg`
+- MIME: image/jpeg; размер по базе: 101862 байт
+- SHA-256: `80f1f73af092f4b5a18a07b12d0190eeb5a58c927f09e648c32a0632e91746bb`
+- Дубликат: нет
+
+## IMG_3154.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_3154.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1872
+- Файл: `../downloads/images/7bf4beb3d009e7b85ba7.jpg`
+- MIME: image/jpeg; размер по базе: 89726 байт
+- SHA-256: `651a4f92f91edabb584bdc22f377e5841be5448cbd78468a4f90be44ac1f03c7`
+- Дубликат: нет
+
+## 1-111.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/1-111.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1865
+- Файл: `../downloads/images/ff966bc1489abf7a414c.jpg`
+- MIME: image/jpeg; размер по базе: 143154 байт
+- SHA-256: `e362db3fc6d7f9e07c2e03444efa451bf4c31898196eb3cce4896380e4ec9cf9`
+- Дубликат: нет
+
+## 3-111.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/3-111.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1865
+- Файл: `../downloads/images/e245d658729126fa4d1d.jpg`
+- MIME: image/jpeg; размер по базе: 144050 байт
+- SHA-256: `e35def0037fbe524630e9a3515ed2cb8d1b7228dcce03d4750af3f5ac94a24ba`
+- Дубликат: нет
+
+## 6-111.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/6-111.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1865
+- Файл: `../downloads/images/bebcd90cb091239d5546.jpg`
+- MIME: image/jpeg; размер по базе: 145335 байт
+- SHA-256: `bb9dcd73f008441d5f42c413928c1a0a55e1b3abb6ad1964ecfbbab588ca4a6c`
+- Дубликат: нет
+
+## DSC_2371.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_2371.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1864
+- Файл: `../downloads/images/81d5c742befaf6dd172b.jpg`
+- MIME: image/jpeg; размер по базе: 423763 байт
+- SHA-256: `860ca29af51adda2a47623b715ed8e39123b3de4f25de3bce7666f95b43adfb6`
+- Дубликат: нет
+
+## DSC_2350.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_2350.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1864
+- Файл: `../downloads/images/f90586e061f89c0eaed2.jpg`
+- MIME: image/jpeg; размер по базе: 451673 байт
+- SHA-256: `a813f8cb29024ba89e1cea188aadeb5223067e29b5205a44c4f2e85bcb382aaa`
+- Дубликат: нет
+
+## DSC_2381.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/DSC_2381.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1864
+- Файл: `../downloads/images/f6ecab6de1fab134cb3a.jpg`
+- MIME: image/jpeg; размер по базе: 392887 байт
+- SHA-256: `5a084eef90a3d587f58ee255164025f384371ec754407cb821f78119a7c77e42`
+- Дубликат: нет
+
+## IMG_4559.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/uka/IMG_4559.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1863
+- Файл: `../downloads/images/1b425fbe69a8cc1da948.jpg`
+- MIME: image/jpeg; размер по базе: 56644 байт
+- SHA-256: `b6bf1f67c232987d450d5649eb1d2a224fb749ed6e8d24b10efacc7e1161a79e`
+- Дубликат: нет
+
+## IMG_4558.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/uka/IMG_4558.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1863
+- Файл: `../downloads/images/b66e91097022f6af7eb6.jpg`
+- MIME: image/jpeg; размер по базе: 99712 байт
+- SHA-256: `94f6101db12ae00c245cd793d58fc03e2592db7dd17b9f57fc5cdc9c603ea793`
+- Дубликат: нет
+
+## IMG_4506.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_4506.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1861
+- Файл: `../downloads/images/a67fbf5405b83afa495f.jpg`
+- MIME: image/jpeg; размер по базе: 120153 байт
+- SHA-256: `492a880d13edae299f258d8e1125cc1441723e32dec21ad40f6ceb7d5f99a4ef`
+- Дубликат: нет
+
+## IMG_4542.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_4542.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1861
+- Файл: `../downloads/images/a09e103bc0999c07038c.jpg`
+- MIME: image/jpeg; размер по базе: 53397 байт
+- SHA-256: `1c0bca60503e788e5b979db4e7f84cfa31e5d3ca04a3562b4be202a8db2fd42d`
+- Дубликат: нет
+
+## IMAG0937.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMAG0937.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1854
+- Файл: `../downloads/images/e815937fba2f817e24ac.jpg`
+- MIME: image/jpeg; размер по базе: 116644 байт
+- SHA-256: `80e3c0793755906734a4e321b489c219d1110927399d0444b64f13e363f4b038`
+- Дубликат: нет
+
+## 1 аттестат.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/1%20%D0%B0%D1%82%D1%82%D0%B5%D1%81%D1%82%D0%B0%D1%82.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1853
+- Файл: `../downloads/images/f16dbe849356b98dcdcf.jpg`
+- MIME: image/jpeg; размер по базе: 343582 байт
+- SHA-256: `606d0ba41b603ce1433ec585490575a5a4446d1736568b3119f9b06a5f2e55a2`
+- Дубликат: нет
+
+## 2 диплом д.и.н..JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/2%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%20%D0%B4.%D0%B8.%D0%BD..JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1853
+- Файл: `../downloads/images/229369d8c8fdd53113f7.jpg`
+- MIME: image/jpeg; размер по базе: 307174 байт
+- SHA-256: `3bf6b7f3a7ba403af4e8ad5b883b3be293ab6798365573255ac655dabf6f8eb6`
+- Дубликат: нет
+
+## 3 отличник.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/3%20%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%D0%BA.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1853
+- Файл: `../downloads/images/6eec414429dfcdcdd193.jpg`
+- MIME: image/jpeg; размер по базе: 304368 байт
+- SHA-256: `7dc218d542d8878e6a0838462c759aaf56702dc78df32a3fcfbd3df32b7ec6f7`
+- Дубликат: нет
+
+## 4 удостоверение.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/4%20%D1%83%D0%B4%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1853
+- Файл: `../downloads/images/ddcf9633428f139c23a0.jpg`
+- MIME: image/jpeg; размер по базе: 498928 байт
+- SHA-256: `7f9ee39b23773350ade84e11ede714394f7e267b9712e1d61e689828ca2aefd9`
+- Дубликат: нет
+
+## 5 на рабочем столе.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/5%20%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%BC%20%D1%81%D1%82%D0%BE%D0%BB%D0%B5.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1853
+- Файл: `../downloads/images/0c1a099dbaed372e882c.jpg`
+- MIME: image/jpeg; размер по базе: 1808957 байт
+- SHA-256: `7e22056bc45615b968ef6e061ffb79997faee446bb06912d1c01891371075bd5`
+- Дубликат: нет
+
+## 7 книги.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/7%20%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1853
+- Файл: `../downloads/images/49497bd1614e4bb50bef.jpg`
+- MIME: image/jpeg; размер по базе: 1077511 байт
+- SHA-256: `2c01b98577bc09a91a8c3548282c06cb55fccce09252fb2ec9d92a7776220306`
+- Дубликат: нет
+
+## IMG_4304.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_4304.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1849
+- Файл: `../downloads/images/0305d32dfa03a7eab652.jpg`
+- MIME: image/jpeg; размер по базе: 202993 байт
+- SHA-256: `2e26a8637391d2b51833acdfe4ae9c28ca89f1a7c207779b5fa04c609bc7aab6`
+- Дубликат: нет
+
+## 5з.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/5%D0%B7.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1848
+- Файл: `../downloads/images/98cf7f7ee12dae75a54a.jpg`
+- MIME: image/jpeg; размер по базе: 126850 байт
+- SHA-256: `b01a58e8cc3f3ccf2f0206d074f6534a6254b0916c581be927f11a664a79c963`
+- Дубликат: нет
+
+## 2з.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/2%D0%B7.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1848
+- Файл: `../downloads/images/00ab7c46cc802e9d8504.jpg`
+- MIME: image/jpeg; размер по базе: 124252 байт
+- SHA-256: `4f9898541c2c8c1fae10e72dc0963d109b40e6a9e8838def75d48bd9210a504e`
+- Дубликат: нет
+
+## 1з.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/1%D0%B7.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1848
+- Файл: `../downloads/images/1124c02a7878a8acf150.jpg`
+- MIME: image/jpeg; размер по базе: 159304 байт
+- SHA-256: `ea3bbf9c5e2f8c34d84410778d50212c386e17d63ba8319621429e5ce503bbdd`
+- Дубликат: нет
+
+## школа - интернат №1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%20-%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82%20%E2%84%961.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1846
+- Файл: `../downloads/images/06833763e0366b1538a8.jpg`
+- MIME: image/jpeg; размер по базе: 153154 байт
+- SHA-256: `adae0b90b982ee6aa42d64d7a2bbc26b763bcf98370ec0a4d7b484b9c8fc2c30`
+- Дубликат: нет
+
+## презентация Медведевой.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D0%B5%D0%B2%D0%BE%D0%B9.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1846
+- Файл: `../downloads/images/ed2e38e6f9fa49978ab5.jpg`
+- MIME: image/jpeg; размер по базе: 171127 байт
+- SHA-256: `d6d4c37156a80d7a3a24350171c59481e122d20bf72e7ba28424effbd449306a`
+- Дубликат: нет
+
+## школ интернат  с писательницей.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D1%88%D0%BA%D0%BE%D0%BB%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82%20%20%D1%81%20%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B5%D0%B9.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1846
+- Файл: `../downloads/images/b3bc42e3053647dd1c1e.jpg`
+- MIME: image/jpeg; размер по базе: 154383 байт
+- SHA-256: `4019d60d1674c72e34eb51e3b3f41cca19bb57e6a019c5e879d0932ca83e7cab`
+- Дубликат: нет
+
+## 1-р.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/1-%D1%80.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1845
+- Файл: `../downloads/images/d718fe7ebaa595d72c9d.jpg`
+- MIME: image/jpeg; размер по базе: 101695 байт
+- SHA-256: `10818bd2b06b470043b47ade9aea6d6e16d4f27d50d17ad76946dbaa62bc6f4c`
+- Дубликат: нет
+
+## 3-р.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/3-%D1%80.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1845
+- Файл: `../downloads/images/c58e7586920a4ffe95ca.jpg`
+- MIME: image/jpeg; размер по базе: 88274 байт
+- SHA-256: `b1231d7a6bddab7d37b5dfa2656babe0ca918c7a90c02a91da179d181823c62e`
+- Дубликат: нет
+
+## фотографии 1061.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%B8%201061.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1842
+- Файл: `../downloads/images/f0c3df98d9c35e1a5f2d.jpg`
+- MIME: image/jpeg; размер по базе: 128586 байт
+- SHA-256: `043c0af8d3c8f4b49c4bf5ceb7a68f874f7d468dec73399e91766027c94d99af`
+- Дубликат: нет
+
+## IMG_3967.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_3967.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1840
+- Файл: `../downloads/images/3c309a309a379770417d.jpg`
+- MIME: image/jpeg; размер по базе: 123942 байт
+- SHA-256: `53ac30ee98c4e9dea6ac10415f944d53b5d2bd72e12aea31835815306a1ef6b6`
+- Дубликат: нет
+
+## IMG_3972.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_3972.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1840
+- Файл: `../downloads/images/6550e679cc5ab30b2220.jpg`
+- MIME: image/jpeg; размер по базе: 119553 байт
+- SHA-256: `d3367f7c032c137a844e549d78e1c39816b0b60b47f496dbf8102d10a4d2f6b2`
+- Дубликат: нет
+
+## IMG_3978.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_3978.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1840
+- Файл: `../downloads/images/965093b2aa48a8605d29.jpg`
+- MIME: image/jpeg; размер по базе: 108480 байт
+- SHA-256: `d63d982fd74f5ef6dcbee83e59db935c28ad11ac50b8cbfbc97892fcf4fdb1dc`
+- Дубликат: нет
+
+## IMG_3986.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_3986.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1840
+- Файл: `../downloads/images/6b18ab9c25bf26357051.jpg`
+- MIME: image/jpeg; размер по базе: 121011 байт
+- SHA-256: `ccff15b7689060f875d462c1ae111104b7b2057d2cd53e326880ef42a647bb49`
+- Дубликат: нет
+
+## IMG_4044.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_4044.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1840
+- Файл: `../downloads/images/4228fabd6786c85bb0aa.jpg`
+- MIME: image/jpeg; размер по базе: 106901 байт
+- SHA-256: `9052c1bc96992c3ffca825d7cde3a7b6782459bb8d90cc54f8567665c1e38ee4`
+- Дубликат: нет
+
+## IMG_4051.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_4051.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1840
+- Файл: `../downloads/images/2e2e47eb18b525824055.jpg`
+- MIME: image/jpeg; размер по базе: 108472 байт
+- SHA-256: `f13aa75fbcbe225ad480a86cbaa0f8796260ba39ee6b775b05c3f9badf4ec3b1`
+- Дубликат: нет
+
+## IMG_4062.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_4062.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1840
+- Файл: `../downloads/images/f8a8d4acedff56dad1ab.jpg`
+- MIME: image/jpeg; размер по базе: 87892 байт
+- SHA-256: `be3bbd0ecd9a7be9419c8b33ba5fbfe8a2d6b87e03edacb5b70950fdab7adc9e`
+- Дубликат: нет
+
+## IMG_20141121_152156.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_20141121_152156.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1839
+- Файл: `../downloads/images/1edc30acbbed2f2235d7.jpg`
+- MIME: image/jpeg; размер по базе: 71553 байт
+- SHA-256: `cb18a4c4d2eeffb81135db91a0024a30e91ce4ee7b039d1f0e46a21acabd6ec5`
+- Дубликат: нет
+
+## IMG_3689.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_3689.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1837
+- Файл: `../downloads/images/4b3163a7a33d0f21855c.jpg`
+- MIME: image/jpeg; размер по базе: 86915 байт
+- SHA-256: `e4e4b1cec2c9345cf428cf7ca6c3fc3bb0a88b3d8564e0d57b184a1edd90ccd1`
+- Дубликат: нет
+
+## IMG_8756.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_8756.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1837
+- Файл: `../downloads/images/b1b95de7e5e19049d3b1.jpg`
+- MIME: image/jpeg; размер по базе: 362117 байт
+- SHA-256: `89ca989bddcac8fb6abf9f9757dcec62dfdced6faccbc98f1c553f39b0a2b308`
+- Дубликат: нет
+
+## IMG_8929.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_8929.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1837
+- Файл: `../downloads/images/ad07f77e331fbea76e1e.jpg`
+- MIME: image/jpeg; размер по базе: 300934 байт
+- SHA-256: `7949c2451e7f5e3296aca62657c8c54c4c42c2e99d0a228712828039a90eafbb`
+- Дубликат: нет
+
+## IMG_8768.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_8768.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1837
+- Файл: `../downloads/images/59d01fd722d368f727db.jpg`
+- MIME: image/jpeg; размер по базе: 258935 байт
+- SHA-256: `228aeb154f91caaacdc18247aba344e8d347afa502da4e3b5c6c4d0d0629551f`
+- Дубликат: нет
+
+## IMG_3729.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_3729.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1837
+- Файл: `../downloads/images/0663fac5ec4efbd299bb.jpg`
+- MIME: image/jpeg; размер по базе: 75787 байт
+- SHA-256: `1f23a25072e27d6c51952b3b438deebd0399e0bd0068de1011e6daeff3d8514a`
+- Дубликат: нет
+
+## IMG_3743.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_3743.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1837
+- Файл: `../downloads/images/f914cf48dbda72be2acc.jpg`
+- MIME: image/jpeg; размер по базе: 74648 байт
+- SHA-256: `5b4a0c7631470a1a8bfb3af22680936ac89f4e514f7cf04c070e4a85d2d42a19`
+- Дубликат: нет
+
+## IMG_8974.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_8974.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1837
+- Файл: `../downloads/images/93c1406470bb33e8cfab.jpg`
+- MIME: image/jpeg; размер по базе: 303090 байт
+- SHA-256: `a9bd99be6ca1931685d314f57c35deec5a960d610736c62fa8956a87431138d1`
+- Дубликат: нет
+
+## IMG_3759.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_3759.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1837
+- Файл: `../downloads/images/eb93f594758988094b31.jpg`
+- MIME: image/jpeg; размер по базе: 95096 байт
+- SHA-256: `00dec3ae2ef373a21a2d4de1e416805199613060daea79d24d075be81395479e`
+- Дубликат: нет
+
+## IMG_4247.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_4247.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1834
+- Файл: `../downloads/images/cfe75f8e279d626760d9.jpg`
+- MIME: image/jpeg; размер по базе: 177939 байт
+- SHA-256: `7d02cff121286a58f5d247db84b242a36d8ed4db32721cf85fd2ece9e7a16585`
+- Дубликат: нет
+
+## IMG_4228.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_4228.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1832
+- Файл: `../downloads/images/9d21a16ce33c5356bcb1.jpg`
+- MIME: image/jpeg; размер по базе: 196587 байт
+- SHA-256: `7e02588889aff9302d03e37849162a580bbe8b8164bef2b7942939a658c5db1a`
+- Дубликат: нет
+
+## IMG_4239.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_4239.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1832
+- Файл: `../downloads/images/52f2306deae95b0bedb7.jpg`
+- MIME: image/jpeg; размер по базе: 175994 байт
+- SHA-256: `d4b8b6f5ef21cbb7158f1d919ab0dd2f5d8b36e5e164d54489eb87c83f2671a3`
+- Дубликат: нет
+
+## Полуханова Ольга Михайловна, стаж работы в архиве 39 лет.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D0%9F%D0%BE%D0%BB%D1%83%D1%85%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0%20%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0,%20%D1%81%D1%82%D0%B0%D0%B6%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B2%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%D0%B5%2039%20%D0%BB%D0%B5%D1%82.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1828
+- Файл: `../downloads/images/c5902f1acbe74f753a20.jpg`
+- MIME: image/jpeg; размер по базе: 269186 байт
+- SHA-256: `e2718f7b200621f85b3c69eb800d161f8db3e09c95930583fd0eb70caa59ca79`
+- Дубликат: нет
+
+## Богомолова Любовь Александровна.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D0%91%D0%BE%D0%B3%D0%BE%D0%BC%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0%20%D0%9B%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1828
+- Файл: `../downloads/images/0587afd06785bde0a6dc.jpg`
+- MIME: image/jpeg; размер по базе: 421699 байт
+- SHA-256: `70ba61b16a9f7a4b1cbbc1c77774466cc85750617461b2844be801d7aedda7e1`
+- Дубликат: нет
+
+## Вельможина Надежда Николаевна.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D0%92%D0%B5%D0%BB%D1%8C%D0%BC%D0%BE%D0%B6%D0%B8%D0%BD%D0%B0%20%D0%9D%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0%20%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1828
+- Файл: `../downloads/images/1fa1bacb6e66fd82aa93.jpg`
+- MIME: image/jpeg; размер по базе: 71995 байт
+- SHA-256: `0e1ac159a43d415abde36dbb1319897107070fce1002df1d9c567366741ecf1c`
+- Дубликат: нет
+
+## 89-2.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/89-2.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1829
+- Файл: `../downloads/images/f67742f7040364c6a288.jpg`
+- MIME: image/jpeg; размер по базе: 96844 байт
+- SHA-256: `602da4c6068a713f2f4cb1d1b3479a3dfa59c569d36952e76663f939883bca9a`
+- Дубликат: нет
+
+## 89-3.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/89-3.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1829
+- Файл: `../downloads/images/f5aa03cc9da58d1bafc8.jpg`
+- MIME: image/jpeg; размер по базе: 70698 байт
+- SHA-256: `e24027410485c35c78075dfc26f08d8a1a7fd0b6ba1baa84a651f8cbf800ae64`
+- Дубликат: нет
+
+## 90-3.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/90-3.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1830
+- Файл: `../downloads/images/03cbc5f5e1044b251d31.jpg`
+- MIME: image/jpeg; размер по базе: 165371 байт
+- SHA-256: `943b446152a225d12c4feb8126a2577067c2929898e0f3db79ef73e70ea2d2ac`
+- Дубликат: нет
+
+## 90-4.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/90-4.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1830
+- Файл: `../downloads/images/44ea8b340dff50f44f08.jpg`
+- MIME: image/jpeg; размер по базе: 263971 байт
+- SHA-256: `e3d23e8b83b28817581a373a9607908c783a9f9574a8bba2b1f5ae8754d6e0c9`
+- Дубликат: нет
+
+## 90-5.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/90-5.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1830
+- Файл: `../downloads/images/99ddf27792d271779899.jpg`
+- MIME: image/jpeg; размер по базе: 323989 байт
+- SHA-256: `6b5f4cf7b4c2a4a239efbff004edce3eda6e54b9c2c0a4e9183cacaf0544dbef`
+- Дубликат: нет
+
+## 90-1.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ridder/90-1.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1830
+- Файл: `../downloads/images/a8a78afb26820ec35c9f.jpg`
+- MIME: image/jpeg; размер по базе: 198983 байт
+- SHA-256: `2c9a3214542a24283994228dd2063f32cb192432c0dc698be3093cb0f812afb3`
+- Дубликат: нет
+
+## P_20140910_125407.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/uka/P_20140910_125407.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1827
+- Файл: `../downloads/images/a754495bf4b6f478b6cd.jpg`
+- MIME: image/jpeg; размер по базе: 130516 байт
+- SHA-256: `c3961366d71d1b9fe698b7b49f154c2ec530c69bd81344fb0953d668b068c499`
+- Дубликат: нет
+
+## P_20140910_144408.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/uka/P_20140910_144408.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1827
+- Файл: `../downloads/images/91df0b8cea708f2bf919.jpg`
+- MIME: image/jpeg; размер по базе: 101381 байт
+- SHA-256: `696cc5f32c23057591af4be171a3387b448b89b5a8d49d21d72d380c085b5b1d`
+- Дубликат: нет
+
+## IMG_4213.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_4213.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1826
+- Файл: `../downloads/images/732d141fb88abb736dd3.jpg`
+- MIME: image/jpeg; размер по базе: 96494 байт
+- SHA-256: `69a09fdb2c71b405c7edc78780deeea1fe6e4f10743c18841f5ff954c2f92960`
+- Дубликат: нет
+
+## Аким Зыряновского района.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D0%90%D0%BA%D0%B8%D0%BC%20%D0%97%D1%8B%D1%80%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%B0.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1824
+- Файл: `../downloads/images/3b8464f408f92103471c.jpg`
+- MIME: image/jpeg; размер по базе: 249180 байт
+- SHA-256: `08e70288ffba70f6010d3e300a58b215d99ffe53d308385418ac80fc45302ba4`
+- Дубликат: нет
+
+## 1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/1.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1824
+- Файл: `../downloads/images/c1fb05a2083c2a40c47d.jpg`
+- MIME: image/jpeg; размер по базе: 288153 байт
+- SHA-256: `b1d9ff7e5fc109c1ea2a3a14b9c141087881ae84425a0babb5c40e67dad833b3`
+- Дубликат: нет
+
+## IMG_2600.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_2600.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1824
+- Файл: `../downloads/images/44b3677ca094bd529651.jpg`
+- MIME: image/jpeg; размер по базе: 106020 байт
+- SHA-256: `c379596b566de8ec4475b0ff830c9674239fc732b6d365e59a800c5ae67f1433`
+- Дубликат: нет
+
+## 2.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/2.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1818
+- Файл: `../downloads/images/11d93e41f1eb1071f287.jpg`
+- MIME: image/jpeg; размер по базе: 148452 байт
+- SHA-256: `28fa7a2c8978d5ac85150b75641bfc83b947c3d95e0ec90a9588807994a090f3`
+- Дубликат: нет
+
+## IMG_4126.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_4126.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1819
+- Файл: `../downloads/images/2c40afeed10476522902.jpg`
+- MIME: image/jpeg; размер по базе: 245576 байт
+- SHA-256: `cf2ee3f1e375d433015e3054b4d8da1216e920df1c8bad24fd4b812190cf79b7`
+- Дубликат: нет
+
+## IMG_4131.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_4131.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1819
+- Файл: `../downloads/images/5b700658e2fba3d654f2.jpg`
+- MIME: image/jpeg; размер по базе: 231447 байт
+- SHA-256: `e863bdf31ac0346e5a7fc2f7f93982f3f38d32c2362764820389e91671a4201b`
+- Дубликат: нет
+
+## IMG_4159.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_4159.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1819
+- Файл: `../downloads/images/077bc320373fb68fda5b.jpg`
+- MIME: image/jpeg; размер по базе: 113605 байт
+- SHA-256: `fd2e5e6511ebeb318035badb9c84777e5a5f0de4225dcd81cf8c66e6d7ad7f83`
+- Дубликат: нет
+
+## IMG_4178.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_4178.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1819
+- Файл: `../downloads/images/89f857cfbd0275dbaf4f.jpg`
+- MIME: image/jpeg; размер по базе: 107956 байт
+- SHA-256: `998a2fb79d31847e1ffcccef808cd982cdc95978bfd1858809133cc25f7d30e4`
+- Дубликат: нет
+
+## г.Н.Пуссеп.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/%D0%B3.%D0%9D.%D0%9F%D1%83%D1%81%D1%81%D0%B5%D0%BF.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1817
+- Файл: `../downloads/images/d8e75d3393ef3bf69131.jpg`
+- MIME: image/jpeg; размер по базе: 75345 байт
+- SHA-256: `5c29b235874cb945cabf517a662d608b4d16fb17c02bc20d2650a2b63f8bfe9c`
+- Дубликат: нет
+
+## 9-6.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/9-6.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1816
+- Файл: `../downloads/images/0b4e2ba8bebba55699a1.jpg`
+- MIME: image/jpeg; размер по базе: 97012 байт
+- SHA-256: `211e4fc8c9552badd4df3418d78b70d9995f9b11ecfa07329881811427115511`
+- Дубликат: нет
+
+## 9-8.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/9-8.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1816
+- Файл: `../downloads/images/8e76da2832f0ae5fe9fb.jpg`
+- MIME: image/jpeg; размер по базе: 102679 байт
+- SHA-256: `0db6f56a0b6cb0cf2ba2b041894f7a8dcb23132aee57bb5f58dd725c7e000373`
+- Дубликат: нет
+
+## 9-7.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/9-7.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1816
+- Файл: `../downloads/images/c4f472db175f2df954f2.jpg`
+- MIME: image/jpeg; размер по базе: 173933 байт
+- SHA-256: `410dd9337c4b1ff88cd2e815d87f8cd24aa43fa8d6eb82a41761473c8845afc7`
+- Дубликат: нет
+
+## IMG_2582.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2582.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1815
+- Файл: `../downloads/images/f8144524ed747b52eba7.jpg`
+- MIME: image/jpeg; размер по базе: 102408 байт
+- SHA-256: `6f3b53f64cbd49516b93d0bc4c677bfde01e97cf6a1d6f7a42b88b350e4ad151`
+- Дубликат: нет
+
+## IMG_4109_27.05.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/27.05.2014/IMG_4109_27.05.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1807
+- Файл: `../downloads/images/e81dda85d64002ad8e9f.jpg`
+- MIME: image/jpeg; размер по базе: 111394 байт
+- SHA-256: `d04fa8ca2770a03bf80213f8499f004a1af90ae169762bb8ba82a2ee0263ba3a`
+- Дубликат: downloads/images/e81dda85d64002ad8e9f.jpg
+
+## IMG_4108_27.05.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/27.05.2014/IMG_4108_27.05.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1807
+- Файл: `../downloads/images/35e438382c719e166844.jpg`
+- MIME: image/jpeg; размер по базе: 93391 байт
+- SHA-256: `1375288fad76f1f38f0f7bcc096991334625bc18aaa7244f0f0e2730989b3182`
+- Дубликат: нет
+
+## IMG_4096_27.05.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/27.05.2014/IMG_4096_27.05.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1807
+- Файл: `../downloads/images/b37f4920dfd0269e3c91.jpg`
+- MIME: image/jpeg; размер по базе: 106067 байт
+- SHA-256: `90a8fa9ca97fb69f5e76b7dd4080798d476dbeeeebb3b3486866573a2f9b7f43`
+- Дубликат: нет
+
+## IMG_2196.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2196.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1792
+- Файл: `../downloads/images/fe81560b4a59fe000242.jpg`
+- MIME: image/jpeg; размер по базе: 100201 байт
+- SHA-256: `1b9a2276d6ad7b0d576a3076b49b9be542d474bc3dd802f892a018cfb5f8fdbf`
+- Дубликат: нет
+
+## IMG_2170.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2170.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1792
+- Файл: `../downloads/images/0ebdbed80998cfbf41ff.jpg`
+- MIME: image/jpeg; размер по базе: 259248 байт
+- SHA-256: `8beee56f8e025417cc96d555e9ef0558b1fee6350301e473e5426215218e8b84`
+- Дубликат: нет
+
+## IMG_2185.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2185.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1792
+- Файл: `../downloads/images/5e8c9ec066a280298c5a.jpg`
+- MIME: image/jpeg; размер по базе: 215118 байт
+- SHA-256: `b89730a7923c2f41e65d67f7d9a98d115af852f9fdc10cb6ce121f850a76ef98`
+- Дубликат: нет
+
+## IMG_2158.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2158.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1792
+- Файл: `../downloads/images/84ddd75a8cf86ece724f.jpg`
+- MIME: image/jpeg; размер по базе: 229987 байт
+- SHA-256: `aa142e0f3123c3f82e4e277c511cdb919e29a7c2d917ac0a9fe4bda52f6815e6`
+- Дубликат: нет
+
+## IMG_2175.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2175.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1792
+- Файл: `../downloads/images/ad86e55b41d08ead533d.jpg`
+- MIME: image/jpeg; размер по базе: 72877 байт
+- SHA-256: `45e68da56805274980c6f7a07962fcc9be2d4696a1f2199a84c756415ab97964`
+- Дубликат: нет
+
+## IMG_2094.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2094.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1791
+- Файл: `../downloads/images/2c118dc2c6c082128843.jpg`
+- MIME: image/jpeg; размер по базе: 83760 байт
+- SHA-256: `e5c7e8fffc3c10796dd8e7fb0c0f5050b59038d2f460e7b1903da2e72e600556`
+- Дубликат: нет
+
+## IMG_2130.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2130.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1791
+- Файл: `../downloads/images/1949603d0b7e477a5a47.jpg`
+- MIME: image/jpeg; размер по базе: 266997 байт
+- SHA-256: `305385fb8035f4fd2103fcfbad83a6de6bf207a978d9ec71083f67106b32de37`
+- Дубликат: нет
+
+## IMG_2125.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2125.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1791
+- Файл: `../downloads/images/80e0fc59bcd94c5e5e12.jpg`
+- MIME: image/jpeg; размер по базе: 99581 байт
+- SHA-256: `6d34542e545356e25fee65df013367a137df3c1fdd7e30058e1e60b191ff90e6`
+- Дубликат: нет
+
+## во время встречи.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D0%B2%D0%BE%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%20%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B8.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1788
+- Файл: `../downloads/images/5ab20a58e8f8571eb12a.jpg`
+- MIME: image/jpeg; размер по базе: 308506 байт
+- SHA-256: `861b25a835eadf2e32fd0b4885a1a43be1fab58fddd54555d2e0fbaa0549fa02`
+- Дубликат: нет
+
+## Встреча с ветеранами.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D0%92%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0%20%D1%81%20%D0%B2%D0%B5%D1%82%D0%B5%D1%80%D0%B0%D0%BD%D0%B0%D0%BC%D0%B8.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1788
+- Файл: `../downloads/images/9366b8deffef19ddbf5d.jpg`
+- MIME: image/jpeg; размер по базе: 357607 байт
+- SHA-256: `d6a9cb8c0a9f17ebac7102b17d25742b641fdef3e489dbffa09892932b4dd8b4`
+- Дубликат: нет
+
+## концерт 2.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D1%80%D1%82%202.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1786
+- Файл: `../downloads/images/e3ed5511deea6e0f9e1b.jpg`
+- MIME: image/jpeg; размер по базе: 267887 байт
+- SHA-256: `9716e120ec23ed9474e04e54fc80309e418ffd0b0e4befc2374f5974d804a988`
+- Дубликат: нет
+
+## приз.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D0%BF%D1%80%D0%B8%D0%B7.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1786
+- Файл: `../downloads/images/5134926ddf8afe5d5095.jpg`
+- MIME: image/jpeg; размер по базе: 345872 байт
+- SHA-256: `49b0b49f0798b24b774ef6999c3599eee57bdb11d7c14b89ae905dc16e1f0215`
+- Дубликат: нет
+
+## хор ветеранов.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D1%85%D0%BE%D1%80%20%D0%B2%D0%B5%D1%82%D0%B5%D1%80%D0%B0%D0%BD%D0%BE%D0%B2.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1786
+- Файл: `../downloads/images/76fbcf94e01c3e5d3503.jpg`
+- MIME: image/jpeg; размер по базе: 277976 байт
+- SHA-256: `517f463927173a088fc714829c55b881ddad83a0c73153a1df212a31c9921a25`
+- Дубликат: нет
+
+## IMG_3940.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_3940.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1774
+- Файл: `../downloads/images/ebe1bc8aa3b55f090fba.jpg`
+- MIME: image/jpeg; размер по базе: 239412 байт
+- SHA-256: `b4b6c05c7b97d43074cd1661ed07cd6f884b3a5b16fc579b829d210b66c365f1`
+- Дубликат: нет
+
+## IMG_3944.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_3944.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1774
+- Файл: `../downloads/images/d633d25676748189a969.jpg`
+- MIME: image/jpeg; размер по базе: 139035 байт
+- SHA-256: `22291fc244a26966029351fea0bf98b192674f55c8bcc8f98e85631d453d5f41`
+- Дубликат: нет
+
+## IMG_5266.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_5266.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1772
+- Файл: `../downloads/images/79bced1d232e799ee794.jpg`
+- MIME: image/jpeg; размер по базе: 292429 байт
+- SHA-256: `09a94506d760a18caf12d3c24d870cc97a6277255c3eec6e6c12b522c819fdc0`
+- Дубликат: нет
+
+## IMG_5273.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_5273.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1772
+- Файл: `../downloads/images/79b400a098de229e4368.jpg`
+- MIME: image/jpeg; размер по базе: 345014 байт
+- SHA-256: `e67ab6937b5bd5dad72bd5a5f14ea9dab0196b4f229f7448f12c98b458f6cf28`
+- Дубликат: нет
+
+## IMG_5277.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_5277.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1772
+- Файл: `../downloads/images/3d44af781f933ed5aace.jpg`
+- MIME: image/jpeg; размер по базе: 322903 байт
+- SHA-256: `575567544309187f2477b6fd68f0c2723980525282d048e97f9592e39ca1a577`
+- Дубликат: нет
+
+## IMG_1990.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_1990.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1773
+- Файл: `../downloads/images/ca58b6ee3568472dbf61.jpg`
+- MIME: image/jpeg; размер по базе: 83086 байт
+- SHA-256: `4ea5bbb8abbac42ad640c8a04a26eefc88b967b25e027c3f0af768abc72de0ea`
+- Дубликат: нет
+
+## IMG_1961.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_1961.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1773
+- Файл: `../downloads/images/442fb3c2a34beb390d1a.jpg`
+- MIME: image/jpeg; размер по базе: 107338 байт
+- SHA-256: `41c45fff88ca53bbd6371357411314888c3ee0414cc12dd856f5db30145abd32`
+- Дубликат: нет
+
+## IMG_1964.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_1964.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1773
+- Файл: `../downloads/images/ee7ca19fdd169333a541.jpg`
+- MIME: image/jpeg; размер по базе: 127765 байт
+- SHA-256: `ea864fac3fc5a735662757f56688575eabd2dd32b3c02e0988902d5c1a732f3f`
+- Дубликат: нет
+
+## IMG_2000.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2000.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1773
+- Файл: `../downloads/images/51dae9f033ea8cfae668.jpg`
+- MIME: image/jpeg; размер по базе: 93310 байт
+- SHA-256: `949bc948b89edb4f7dcf62d06234533f77836344ddba6e1b758d1b80d3e1cab4`
+- Дубликат: нет
+
+## IMG_4285.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_4285.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1766
+- Файл: `../downloads/images/d368234e1ae57bc1e45f.jpg`
+- MIME: image/jpeg; размер по базе: 104095 байт
+- SHA-256: `383633491881611a5afca2071d9a49aff017ec0e885601eecc70f5ed831015b1`
+- Дубликат: нет
+
+## IMG_4292.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_4292.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1766
+- Файл: `../downloads/images/798468efc1bcf37acfd7.jpg`
+- MIME: image/jpeg; размер по базе: 115633 байт
+- SHA-256: `6668afbd3afc855daf23d8dc5686eb8df138bb92e726ec68cba48b86628c2832`
+- Дубликат: нет
+
+## IMG_4297.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_4297.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1766
+- Файл: `../downloads/images/918ebe84bcc4527d4355.jpg`
+- MIME: image/jpeg; размер по базе: 103530 байт
+- SHA-256: `62fb2568c5ff848298800f7027c7bee9dfda9eae88540caefb6248c021d2c187`
+- Дубликат: нет
+
+## Кучер Ф.М..JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D0%9A%D1%83%D1%87%D0%B5%D1%80%20%D0%A4.%D0%9C..JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1765
+- Файл: `../downloads/images/b394dc8183d1091b377f.jpg`
+- MIME: image/jpeg; размер по базе: 70997 байт
+- SHA-256: `91b6a228fa855870cb38aba43db23b0cea3efead62516cf40db3f13587982381`
+- Дубликат: нет
+
+## IMG_4204.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_4204.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1765
+- Файл: `../downloads/images/df3e92f9a3d14eaaeca3.jpg`
+- MIME: image/jpeg; размер по базе: 282938 байт
+- SHA-256: `d00ed2803d5a4c71f64e3ce16c1e6d2ba816a5a5a31d13347ed168751695c019`
+- Дубликат: нет
+
+## IMG_4178.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG_4178.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1765
+- Файл: `../downloads/images/19c939ef1a9427f7bee5.jpg`
+- MIME: image/jpeg; размер по базе: 324172 байт
+- SHA-256: `130090339da3641a4f8c49accf207acae69320389085726e5bd6293a11419db1`
+- Дубликат: нет
+
+## IMG_2935.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_2935.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1763
+- Файл: `../downloads/images/c674503bb36e3ffc7229.jpg`
+- MIME: image/jpeg; размер по базе: 166994 байт
+- SHA-256: `71d758eae946cd2769a87129c949d0bcfc1be4061c218ef5a47ea1b6e9e741e0`
+- Дубликат: нет
+
+## IMG_2850.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG_2850.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1763
+- Файл: `../downloads/images/168e07d89e6314758653.jpg`
+- MIME: image/jpeg; размер по базе: 93872 байт
+- SHA-256: `0fa97662744502aed9852e138d60233b26d9a91c51e9d37d8641373694effd63`
+- Дубликат: нет
+
+## IMG_2791.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2791.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1764
+- Файл: `../downloads/images/bc77a956630510b7de96.jpg`
+- MIME: image/jpeg; размер по базе: 108836 байт
+- SHA-256: `b4af1d2e94989c2c6b0a9d20d90504926fe02f881061ffb952e528c61f758911`
+- Дубликат: нет
+
+## IMG_2792.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2792.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1764
+- Файл: `../downloads/images/6fb70f2a91fda826235a.jpg`
+- MIME: image/jpeg; размер по базе: 122979 байт
+- SHA-256: `b9fdbe69b3d2bc06c9221c8f5d2055a33888082911b8a407c09f3c7dbf2f6703`
+- Дубликат: нет
+
+## IMG_2779.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/IMG_2779.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1764
+- Файл: `../downloads/images/5a23e4af6dbdf7dd9f3f.jpg`
+- MIME: image/jpeg; размер по базе: 83996 байт
+- SHA-256: `d901ae9aa1a1bd0c294029adde52a683821ac242a03f73d6b9c3af6238a32227`
+- Дубликат: нет
+
+## 20140206_165748.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/20140206_165748.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1760
+- Файл: `../downloads/images/81dfb50326cfebfd9481.jpg`
+- MIME: image/jpeg; размер по базе: 186702 байт
+- SHA-256: `d05c1a83e12097e6d0a273eef6a4152511650c3f4c71d2dafc82fee53884aa45`
+- Дубликат: нет
+
+## 20140206_161951.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/gos/20140206_161951.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1760
+- Файл: `../downloads/images/c5995254420faf4dae41.jpg`
+- MIME: image/jpeg; размер по базе: 129786 байт
+- SHA-256: `f7e1509266196147ec3e3b6b0f5f111c6cac3aef2985c7a7b43106d04c6077c1`
+- Дубликат: нет
+
+## IMG_3781.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/IMG_3781.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/1731
+- Файл: `../downloads/images/38fd59f09c15ffbdf6aa.jpg`
+- MIME: image/jpeg; размер по базе: 39546 байт
+- SHA-256: `b095b137467db5ce3dc733e3f661b34f16353786bc02855b5d985ba8c03bfce7`
+- Дубликат: нет
+
+## IMG_6994(2).jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/upload/IMG_6994(2).jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/810
+- Файл: `../downloads/images/1d21770fcb0d52d5f3ba.jpg`
+- MIME: image/jpeg; размер по базе: 24824 байт
+- SHA-256: `4a123c5d0666c633f0fcffc0c0e88e7ce991705f25203de638d8334fe39ab5e1`
+- Дубликат: нет
+
+## IMG_6998.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/upload/IMG_6998.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/810
+- Файл: `../downloads/images/9696b5ed1c7dcfbb26fd.jpg`
+- MIME: image/jpeg; размер по базе: 39738 байт
+- SHA-256: `dfe144bc13e5a508c166aebd7464e58a3ffc674cac2946276a41dfc9e4ee643f`
+- Дубликат: нет
+
+## IMG_7004.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/upload/IMG_7004.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/ru/Page/Index/810
+- Файл: `../downloads/images/851e759a86160e79f72e.jpg`
+- MIME: image/jpeg; размер по базе: 59377 байт
+- SHA-256: `a66230aff9a90ba6fb3b062dd36ea392e8473968e7e1a1f1ed43ad8fdf26e7a2`
+- Дубликат: нет
+
+## WhatsApp Image 2026-04-30 at 14.12.21 (2).jpeg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/WhatsApp%20Image%202026-04-30%20at%2014.12.21%20(2).jpeg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/52785
+- Файл: `../downloads/images/06e0910dbba80b8a2460.jpeg`
+- MIME: image/jpeg; размер по базе: 174888 байт
+- SHA-256: `e900cfbb2900d1061fc2d391ce54b536399a5105a1f2c0996d36b3b7aafcafdd`
+- Дубликат: нет
+
+## WhatsApp Image 2026-04-24 at 11.43.35 (1).jpeg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/WhatsApp%20Image%202026-04-24%20at%2011.43.35%20(1).jpeg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/52784
+- Файл: `../downloads/images/08bfdfadd4c85708a7db.jpeg`
+- MIME: image/jpeg; размер по базе: 285180 байт
+- SHA-256: `130171ae364cef2837bb275840a575190fae23c96f436d63e662c6cdf45bcd78`
+- Дубликат: нет
+
+## WhatsApp Image 2026-04-24 at 11.43.36.jpeg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/WhatsApp%20Image%202026-04-24%20at%2011.43.36.jpeg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/52784
+- Файл: `../downloads/images/b3249ec6838132b5d57a.jpeg`
+- MIME: image/jpeg; размер по базе: 314992 байт
+- SHA-256: `34a8c6e09e5db2156df8699caf8d243d89f56d9d2e0c582e119fd215f4ed0706`
+- Дубликат: нет
+
+## WhatsApp Image 2026-03-03 at 13.55.53 (1).jpeg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/jarma/WhatsApp%20Image%202026-03-03%20at%2013.55.53%20(1).jpeg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/52769
+- Файл: `../downloads/images/986c37b572469cedddb5.jpeg`
+- MIME: image/jpeg; размер по базе: 235671 байт
+- SHA-256: `48858a1e3a756d485b063c8fd70c85a31b4b12bc0bd983631ce39a0c5937614e`
+- Дубликат: нет
+
+## IMG-20260226-WA0004.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ajaguz/IMG-20260226-WA0004.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/52765
+- Файл: `../downloads/images/f47761b5836d75c13ba8.jpg`
+- MIME: image/jpeg; размер по базе: 138455 байт
+- SHA-256: `3312c2a25f7abf92db201d11bdd1276bd11ca42595f92a6dd0585603f467f812`
+- Дубликат: нет
+
+## IMG-20260226-WA0003.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ajaguz/IMG-20260226-WA0003.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/52765
+- Файл: `../downloads/images/625b845bd377bb2746bc.jpg`
+- MIME: image/jpeg; размер по базе: 906085 байт
+- SHA-256: `2ef5a852baefb91df02b60d6cfc81f80c7b363090b296d40d421b917ae253033`
+- Дубликат: нет
+
+## IMG-20260216-WA0001.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/ajaguz/IMG-20260216-WA0001.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/52759
+- Файл: `../downloads/images/1f784a2c1268b8d8cbce.jpg`
+- MIME: image/jpeg; размер по базе: 128585 байт
+- SHA-256: `bc9f3b1e10590395f72d457869aa94f56b99a6a1a334b66aa3e96fd22dcc8466`
+- Дубликат: нет
+
+## IMG-20250919-WA0001.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG-20250919-WA0001.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/52745
+- Файл: `../downloads/images/7c7e6dc02c4ee8a335b9.jpg`
+- MIME: image/jpeg; размер по базе: 227337 байт
+- SHA-256: `e912e24e5f4e9998be982834c5b0e1cd7b3d98cd621b5fc8847ff6278f7902d1`
+- Дубликат: нет
+
+## IMG-20250919-WA0002.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG-20250919-WA0002.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/52745
+- Файл: `../downloads/images/32458c07a904a94f04f2.jpg`
+- MIME: image/jpeg; размер по базе: 242816 байт
+- SHA-256: `c57fb1c32fcdefb186bba8d19d0f06ac68178f1da4190f8e63ba016039f9ee46`
+- Дубликат: нет
+
+## IMG-20250919-WA0004.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG-20250919-WA0004.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/52745
+- Файл: `../downloads/images/101a22ae3baaaaf358bb.jpg`
+- MIME: image/jpeg; размер по базе: 163837 байт
+- SHA-256: `9ac3d8b78bb88510d9c812df2dcebdeefc71e92c43f5b48cdff5acbc54166266`
+- Дубликат: нет
+
+## IMG-20250919-WA0005.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG-20250919-WA0005.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/52745
+- Файл: `../downloads/images/f0c31fd19c880014deb8.jpg`
+- MIME: image/jpeg; размер по базе: 139823 байт
+- SHA-256: `c6e139cabca397c8c2982c46daebd27d0c16f53dc2dd820a907ec33cda0941c7`
+- Дубликат: нет
+
+## WhatsApp Image 2024-05-31 at 12.03.33.jpeg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/WhatsApp%20Image%202024-05-31%20at%2012.03.33.jpeg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/52690
+- Файл: `../downloads/images/4b6ff821cd6ede7574ac.jpeg`
+- MIME: image/jpeg; размер по базе: 800914 байт
+- SHA-256: `e57712d60ab9f49e0b6cd97980dc51476f477f12e7a1c477b24678d30ae606b9`
+- Дубликат: нет
+
 ## video_kz.mp4
 
 - URL: http://e-arhiv.vko.gov.kz/akimsemey/bn-img/video_kz.mp4
@@ -21340,4 +27154,94 @@
 - MIME: video/mp4; размер по базе: 7928230 байт
 - SHA-256: `3419269c55a2ad2fe4cb31fd58e393c133952b86ba2cffd7da1da07277b5876a`
 - Дубликат: нет
+
+## IMG-20220914-WA0002.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zaisan/IMG-20220914-WA0002.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/42600
+- Файл: `../downloads/images/d3bacba16e1cfaece8a9.jpg`
+- MIME: image/jpeg; размер по базе: 73629 байт
+- SHA-256: `8ef9e990a762a49d1a4d90e5c3735d17ab515daa90b525a11dfd3e70e3ef5b79`
+- Дубликат: нет
+
+## субботник 1.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/%D1%81%D1%83%D0%B1%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%201.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/42574
+- Файл: `../downloads/images/d377371cc8283c029010.jpg`
+- MIME: image/jpeg; размер по базе: 248836 байт
+- SHA-256: `14ca883e48dcd9af38cb838f9613c8f79a04767e986a57da6980818247805c91`
+- Дубликат: нет
+
+## IMG-20220303-WA0006.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20220303-WA0006.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/42555
+- Файл: `../downloads/images/5370caf32882ab7d4ad4.jpg`
+- MIME: image/jpeg; размер по базе: 163709 байт
+- SHA-256: `4a82e065f026a78e0949ee9160cec837a4c58d9c3b7a4268bc3e12604792eb2f`
+- Дубликат: нет
+
+## 20210518_111600.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/20210518_111600.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/42517
+- Файл: `../downloads/images/34c2cb33f1a4c60bd8d0.jpg`
+- MIME: image/jpeg; размер по базе: 3663016 байт
+- SHA-256: `1fc3a66f3a48ea0709cb8e16da423c34a021ee042e8028f485ee5a1f41bf725d`
+- Дубликат: нет
+
+## 20190327_111551.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2019/20190327_111551.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/32314
+- Файл: `../downloads/images/1061bf40a459dd5c36ac.jpg`
+- MIME: image/jpeg; размер по базе: 7429560 байт
+- SHA-256: `d7e53f9588462f76a47d4a949bbcaa0f9cf67583b0a150c87cf36a3bba4ac002`
+- Дубликат: нет
+
+## 07,12,18(09-59-26).jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/07,12,18(09-59-26).jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/32274
+- Файл: `../downloads/images/86aeea44423a6d716a2f.jpg`
+- MIME: image/jpeg; размер по базе: 67349 байт
+- SHA-256: `661f0ef34dcf04a45a89aaefb73b5775c6de9845a2c3ecccb4df9c36c5d2bcfd`
+- Дубликат: нет
+
+## 07,12,18(10-00-50).jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/07,12,18(10-00-50).jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/32274
+- Файл: `../downloads/images/6bf502d8d9f38766ae93.jpg`
+- MIME: image/jpeg; размер по базе: 73809 байт
+- SHA-256: `ed9e83ef9e4ab323d13609958eae49b526ee760fc08e068cfd557d42c2039221`
+- Дубликат: нет
+
+## 07,12,18(10-00-05).jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2018/07,12,18(10-00-05).jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/32274
+- Файл: `../downloads/images/dd9f6b92d28561ffbfaf.jpg`
+- MIME: image/jpeg; размер по базе: 66644 байт
+- SHA-256: `df105411bcec1ddf1a9d25aa4521c960400f679a87772f2fc76e36d7e30ea3f1`
+- Дубликат: нет
+
+## IMG-20181130-WA0012.jpg
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/zirian/IMG-20181130-WA0012.jpg
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/32270
+- Файл: `../downloads/images/d28d498f3534377c86e1.jpg`
+- MIME: image/jpeg; размер по базе: 33395 байт
+- SHA-256: `a0862a58cd68e1bf9faf5ed66bf544687003977fcbb93fa06bbfc74f0ce3a211`
+- Дубликат: нет
+
+## 01.JPG
+
+- URL: http://e-arhiv.vko.gov.kz/akimsemey/state/2017/01.JPG
+- Страница обнаружения: http://e-arhiv.vko.gov.kz/kk/Page/Index/22171
+- Файл: `../downloads/images/a6a03d6cd9c95464472d.jpg`
+- MIME: image/jpeg; размер по базе: 336943 байт
+- SHA-256: `ea915a6e37b5e81d7ad2a38dc05bb06b1c94f1a2e44decc8dfaf5c97e1fb2d20`
+- Дубликат: downloads/images/a6a03d6cd9c95464472d.jpg
 
