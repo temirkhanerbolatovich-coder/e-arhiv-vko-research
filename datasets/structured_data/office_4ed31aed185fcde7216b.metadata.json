@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/4ed31aed185fcde7216b.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%A0%D0%9A%20%D0%9E%20%D0%B3%D0%BE%D1%81.%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0%D1%85%20%D0%B2%20%D1%80%D0%B5%D0%B4,%2013.06.2018.ru.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/Page/Index/22187",
+      "sha256": "788714faa0f8fc3122bfcf527fda457f54c8a9a9b0d9c18f7790f4d0340abc10",
+      "title": "Закон РК О гос.услугах в ред, 13.06.2018.ru.docx"
+    }
+  ],
+  "sha256": "788714faa0f8fc3122bfcf527fda457f54c8a9a9b0d9c18f7790f4d0340abc10",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_4ed31aed185fcde7216b.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 348
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:37+05:00",
+  "characters": 58837
+}

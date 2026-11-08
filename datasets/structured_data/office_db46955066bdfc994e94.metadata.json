@@ -1,0 +1,40 @@
+{
+  "source_local": "downloads/word/db46955066bdfc994e94.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent/DownloadFile?Id=20083",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Law",
+      "sha256": "7f1ce59329495a05b6729520efa676fc29501dd572781e01afe0f4bff0324d36",
+      "title": "Правила рус госархивов.docx"
+    }
+  ],
+  "sha256": "7f1ce59329495a05b6729520efa676fc29501dd572781e01afe0f4bff0324d36",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_db46955066bdfc994e94.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 1203
+    },
+    {
+      "path": "word/endnotes.xml",
+      "paragraph_count": 0
+    },
+    {
+      "path": "word/footnotes.xml",
+      "paragraph_count": 0
+    },
+    {
+      "path": "word/header1.xml",
+      "paragraph_count": 1
+    },
+    {
+      "path": "word/header2.xml",
+      "paragraph_count": 0
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:41+05:00",
+  "characters": 199550
+}

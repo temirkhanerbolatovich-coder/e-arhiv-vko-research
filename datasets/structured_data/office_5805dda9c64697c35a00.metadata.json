@@ -1,0 +1,36 @@
+{
+  "source_local": "downloads/word/5805dda9c64697c35a00.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%9E%D1%82%D1%87%D0%B5%D1%82%20%D0%BE%20%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B7%D0%B0%202018%D0%B3.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/Page/Index/22187",
+      "sha256": "dc22976660a3d0167e72ecf8b8773bed3cca3293c859acba42b719f5bc3ffaf1",
+      "title": "Отчет о деятельности за 2018г.docx"
+    }
+  ],
+  "sha256": "dc22976660a3d0167e72ecf8b8773bed3cca3293c859acba42b719f5bc3ffaf1",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_5805dda9c64697c35a00.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 20
+    },
+    {
+      "path": "word/endnotes.xml",
+      "paragraph_count": 0
+    },
+    {
+      "path": "word/footer1.xml",
+      "paragraph_count": 0
+    },
+    {
+      "path": "word/footnotes.xml",
+      "paragraph_count": 0
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:37+05:00",
+  "characters": 3244
+}

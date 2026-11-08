@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/af2b3154194fc834e28f.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%BE%D1%82%D1%87%D0%B5%D1%82%20%D0%BF%D0%BE%20%D0%B3%D0%BE%D1%81%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B5%20%D0%B7%D0%B0%202023%D0%B3%20%D0%B3%D0%BE%D1%81.%D1%8F%D0%B7.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/Page/Index/22187",
+      "sha256": "bc35595c1357939d7dcb81d2aa05ea15353eea8ee0c2cd3c39810990e6e3691d",
+      "title": "отчет по госуслуге за 2023г гос.яз.docx"
+    }
+  ],
+  "sha256": "bc35595c1357939d7dcb81d2aa05ea15353eea8ee0c2cd3c39810990e6e3691d",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_af2b3154194fc834e28f.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 41
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:40+05:00",
+  "characters": 9709
+}

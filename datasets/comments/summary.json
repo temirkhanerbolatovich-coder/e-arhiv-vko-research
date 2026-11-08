@@ -1,0 +1,9 @@
+{
+  "guestbook_page_urls": 888,
+  "post_occurrences": 8880,
+  "identical_content_groups": 1460,
+  "page_errors": [],
+  "deduplication": "Exact displayed date/author, contact link, text and message HTML; all occurrences remain in JSONL. Identical postings may be separate submissions.",
+  "scope": "Only saved public guestbook pages. Does not establish coverage of undiscovered comments or dynamic interfaces.",
+  "privacy": "Posts may contain personal information and contact details."
+}

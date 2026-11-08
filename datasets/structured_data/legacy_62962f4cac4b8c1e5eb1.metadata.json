@@ -1,0 +1,15 @@
+{
+  "source_local": "downloads/word/62962f4cac4b8c1e5eb1.doc",
+  "source_sha256": "f79c1a6a45dd6efcf15713d436ceb939be82875d17c0efc337fc59196b7b07be",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/upload/%D0%9E%D1%82%D1%87%D0%B5%D1%82%202011.doc",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/Page/Index/1342"
+    }
+  ],
+  "extractor": "Apache Tika 3.3.3",
+  "limitations": "Automatic text extraction; layout, images and embedded objects may be incomplete. Verify against original.",
+  "status": "ok",
+  "text_local": "datasets/structured_data/legacy_62962f4cac4b8c1e5eb1.txt",
+  "characters": 48697
+}

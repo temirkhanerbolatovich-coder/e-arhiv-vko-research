@@ -1,0 +1,36 @@
+{
+  "source_local": "downloads/word/21d88af48368d73251c4.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent/DownloadFile?Id=71",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Law",
+      "sha256": "2c036a9fcdbf695ab9b973a4cf9954f9dce65d433ff2cc0c5992d336ae6d3ffd",
+      "title": "Правила судов 2016 г..docx"
+    }
+  ],
+  "sha256": "2c036a9fcdbf695ab9b973a4cf9954f9dce65d433ff2cc0c5992d336ae6d3ffd",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_21d88af48368d73251c4.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 1101
+    },
+    {
+      "path": "word/endnotes.xml",
+      "paragraph_count": 0
+    },
+    {
+      "path": "word/footer1.xml",
+      "paragraph_count": 1
+    },
+    {
+      "path": "word/footnotes.xml",
+      "paragraph_count": 0
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:35+05:00",
+  "characters": 182319
+}

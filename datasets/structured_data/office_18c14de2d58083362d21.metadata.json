@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/18c14de2d58083362d21.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%9E%D1%82%D1%87%D0%B5%D1%82%20%D0%BE%20%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/Page/Index/22187",
+      "sha256": "9161072a2c20ffcb4efd268690a7c1f3ca1499bc248b5254a606c9e654ad0063",
+      "title": "Отчет о деятельности.docx"
+    }
+  ],
+  "sha256": "9161072a2c20ffcb4efd268690a7c1f3ca1499bc248b5254a606c9e654ad0063",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_18c14de2d58083362d21.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 13
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:35+05:00",
+  "characters": 1299
+}

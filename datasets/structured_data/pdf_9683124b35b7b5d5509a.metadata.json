@@ -1,0 +1,17 @@
+{
+  "source_url": "http://e-arhiv.vko.gov.kz/akimsemey/state/ajaguz/%D0%9F%D0%B5%D1%80%D0%B5%D1%87%D0%B5%D0%BD%D1%8C%20%D0%B4%D0%BE%D0%BB%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9.pdf",
+  "source_local": "downloads/pdf/9683124b35b7b5d5509a.pdf",
+  "source_sha256": "73ef6b499f789b52fb6b32247724f7f0fb3e06568e2f1313b9237b98290d1158",
+  "pages": 4,
+  "characters_per_page": [
+    1438,
+    1823,
+    1997,
+    1884
+  ],
+  "pages_without_extracted_text": [],
+  "extracted_text": "datasets/structured_data/pdf_9683124b35b7b5d5509a.txt",
+  "method": "pypdf extract_text; no OCR",
+  "limitations": "A missing text layer requires OCR. Extracted text may be garbled or incomplete, especially on scanned pages with an existing poor OCR layer; consult original PDF.",
+  "generated_at": "2026-11-08T13:25:43+05:00"
+}

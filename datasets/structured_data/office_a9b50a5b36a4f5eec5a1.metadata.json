@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/a9b50a5b36a4f5eec5a1.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BA%D0%B0%20%D0%A6%D0%AD%D0%A3.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/Page/Index/22187",
+      "sha256": "ce4948eb060df4d4a7dac34d8b102b783971e1bc93c34a49afe98bdd34546cdb",
+      "title": "Памятка ЦЭУ.docx"
+    }
+  ],
+  "sha256": "ce4948eb060df4d4a7dac34d8b102b783971e1bc93c34a49afe98bdd34546cdb",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_a9b50a5b36a4f5eec5a1.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 13
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:40+05:00",
+  "characters": 831
+}

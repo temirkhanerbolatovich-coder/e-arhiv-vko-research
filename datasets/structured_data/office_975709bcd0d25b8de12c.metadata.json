@@ -1,0 +1,30 @@
+{
+  "source_local": "downloads/word/975709bcd0d25b8de12c.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/kk/NamedContent/DownloadFile?Id=20080",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/NamedContent?type=Law",
+      "sha256": "4424f1766a961c6ab5801e74a9b0224f71829340bb52ea568368c3c21d384bd2",
+      "title": "902 перечень.docx"
+    },
+    {
+      "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent/DownloadFile?Id=20080",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Law",
+      "sha256": "4424f1766a961c6ab5801e74a9b0224f71829340bb52ea568368c3c21d384bd2",
+      "title": "902 перечень.docx"
+    }
+  ],
+  "sha256": "4424f1766a961c6ab5801e74a9b0224f71829340bb52ea568368c3c21d384bd2",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_975709bcd0d25b8de12c.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 1148
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:39+05:00",
+  "characters": 40278
+}

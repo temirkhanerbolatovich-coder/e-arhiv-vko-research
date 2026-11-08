@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/9bc353b49a9ab520b58f.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/kk/NamedContent/DownloadFile?Id=20112",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/NamedContent?type=Law",
+      "sha256": "16f2b0ea3bd1acf116cc22f3b9bb8e26f43d444ec07f63ac0a5a8bf398abeca9",
+      "title": "ПТД каз..docx"
+    }
+  ],
+  "sha256": "16f2b0ea3bd1acf116cc22f3b9bb8e26f43d444ec07f63ac0a5a8bf398abeca9",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_9bc353b49a9ab520b58f.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 8657
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:40+05:00",
+  "characters": 380057
+}

@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/7a08be10fc8f90ef9dce.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/kk/NamedContent/DownloadFile?Id=20098",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/NamedContent?type=Law",
+      "sha256": "aab6d5ce1f8af3a2dcdfb1988f5667d96713f223a3988882095087791959c247",
+      "title": "Перечень ТД на каз.яз 2020г.docx"
+    }
+  ],
+  "sha256": "aab6d5ce1f8af3a2dcdfb1988f5667d96713f223a3988882095087791959c247",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_7a08be10fc8f90ef9dce.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 3925
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:39+05:00",
+  "characters": 188998
+}

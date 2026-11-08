@@ -1,0 +1,40 @@
+{
+  "source_local": "downloads/word/2c0d6886ab7462abaecb.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%9F%D0%BB%D0%B0%D0%BD%20%D0%BD%D0%B0%202020%20%D0%B3%D0%BE%D0%B4%20%D0%BA%D0%B0%D0%B7.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/Page/Index/1342",
+      "sha256": "1df1aa61c6cdbeae33d63d9a15a3ec6a9cebbb67ce9db27192360f13d5d2a6c0",
+      "title": "План на 2020 год каз.docx"
+    }
+  ],
+  "sha256": "1df1aa61c6cdbeae33d63d9a15a3ec6a9cebbb67ce9db27192360f13d5d2a6c0",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_2c0d6886ab7462abaecb.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 143
+    },
+    {
+      "path": "word/endnotes.xml",
+      "paragraph_count": 0
+    },
+    {
+      "path": "word/footnotes.xml",
+      "paragraph_count": 0
+    },
+    {
+      "path": "word/header1.xml",
+      "paragraph_count": 0
+    },
+    {
+      "path": "word/header2.xml",
+      "paragraph_count": 1
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:36+05:00",
+  "characters": 58280
+}

@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/e81cdfa1a669ee80e243.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%9E%D1%82%D1%87%D0%B5%D1%82%20%D0%B7%D0%B0%202019%20%D0%B3%D0%BE%D0%B4%20%D0%BA%D0%B0%D0%B7.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/Page/Index/1342",
+      "sha256": "f196d38526e55d05705e7c213e68716dd6627e484847ec0dc5775ced56a6a711",
+      "title": "Отчет за 2019 год каз.docx"
+    }
+  ],
+  "sha256": "f196d38526e55d05705e7c213e68716dd6627e484847ec0dc5775ced56a6a711",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_e81cdfa1a669ee80e243.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 238
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:41+05:00",
+  "characters": 112921
+}

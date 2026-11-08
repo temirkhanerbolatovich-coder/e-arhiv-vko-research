@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/9aa9d1df2318757f3702.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%20%D0%BD%D0%B0%20%D0%B3%D0%BE%D1%81%20%D1%8F%D0%B7.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/Page/Index/22187",
+      "sha256": "d5afebbc7842b6d958bef7dc64eb06e998c44cef5dd38bc518b77351d57db461",
+      "title": "таблица на гос яз.docx"
+    }
+  ],
+  "sha256": "d5afebbc7842b6d958bef7dc64eb06e998c44cef5dd38bc518b77351d57db461",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_9aa9d1df2318757f3702.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 107
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:40+05:00",
+  "characters": 1003
+}

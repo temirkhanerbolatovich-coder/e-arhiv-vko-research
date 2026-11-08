@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/70276c21def5276a28b2.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%90%D0%B4%D1%80%D0%B5%D1%81%D0%B0%20%D0%B8%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%8B%20%D0%A6%D0%9E%D0%9D%20%D0%BF%D0%BE%20%D0%92%D0%9A%D0%9E.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/Page/Index/22187",
+      "sha256": "514b0ef192a52aca9a3d456beee814047531344d1774c13b79a5a378b7ff6844",
+      "title": "Адреса и телефоны ЦОН по ВКО.docx"
+    }
+  ],
+  "sha256": "514b0ef192a52aca9a3d456beee814047531344d1774c13b79a5a378b7ff6844",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_70276c21def5276a28b2.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 206
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:38+05:00",
+  "characters": 11659
+}

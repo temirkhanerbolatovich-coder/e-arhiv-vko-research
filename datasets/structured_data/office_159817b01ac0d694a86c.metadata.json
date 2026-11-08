@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/159817b01ac0d694a86c.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent/DownloadFile?Id=20117",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Law",
+      "sha256": "43a8e870050cd76dff563fc8c5c0fc04dc9040f508dd78419c7d8bc72e256569",
+      "title": "О внесении изменения в приказ исполняющего обязанности Министра культуры и спорта Республики Казахстан от 29 сентября 2017 года № 263.docx"
+    }
+  ],
+  "sha256": "43a8e870050cd76dff563fc8c5c0fc04dc9040f508dd78419c7d8bc72e256569",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_159817b01ac0d694a86c.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 543
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:35+05:00",
+  "characters": 24645
+}

@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/35faa054ed724ef65e87.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%BE%D1%82%D1%87%D0%B5%D1%82%20%D0%B7%D0%B0%202020%20%D0%B3%D0%BE%D0%B4%20%D0%BD%D0%B0%20%D0%B3%D0%BE%D1%81%20%D1%8F%D0%B7.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/Page/Index/1342",
+      "sha256": "e1ed312fdf7cb498ccda4bed7168524f76a764c8f875c66e8b88bb878c8ffb3b",
+      "title": "отчет за 2020 год на гос яз.docx"
+    }
+  ],
+  "sha256": "e1ed312fdf7cb498ccda4bed7168524f76a764c8f875c66e8b88bb878c8ffb3b",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_35faa054ed724ef65e87.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 237
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:37+05:00",
+  "characters": 100558
+}

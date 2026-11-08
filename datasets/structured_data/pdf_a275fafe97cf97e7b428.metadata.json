@@ -1,0 +1,23 @@
+{
+  "source_url": "http://e-arhiv.vko.gov.kz/ru/NamedContent/DownloadFile?Id=20122",
+  "source_local": "downloads/pdf/a275fafe97cf97e7b428.pdf",
+  "source_sha256": "28a1a202fe9e9063074cbdbd5ae4a772c44806ec33349feffb43137c8cca977c",
+  "pages": 10,
+  "characters_per_page": [
+    2202,
+    2507,
+    2649,
+    2437,
+    2448,
+    2478,
+    1612,
+    868,
+    897,
+    380
+  ],
+  "pages_without_extracted_text": [],
+  "extracted_text": "datasets/structured_data/pdf_a275fafe97cf97e7b428.txt",
+  "method": "pypdf extract_text; no OCR",
+  "limitations": "A missing text layer requires OCR. Extracted text may be garbled or incomplete, especially on scanned pages with an existing poor OCR layer; consult original PDF.",
+  "generated_at": "2026-11-08T13:25:42+05:00"
+}

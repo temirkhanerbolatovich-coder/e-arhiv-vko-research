@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/196372d095582eec8f06.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent/DownloadFile?Id=20114",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Law",
+      "sha256": "6a0eede7b638c9b35ad52de3086384555fc4f85528960c942ba64e7620dd364a",
+      "title": "№215 от 09 августа гос и спец.docx"
+    }
+  ],
+  "sha256": "6a0eede7b638c9b35ad52de3086384555fc4f85528960c942ba64e7620dd364a",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_196372d095582eec8f06.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 5201
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:35+05:00",
+  "characters": 353670
+}

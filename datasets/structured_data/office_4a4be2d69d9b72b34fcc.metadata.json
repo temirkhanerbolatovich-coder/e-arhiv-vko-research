@@ -1,0 +1,32 @@
+{
+  "source_local": "downloads/word/4a4be2d69d9b72b34fcc.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%9F%D0%BB%D0%B0%D0%BD%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%BD%D0%B0%202025%D0%B3.%20%D0%BA%D0%B0%D0%B7.%D1%8F%D0%B7.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/Page/Index/1342",
+      "sha256": "ce9133e2cfefb495ec14604a4967b66b523c03017a72f01159d8aa8cd74e720e",
+      "title": "План работы на 2025г. каз.яз.docx"
+    }
+  ],
+  "sha256": "ce9133e2cfefb495ec14604a4967b66b523c03017a72f01159d8aa8cd74e720e",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_4a4be2d69d9b72b34fcc.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 135
+    },
+    {
+      "path": "word/endnotes.xml",
+      "paragraph_count": 0
+    },
+    {
+      "path": "word/footnotes.xml",
+      "paragraph_count": 0
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:37+05:00",
+  "characters": 42980
+}

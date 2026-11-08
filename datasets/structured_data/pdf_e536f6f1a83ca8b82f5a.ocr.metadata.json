@@ -1,0 +1,29 @@
+{
+  "source_url": "http://e-arhiv.vko.gov.kz/kk/NamedContent/DownloadFile?Id=20090",
+  "source_local": "downloads/pdf/e536f6f1a83ca8b82f5a.pdf",
+  "source_sha256": "efcec7658b611d8aefb860d29391417e08dddb3ac97abc4561ec4ebbd4f31a45",
+  "total_pages": 13,
+  "completed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "errors": [],
+  "complete": true,
+  "languages": "rus+kaz",
+  "engine": "Tesseract fast language data",
+  "rasterization_dpi": 150,
+  "limitations": "Automatic OCR may be inaccurate; verify against original PDF. Pages absent from completed_pages are not yet recognized.",
+  "model_source": "https://github.com/tesseract-ocr/tessdata_fast",
+  "updated_at": "2026-11-08T13:36:10+05:00"
+}

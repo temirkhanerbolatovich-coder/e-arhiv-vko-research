@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/09f38c4e3f57364194ac.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%90%D0%BD%D1%82%D0%B8%D0%BA%D0%BE%D1%80%D1%80%D1%83%D0%BF%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%BB%D0%B0%D0%BD%20%D0%B3%D0%BE%D1%81%D0%B0%D1%80%D1%85%D0%B8%D0%B2%D0%B0%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/Page/Index/32297",
+      "sha256": "08a320ad9c473aabfdb4d6d717e28727522c48848c30de91e2ad997f07ef9969",
+      "title": "Антикоррупционный план госархива области.docx"
+    }
+  ],
+  "sha256": "08a320ad9c473aabfdb4d6d717e28727522c48848c30de91e2ad997f07ef9969",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_09f38c4e3f57364194ac.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 263
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:35+05:00",
+  "characters": 11885
+}

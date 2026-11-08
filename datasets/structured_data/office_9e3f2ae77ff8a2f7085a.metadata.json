@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/9e3f2ae77ff8a2f7085a.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent/DownloadFile?Id=20092",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Law",
+      "sha256": "d2390ee34cfebae6a82f247046f05a47253bc66c84c7f6ab905d91f816404044",
+      "title": "Приказ № 343 Об утверждении форм документов.docx"
+    }
+  ],
+  "sha256": "d2390ee34cfebae6a82f247046f05a47253bc66c84c7f6ab905d91f816404044",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_9e3f2ae77ff8a2f7085a.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 1693
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:40+05:00",
+  "characters": 56712
+}

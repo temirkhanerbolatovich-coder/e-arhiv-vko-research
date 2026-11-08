@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/80ba98c989b32f5ec85e.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%A8%D2%9A%D0%9E%20%D0%A5%D2%9A%D0%9A%D0%9E%20%D0%BC%D0%B5%D0%BA%D0%B5%D0%BD%D0%B6%D0%B0%D0%B9%D1%8B%20%D0%BC%D0%B5%D0%BD%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B4%D0%B0%D1%80%D1%8B.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/Page/Index/22187",
+      "sha256": "e8a0ba60c5a4cb07e1f57c5f1bc7470790c6d0f2c76f049e1a96e9a3dd90664d",
+      "title": "ШҚО ХҚКО мекенжайы мен телефондары.docx"
+    }
+  ],
+  "sha256": "e8a0ba60c5a4cb07e1f57c5f1bc7470790c6d0f2c76f049e1a96e9a3dd90664d",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_80ba98c989b32f5ec85e.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 206
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:39+05:00",
+  "characters": 9921
+}

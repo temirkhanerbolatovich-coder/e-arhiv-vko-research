@@ -1,0 +1,15 @@
+{
+  "source_local": "downloads/word/1a187f4995776b314c3d.doc",
+  "source_sha256": "a2c6f6aab6949b090b92e3fc80a2081e62ff46ddc63d637fdda18a398ab4d20d",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent/DownloadFile?Id=73",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Law"
+    }
+  ],
+  "extractor": "Apache Tika 3.3.3",
+  "limitations": "Automatic text extraction; layout, images and embedded objects may be incomplete. Verify against original.",
+  "status": "ok",
+  "text_local": "datasets/structured_data/legacy_1a187f4995776b314c3d.txt",
+  "characters": 94315
+}

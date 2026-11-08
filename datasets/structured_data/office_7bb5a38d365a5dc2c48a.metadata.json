@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/7bb5a38d365a5dc2c48a.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent/DownloadFile?Id=20118",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Law",
+      "sha256": "436b87d17319c8025f579668361d26b40ea46b932b6cc8a6b3c4cf66611ccf5d",
+      "title": "Приказ Министра культуры и информации Республики Казахстан от 15 мая 2024 года № 190-НҚ..docx"
+    }
+  ],
+  "sha256": "436b87d17319c8025f579668361d26b40ea46b932b6cc8a6b3c4cf66611ccf5d",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_7bb5a38d365a5dc2c48a.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 26
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:39+05:00",
+  "characters": 2828
+}

@@ -1,0 +1,32 @@
+{
+  "source_local": "downloads/word/d7c4ccdcaf422c27445e.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%9F%D0%BB%D0%B0%D0%BD%202026%20%D0%BA%D0%B0%D0%B7.%D1%8F%D0%B7.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/Page/Index/1342",
+      "sha256": "7738a63b38a9a4a70f172b257ff55803739bbf7b178720b361e11c3871a79401",
+      "title": "План 2026 каз.яз.docx"
+    }
+  ],
+  "sha256": "7738a63b38a9a4a70f172b257ff55803739bbf7b178720b361e11c3871a79401",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_d7c4ccdcaf422c27445e.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 133
+    },
+    {
+      "path": "word/endnotes.xml",
+      "paragraph_count": 0
+    },
+    {
+      "path": "word/footnotes.xml",
+      "paragraph_count": 0
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:41+05:00",
+  "characters": 41507
+}

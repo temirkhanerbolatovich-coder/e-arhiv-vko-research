@@ -1,0 +1,10 @@
+{
+  "source_url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%B3%D0%B0%D0%B7%D0%B5%D1%82%D1%8B%20%D0%B7%D0%B0%201935-2017.docx",
+  "source_local": "downloads/word/2db7501ea0a3f5c2eaa9.docx",
+  "source_sha256": "876e74ae28c0c31dffc66d61dfb35cc664d1cf8c5efc890d7169bc6bd65ee862",
+  "table_local": "datasets/structured_data/newspapers_1935_2017.csv",
+  "table_number": 1,
+  "row_count": 1468,
+  "extraction": "Direct WordprocessingML table rows and cells, preserving row order and text. Original merged cell/grid span structure is not represented by CSV; consult original DOCX for exact layout.",
+  "generated_at": "2026-11-08T13:18:36+05:00"
+}

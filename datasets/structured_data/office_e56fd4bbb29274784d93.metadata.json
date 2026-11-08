@@ -1,0 +1,28 @@
+{
+  "source_local": "downloads/other/e56fd4bbb29274784d93.pptx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%B4%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%202026%D0%B3..pptx",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/Page/Index/22187",
+      "sha256": "5bd58afd74ccb600d3e2398b64cabceac99e22e371925a1aa4a2f35f4e87e051",
+      "title": "диаграммы 2026г..pptx"
+    }
+  ],
+  "sha256": "5bd58afd74ccb600d3e2398b64cabceac99e22e371925a1aa4a2f35f4e87e051",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_e56fd4bbb29274784d93.txt",
+  "parts": [
+    {
+      "path": "ppt/slides/slide1.xml",
+      "paragraph_count": 1
+    },
+    {
+      "path": "ppt/slides/slide2.xml",
+      "paragraph_count": 1
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:35+05:00",
+  "characters": 166
+}

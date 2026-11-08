@@ -1,0 +1,60 @@
+{
+  "source_local": "downloads/word/d2ba2c820bcf073a6e0a.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent/DownloadFile?Id=20116",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Law",
+      "sha256": "8adba88dbcc159022a299feccad1f1ef70b0f3b0e6dd978bdeeca1c893b03139",
+      "title": "№236 от 25 августа 2023 документир.docx"
+    }
+  ],
+  "sha256": "8adba88dbcc159022a299feccad1f1ef70b0f3b0e6dd978bdeeca1c893b03139",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_d2ba2c820bcf073a6e0a.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 1697
+    },
+    {
+      "path": "word/endnotes.xml",
+      "paragraph_count": 0
+    },
+    {
+      "path": "word/footnotes.xml",
+      "paragraph_count": 0
+    },
+    {
+      "path": "word/header1.xml",
+      "paragraph_count": 9
+    },
+    {
+      "path": "word/header2.xml",
+      "paragraph_count": 9
+    },
+    {
+      "path": "word/header3.xml",
+      "paragraph_count": 9
+    },
+    {
+      "path": "word/header4.xml",
+      "paragraph_count": 9
+    },
+    {
+      "path": "word/header5.xml",
+      "paragraph_count": 9
+    },
+    {
+      "path": "word/header6.xml",
+      "paragraph_count": 9
+    },
+    {
+      "path": "word/header7.xml",
+      "paragraph_count": 9
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:41+05:00",
+  "characters": 167162
+}

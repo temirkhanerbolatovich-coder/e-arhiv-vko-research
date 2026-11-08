@@ -1,0 +1,15 @@
+{
+  "source_local": "downloads/word/bf107c20303a31ea228c.doc",
+  "source_sha256": "a893e9663e7eb6b2e8c55556a1a17df8c3aeabd9a7f6f82413146099b2f6208f",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%9E%D1%82%D1%87%D0%B5%D1%82%202025.doc",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/Page/Index/1342"
+    }
+  ],
+  "extractor": "Apache Tika 3.3.3",
+  "limitations": "Automatic text extraction; layout, images and embedded objects may be incomplete. Verify against original.",
+  "status": "ok",
+  "text_local": "datasets/structured_data/legacy_bf107c20303a31ea228c.txt",
+  "characters": 79954
+}

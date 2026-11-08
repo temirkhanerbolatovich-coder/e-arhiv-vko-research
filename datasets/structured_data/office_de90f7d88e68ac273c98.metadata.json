@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/de90f7d88e68ac273c98.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%BF%D0%BB%D0%B0%D0%BD%202014%20%D1%81%D0%B2%D0%BE%D0%B4.%20%D1%81%20%D1%84%D0%B8%D0%BB%D0%B8%D0%B0%D0%BB%D0%B0%D0%BC%D0%B8%20%D0%B3%D0%BE%D1%81..docx",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/Page/Index/1342",
+      "sha256": "d626b05730da85690cbe99ad371cf45297c2f0c8bc18269339178dfd4b9bca83",
+      "title": "план 2014 свод. с филиалами гос..docx"
+    }
+  ],
+  "sha256": "d626b05730da85690cbe99ad371cf45297c2f0c8bc18269339178dfd4b9bca83",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_de90f7d88e68ac273c98.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 109
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:41+05:00",
+  "characters": 50664
+}

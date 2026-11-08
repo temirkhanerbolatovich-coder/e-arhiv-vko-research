@@ -1,0 +1,30 @@
+{
+  "source_local": "downloads/word/12c78183cb15a0235ed3.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/kk/NamedContent/DownloadFile?Id=1",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/NamedContent?type=Law",
+      "sha256": "b26086c362527177fe9b46bb2d0fb42341bb45b69b61ede992f712a0308d0da8",
+      "title": "Закон о НАФ 29.12.2014г..docx"
+    },
+    {
+      "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent/DownloadFile?Id=1",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Law",
+      "sha256": "b26086c362527177fe9b46bb2d0fb42341bb45b69b61ede992f712a0308d0da8",
+      "title": "Закон о НАФ 29.12.2014г..docx"
+    }
+  ],
+  "sha256": "b26086c362527177fe9b46bb2d0fb42341bb45b69b61ede992f712a0308d0da8",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_12c78183cb15a0235ed3.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 87
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:35+05:00",
+  "characters": 37747
+}

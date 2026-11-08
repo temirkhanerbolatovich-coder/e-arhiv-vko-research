@@ -1,0 +1,15 @@
+{
+  "source_local": "downloads/word/44ddea94da8ddac9c213.doc",
+  "source_sha256": "4ad11438b379665a24ca6abc3e58166ef6115ec036c884e003ee2b59ecc4a8f9",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/state/2020/%D0%95%D1%80%D0%B5%D0%B6%D0%B5.doc",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/Page/Index/22187"
+    }
+  ],
+  "extractor": "Apache Tika 3.3.3",
+  "limitations": "Automatic text extraction; layout, images and embedded objects may be incomplete. Verify against original.",
+  "status": "ok",
+  "text_local": "datasets/structured_data/legacy_44ddea94da8ddac9c213.txt",
+  "characters": 55454
+}

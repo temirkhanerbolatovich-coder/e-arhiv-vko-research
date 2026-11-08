@@ -1,0 +1,22 @@
+{
+  "source_url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%9F%D0%BB%D0%B0%D0%BD%20%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9%20%D0%92%D0%90%D0%9A%D0%A0%20%D0%BA%D0%B0%D0%B7.pdf",
+  "source_local": "downloads/pdf/175afd7751d91462d97e.pdf",
+  "source_sha256": "6bb2c7ce1170b47ee1938584f9c34399e04da517300ce4ea86ab5cff84ea75da",
+  "pages": 4,
+  "characters_per_page": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "pages_without_extracted_text": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "extracted_text": null,
+  "method": "pypdf extract_text; no OCR",
+  "limitations": "A missing text layer requires OCR. Extracted text may be garbled or incomplete, especially on scanned pages with an existing poor OCR layer; consult original PDF.",
+  "generated_at": "2026-11-08T13:25:44+05:00"
+}

@@ -1,0 +1,19 @@
+{
+  "source_local": "downloads/word/6065be7d329aa46f4049.doc",
+  "source_sha256": "e6ddd08a9acb978a954229b6c609ecb29b0efff37872bd601c9722c4864f64be",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%BF%D0%BB%D0%B0%D0%BD%202015%20%D1%81%D0%B2%D0%BE%D0%B4.%20%D1%81%20%D1%84%D0%B8%D0%BB%D0%B8%D0%B0%D0%BB%D0%B0%D0%BC%D0%B8.doc",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/Page/Index/1342"
+    },
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%BF%D0%BB%D0%B0%D0%BD%20%D1%81%D0%B2%D0%BE%D0%B4.%20%D1%81%20%D1%84%D0%B8%D0%BB%D0%B8%D0%B0%D0%BB%D0%B0%D0%BC%D0%B8.doc",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/Page/Index/1342"
+    }
+  ],
+  "extractor": "Apache Tika 3.3.3",
+  "limitations": "Automatic text extraction; layout, images and embedded objects may be incomplete. Verify against original.",
+  "status": "ok",
+  "text_local": "datasets/structured_data/legacy_6065be7d329aa46f4049.txt",
+  "characters": 56918
+}

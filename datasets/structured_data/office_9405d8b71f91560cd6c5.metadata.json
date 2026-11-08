@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/9405d8b71f91560cd6c5.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0%20%D0%9E%D0%93%D0%90%20%D0%B8%D0%B7%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB..docx",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/Page/Index/32297",
+      "sha256": "b5fd59736bb80891c4a05c00cffd67b8565d9a644096f4fc81402fdd5f0ad639",
+      "title": "Аналитическая справка ОГА из управл..docx"
+    }
+  ],
+  "sha256": "b5fd59736bb80891c4a05c00cffd67b8565d9a644096f4fc81402fdd5f0ad639",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_9405d8b71f91560cd6c5.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 149
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:39+05:00",
+  "characters": 25484
+}

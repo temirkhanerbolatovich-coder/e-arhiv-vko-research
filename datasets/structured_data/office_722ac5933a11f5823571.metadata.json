@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/722ac5933a11f5823571.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%A1%D1%8B%D0%B1%D0%B0%D0%B9%D0%BB%D0%B0%D1%81%20%D0%B6%D0%B5%D0%BC%D2%9B%D0%BE%D1%80%D0%BB%D1%8B%D2%9B%20%D1%82%D3%99%D1%83%D0%B5%D0%BA%D0%B5%D0%BB%D0%B4%D0%B5%D1%80%D1%96%D0%BD%D0%B5%20%D1%96%D1%88%D0%BA%D1%96%20%D1%82%D0%B0%D0%BB%D0%B4%D0%B0%D1%83%20%D0%B6%D2%AF%D1%80%D0%B3%D1%96%D0%B7%D1%83%20%D1%82%D1%83%D1%80%D0%B0%D0%BB%D1%8B.docx",
+      "parent": "http://e-arhiv.vko.gov.kz/kk/Page/Index/32297",
+      "sha256": "33220f353090468249c80179cdc15c99a519db06e36b930f46fc0329e115317c",
+      "title": "Сыбайлас жемқорлық тәуекелдеріне ішкі талдау жүргізу туралы.docx"
+    }
+  ],
+  "sha256": "33220f353090468249c80179cdc15c99a519db06e36b930f46fc0329e115317c",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_722ac5933a11f5823571.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 1
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:39+05:00",
+  "characters": 439
+}

@@ -1,0 +1,24 @@
+{
+  "source_local": "downloads/word/2b6d117826f109c8ebe4.docx",
+  "sources": [
+    {
+      "url": "http://e-arhiv.vko.gov.kz/ru/NamedContent/DownloadFile?Id=20097",
+      "parent": "http://e-arhiv.vko.gov.kz/ru/NamedContent?type=Law",
+      "sha256": "f63686196f9a4781bf0be6a4ce77d1087d582732cb2960df7f07e772c2d92f6a",
+      "title": "Перечень типовых рус.яз 2020г.docx"
+    }
+  ],
+  "sha256": "f63686196f9a4781bf0be6a4ce77d1087d582732cb2960df7f07e772c2d92f6a",
+  "status": "ok",
+  "error": "",
+  "text_local": "datasets/structured_data/office_2b6d117826f109c8ebe4.txt",
+  "parts": [
+    {
+      "path": "word/document.xml",
+      "paragraph_count": 3913
+    }
+  ],
+  "limitations": "Text comes from selected OOXML paragraphs only. Images, scans, charts, embedded files, formatting and precise page/slide ordering or table layout may be missing. Slide XML numeric order need not equal presentation order. No macros or external links are executed. Consult the original file.",
+  "generated_at": "2026-11-08T15:33:36+05:00",
+  "characters": 179451
+}

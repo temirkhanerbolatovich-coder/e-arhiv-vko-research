@@ -1,0 +1,33 @@
+{
+  "source_url": "http://e-arhiv.vko.gov.kz/akimsemey/other/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0%20%D0%BF%D0%BE%20%D0%B8%D1%82%D0%BE%D0%B3%D0%B0%D0%BC%20%D0%92%D0%90%D0%9A%D0%A0%20%D0%BA%D0%B0%D0%B7.pdf",
+  "source_local": "downloads/pdf/04fca2a518a2fb253df1.pdf",
+  "source_sha256": "3008850e73d4e486644b555fb08a2408ac4eb57f1a5923564028643ee0f9d9d1",
+  "pages": 15,
+  "pages_attempted": 15,
+  "languages": "rus+kaz",
+  "engine": "Tesseract fast language data",
+  "rasterization_dpi": 150,
+  "errors": [],
+  "limitations": "Automatic OCR may be inaccurate; verify against original PDF.",
+  "model_source": "https://github.com/tesseract-ocr/tessdata_fast",
+  "generated_at": "2026-11-08T13:30:03+05:00",
+  "completed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "total_pages": 15,
+  "complete": true
+}
