@@ -1,0 +1,57 @@
+erDiagram
+    direction TB
+    RESOURCES {
+        uuid id PK
+        uuid owner_branch_id FK
+        text kind
+        text visibility
+    }
+    BRANCHES {
+        uuid id PK, FK
+        text code
+        text branch_type
+    }
+    BRANCH_CONTACTS {
+        uuid id PK
+        uuid branch_id FK
+        text kind
+        text value
+    }
+    BRANCH_HOURS {
+        uuid id PK
+        uuid branch_id FK
+        integer weekday
+        date specific_date
+    }
+    SITE_LINKS {
+        uuid id PK
+        text locale
+        text label
+    }
+    NAVIGATION_ITEMS {
+        uuid id PK
+        uuid parent_id FK
+        uuid resource_id FK
+        text locale
+        text label
+    }
+    INDEX_JOBS {
+        uuid id PK
+        uuid resource_id FK
+        bigint requested_version
+        text status
+    }
+    SEARCH_EVENTS {
+        uuid id PK
+        uuid clicked_resource_id FK
+        text locale
+        text intent_code
+    }
+    BRANCHES |o--o{ RESOURCES : owner_branch_id
+    RESOURCES ||--o| BRANCHES : id
+    BRANCHES ||--o{ BRANCH_CONTACTS : branch_id
+    BRANCHES ||--o{ BRANCH_HOURS : branch_id
+    NAVIGATION_ITEMS |o--o{ NAVIGATION_ITEMS : parent_id
+    RESOURCES |o--o{ NAVIGATION_ITEMS : resource_id
+    RESOURCES ||--o{ INDEX_JOBS : resource_id
+    RESOURCES |o--o{ SEARCH_EVENTS : clicked_resource_id

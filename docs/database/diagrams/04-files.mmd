@@ -1,0 +1,56 @@
+erDiagram
+    direction TB
+    RESOURCES {
+        uuid id PK
+        uuid owner_branch_id FK
+        text kind
+        text visibility
+    }
+    DOCUMENTS {
+        uuid id PK, FK
+        uuid case_id FK
+        text local_identifier
+        text reference_as_source
+    }
+    FILES {
+        uuid id PK
+        uuid uploaded_by FK
+        text storage_key
+        text original_name
+    }
+    FILE_DERIVATIVES {
+        uuid id PK
+        uuid original_file_id FK
+        uuid derived_file_id FK
+        text purpose
+        text processor_version
+    }
+    RESOURCE_FILES {
+        uuid id PK
+        uuid resource_id FK
+        uuid file_id FK
+        text purpose
+        integer sort_order
+    }
+    DOCUMENT_PAGES {
+        uuid id PK
+        uuid document_id FK
+        uuid file_id FK
+        integer sequence_no
+        integer file_page_no
+    }
+    OCR_VERSIONS {
+        uuid id PK
+        uuid page_id FK
+        uuid reviewed_by FK
+        integer version_no
+        text text
+    }
+    RESOURCES ||--o| DOCUMENTS : id
+    FILES ||--o{ FILE_DERIVATIVES : original_file_id
+    FILES ||--o{ FILE_DERIVATIVES : derived_file_id
+    RESOURCES ||--o{ RESOURCE_FILES : resource_id
+    FILES ||--o{ RESOURCE_FILES : file_id
+    DOCUMENTS ||--o{ DOCUMENT_PAGES : document_id
+    FILES ||--o{ DOCUMENT_PAGES : file_id
+    DOCUMENT_PAGES ||--o{ OCR_VERSIONS : page_id

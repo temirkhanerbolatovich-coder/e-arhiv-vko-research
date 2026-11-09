@@ -1,0 +1,30 @@
+erDiagram
+    direction TB
+    BRANCHES {
+        uuid id PK, FK
+        text code
+        text branch_type
+    }
+    PLACES {
+        uuid id PK, FK
+        uuid parent_id FK
+        text place_type
+        decimal latitude
+    }
+    PERIODICAL_TITLES {
+        uuid id PK, FK
+        uuid publication_place_id FK
+        text name_as_source
+        text publisher_label
+    }
+    PERIODICAL_HOLDINGS {
+        uuid id PK, FK
+        uuid periodical_id FK
+        uuid branch_id FK
+        text date_label
+        date date_from
+    }
+    PLACES |o--o{ PLACES : parent_id
+    PLACES |o--o{ PERIODICAL_TITLES : publication_place_id
+    PERIODICAL_TITLES ||--o{ PERIODICAL_HOLDINGS : periodical_id
+    BRANCHES |o--o{ PERIODICAL_HOLDINGS : branch_id

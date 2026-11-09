@@ -1,0 +1,43 @@
+erDiagram
+    direction TB
+    BRANCHES {
+        uuid id PK, FK
+        text code
+        text branch_type
+    }
+    FUNDS {
+        uuid id PK, FK
+        uuid branch_id FK
+        text number
+        text date_label
+    }
+    FUND_NAMES {
+        uuid id PK
+        uuid fund_id FK
+        uuid source_record_id FK
+        text locale
+        text name
+    }
+    INVENTORIES {
+        uuid id PK, FK
+        uuid fund_id FK
+        text number
+        text date_label
+    }
+    ARCHIVE_CASES {
+        uuid id PK, FK
+        uuid inventory_id FK
+        text number
+        text date_label
+    }
+    DOCUMENTS {
+        uuid id PK, FK
+        uuid case_id FK
+        text local_identifier
+        text reference_as_source
+    }
+    BRANCHES ||--o{ FUNDS : branch_id
+    FUNDS ||--o{ FUND_NAMES : fund_id
+    FUNDS ||--o{ INVENTORIES : fund_id
+    INVENTORIES ||--o{ ARCHIVE_CASES : inventory_id
+    ARCHIVE_CASES ||--o{ DOCUMENTS : case_id

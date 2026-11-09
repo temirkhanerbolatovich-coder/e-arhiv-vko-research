@@ -1,0 +1,69 @@
+erDiagram
+    direction TB
+    RESOURCES {
+        uuid id PK
+        uuid owner_branch_id FK
+        text kind
+        text visibility
+    }
+    PAGES {
+        uuid id PK, FK
+        uuid parent_id FK
+        text page_type
+        integer sort_order
+    }
+    NEWS {
+        uuid id PK, FK
+        text news_type
+        timestamptz event_starts_at
+    }
+    FAQ_ITEMS {
+        uuid id PK, FK
+        integer sort_order
+    }
+    COLLECTIONS {
+        uuid id PK, FK
+        text collection_type
+    }
+    COLLECTION_ITEMS {
+        uuid id PK
+        uuid collection_id FK
+        uuid resource_id FK
+        integer position
+    }
+    EXHIBITIONS {
+        uuid id PK, FK
+        date starts_on
+        date ends_on
+    }
+    EXHIBITION_ITEMS {
+        uuid id PK, FK
+        uuid exhibition_id FK
+        uuid source_resource_id FK
+        integer position
+    }
+    CATEGORIES {
+        uuid id PK, FK
+        uuid parent_id FK
+        text taxonomy_kind
+    }
+    RESOURCE_CATEGORIES {
+        uuid id PK
+        uuid resource_id FK
+        uuid category_id FK
+    }
+    RESOURCES ||--o| PAGES : id
+    PAGES |o--o{ PAGES : parent_id
+    RESOURCES ||--o| NEWS : id
+    RESOURCES ||--o| FAQ_ITEMS : id
+    RESOURCES ||--o| COLLECTIONS : id
+    COLLECTIONS ||--o{ COLLECTION_ITEMS : collection_id
+    RESOURCES ||--o{ COLLECTION_ITEMS : resource_id
+    RESOURCES ||--o| EXHIBITIONS : id
+    RESOURCES ||--o| EXHIBITION_ITEMS : id
+    EXHIBITIONS ||--o{ EXHIBITION_ITEMS : exhibition_id
+    RESOURCES ||--o{ EXHIBITION_ITEMS : source_resource_id
+    RESOURCES ||--o| CATEGORIES : id
+    CATEGORIES |o--o{ CATEGORIES : parent_id
+    RESOURCES ||--o{ RESOURCE_CATEGORIES : resource_id
+    CATEGORIES ||--o{ RESOURCE_CATEGORIES : category_id

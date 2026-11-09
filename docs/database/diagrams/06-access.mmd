@@ -1,0 +1,53 @@
+erDiagram
+    direction TB
+    BRANCHES {
+        uuid id PK, FK
+        text code
+        text branch_type
+    }
+    USERS {
+        uuid id PK
+        text email
+        text password_hash
+    }
+    ROLES {
+        uuid id PK
+        text code
+        text name
+    }
+    PERMISSIONS {
+        uuid id PK
+        text code
+    }
+    ROLE_PERMISSIONS {
+        uuid id PK
+        uuid role_id FK
+        uuid permission_id FK
+    }
+    USER_ROLE_ASSIGNMENTS {
+        uuid id PK
+        uuid user_id FK
+        uuid role_id FK
+        uuid branch_id FK
+        text scope
+    }
+    AUDIT_LOGS {
+        uuid id PK
+        uuid actor_id FK
+        uuid resource_id FK
+        text action
+        text target_reference
+    }
+    FEEDBACK {
+        uuid id PK
+        uuid moderated_by FK
+        text kind
+        text body
+    }
+    ROLES ||--o{ ROLE_PERMISSIONS : role_id
+    PERMISSIONS ||--o{ ROLE_PERMISSIONS : permission_id
+    USERS ||--o{ USER_ROLE_ASSIGNMENTS : user_id
+    ROLES ||--o{ USER_ROLE_ASSIGNMENTS : role_id
+    BRANCHES |o--o{ USER_ROLE_ASSIGNMENTS : branch_id
+    USERS |o--o{ AUDIT_LOGS : actor_id
+    USERS |o--o{ FEEDBACK : moderated_by

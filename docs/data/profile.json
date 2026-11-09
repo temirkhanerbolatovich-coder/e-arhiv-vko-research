@@ -1,0 +1,107 @@
+{
+  "checked_on": "2026-11-09",
+  "repository_base_commit": "57312af",
+  "jsonl": {
+    "pages": {
+      "rows": 3021,
+      "statuses": {
+        "ok": 2899,
+        "failed": 122
+      },
+      "languages": {
+        "ru": 1603,
+        "kk": 1295
+      }
+    },
+    "files": {
+      "rows": 3234,
+      "statuses": {
+        "ok": 3027,
+        "failed": 207
+      },
+      "languages": {}
+    },
+    "links": {
+      "rows": 188442,
+      "statuses": {},
+      "languages": {}
+    },
+    "comment_occurrences": {
+      "rows": 8880,
+      "statuses": {},
+      "languages": {}
+    }
+  },
+  "csv": {
+    "funds_2018": {
+      "rows_including_headers": 4796,
+      "max_columns": 27,
+      "header": [
+        "№",
+        "Дата первого поступления фонда",
+        "№ фонда",
+        "категория",
+        "форма собственности",
+        "Крайние даты каждого названия",
+        "Название фонда",
+        "годы",
+        "кол-во ед.хр./документов",
+        "имеющих страховые копии ед.хр.",
+        "Нач.годы",
+        "Кон.годы",
+        "Дата заполнения карточки",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "not_a_count_of_entities": true
+    },
+    "party_funds_2018": {
+      "rows_including_headers": 319,
+      "max_columns": 16,
+      "header": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Объем фонда на 1 января",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "not_a_count_of_entities": true
+    },
+    "newspapers_1935_2017": {
+      "rows_including_headers": 1468,
+      "max_columns": 6,
+      "header": [
+        "№\r\nп/п\r\n",
+        "Наименование газет",
+        "Место и орган издания",
+        "Кол-во\r\nтомов",
+        "Годы ",
+        "Примечание "
+      ],
+      "not_a_count_of_entities": true
+    }
+  }
+}

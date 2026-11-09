@@ -1,0 +1,60 @@
+erDiagram
+    direction TB
+    RESOURCE_VERSIONS {
+        uuid id PK
+        uuid resource_id FK
+        uuid created_by FK
+        text locale
+        integer version_no
+    }
+    SEARCH_CHUNKS {
+        uuid id PK
+        uuid revision_id FK
+        uuid ocr_version_id FK
+        integer chunk_no
+        text language
+    }
+    EMBEDDING_MODELS {
+        uuid id PK
+        text model_key
+        integer dimensions
+    }
+    CHUNK_EMBEDDINGS {
+        uuid id PK
+        uuid chunk_id FK
+        uuid model_id FK
+        vector embedding
+    }
+    CHAT_SESSIONS {
+        uuid id PK
+        text token_hash
+        text locale
+    }
+    CHAT_MESSAGES {
+        uuid id PK
+        uuid session_id FK
+        integer sequence_no
+        text role
+    }
+    MESSAGE_CITATIONS {
+        uuid id PK
+        uuid message_id FK
+        uuid revision_id FK
+        uuid chunk_id FK
+        text source_text_hash
+        text locator
+    }
+    ANSWER_FEEDBACK {
+        uuid id PK
+        uuid message_id FK
+        smallint rating
+        text reason_code
+    }
+    RESOURCE_VERSIONS ||--o{ SEARCH_CHUNKS : revision_id
+    SEARCH_CHUNKS ||--o{ CHUNK_EMBEDDINGS : chunk_id
+    EMBEDDING_MODELS ||--o{ CHUNK_EMBEDDINGS : model_id
+    CHAT_SESSIONS ||--o{ CHAT_MESSAGES : session_id
+    CHAT_MESSAGES ||--o{ MESSAGE_CITATIONS : message_id
+    RESOURCE_VERSIONS ||--o{ MESSAGE_CITATIONS : revision_id
+    SEARCH_CHUNKS |o--o{ MESSAGE_CITATIONS : chunk_id
+    CHAT_MESSAGES ||--o| ANSWER_FEEDBACK : message_id

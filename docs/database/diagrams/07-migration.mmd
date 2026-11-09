@@ -1,0 +1,45 @@
+erDiagram
+    direction TB
+    RESOURCES {
+        uuid id PK
+        uuid owner_branch_id FK
+        text kind
+        text visibility
+    }
+    SOURCE_RECORDS {
+        uuid id PK
+        text source_namespace
+        text source_key
+    }
+    RESOURCE_SOURCES {
+        uuid id PK
+        uuid resource_id FK
+        uuid source_record_id FK
+        text relation_role
+    }
+    IMPORT_BATCHES {
+        uuid id PK
+        uuid input_source_id FK
+        uuid started_by FK
+        text mapping_version
+        text status
+    }
+    IMPORT_ROWS {
+        uuid id PK
+        uuid batch_id FK
+        uuid resource_id FK
+        text source_key
+        text row_locator
+    }
+    LEGACY_REDIRECTS {
+        uuid id PK
+        uuid resource_id FK
+        text old_url
+        text locale
+    }
+    RESOURCES ||--o{ RESOURCE_SOURCES : resource_id
+    SOURCE_RECORDS ||--o{ RESOURCE_SOURCES : source_record_id
+    SOURCE_RECORDS ||--o{ IMPORT_BATCHES : input_source_id
+    IMPORT_BATCHES ||--o{ IMPORT_ROWS : batch_id
+    RESOURCES |o--o{ IMPORT_ROWS : resource_id
+    RESOURCES ||--o{ LEGACY_REDIRECTS : resource_id

@@ -1,0 +1,3209 @@
+{
+  "resources": {
+    "purpose": "Единая идентичность публикуемого материала",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "kind",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "owner_branch_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "branches.id",
+        "note": ""
+      },
+      {
+        "name": "visibility",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "internal, public_metadata"
+      },
+      {
+        "name": "access_version",
+        "type": "bigint",
+        "required": true,
+        "ref": null,
+        "note": "Меняется при отзыве доступа"
+      },
+      {
+        "name": "created_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "updated_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "withdrawn_at",
+        "type": "timestamptz",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": "Не содержит произвольных бизнес-полей. Один соответствующий типу подтип. Права не определяются одним наличием URL."
+  },
+  "resource_versions": {
+    "purpose": "Неизменяемые редакции текста и снимка публикуемых данных",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "locale",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "kk, ru, en"
+      },
+      {
+        "name": "version_no",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "summary",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "seo_title",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "meta_description",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "public_snapshot",
+        "type": "jsonb",
+        "required": true,
+        "ref": null,
+        "note": "Проверенный снимок метаданных и связей для публичной выдачи; схема по kind"
+      },
+      {
+        "name": "workflow_status",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "draft, in_review, changes_requested, approved, published, archived"
+      },
+      {
+        "name": "translation_origin",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "human, machine_draft, reviewed_machine"
+      },
+      {
+        "name": "created_by",
+        "type": "uuid",
+        "required": true,
+        "ref": "users.id",
+        "note": ""
+      },
+      {
+        "name": "created_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "content_hash",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "resource_id",
+        "locale",
+        "version_no"
+      ],
+      [
+        "resource_id",
+        "locale",
+        "id"
+      ]
+    ],
+    "note": ""
+  },
+  "resource_publications": {
+    "purpose": "Текущая одобренная редакция каждого языка",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "locale",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "revision_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resource_versions.id",
+        "note": ""
+      },
+      {
+        "name": "published_by",
+        "type": "uuid",
+        "required": true,
+        "ref": "users.id",
+        "note": ""
+      },
+      {
+        "name": "published_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "resource_id",
+        "locale"
+      ]
+    ],
+    "note": "Составной FK ниже гарантирует соответствие revision, resource и locale. Снятие публикации удаляет указатель, не историю."
+  },
+  "resource_routes": {
+    "purpose": "Канонические языковые адреса",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "locale",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "path",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "Относительный путь сайта, без внешнего домена"
+      }
+    ],
+    "unique": [
+      [
+        "locale",
+        "path"
+      ],
+      [
+        "resource_id",
+        "locale"
+      ]
+    ],
+    "note": ""
+  },
+  "branches": {
+    "purpose": "Главный архив и филиалы",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "code",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "branch_type",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "latitude",
+        "type": "decimal(9,6)",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "longitude",
+        "type": "decimal(9,6)",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "address",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "show_on_map",
+        "type": "boolean",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "code"
+      ]
+    ],
+    "note": "Официальное название и переводы — в resource_versions. Адрес в публичном снимке также переводится."
+  },
+  "branch_contacts": {
+    "purpose": "Публичные контакты и назначение контакта",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "branch_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "branches.id",
+        "note": ""
+      },
+      {
+        "name": "kind",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "phone, email, website, social"
+      },
+      {
+        "name": "value",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "purpose",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "sort_order",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "branch_hours": {
+    "purpose": "Регулярные часы и исключения",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "branch_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "branches.id",
+        "note": ""
+      },
+      {
+        "name": "weekday",
+        "type": "integer",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "specific_date",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "opens_at",
+        "type": "time",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "closes_at",
+        "type": "time",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "closed",
+        "type": "boolean",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "timezone",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": "Ровно один из weekday или specific_date; часы проверяются с учётом closed."
+  },
+  "funds": {
+    "purpose": "Архивный фонд",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "branch_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "branches.id",
+        "note": ""
+      },
+      {
+        "name": "number",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": "Датировка в источнике без исправления"
+      },
+      {
+        "name": "date_from",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_to",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_precision",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "unknown, day, month, year, range, approximate"
+      },
+      {
+        "name": "storage_units_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": "Сохраняет исходные значения вроде 3618/34с"
+      },
+      {
+        "name": "provenance_note",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "branch_id",
+        "number"
+      ]
+    ],
+    "note": ""
+  },
+  "fund_names": {
+    "purpose": "Исторические названия одного фонда",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "fund_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "funds.id",
+        "note": ""
+      },
+      {
+        "name": "locale",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "name",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": "Датировка в источнике без исправления"
+      },
+      {
+        "name": "date_from",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_to",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_precision",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "unknown, day, month, year, range, approximate"
+      },
+      {
+        "name": "source_record_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "source_records.id",
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "inventories": {
+    "purpose": "Опись внутри фонда",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "fund_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "funds.id",
+        "note": ""
+      },
+      {
+        "name": "number",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": "Датировка в источнике без исправления"
+      },
+      {
+        "name": "date_from",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_to",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_precision",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "unknown, day, month, year, range, approximate"
+      }
+    ],
+    "unique": [
+      [
+        "fund_id",
+        "number"
+      ]
+    ],
+    "note": ""
+  },
+  "archive_cases": {
+    "purpose": "Архивное дело внутри описи",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "inventory_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "inventories.id",
+        "note": ""
+      },
+      {
+        "name": "number",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": "Датировка в источнике без исправления"
+      },
+      {
+        "name": "date_from",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_to",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_precision",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "unknown, day, month, year, range, approximate"
+      },
+      {
+        "name": "leaf_count",
+        "type": "integer",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "inventory_id",
+        "number"
+      ]
+    ],
+    "note": ""
+  },
+  "documents": {
+    "purpose": "Каталожное описание документа",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "case_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "archive_cases.id",
+        "note": ""
+      },
+      {
+        "name": "local_identifier",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "reference_as_source",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "document_type",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "original_language",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": "Датировка в источнике без исправления"
+      },
+      {
+        "name": "date_from",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_to",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_precision",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "unknown, day, month, year, range, approximate"
+      },
+      {
+        "name": "leaf_count",
+        "type": "integer",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "access_status",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "open, metadata_only, restricted, unknown"
+      },
+      {
+        "name": "access_note",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": "Нет выдуманных родителей. Неполные импортные записи остаются в import_rows. Историческая публикация без дела может быть page/collection item с источником."
+  },
+  "files": {
+    "purpose": "Файл в защищённом хранилище",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "storage_key",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "original_name",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "mime_type",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "byte_size",
+        "type": "bigint",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "sha256",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "scan_status",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "quarantine, clean, rejected"
+      },
+      {
+        "name": "access_status",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "private, public_preview, public_download"
+      },
+      {
+        "name": "rights_basis",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "uploaded_by",
+        "type": "uuid",
+        "required": true,
+        "ref": "users.id",
+        "note": ""
+      },
+      {
+        "name": "created_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "storage_key"
+      ]
+    ],
+    "note": "SHA индексируется для поиска дублей, но совпадение байтов не объединяет права разных загрузок."
+  },
+  "file_derivatives": {
+    "purpose": "Превью и облегчённые копии",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "original_file_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "files.id",
+        "note": ""
+      },
+      {
+        "name": "derived_file_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "files.id",
+        "note": ""
+      },
+      {
+        "name": "purpose",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "processor_version",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "original_file_id",
+        "derived_file_id"
+      ]
+    ],
+    "note": ""
+  },
+  "resource_files": {
+    "purpose": "Файлы публикаций и документов",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "file_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "files.id",
+        "note": ""
+      },
+      {
+        "name": "purpose",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "sort_order",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "caption",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "resource_id",
+        "file_id",
+        "purpose"
+      ]
+    ],
+    "note": ""
+  },
+  "document_pages": {
+    "purpose": "Страницы просмотрщика и точные ссылки на листы",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "document_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "documents.id",
+        "note": ""
+      },
+      {
+        "name": "file_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "files.id",
+        "note": ""
+      },
+      {
+        "name": "sequence_no",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "file_page_no",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "leaf_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "document_id",
+        "sequence_no"
+      ]
+    ],
+    "note": ""
+  },
+  "ocr_versions": {
+    "purpose": "Распознанный текст страницы и проверка сотрудником",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "page_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "document_pages.id",
+        "note": ""
+      },
+      {
+        "name": "version_no",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "text",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "language",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "engine_version",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "draft, reviewed, rejected"
+      },
+      {
+        "name": "reviewed_by",
+        "type": "uuid",
+        "required": false,
+        "ref": "users.id",
+        "note": ""
+      },
+      {
+        "name": "reviewed_at",
+        "type": "timestamptz",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "page_id",
+        "version_no"
+      ]
+    ],
+    "note": ""
+  },
+  "pages": {
+    "purpose": "Информационные страницы, отчёты, инструкции и публикации",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "page_type",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "about, history, structure, staff, regulation, report, guide, publication, privacy"
+      },
+      {
+        "name": "parent_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "pages.id",
+        "note": ""
+      },
+      {
+        "name": "sort_order",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "news": {
+    "purpose": "Новости и мероприятия учреждения",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "news_type",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "news, announcement"
+      },
+      {
+        "name": "event_starts_at",
+        "type": "timestamptz",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "event_ends_at",
+        "type": "timestamptz",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "faq_items": {
+    "purpose": "Проверенные справочные ответы",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "sort_order",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": "В resource_versions title = вопрос, body = ответ."
+  },
+  "collections": {
+    "purpose": "Тематические коллекции",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "collection_type",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "history, photo_album, education"
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "collection_items": {
+    "purpose": "Состав и порядок коллекции",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "collection_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "collections.id",
+        "note": ""
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "position",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "collection_id",
+        "resource_id"
+      ],
+      [
+        "collection_id",
+        "position"
+      ]
+    ],
+    "note": ""
+  },
+  "exhibitions": {
+    "purpose": "Онлайн-выставки",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "starts_on",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "ends_on",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "exhibition_items": {
+    "purpose": "Экспонаты с собственной переводимой подписью",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "exhibition_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "exhibitions.id",
+        "note": ""
+      },
+      {
+        "name": "source_resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "position",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "exhibition_id",
+        "position"
+      ]
+    ],
+    "note": ""
+  },
+  "people": {
+    "purpose": "Исторические личности",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "name_as_source",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "birth_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "death_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "organizations": {
+    "purpose": "Организации и авторы фондов",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "name_as_source",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": "Датировка в источнике без исправления"
+      },
+      {
+        "name": "date_from",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_to",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_precision",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "unknown, day, month, year, range, approximate"
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "places": {
+    "purpose": "Населённые пункты и исторические объекты",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "place_type",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "parent_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "places.id",
+        "note": ""
+      },
+      {
+        "name": "latitude",
+        "type": "decimal(9,6)",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "longitude",
+        "type": "decimal(9,6)",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "place_names": {
+    "purpose": "Языковые и исторические варианты топонимов",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "place_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "places.id",
+        "note": ""
+      },
+      {
+        "name": "locale",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "name",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": "Датировка в источнике без исправления"
+      },
+      {
+        "name": "date_from",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_to",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_precision",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "unknown, day, month, year, range, approximate"
+      },
+      {
+        "name": "source_record_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "source_records.id",
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "historical_events": {
+    "purpose": "Исторические события, отличные от анонсов учреждения",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "date_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": "Датировка в источнике без исправления"
+      },
+      {
+        "name": "date_from",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_to",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_precision",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "unknown, day, month, year, range, approximate"
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "resource_people": {
+    "purpose": "Личности и их роль в материале",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "person_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "people.id",
+        "note": ""
+      },
+      {
+        "name": "relation_role",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "resource_id",
+        "person_id",
+        "relation_role"
+      ]
+    ],
+    "note": ""
+  },
+  "resource_organizations": {
+    "purpose": "Организации и их роль в материале",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "organization_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "organizations.id",
+        "note": ""
+      },
+      {
+        "name": "relation_role",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "resource_id",
+        "organization_id",
+        "relation_role"
+      ]
+    ],
+    "note": ""
+  },
+  "resource_places": {
+    "purpose": "Географические связи",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "place_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "places.id",
+        "note": ""
+      },
+      {
+        "name": "relation_role",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "resource_id",
+        "place_id",
+        "relation_role"
+      ]
+    ],
+    "note": ""
+  },
+  "resource_events": {
+    "purpose": "Связь с историческими событиями",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "event_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "historical_events.id",
+        "note": ""
+      },
+      {
+        "name": "relation_role",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "resource_id",
+        "event_id",
+        "relation_role"
+      ]
+    ],
+    "note": ""
+  },
+  "categories": {
+    "purpose": "Темы, категории и теги",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "taxonomy_kind",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "category, tag"
+      },
+      {
+        "name": "parent_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "categories.id",
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "resource_categories": {
+    "purpose": "Тематика материалов",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "category_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "categories.id",
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "resource_id",
+        "category_id"
+      ]
+    ],
+    "note": ""
+  },
+  "periodical_titles": {
+    "purpose": "Названия газет и другой периодики",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "name_as_source",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "publisher_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "publication_place_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "places.id",
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "periodical_holdings": {
+    "purpose": "Сведения о наличии периодики из исходных перечней",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": "PK и FK; тип должен совпадать с resources.kind"
+      },
+      {
+        "name": "periodical_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "periodical_titles.id",
+        "note": ""
+      },
+      {
+        "name": "branch_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "branches.id",
+        "note": ""
+      },
+      {
+        "name": "date_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": "Датировка в источнике без исправления"
+      },
+      {
+        "name": "date_from",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_to",
+        "type": "date",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "date_precision",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "unknown, day, month, year, range, approximate"
+      },
+      {
+        "name": "volume_count_label",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "holdings_note",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": "Наличие выпуска не означает наличие скана; неизвестный филиал требует проверки до публикации."
+  },
+  "site_links": {
+    "purpose": "Официальные внешние ссылки",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "locale",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "label",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "url",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "placement",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "footer, social, government"
+      },
+      {
+        "name": "sort_order",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "enabled",
+        "type": "boolean",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "navigation_items": {
+    "purpose": "Редактируемое меню сайта",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "locale",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "label",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "parent_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "navigation_items.id",
+        "note": ""
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "internal_path",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "position",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": "XOR resource_id/internal_path. Внутренние пути проверяются по реестру маршрутов."
+  },
+  "users": {
+    "purpose": "Учётные записи сотрудников; посетителю учётная запись не обязательна",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "email",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "password_hash",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "display_name",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "is_active",
+        "type": "boolean",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "created_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "email"
+      ]
+    ],
+    "note": ""
+  },
+  "roles": {
+    "purpose": "Семь начальных ролей ТЗ",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "code",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "name",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "code"
+      ]
+    ],
+    "note": ""
+  },
+  "permissions": {
+    "purpose": "Действия над модулями",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "code",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "code"
+      ]
+    ],
+    "note": ""
+  },
+  "role_permissions": {
+    "purpose": "Полномочия роли",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "role_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "roles.id",
+        "note": ""
+      },
+      {
+        "name": "permission_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "permissions.id",
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "role_id",
+        "permission_id"
+      ]
+    ],
+    "note": ""
+  },
+  "user_role_assignments": {
+    "purpose": "Роль сотрудника и область доступа",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "user_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "users.id",
+        "note": ""
+      },
+      {
+        "name": "role_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "roles.id",
+        "note": ""
+      },
+      {
+        "name": "branch_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "branches.id",
+        "note": ""
+      },
+      {
+        "name": "scope",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "global, branch"
+      }
+    ],
+    "unique": [],
+    "note": "CHECK scope/branch_id. Два partial unique индекса исключают дубли global/branch."
+  },
+  "moderation_actions": {
+    "purpose": "Решения проверяющих",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "revision_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resource_versions.id",
+        "note": ""
+      },
+      {
+        "name": "actor_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "users.id",
+        "note": ""
+      },
+      {
+        "name": "action",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "comment",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "created_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "audit_logs": {
+    "purpose": "Неизменяемый журнал действий сотрудников",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "actor_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "users.id",
+        "note": ""
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "action",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "target_reference",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "safe_change_summary",
+        "type": "jsonb",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "created_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": "Без паролей, токенов и полного текста вопросов. Не является копией всей БД."
+  },
+  "feedback": {
+    "purpose": "Отзывы, предложения и пожелания",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "kind",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "review, suggestion, wish"
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "reply_contact",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "new, reviewed, hidden, published"
+      },
+      {
+        "name": "created_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "moderated_by",
+        "type": "uuid",
+        "required": false,
+        "ref": "users.id",
+        "note": ""
+      },
+      {
+        "name": "expires_at",
+        "type": "timestamptz",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": "Контакты не публикуются. Нет регистрационных номеров обращений и обещаний услуги."
+  },
+  "source_records": {
+    "purpose": "Происхождение материалов",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "source_namespace",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "source_key",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "source_url",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "local_path",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "sha256",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "fetched_at",
+        "type": "timestamptz",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "source_status",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "locator",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "source_namespace",
+        "source_key"
+      ]
+    ],
+    "note": "locator = лист/строка/страница оригинала; URL не является лицензией на публикацию."
+  },
+  "resource_sources": {
+    "purpose": "Несколько источников одного материала",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "source_record_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "source_records.id",
+        "note": ""
+      },
+      {
+        "name": "relation_role",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "resource_id",
+        "source_record_id",
+        "relation_role"
+      ]
+    ],
+    "note": ""
+  },
+  "import_batches": {
+    "purpose": "Пакет импорта с версиями правил",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "input_source_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "source_records.id",
+        "note": ""
+      },
+      {
+        "name": "mapping_version",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "started_by",
+        "type": "uuid",
+        "required": true,
+        "ref": "users.id",
+        "note": ""
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "started_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "finished_at",
+        "type": "timestamptz",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "summary",
+        "type": "jsonb",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": ""
+  },
+  "import_rows": {
+    "purpose": "Исходные и неподтверждённые данные",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "batch_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "import_batches.id",
+        "note": ""
+      },
+      {
+        "name": "source_key",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "row_locator",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "raw_payload",
+        "type": "jsonb",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "proposed_payload",
+        "type": "jsonb",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "errors",
+        "type": "jsonb",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "pending, valid, needs_review, rejected, imported"
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "resources.id",
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "batch_id",
+        "row_locator"
+      ]
+    ],
+    "note": ""
+  },
+  "legacy_redirects": {
+    "purpose": "Переходы со старых страниц",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "old_url",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "locale",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "old_url"
+      ]
+    ],
+    "note": ""
+  },
+  "search_chunks": {
+    "purpose": "Перестраиваемые фрагменты разрешённых источников",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "revision_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resource_versions.id",
+        "note": ""
+      },
+      {
+        "name": "ocr_version_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "ocr_versions.id",
+        "note": ""
+      },
+      {
+        "name": "chunk_no",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "language",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "text",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "text_hash",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "locator",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "pipeline_version",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "created_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "revision_id",
+        "pipeline_version",
+        "chunk_no"
+      ]
+    ],
+    "note": ""
+  },
+  "embedding_models": {
+    "purpose": "Версии моделей смыслового поиска",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "model_key",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "dimensions",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "revision",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "active",
+        "type": "boolean",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "model_key",
+        "revision"
+      ]
+    ],
+    "note": ""
+  },
+  "chunk_embeddings": {
+    "purpose": "Векторные представления фрагментов",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "chunk_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "search_chunks.id",
+        "note": ""
+      },
+      {
+        "name": "model_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "embedding_models.id",
+        "note": ""
+      },
+      {
+        "name": "embedding",
+        "type": "vector",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "chunk_id",
+        "model_id"
+      ]
+    ],
+    "note": "vector без размерности — логический placeholder. В миграции отдельный согласованный размер и индекс для выбранной модели."
+  },
+  "chat_sessions": {
+    "purpose": "Анонимные сессии с ограниченным хранением",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "token_hash",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "locale",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "created_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "expires_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "token_hash"
+      ]
+    ],
+    "note": ""
+  },
+  "chat_messages": {
+    "purpose": "Сообщения разговора",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "session_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "chat_sessions.id",
+        "note": ""
+      },
+      {
+        "name": "sequence_no",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "role",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "user, assistant"
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": "pending, completed, failed"
+      },
+      {
+        "name": "model_revision",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "created_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "session_id",
+        "sequence_no"
+      ]
+    ],
+    "note": ""
+  },
+  "message_citations": {
+    "purpose": "Проверяемые источники ответа",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "message_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "chat_messages.id",
+        "note": ""
+      },
+      {
+        "name": "revision_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resource_versions.id",
+        "note": ""
+      },
+      {
+        "name": "chunk_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "search_chunks.id",
+        "note": ""
+      },
+      {
+        "name": "source_text_hash",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "locator",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "position",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "message_id",
+        "position"
+      ]
+    ],
+    "note": "Если chunk задан, он принадлежит указанной revision. Источник при открытии снова проходит проверку доступа."
+  },
+  "answer_feedback": {
+    "purpose": "Оценка полезности ответа",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "message_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "chat_messages.id",
+        "note": ""
+      },
+      {
+        "name": "rating",
+        "type": "smallint",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "reason_code",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "created_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [
+      [
+        "message_id"
+      ]
+    ],
+    "note": "Оценивать может только владелец сессии; rating -1 или 1."
+  },
+  "search_events": {
+    "purpose": "Минимальная обезличенная аналитика",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "locale",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "intent_code",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "query_redacted",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "result_count",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "clicked_resource_id",
+        "type": "uuid",
+        "required": false,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "latency_ms",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "occurred_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": "Не сохраняет IP, контакты, идентификатор сессии или сырые вопросы по умолчанию."
+  },
+  "index_jobs": {
+    "purpose": "Надёжное обновление поискового индекса",
+    "fields": [
+      {
+        "name": "id",
+        "type": "uuid",
+        "required": true,
+        "ref": null,
+        "note": "Постоянный идентификатор; PK"
+      },
+      {
+        "name": "resource_id",
+        "type": "uuid",
+        "required": true,
+        "ref": "resources.id",
+        "note": ""
+      },
+      {
+        "name": "requested_version",
+        "type": "bigint",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "attempts",
+        "type": "integer",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "available_at",
+        "type": "timestamptz",
+        "required": true,
+        "ref": null,
+        "note": ""
+      },
+      {
+        "name": "last_error_code",
+        "type": "text",
+        "required": false,
+        "ref": null,
+        "note": ""
+      }
+    ],
+    "unique": [],
+    "note": "Публикация и запись задания — одна транзакция. Ошибка индекса не открывает старый закрытый контент."
+  }
+}

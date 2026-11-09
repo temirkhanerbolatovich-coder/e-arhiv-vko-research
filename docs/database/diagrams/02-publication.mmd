@@ -1,0 +1,41 @@
+erDiagram
+    direction TB
+    RESOURCES {
+        uuid id PK
+        uuid owner_branch_id FK
+        text kind
+        text visibility
+    }
+    RESOURCE_VERSIONS {
+        uuid id PK
+        uuid resource_id FK
+        uuid created_by FK
+        text locale
+        integer version_no
+    }
+    RESOURCE_PUBLICATIONS {
+        uuid id PK
+        uuid resource_id FK
+        uuid revision_id FK
+        uuid published_by FK
+        text locale
+        timestamptz published_at
+    }
+    RESOURCE_ROUTES {
+        uuid id PK
+        uuid resource_id FK
+        text locale
+        text path
+    }
+    MODERATION_ACTIONS {
+        uuid id PK
+        uuid revision_id FK
+        uuid actor_id FK
+        text action
+        text comment
+    }
+    RESOURCES ||--o{ RESOURCE_VERSIONS : resource_id
+    RESOURCES ||--o{ RESOURCE_PUBLICATIONS : resource_id
+    RESOURCE_VERSIONS ||--o{ RESOURCE_PUBLICATIONS : revision_id
+    RESOURCES ||--o{ RESOURCE_ROUTES : resource_id
+    RESOURCE_VERSIONS ||--o{ MODERATION_ACTIONS : revision_id

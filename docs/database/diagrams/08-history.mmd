@@ -1,0 +1,74 @@
+erDiagram
+    direction TB
+    RESOURCES {
+        uuid id PK
+        uuid owner_branch_id FK
+        text kind
+        text visibility
+    }
+    PEOPLE {
+        uuid id PK, FK
+        text name_as_source
+        text birth_label
+    }
+    ORGANIZATIONS {
+        uuid id PK, FK
+        text name_as_source
+        text date_label
+    }
+    PLACES {
+        uuid id PK, FK
+        uuid parent_id FK
+        text place_type
+        decimal latitude
+    }
+    PLACE_NAMES {
+        uuid id PK
+        uuid place_id FK
+        uuid source_record_id FK
+        text locale
+        text name
+    }
+    HISTORICAL_EVENTS {
+        uuid id PK, FK
+        text date_label
+        date date_from
+    }
+    RESOURCE_PEOPLE {
+        uuid id PK
+        uuid resource_id FK
+        uuid person_id FK
+        text relation_role
+    }
+    RESOURCE_ORGANIZATIONS {
+        uuid id PK
+        uuid resource_id FK
+        uuid organization_id FK
+        text relation_role
+    }
+    RESOURCE_PLACES {
+        uuid id PK
+        uuid resource_id FK
+        uuid place_id FK
+        text relation_role
+    }
+    RESOURCE_EVENTS {
+        uuid id PK
+        uuid resource_id FK
+        uuid event_id FK
+        text relation_role
+    }
+    RESOURCES ||--o| PEOPLE : id
+    RESOURCES ||--o| ORGANIZATIONS : id
+    RESOURCES ||--o| PLACES : id
+    PLACES |o--o{ PLACES : parent_id
+    PLACES ||--o{ PLACE_NAMES : place_id
+    RESOURCES ||--o| HISTORICAL_EVENTS : id
+    RESOURCES ||--o{ RESOURCE_PEOPLE : resource_id
+    PEOPLE ||--o{ RESOURCE_PEOPLE : person_id
+    RESOURCES ||--o{ RESOURCE_ORGANIZATIONS : resource_id
+    ORGANIZATIONS ||--o{ RESOURCE_ORGANIZATIONS : organization_id
+    RESOURCES ||--o{ RESOURCE_PLACES : resource_id
+    PLACES ||--o{ RESOURCE_PLACES : place_id
+    RESOURCES ||--o{ RESOURCE_EVENTS : resource_id
+    HISTORICAL_EVENTS ||--o{ RESOURCE_EVENTS : event_id

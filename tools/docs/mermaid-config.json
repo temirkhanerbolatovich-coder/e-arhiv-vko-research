@@ -1,0 +1,7 @@
+{
+  "theme": "default",
+  "securityLevel": "strict",
+  "fontFamily": "Arial",
+  "er": { "useMaxWidth": false },
+  "themeVariables": { "fontSize": "16px" }
+}

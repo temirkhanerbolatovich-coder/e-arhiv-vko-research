@@ -1,0 +1,9 @@
+# Normalize only the new planning package; do not rewrite research datasets.
+/README.md text eol=lf
+/AGENTS.md text eol=lf
+/CHANGELOG.md text eol=lf
+/docs/** text eol=lf
+/tools/docs/** text eol=lf
+/docs/**/*.docx -text
+/docs/**/*.png -text
+/docs/**/*.svg text eol=lf
