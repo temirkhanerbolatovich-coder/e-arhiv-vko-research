@@ -1,0 +1,93 @@
+[
+  {
+    "text_file": "Контакты.md",
+    "source": "Контакты.docx",
+    "archive_member": null,
+    "nonempty_paragraphs": 18,
+    "tables": 0
+  },
+  {
+    "text_file": "Структура.md",
+    "source": "Структура.docx",
+    "archive_member": null,
+    "nonempty_paragraphs": 31,
+    "tables": 3
+  },
+  {
+    "text_file": "История архива.md",
+    "source": "История архива.docx",
+    "archive_member": null,
+    "nonempty_paragraphs": 41,
+    "tables": 0
+  },
+  {
+    "text_file": "Фонды — Фонды.md",
+    "source": "Фонды.docx",
+    "archive_member": "Фонды.docx",
+    "nonempty_paragraphs": 4,
+    "tables": 0
+  },
+  {
+    "text_file": "Календарь памятных дат — календарь 2022 год каз рус.md",
+    "source": "календарь 2022 год каз рус.docx",
+    "archive_member": "календарь 2022 год каз рус.docx",
+    "nonempty_paragraphs": 194,
+    "tables": 2
+  },
+  {
+    "text_file": "Календарь памятных дат — календарь 2023 год каз рус.md",
+    "source": "календарь 2023 год каз рус.docx",
+    "archive_member": "календарь 2023 год каз рус.docx",
+    "nonempty_paragraphs": 151,
+    "tables": 2
+  },
+  {
+    "text_file": "Календарь памятных дат — календарь 2024 год каз рус.md",
+    "source": "календарь 2024 год каз рус.docx",
+    "archive_member": "календарь 2024 год каз рус.docx",
+    "nonempty_paragraphs": 142,
+    "tables": 2
+  },
+  {
+    "text_file": "Календарь памятных дат — календарь 2025 год каз рус.md",
+    "source": "календарь 2025 год каз рус.docx",
+    "archive_member": "календарь 2025 год каз рус.docx",
+    "nonempty_paragraphs": 167,
+    "tables": 2
+  },
+  {
+    "text_file": "Календарь памятных дат — календарь 2026 год каз рус.md",
+    "source": "календарь 2026 год каз рус.docx",
+    "archive_member": "календарь 2026 год каз рус.docx",
+    "nonempty_paragraphs": 173,
+    "tables": 2
+  },
+  {
+    "text_file": "Комплаенс служба — Информация каз.md",
+    "source": "Информация каз.docx",
+    "archive_member": "Информация каз.docx",
+    "nonempty_paragraphs": 9,
+    "tables": 0
+  },
+  {
+    "text_file": "Комплаенс служба — Информация о работе комплаенс службы.md",
+    "source": "Информация о работе комплаенс службы.docx",
+    "archive_member": "Информация о работе комплаенс службы.docx",
+    "nonempty_paragraphs": 10,
+    "tables": 0
+  },
+  {
+    "text_file": "Комплаенс служба — О проведении внутреннего анализа коррупционных рисков.md",
+    "source": "О проведении внутреннего анализа коррупционных рисков.docx",
+    "archive_member": "О проведении внутреннего анализа коррупционных рисков.docx",
+    "nonempty_paragraphs": 1,
+    "tables": 0
+  },
+  {
+    "text_file": "Комплаенс служба — Сыбайлас жемқорлық тәуекелдеріне ішкі талдау жүргізу туралы.md",
+    "source": "Сыбайлас жемқорлық тәуекелдеріне ішкі талдау жүргізу туралы.docx",
+    "archive_member": "Сыбайлас жемқорлық тәуекелдеріне ішкі талдау жүргізу туралы.docx",
+    "nonempty_paragraphs": 1,
+    "tables": 0
+  }
+]

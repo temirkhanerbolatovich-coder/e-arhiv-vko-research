@@ -14,6 +14,7 @@
 6. [Проект БД и диаграммы](database/README.md), [словарь полей](database/data-dictionary.md), [DBML](database/schema.dbml).
 7. [Архитектура и поток данных](architecture/overview.md), [безопасность](security/security-model.md).
 8. [Работа вдвоём и этапы](team/working-agreement.md), [открытые решения](decisions/README.md), [проверки](testing/README.md).
+9. [Дополнительные файлы заказчика от 10 ноября 2026](data/customer/2026-11-10/README.md) — оригиналы, состав архивов, извлечённые тексты, обзор и расхождения.
 
 ## Границы договорённостей
 

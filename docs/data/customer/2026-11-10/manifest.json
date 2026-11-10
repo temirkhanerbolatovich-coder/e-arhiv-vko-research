@@ -1,0 +1,47 @@
+{
+  "received_on": "2026-11-10",
+  "source": "Файлы переданы пользователем от заказчика",
+  "originals_unmodified": true,
+  "items": [
+    {
+      "name": "Адреса и контакты филиалов.xls",
+      "bytes": 55808,
+      "sha256": "7b10400e17eecde1284d6b07b441a4d68011dfddd672a075dd64bce5acba85cd"
+    },
+    {
+      "name": "Контакты.docx",
+      "bytes": 7614,
+      "sha256": "b9fdc6060ab279171e66736178a75452191ca8b6abc69c0c61065eeb1a77df65"
+    },
+    {
+      "name": "Структура.docx",
+      "bytes": 10069,
+      "sha256": "a8678998fada92018f8fe49802e927e248cb942f05939438a8397b5689e72275"
+    },
+    {
+      "name": "История архива.docx",
+      "bytes": 11424,
+      "sha256": "a7fe9a0dc02c62f2143fbc55c9c677cbbad7b1b05eb981be6ab4addf544aac59"
+    },
+    {
+      "name": "Фонды.7z",
+      "bytes": 12435,
+      "sha256": "e9690bae3ad792e31eee246ca07b5226a68f4b473734d8ea69bc17c75f28b19d"
+    },
+    {
+      "name": "Календарь памятных дат.7z",
+      "bytes": 107216,
+      "sha256": "63173799c069869a37104f3edf6529fa28364f2af8946922232960619ce1b077"
+    },
+    {
+      "name": "Постановление обл акимата 142.pdf",
+      "bytes": 1349711,
+      "sha256": "a0d390105cb014504b83f3fa7208e9254bad2cbb7bb12bbe8f5d066bf4caf7dd"
+    },
+    {
+      "name": "Комплаенс служба.7z",
+      "bytes": 29498413,
+      "sha256": "1bdb30b95094faeb2d00db8d1a1f12a8c07382c78fa818e4a5a03a0e78f03834"
+    }
+  ]
+}

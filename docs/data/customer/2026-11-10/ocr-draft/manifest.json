@@ -1,0 +1,50 @@
+[
+  {
+    "text_file": "Аналитикалық анықтама СЖТІТ 2026.txt",
+    "source_archive": "Комплаенс служба.7z",
+    "source_pdf": "Аналитикалық анықтама СЖТІТ 2026.pdf",
+    "page_count": 17,
+    "method": "Tesseract rus+kaz, 150 dpi",
+    "status": "unreviewed_ocr"
+  },
+  {
+    "text_file": "Аналитическая справка ВАКР 2026.txt",
+    "source_archive": "Комплаенс служба.7z",
+    "source_pdf": "Аналитическая справка ВАКР 2026.pdf",
+    "page_count": 16,
+    "method": "Tesseract rus+kaz, 150 dpi",
+    "status": "unreviewed_ocr"
+  },
+  {
+    "text_file": "План мероприятий каз.txt",
+    "source_archive": "Комплаенс служба.7z",
+    "source_pdf": "План мероприятий каз.pdf",
+    "page_count": 4,
+    "method": "Tesseract rus+kaz, 150 dpi",
+    "status": "unreviewed_ocr"
+  },
+  {
+    "text_file": "План мероприятий рус.txt",
+    "source_archive": "Комплаенс служба.7z",
+    "source_pdf": "План мероприятий рус.pdf",
+    "page_count": 4,
+    "method": "Tesseract rus+kaz, 150 dpi",
+    "status": "unreviewed_ocr"
+  },
+  {
+    "text_file": "Положение об антикор.txt",
+    "source_archive": "Комплаенс служба.7z",
+    "source_pdf": "Положение об антикор..pdf",
+    "page_count": 6,
+    "method": "Tesseract rus+kaz, 150 dpi",
+    "status": "unreviewed_ocr"
+  },
+  {
+    "text_file": "Сыбайлас жемқорлыққа қарсы комплаене қызметі туралы ереже.txt",
+    "source_archive": "Комплаенс служба.7z",
+    "source_pdf": "Сыбайлас жемқорлыққа қарсы комплаене қызметі туралы ереже.pdf",
+    "page_count": 6,
+    "method": "Tesseract rus+kaz, 150 dpi",
+    "status": "unreviewed_ocr"
+  }
+]

@@ -5,5 +5,8 @@
 /docs/** text eol=lf
 /tools/docs/** text eol=lf
 /docs/**/*.docx -text
+/docs/**/*.xls -text
+/docs/**/*.7z -text
+/docs/**/*.pdf -text
 /docs/**/*.png -text
 /docs/**/*.svg text eol=lf
