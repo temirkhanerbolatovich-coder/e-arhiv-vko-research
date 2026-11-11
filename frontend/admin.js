@@ -1,0 +1,62 @@
+/* Static layout preview. This is not an authenticated administration interface. */
+(function () {
+  'use strict';
+
+  const coreScreens = [
+    {id:'moderation', label:'Модерация', render:moderation},
+    {id:'editor', label:'Новая запись', render:editor},
+    {id:'analytics', label:'ИИ-аналитика', render:analytics}
+  ];
+
+  function cards(labels) {
+    return `<div class="admin-metrics">${labels.map(label => `<div class="admin-metric"><span>${label}</span><strong aria-label="Нет данных">—</strong></div>`).join('')}</div>`;
+  }
+
+  function moderation() {
+    return `<div class="admin-heading"><div><p class="admin-kicker">РАБОТА С ПУБЛИКАЦИЯМИ</p><h1>Модерация публикаций</h1><p>Проверка материалов и управление статусами публикаций</p></div></div>
+      ${cards(['На проверке', 'Требует доработки', 'Одобрено', 'Опубликовано'])}
+      <div class="admin-moderation-grid"><section class="admin-panel"><div class="admin-panel-header"><div><h2>Материалы</h2><p>Здесь будет список публикаций для проверки</p></div><span class="admin-badge">Предпросмотр</span></div><div class="admin-table-head" aria-hidden="true"><span>МАТЕРИАЛ</span><span>РАЗДЕЛ</span><span>АВТОР</span><span>СТАТУС</span></div><div class="admin-empty"><span class="admin-empty-icon" aria-hidden="true">✓</span><h3>Список пока не подключён</h3><p>После подключения системы здесь появятся материалы, доступные сотруднику.</p></div></section>
+      <aside class="admin-panel admin-detail"><h2>История проверки</h2><p>Выберите материал, чтобы увидеть его сведения и этапы модерации.</p><div class="admin-status-list"><span>Черновик</span><span>На проверке</span><span>Требует доработки</span><span>Одобрено</span><span>Опубликовано</span><span>Архивировано</span></div><button disabled type="button">Одобрить</button><button disabled type="button" class="admin-button-secondary">На доработку</button></aside></div>`;
+  }
+
+  function editor() {
+    return `<div class="admin-heading"><div><p class="admin-kicker">КАТАЛОГ</p><h1>Новая запись каталога</h1><p>Предпросмотр рабочего места сотрудника архива</p></div></div>
+      <div class="admin-editor-grid"><section class="admin-file-column"><div class="admin-file-preview"><div class="admin-file-symbol" aria-hidden="true">▧</div><h2>Предпросмотр документа</h2><p>Изображение появится после подключения загрузки файлов.</p></div><div class="admin-panel admin-file-info"><strong>Файл не выбран</strong><p>Загрузка, распознавание текста и поиск дублей ещё не подключены.</p><button type="button" disabled class="admin-button-secondary">Выбрать файл</button></div></section>
+      <section class="admin-panel admin-editor"><div class="admin-panel-header"><div><h2>Карточка материала</h2><p>Поля для проверки и заполнения сотрудником</p></div><span class="admin-badge">Черновик</span></div><div class="admin-editor-note">ИИ-подсказки и сохранение не подключены. Поля показаны для ознакомления.</div><form class="admin-form"><label>Заголовок<input type="text" placeholder="Название материала" disabled></label><label>Фонд<input type="text" placeholder="Выберите фонд" disabled></label><label>Опись<input type="text" placeholder="Выберите опись фонда" disabled></label><label>Дело<input type="text" placeholder="Выберите дело описи" disabled></label><label>Лист<input type="text" placeholder="Лист или диапазон листов" disabled></label><label>Дата<input type="text" placeholder="Дата документа" disabled></label><label>Тип документа<input type="text" placeholder="Выберите тип" disabled></label><label>Место<input type="text" placeholder="Место или регион" disabled></label><label>Ключевые слова<input type="text" placeholder="Добавьте ключевые слова" disabled></label><label>Описание<textarea rows="3" placeholder="Краткое описание" disabled></textarea></label><label>Язык оригинала<select disabled><option>Выберите язык</option><option>Казахский</option><option>Русский</option><option>Другой</option></select></label><label>Источник<input type="text" placeholder="Ссылка или документ-основание" disabled></label><label>Хранение<input type="text" placeholder="Архив или филиал" disabled></label><label>Доступ<select disabled><option>Требует проверки</option><option>Открытые метаданные</option><option>Ограниченные метаданные</option></select></label><label>Копия<select disabled><option>Наличие не подтверждено</option><option>Разрешена публикация копии</option><option>Только описание</option><option>Доступ к копии ограничен</option></select></label><div class="admin-form-actions"><button type="button" class="admin-button-secondary" disabled>Сохранить черновик</button><button type="button" disabled>Отправить на проверку</button></div></form></section></div>`;
+  }
+
+  function analytics() {
+    return `<div class="admin-heading"><div><p class="admin-kicker">АНАЛИТИКА</p><h1>ИИ-аналитика качества сайта</h1><p>Сводка по работе помощника и потребностям посетителей</p></div></div>
+      ${cards(['Вопросов к помощнику', 'Ответов с источником', 'Без результата', 'Оценок «Помогло»'])}
+      <div class="admin-analytics-grid"><section class="admin-panel"><div class="admin-panel-header"><div><h2>Запросы без результата</h2><p>Обезличенная сводка тем, по которым не найден ответ</p></div></div><div class="admin-empty admin-analytics-empty"><span class="admin-empty-icon" aria-hidden="true">⌕</span><h3>Данные пока недоступны</h3><p>Аналитика не подключена. Примеры запросов и показатели здесь не представлены.</p></div><div class="admin-divider"></div><h2>Популярные разделы</h2><p class="admin-muted">Сводка появится после подключения аналитики.</p><div class="admin-chart" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div></section>
+      <aside class="admin-panel"><h2>Рекомендации</h2><p class="admin-muted">Здесь могут отображаться предложения по улучшению содержания сайта. Решение принимает сотрудник.</p><div class="admin-recommendation"><strong>Рекомендаций пока нет</strong><p>Генерация рекомендаций не подключена.</p></div></aside></div>`;
+  }
+
+  function accessDenied() {
+    return `<div class="admin-heading"><div><p class="admin-kicker">ПРИМЕР СОСТОЯНИЯ</p><h1>Доступ к разделу ограничен</h1><p>Макет сообщения об отсутствии необходимых полномочий.</p></div></div><section class="admin-panel"><h2>Проверьте область доступа</h2><p>В рабочей системе доступ будет зависеть от роли сотрудника и назначенного филиала. Для изменения полномочий потребуется обратиться к администратору.</p><p class="admin-muted">В этом прототипе роли не проверяются. Этот экран показывает только оформление сообщения.</p><div class="admin-screen-actions"><a href="#/admin/moderation">К обзору панели →</a><a href="#/admin/roles">Макет ролей →</a></div></section>`;
+  }
+
+  window.renderAdmin = function renderAdmin(container, path, language = 'ru') {
+    const t = value => window.adminCoreCopy.text(value, language);
+    const groups = [
+      ['Обзор и модерация', coreScreens],
+      ['Каталог и файлы', window.adminCatalogScreens || []],
+      ['Содержание сайта', window.adminContentScreens || []],
+      ['Управление', [...(window.adminManagementScreens || []), {id:'access-denied', label:'Пример ограничения доступа', render:accessDenied}]]
+    ];
+    const screens = groups.flatMap(([,items]) => items);
+    const key = path || 'moderation';
+    const screen = screens.find(item => item.id === key);
+    const label = item => item.labels?.[language] || t(item.label);
+    const screenLink = item => `<a href="#/admin/${item.id}" ${item.id === key ? 'aria-current="page"' : ''}>${label(item)}</a>`;
+    let body = screen ? screen.render(language) : '<div class="admin-heading"><div><h1>Экран не найден</h1><p>Выберите раздел в меню демонстрации.</p><a href="#/admin/moderation">К модерации →</a></div></div>';
+    if (!screen || coreScreens.includes(screen) || key === 'access-denied') body = window.adminCoreCopy.html(body,language);
+    container.innerHTML = `<section class="admin-layout">
+      <aside class="admin-sidebar"><a class="admin-brand" href="#/"><span aria-hidden="true">▣</span><span><strong>${t('Госархив ВКО')}</strong><small>${t('Панель сотрудника')}</small></span></a>
+        <p class="admin-side-label">${t('ПРЕДПРОСМОТР')}</p><nav aria-label="${t('Демонстрационные экраны для сотрудников')}">${groups.filter(([,items]) => items.length).map(([title,items])=>`<div class="admin-nav-group"><p>${t(title)}</p>${items.map(screenLink).join('')}</div>`).join('')}</nav><a class="admin-back" href="#/">← ${t('На сайт')}</a>
+      </aside>
+      <div class="admin-main"><div class="admin-mobile-nav"><a href="#/">← ${t('На сайт')}</a><details class="admin-mobile-menu"><summary>${t('Разделы панели')} · ${screen ? label(screen) : t('Выбрать раздел')}</summary><nav aria-label="${t('Разделы демонстрации')}">${screens.map(screenLink).join('')}</nav></details></div>
+        <div class="admin-notice" role="note"><strong>${t('Демонстрация интерфейса.')}</strong> ${t('Авторизация, данные, обработка файлов и сохранение не подключены. Это не защищённая рабочая панель.')}</div>${body}
+      </div></section>`;
+  };
+}());

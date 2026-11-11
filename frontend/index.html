@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Локальный прототип информационного сайта Государственного архива Восточно-Казахстанской области">
+  <meta name="color-scheme" content="light dark">
+  <title>Государственный архив Восточно-Казахстанской области</title>
+  <link rel="icon" href="assets/kz-emblem.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="catalog.css">
+  <link rel="stylesheet" href="sections.css">
+  <link rel="stylesheet" href="symbols.css">
+  <link rel="stylesheet" href="reading-room.css">
+  <link rel="stylesheet" href="service-info.css">
+  <link rel="stylesheet" href="paid-info.css">
+  <link rel="stylesheet" href="document-viewer.css">
+  <link rel="stylesheet" href="chat.css">
+  <link rel="stylesheet" href="exhibition.css">
+  <link rel="stylesheet" href="memory.css">
+  <link rel="stylesheet" href="branches.css">
+  <link rel="stylesheet" href="branch-map.css">
+  <link rel="stylesheet" href="fund.css">
+  <link rel="stylesheet" href="record-card.css">
+  <link rel="stylesheet" href="feedback.css">
+  <link rel="stylesheet" href="cipher.css">
+  <link rel="stylesheet" href="structure.css">
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="admin-catalog.css">
+  <link rel="stylesheet" href="admin-content.css">
+  <link rel="stylesheet" href="admin-management.css">
+  <link rel="stylesheet" href="person.css">
+  <link rel="stylesheet" href="calendar.css">
+  <link rel="stylesheet" href="archive-history.css">
+  <link rel="stylesheet" href="places.css">
+  <link rel="stylesheet" href="news.css">
+  <script src="ridder-record.js" defer></script>
+  <script src="catalog.js" defer></script>
+  <script src="sections.js" defer></script>
+  <script src="help-localized.js" defer></script>
+  <script src="chat.js" defer></script>
+  <script src="exhibition.js" defer></script>
+  <script src="memory.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="fund.js" defer></script>
+  <script src="feedback.js" defer></script>
+  <script src="cipher.js" defer></script>
+  <script src="structure.js" defer></script>
+  <script src="admin-catalog.js" defer></script>
+  <script src="admin-content.js" defer></script>
+  <script src="admin-management.js" defer></script>
+  <script src="admin-core-i18n.js" defer></script>
+  <script src="admin.js" defer></script>
+  <script src="person.js" defer></script>
+  <script src="calendar.js" defer></script>
+  <script src="archive-history.js" defer></script>
+  <script src="places.js" defer></script>
+  <script src="service-info.js" defer></script>
+  <script src="paid-info.js" defer></script>
+  <script src="document-viewer.js" defer></script>
+  <script src="reading-room.js" defer></script>
+  <script src="compliance.js" defer></script>
+  <script src="official-references.js" defer></script>
+  <script src="news.js" defer></script>
+  <script src="publications.js" defer></script>
+  <script src="personal-funds.js" defer></script>
+  <script src="portal-notices.js" defer></script>
+  <link rel="stylesheet" href="portal.css">
+  <link rel="stylesheet" href="admin-extra.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" id="skip-link" href="#main" data-i18n="skipContent">Перейти к содержанию</a>
+  <header class="site-header">
+    <div class="portal-utility"><div class="shell portal-utility-inner"><span data-i18n="portalStatus">Информационный ресурс · прототип</span>      <div class="header-actions">
+        <a class="contact-link" href="#/section/branches"><span data-icon="phone" aria-hidden="true"></span><span data-i18n="contacts">Контакты</span></a>
+        <label class="language-label"><span class="sr-only" data-i18n="interfaceLanguage">Язык интерфейса</span><select id="language" aria-label="Язык интерфейса" data-i18n-label="interfaceLanguage"><option value="ru">Рус</option><option value="kk">Қаз</option><option value="en">Eng</option></select></label>
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Переключить тему" title="Переключить тему"><span data-icon="moon"></span></button>
+        <button class="icon-button font-button" id="font-toggle" type="button" aria-label="Увеличить текст" title="Размер текста">Аа</button>
+        <button class="icon-button menu-button" id="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu"><span data-icon="menu"></span></button>
+      </div>
+</div></div>
+    <div class="shell header-inner">
+      <a class="brand" href="#/" data-i18n-label="brandHome" aria-label="Государственный архив — на главную">
+        <img class="portal-emblem" src="assets/kz-emblem.png" alt="" width="80" height="80">
+        <span class="brand-copy"><strong data-i18n="footerTitle">Государственный архив Восточно-Казахстанской области</strong></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Основная навигация" data-i18n-label="mainNav">
+        <a href="#/section/about" data-i18n="about">Об архиве</a><a href="#/catalog" data-i18n="catalog">Каталог</a><a href="#/section/exhibitions" data-i18n="exhibitions">Выставки</a><a href="#/section/services" data-i18n="referenceInfo">Справочная информация</a><a href="#/section/branches" data-i18n="contacts">Контакты</a>
+      </nav>
+      <a class="portal-flag" href="#/section/symbols" data-i18n-label="symbols" aria-label="Государственные символы"><img src="assets/kz-flag.jpg" alt="" width="50" height="24"></a>
+    </div>
+    <nav class="mobile-menu shell" id="mobile-menu" aria-label="Мобильное меню" data-i18n-label="mobileMenu" hidden>
+      <a href="#/section/about" data-i18n="about">Об архиве</a><a href="#/chat" data-i18n="askShort">Спросить</a><a href="#/section/services" data-i18n="referenceInfo">Справочная информация</a><a href="#/catalog" data-i18n="tileCatalog">Электронный каталог</a><a href="#/section/exhibitions" data-i18n="tileExhibitions">Онлайн-выставки</a><a href="#/section/memory" data-i18n="tileMemory">Архив памяти</a><a href="#/section/branches" data-i18n="tileBranches">Филиалы и контакты</a><a href="#/section/all" data-i18n="tileAll">Все разделы</a>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1"><div id="app"></div></main>
+  <nav class="mobile-dock" aria-label="Быстрые переходы" data-i18n-label="quickNav">
+    <a href="#/section/all"><span data-icon="grid" aria-hidden="true"></span><span data-i18n="sections">Разделы</span></a>
+    <a href="#/catalog"><span data-icon="layers" aria-hidden="true"></span><span data-i18n="catalog">Каталог</span></a>
+    <a class="dock-ask" href="#/chat"><span data-icon="assistant" aria-hidden="true"></span><span data-i18n="askShort">Спросить</span></a>
+  </nav>
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div><a class="footer-brand" href="#/"><img src="assets/kz-emblem.png" width="64" height="64" alt=""><span data-i18n="footerTitle">Государственный архив Восточно-Казахстанской области</span></a><p class="footer-note" data-i18n="footerDemo">Локальный прототип · информация требует подтверждения</p></div>
+      <nav aria-label="Разделы сайта" data-i18n-label="siteSections">
+        <strong data-i18n="footerNav">Разделы</strong>
+        <a href="#/section/about" data-i18n="about">Об архиве</a>
+        <a href="#/catalog" data-i18n="catalog">Каталог</a>
+        <a href="#/section/exhibitions" data-i18n="exhibitions">Выставки</a>
+        <a href="#/section/all" data-i18n="allSections">Все разделы</a>
+        <a href="#/section/links" data-i18n="footerResources">Государственные ресурсы и полезные ссылки</a>
+        <a href="#/section/privacy" data-i18n="footerPrivacy">Конфиденциальность</a>
+        <a href="#/section/copyright" data-i18n="footerRights">Авторские права</a>
+      </nav>
+      <div class="footer-contact">
+        <strong data-i18n="contacts">Контакты</strong>
+        <p data-i18n="mainAddress">г. Усть-Каменогорск, ул. Бейбітшілік, 26/1</p>
+        <a href="tel:+77232255976">8 (7232) 25-59-76</a>
+        <a href="mailto:arhiv-ukg@yandex.kz">arhiv-ukg@yandex.kz</a>
+        <p data-i18n="footerHours">Режим работы: понедельник–пятница, 08:00–17:00</p>
+        <a href="https://www.instagram.com/arhiv_vko/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+        <a href="https://www.facebook.com/vkoarhiv" target="_blank" rel="noopener noreferrer">Facebook ↗</a>
+        <small data-i18n="contactDisclaimer">Данные предоставлены заказчиком; актуальность уточняется.</small>
+      </div>
+    </div>
+    <div class="shell footer-bottom"><span data-i18n="copyright">© Государственный архив ВКО</span><span data-i18n="footerInfo">Информационный сайт · демонстрационная версия</span></div>
+  </footer>
+</body>
+</html>

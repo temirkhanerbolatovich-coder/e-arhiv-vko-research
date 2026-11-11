@@ -1,0 +1,55 @@
+.cipher-page{padding:30px 0 88px}
+.cipher-shell{width:min(1200px,calc(100% - 64px));margin-inline:auto}
+.cipher-breadcrumbs{display:flex;flex-wrap:wrap;gap:9px;align-items:center;color:var(--muted);font-size:.9375rem;margin-bottom:36px}
+.cipher-breadcrumbs a:hover{text-decoration:underline;text-underline-offset:3px}
+.cipher-heading{max-width:780px}
+.cipher-eyebrow{margin:0 0 8px;font-size:.875rem;letter-spacing:.09em;font-weight:750;color:var(--muted)}
+.cipher-heading h1{margin:0;font-size:clamp(2rem,4vw,3rem);line-height:1.12;letter-spacing:-.045em}
+.cipher-heading>p:last-child{margin:14px 0 0;color:var(--ink-2);max-width:700px}
+.cipher-example-label{text-align:center;font-size:.9375rem;color:var(--muted);margin:46px 0 12px}
+.cipher-tokens{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:14px;margin-bottom:26px}
+.cipher-token{border:1px solid transparent;border-radius:18px;padding:12px 20px;color:var(--brass);background:var(--brass-soft);font-weight:750;font-size:1.6rem;line-height:1.2}
+.cipher-token[aria-pressed=true]{background:var(--primary);color:var(--primary-text)}
+.cipher-token:hover{border-color:var(--primary)}
+.cipher-separator{color:var(--line-strong)}
+.cipher-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.cipher-card{min-width:0;min-height:166px;text-align:left;padding:20px;border:1px solid var(--line);border-radius:18px;background:var(--surface);display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+.cipher-card:hover,.cipher-card[aria-pressed=true]{border-color:var(--primary)}
+.cipher-card[aria-pressed=true]{box-shadow:inset 0 0 0 1px var(--primary)}
+.cipher-card-token{display:inline-flex;background:var(--surface-2);border-radius:9px;padding:5px 9px;color:var(--ink-2);font-size:.9375rem;font-weight:750;white-space:nowrap}
+.cipher-card-body{display:flex;flex-direction:column;gap:8px}
+.cipher-card-body strong{font-size:1.05rem}
+.cipher-card-body>span{font-size:.9375rem;color:var(--ink-2);line-height:1.55}
+.cipher-support-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px}
+.cipher-support{min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
+.cipher-support h2{font-size:1.05rem;margin:0}
+.cipher-support p{font-size:.9375rem;color:var(--ink-2);margin:9px 0 14px}
+.cipher-path{list-style:none;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0;padding:0}
+.cipher-path li{display:flex;align-items:center;gap:8px;font-size:.875rem;font-weight:650}
+.cipher-path li:not(:last-child)::after{content:'›';font-size:1.2rem;color:var(--muted)}
+.cipher-path li:last-child{color:var(--primary)}
+.cipher-statuses{display:flex;gap:7px;flex-wrap:wrap}
+.cipher-statuses span{display:inline-flex;padding:5px 9px;border-radius:99px;background:var(--surface-2);color:var(--ink-2);font-size:.875rem;font-weight:650}
+.cipher-statuses .cipher-status-copy{background:#e5f2e9;color:#216b3a}
+.cipher-statuses .cipher-status-restricted{background:#f6ead1;color:#835d19}
+html[data-theme=dark] .cipher-statuses .cipher-status-copy{background:#213e2c;color:#b7e5c2}
+html[data-theme=dark] .cipher-statuses .cipher-status-restricted{background:#4a3b20;color:#f2d295}
+.cipher-support .cipher-status-note{margin-bottom:0;color:var(--muted)}
+.cipher-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.cipher-actions a{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:10px 18px;border-radius:99px;font-weight:700}
+.cipher-primary{background:var(--primary);color:var(--primary-text)}
+.cipher-secondary{background:var(--surface);border:1px solid var(--line)}
+.cipher-actions a:hover{opacity:.82}
+@media(min-width:761px) and (max-width:1000px){.cipher-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){
+  .cipher-page{padding:20px 0 110px}
+  .cipher-shell{width:calc(100% - 32px)}
+  .cipher-breadcrumbs{margin-bottom:26px}
+  .cipher-example-label{text-align:left;margin:30px 0 12px}
+  .cipher-tokens{display:none}
+  .cipher-cards{grid-template-columns:minmax(0,1fr);gap:9px}
+  .cipher-card{min-height:0;flex-direction:row;gap:14px;align-items:flex-start;padding:15px}
+  .cipher-card-token{min-width:64px;justify-content:center}
+  .cipher-card-body{gap:4px}
+  .cipher-support-grid{grid-template-columns:minmax(0,1fr)}
+}

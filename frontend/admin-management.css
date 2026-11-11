@@ -1,0 +1,40 @@
+/* Supplemental static administration screens. */
+.admin-management-toolbar { display:flex; flex-wrap:wrap; align-items:end; gap:14px; margin-bottom:24px; padding:20px; background:var(--surface-2); border:1px solid var(--line); border-radius:6px; }
+.admin-management-toolbar label { display:grid; gap:7px; flex:1 1 160px; min-width:0; font-size:.875rem; font-weight:650; }
+.admin-management-toolbar input,.admin-management-toolbar select,.admin-management-form input,.admin-management-form select,.admin-management-form textarea,.admin-management-label textarea { width:100%; min-width:0; padding:11px 12px; border:1px solid var(--line-strong); border-radius:4px; background:var(--surface); color:var(--muted); font:inherit; opacity:1; }
+.admin-management-toolbar button { flex:0 1 auto; }
+.admin-management-grid { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:20px; align-items:start; }
+.admin-management-grid > * { min-width:0; }
+.admin-management-form { display:grid; gap:16px; margin-top:22px; }
+.admin-management-form label,.admin-management-label { display:grid; gap:7px; min-width:0; font-weight:650; font-size:.875rem; }
+.admin-management-form textarea,.admin-management-label textarea { resize:vertical; }
+.admin-management-actions { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-top:18px; }
+.admin-management-link { display:block; width:fit-content; max-width:100%; margin-top:20px; font-weight:650; text-decoration:underline; text-underline-offset:3px; overflow-wrap:anywhere; }
+.admin-management-note { padding:16px 18px; background:var(--primary-soft); border-left:3px solid var(--primary); color:var(--ink-2); margin:0 0 22px; font-size:.9375rem; }
+.admin-management-role-list { display:grid; gap:12px; }
+.admin-management-role { display:flex; justify-content:space-between; gap:20px; align-items:center; border-radius:6px; }
+.admin-management-role p { margin:6px 0 0; color:var(--muted); }
+.admin-management-role > div { min-width:0; }
+.admin-management-role button { flex:0 0 auto; }
+.admin-management-scope { margin-top:24px; }
+.admin-management-scope p { color:var(--muted); }
+.admin-management-permission-preview { display:flex; flex-wrap:wrap; gap:12px 20px; padding-block:14px; }
+.admin-management-permission-preview label { display:flex; gap:8px; align-items:center; font-size:.9375rem; }
+.admin-management-example-title { margin-top:16px!important; }
+.admin-management-facts { margin:20px 0; }
+.admin-management-facts div { display:grid; grid-template-columns:minmax(90px,.7fr) minmax(0,1fr); gap:12px; padding:10px 0; border-bottom:1px solid var(--line); font-size:.9375rem; }
+.admin-management-facts dt { color:var(--muted); }
+.admin-management-facts dd { margin:0; }
+.admin-management-quote { margin:20px 0; padding:16px; background:var(--surface-2); border-left:3px solid var(--line-strong); font-size:.9375rem; }
+.admin-management-audit-columns { display:grid; grid-template-columns:1fr 1fr 1fr 1.5fr; gap:12px; margin-top:24px; padding:12px 0; border-block:1px solid var(--line); color:var(--muted); font-size:.8125rem; font-weight:650; }
+.admin-management-list { padding-left:1.4em; line-height:1.7; font-size:.9375rem; }
+.admin-management-integration { border-bottom:1px solid var(--line); padding:18px 0; }
+.admin-management-integration h3 { display:inline; font-size:1rem; margin:0 8px 0 0; }
+.admin-management-integration > span { display:inline-block; background:var(--surface-2); padding:4px 8px; border-radius:3px; font-size:.8125rem; color:var(--muted); }
+.admin-management-integration p { color:var(--muted); margin-bottom:0; }
+.admin-management-auth { width:min(560px,100%); margin-inline:auto; }
+.admin-management-auth .admin-management-note { margin-top:24px; }
+.admin-management-session-mark { width:52px; height:52px; display:grid; place-items:center; background:var(--primary-soft); border-radius:6px; font-size:2rem; margin-bottom:20px; }
+.admin-management-grid h2,.admin-management-grid h3,.admin-management-grid p,.admin-management-grid dd,.admin-management-auth p,.admin-management-role h2,.admin-management-role p { overflow-wrap:anywhere; }
+@media(max-width:1050px) { .admin-management-grid { grid-template-columns:minmax(0,1fr); } .admin-management-role { align-items:flex-start; } }
+@media(max-width:760px) { .admin-management-toolbar { padding:16px; } .admin-management-toolbar label { flex-basis:100%; } .admin-management-role { flex-direction:column; gap:12px; } .admin-management-audit-columns { display:none; } .admin-management-facts div { grid-template-columns:minmax(0,1fr); gap:5px; } .admin-management-role button { max-width:100%; } }

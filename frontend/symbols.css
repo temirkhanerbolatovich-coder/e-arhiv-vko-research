@@ -1,0 +1,19 @@
+/* Official symbol images are displayed without cropping or recolouring. */
+.symbols-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+.symbols-card { min-width:0; border:1px solid var(--line); border-radius:6px; background:var(--surface); overflow:hidden; }
+.symbols-card:last-child { grid-column:1/-1; }
+.symbols-image { display:flex; align-items:center; justify-content:center; min-height:200px; padding:24px; background:#fff; border-bottom:1px solid var(--line); }
+.symbols-image img { width:auto; max-width:min(100%,320px); max-height:190px; object-fit:contain; }
+.symbols-content { padding:24px; overflow-wrap:anywhere; }
+.symbols-content h2 { font-size:1.25rem; line-height:1.3; margin:0 0 12px; }
+.symbols-content p { color:var(--muted); line-height:1.6; margin:0 0 18px; }
+.symbols-content a { color:var(--primary); font-weight:650; text-decoration:underline; text-underline-offset:3px; }
+@media(max-width:760px) { .symbols-grid { grid-template-columns:minmax(0,1fr); } .symbols-card:last-child { grid-column:auto; } .symbols-image { min-height:160px; } .symbols-content { padding:20px; } }
+.normative-list { border-top:1px solid var(--line); }
+.normative-item { display:flex; justify-content:space-between; align-items:center; gap:24px; padding:24px 0; border-bottom:1px solid var(--line); }
+.normative-item > div { min-width:0; }
+.normative-item h2 { font-size:1.2rem; line-height:1.35; margin:0 0 8px; overflow-wrap:anywhere; }
+.normative-item p { color:var(--muted); margin:0; line-height:1.6; }
+.normative-item .normative-source { font-size:.875rem; font-weight:650; margin-bottom:8px; }
+.normative-item a { flex:0 0 auto; font-weight:650; text-decoration:underline; text-underline-offset:3px; }
+@media(max-width:760px) { .normative-item { flex-direction:column; align-items:flex-start; gap:12px; } }
