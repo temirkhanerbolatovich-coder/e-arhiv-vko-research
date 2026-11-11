@@ -18,7 +18,8 @@
     shield: '<path d="M12 2 4 5v6c0 5 3.2 8 8 10 4.8-2 8-5 8-10V5l-8-3Z"/><path d="m9 11 2 2 4-4"/>',
     book: '<path d="M4 4.5c3-1 5.5-.4 8 1.3 2.5-1.7 5-2.3 8-1.3v14c-3-1-5.5-.4-8 1.3-2.5-1.7-5-2.3-8-1.3v-14ZM12 6v14"/>',
     file: '<path d="M6 3h8l4 4v14H6V3Zm8 0v5h4M9 12h6M9 16h6"/>',
-    assistant: '<path d="m12 3 2.7 6.3L21 12l-6.3 2.7L12 21l-2.7-6.3L3 12l6.3-2.7Z"/>'
+    // Знак помощника «Сандық»: сундук с поднятой крышкой — «архив открывается и отвечает».
+    assistant: '<path d="M4 11h16v7.5A2.5 2.5 0 0 1 17.5 21h-11A2.5 2.5 0 0 1 4 18.5Z"/><path d="m5 11 1.3-5.6a1.6 1.6 0 0 1 1.9-1.2l10.6 2.5"/><path d="M10 15.5h4"/>'
   };
   const icon = (name) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[name] || ''}</svg>`;
   const translations = {
@@ -148,7 +149,7 @@
   function renderHome(focusQuestion) {
     const newsPreview = window.getNewsPreview?.();
     app.innerHTML = `<div class="shell home-page">
-      <div class="portal-search-area"><div class="portal-landscape" aria-hidden="true"></div><section class="hero" aria-labelledby="hero-title"><div class="hero-content"><p class="hero-eyebrow">${tr('heroEyebrow')}</p><h1 id="hero-title">${tr('heroTitle')}</h1><p class="hero-desc">${tr('heroDescription')}</p></div></section>
+      <div class="portal-search-area"><figure class="hero-figure" aria-hidden="true"><img src="assets/hero.jpg" alt="" fetchpriority="high"><figcaption>${{ru:'Усть-Каменогорск. Вид города с собора · фотогалерея архива',kk:'Өскемен. Собордан қала көрінісі · архив фотогалереясы',en:'Ust-Kamenogorsk. View of the town from the cathedral · archive photo gallery'}[state.language] || ''}</figcaption></figure><section class="hero" aria-labelledby="hero-title"><div class="hero-content"><p class="hero-eyebrow">${tr('heroEyebrow')}</p><h1 id="hero-title">${tr('heroTitle')}</h1><p class="hero-desc">${tr('heroDescription')}</p></div></section>
       <section class="assistant-wrap" aria-label="${tr('assistantLabel')}"><form class="composer" id="chat-form"><span class="composer-icon">${icon('assistant')}</span><label class="sr-only" for="chat-input">${tr('assistantLabel')}</label><input id="chat-input" name="question" type="search" placeholder="${tr('placeholder')}" autocomplete="off" maxlength="500"><button class="submit-button" type="submit" aria-label="${tr('send')}">${icon('arrowUp')}</button></form>
         <div class="assistant-meta">${icon('shield')}<span>${tr('assistantLabel')}</span><span aria-hidden="true">·</span><a href="#/catalog">${tr('advanced')}</a></div><p class="demo-note">${tr('demo')}</p>
         <div class="example-list"><button class="example" type="button" data-question="ridder">${window.ridderRecord.questions[state.language]}</button><button class="example" type="button" data-question="address">${tr('example2')}</button><button class="example" type="button" data-question="terms">${tr('example3')}</button></div><div id="response-area" aria-live="polite"></div>
@@ -160,6 +161,7 @@
       <section class="home-panel" aria-labelledby="home-news-title"><div class="panel-heading"><h2 class="panel-title" id="home-news-title">${tr('newsTitle')}</h2><a href="#/section/news">${tr('allNews')} →</a></div><div class="news-empty home-news-preview"><p>${tr(newsPreview ? 'archivedNews' : 'newsEmpty')}</p><p class="home-news-date" lang="ru" hidden></p><a class="home-news-link" href="#/section/news">${tr('newsLink')}</a></div></section></div>
       <nav class="quick-info" aria-label="${tr('sections')}"><a href="#/section/help"><span class="tile-icon">${icon('book')}</span><span>${tr('quick1')}</span></a><a href="#/section/help"><span class="tile-icon">${icon('layers')}</span><span>${tr('quick2')}</span></a><a href="#/section/services"><span class="tile-icon">${icon('file')}</span><span>${tr('quick3')}</span></a></nav>
     </div>`;
+    window.renderHomeExtras?.(app, state.language);
     if (newsPreview) {
       const previewLink = app.querySelector('.home-news-link');
       previewLink.href = newsPreview.href;

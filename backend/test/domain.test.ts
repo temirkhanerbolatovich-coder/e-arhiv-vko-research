@@ -94,3 +94,15 @@ test('параметры каталога проверяются', () => {
   assert.ok(query.kinds.includes('case'));
   assert.throws(() => parseCatalogQuery(new URLSearchParams('year-from=1990&year-to=1950')), ValidationError);
 });
+
+test('памятные даты: день и месяц из текста, ближайшие по кругу года', async () => {
+  const { parseDayMonth, upcomingEvents } = await import('../src/domain/calendar.ts');
+  assert.deepEqual(parseDayMonth('7 февраля 2025'), { day: 7, month: 1 });
+  assert.deepEqual(parseDayMonth('9 мая'), { day: 9, month: 4 });
+  assert.deepEqual(parseDayMonth('3 марта'), { day: 3, month: 2 });
+  assert.equal(parseDayMonth('без даты'), null);
+  const events = [{ date: '1 января' }, { date: '20 ноября' }, { date: '12 ноября' }];
+  const next = upcomingEvents(events, new Date(Date.UTC(2026, 10, 11)), 3);
+  assert.deepEqual(next.map((e) => e.date), ['12 ноября', '20 ноября', '1 января']);
+  assert.equal(next[0]!.inDays, 1);
+});

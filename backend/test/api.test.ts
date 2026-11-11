@@ -68,3 +68,14 @@ test('аналитик не может публиковать и импорти�
   assert.equal((await call('/admin/import', json({ fileName: 'a.csv', text: 'kind,title\nfund,Тест' }, { Cookie: cookie, 'X-CSRF-Token': csrf }))).status, 403);
   assert.equal((await call('/admin/analytics', { headers: { Cookie: cookie } })).status, 200);
 });
+
+test('машина времени и памятные даты для главной', async () => {
+  const time = await (await call('/timeline')).json() as { items: Array<{ decade: number; total: number; cover: { imageUrl: string } | null }> };
+  assert.equal(time.items.length, 10);
+  const fifties = time.items.find((item) => item.decade === 1950)!;
+  const catalog = await (await call('/catalog?type=photo&year-from=1950&year-to=1959&size=1')).json() as { total: number };
+  assert.equal(fifties.total, catalog.total, 'счётчик карточки совпадает с выдачей каталога, куда она ведёт');
+  const dates = await (await call('/calendar/upcoming?limit=3')).json() as { items: Array<{ inDays: number }> };
+  assert.equal(dates.items.length, 3);
+  assert.ok(dates.items[0]!.inDays <= dates.items[2]!.inDays);
+});

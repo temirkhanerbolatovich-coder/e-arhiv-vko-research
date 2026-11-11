@@ -17,6 +17,7 @@ import { clearCookieHeader, cookieHeader, issueToken, loginAllowed, readToken, r
 import { allowedTransitions, STATUSES, transition, TransitionError, type Status } from '../admin/moderation.ts';
 import { audit } from '../admin/audit.ts';
 import { analytics, createDraft, exportCsv, extractFromScan, importCsv, recommendations, validateDraft, type DraftInput } from '../admin/catalog-admin.ts';
+import { upcomingEvents } from '../domain/calendar.ts';
 
 type Env = { Variables: { user: SessionUser & { csrf: string } } };
 
@@ -116,6 +117,32 @@ export function createApp(dbPromise: Promise<Db>): Hono<Env> {
     const rows = await (await db()).query(`SELECT id, title, period_label AS date, year_from AS year FROM resources
       WHERE kind = 'event' AND status = 'published' ORDER BY id LIMIT 300`);
     return c.json({ items: rows });
+  });
+
+  /** «Машина времени» на главной: число опубликованных фото по десятилетиям и обложка (фото с открытой копией). */
+  app.get('/timeline', async (c) => {
+    const rows = await (await db()).query<{ decade: number; total: number; cover_id: string | null; cover_url: string | null; cover_title: string | null }>(`
+      SELECT d.decade, d.total, cover.id AS cover_id, cover.image_url AS cover_url, cover.title AS cover_title
+      -- Счёт по пересечению периода с десятилетием — так же фильтрует каталог, куда ведёт карточка.
+      FROM (SELECT g.decade, count(r.id)::int AS total FROM generate_series(1900, 1990, 10) AS g(decade)
+            LEFT JOIN resources r ON r.kind = 'photo' AND r.status = 'published'
+              AND COALESCE(r.year_to, r.year_from) >= g.decade AND COALESCE(r.year_from, r.year_to) <= g.decade + 9
+            GROUP BY g.decade) d
+      LEFT JOIN LATERAL (SELECT id, image_url, title FROM resources
+            WHERE kind = 'photo' AND status = 'published' AND access = 'open' AND copy_status = 'available'
+              AND image_url IS NOT NULL AND year_from BETWEEN d.decade AND d.decade + 9
+            -- Для обложки лучше виды города и стройки, чем портреты: они узнаваемы и показывают эпоху.
+            ORDER BY (title ~* '(вид|улиц|площад|город|завод|гэс|плотин|набережн|мост|строительств|пристан|собор|церк|здани|панорам)') DESC,
+                     (title ~* '(родил|герой|ветеран|участник)') ASC, length(title) ASC LIMIT 1) cover ON true
+      ORDER BY d.decade`);
+    return c.json({ items: rows.map((r) => ({ decade: r.decade, total: r.total, cover: r.cover_url ? { id: r.cover_id, imageUrl: r.cover_url, title: r.cover_title } : null })) });
+  });
+
+  /** Ближайшие памятные даты из календаря архива (дата в тексте вида «7 февраля 2025», год не важен). */
+  app.get('/calendar/upcoming', async (c) => {
+    const rows = await (await db()).query<{ id: string; title: string; date: string }>(`SELECT id, title, period_label AS date FROM resources WHERE kind = 'event' AND status = 'published'`);
+    const limit = Math.min(Math.max(Number(c.req.query('limit')) || 3, 1), 10);
+    return c.json({ items: upcomingEvents(rows, new Date(), limit) });
   });
 
   app.post('/chat/messages', async (c) => {
