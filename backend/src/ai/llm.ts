@@ -25,12 +25,18 @@ export function llmConfigured(): boolean {
   return Boolean(config.llm.apiKey || config.llm.useGateway);
 }
 
+/** Сбой модели не ломает ответ (есть режим поиска), но должен быть виден в журнале сервера. Ключ не логируется. */
+function logged(error: LlmUnavailableError, pathName: string): LlmUnavailableError {
+  console.warn(`[llm] ${pathName} via ${config.llm.useGateway ? 'gateway' : 'direct'}: ${error.message}`);
+  return error;
+}
+
 async function post<T>(pathName: string, body: unknown, timeoutMs = config.llm.timeoutMs): Promise<T> {
   if (!apiKey()) throw new LlmUnavailableError('LLM API key is not configured');
   const response = await fetch(`${config.llm.baseUrl}${pathName}`, {
     method: 'POST', headers: headers(), body: JSON.stringify(body), signal: AbortSignal.timeout(timeoutMs),
-  }).catch((error: unknown) => { throw new LlmUnavailableError(`LLM request failed: ${(error as Error).message}`); });
-  if (!response.ok) throw new LlmUnavailableError(`LLM HTTP ${response.status}: ${(await response.text()).slice(0, 300)}`);
+  }).catch((error: unknown) => { throw logged(new LlmUnavailableError(`LLM request failed: ${(error as Error).message}`), pathName); });
+  if (!response.ok) throw logged(new LlmUnavailableError(`LLM HTTP ${response.status}: ${(await response.text()).slice(0, 300)}`), pathName);
   return (await response.json()) as T;
 }
 
