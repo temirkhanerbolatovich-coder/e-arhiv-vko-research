@@ -169,6 +169,10 @@
       previewDate.textContent = newsPreview.dateLabel;
       previewDate.hidden = !newsPreview.dateLabel;
     }
+    window.archiveApi.ready.then((available) => {
+      const note = app.querySelector('.demo-note');
+      if (available && note) note.textContent = {ru:'Отвечает программа на основе ИИ — только по открытым материалам архива, со ссылками на источники.',kk:'ЖИ негізіндегі бағдарлама тек архивтің ашық материалдары бойынша жауап береді.',en:'An AI-based program answers only from the archive’s open materials, with sources.'}[state.language];
+    });
     const input = document.getElementById('chat-input');
     document.getElementById('chat-form').addEventListener('submit', (event) => { event.preventDefault(); ask(input.value); });
     app.querySelectorAll('[data-question]').forEach((button) => button.addEventListener('click', () => { input.value = button.textContent; ask(input.value,button.dataset.question); }));
@@ -180,7 +184,18 @@
     const q = question.toLocaleLowerCase();
     const isArchiveAddress = /(архив|архиві|archive).{0,30}(где|адрес|находится|қайда|мекенжай|where)|(где|адрес|находится|қайда|мекенжай|where).{0,30}(архив|архиві|archive)/.test(q);
     const kind = category || (window.ridderRecord.matches(q) ? 'ridder' : /опись|опис[ьи]|дело|тізімдеме|inventory|\bcase\b/.test(q) ? 'terms' : isArchiveAddress ? 'address' : /фото|сурет|photo/.test(q) ? 'photos' : /р[-\s]?1|фонд|қор|fund/.test(q) ? 'fund' : 'unknown');
-    state.messages.push({question,kind});
+    if (kind.startsWith('demo-')) state.messages.push({question,kind});
+    else {
+      // Живой ответ сервера; если API недоступен, остаётся подготовленный локальный ответ.
+      const message = {question,kind:'live',pending:true,fallbackKind:kind};
+      state.messages.push(message);
+      const refresh = () => { if (location.hash.split('?')[0] === '#/chat') renderChat(); };
+      window.archiveApi.ready.then((available) => {
+        if (!available) { message.kind = kind; return; }
+        return window.archiveApi.post('/chat/messages',{question,locale:state.language}).then((reply) => { message.reply = reply; })
+          .catch((error) => { if (error.status === 429 || error.status === 400) message.error = error.message; else message.kind = kind; });
+      }).finally(() => { message.pending = false; refresh(); });
+    }
     if (location.hash.split('?')[0] === '#/chat') { renderChat(); app.querySelector('#chat-followup')?.focus({preventScroll:true}); }
     else location.hash = '#/chat';
   }
@@ -210,14 +225,14 @@
   function route() {
     const value = (location.hash || '#/').slice(1);
     const [path,query=''] = value.split('?');
-    const navigationPath = path.startsWith('/fund/') || path.startsWith('/ridder/') ? '/catalog'
+    const navigationPath = path.startsWith('/fund/') || path.startsWith('/ridder/') || path.startsWith('/resource/') ? '/catalog'
       : path === '/exhibition' ? '/section/exhibitions' : path;
     document.querySelectorAll('.desktop-nav a, .mobile-menu a').forEach(link => {
       if (link.getAttribute('href') === '#' + navigationPath) link.setAttribute('aria-current', 'page');
       else link.removeAttribute('aria-current');
     });
     let localized = ['/', '/ask', '/chat', '/catalog', '/fund/r1', '/section/branches', '/section/paid', '/section/feedback', '/section/reading-room', '/section/symbols', '/section/history', '/section/structure', '/section/about', '/section/help', '/section/normative', '/section/publications', '/section/news', '/section/compliance', '/section/personal-funds', '/section/all', '/section/links', '/section/services', '/section/privacy', '/section/copyright', '/exhibition', '/section/exhibitions', '/memory', '/section/memory', '/person', '/cipher', '/calendar', '/section/calendar', '/places', '/section/places', '/document'].includes(path)
-      || window.ridderRecord.routes.includes(path) || path === '/admin' || path.startsWith('/admin/');
+      || window.ridderRecord.routes.includes(path) || path.startsWith('/resource/') || path === '/admin' || path.startsWith('/admin/');
     app.lang = localized ? state.language : 'ru';
     document.body.classList.toggle('chat-route',path === '/chat');
     document.body.classList.toggle('admin-route',path === '/admin' || path.startsWith('/admin/'));
@@ -227,6 +242,7 @@
     else if (path === '/catalog') { window.renderCatalog(app,new URLSearchParams(query),state.language); }
     else if (window.ridderRecord.routes.includes(path)) { window.ridderRecord.render(app,path,state.language); }
     else if (path === '/fund/r1') { window.renderFund(app,state.language); }
+    else if (path.startsWith('/resource/')) { window.renderResource(app,decodeURIComponent(path.slice('/resource/'.length)),state.language); }
     else if (path === '/exhibition' || path === '/section/exhibitions') { window.renderExhibition(app,new URLSearchParams(query),state.language); }
     else if (path === '/memory' || path === '/section/memory') { window.renderMemory(app,new URLSearchParams(query),state.language); }
     else if (path === '/section/branches') { window.renderBranches(app,new URLSearchParams(query),state.language); }

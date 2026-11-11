@@ -101,8 +101,28 @@
   const mapUrl = address => 'https://2gis.kz/ust-kamenogorsk/search/' + encodeURIComponent(address);
   const googleMapUrl = address => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(address);
   const phoneUrl = phone => 'tel:' + phone.replace(/[^\d+]/g, '');
+  // Координаты приходят из /api/v1/branches (геокодирование OSM по адресам заказчика, требуют подтверждения архивом).
+  const geoText = {
+    ru: { osm: 'Карта OpenStreetMap', precision: { building: 'Точка по адресу здания.', street: 'Точка по улице: номер дома на карте не найден.', town: 'Показан населённый пункт: точный адрес на карте не найден.' }, verify: 'Координаты определены автоматически по адресу и ожидают подтверждения архивом.', route2gis: 'Маршрут в 2ГИС', routeGoogle: 'Маршрут в Google Maps', nearest: 'Найти ближайший филиал', nearestHint: 'Местоположение используется только в браузере и никуда не отправляется.', km: 'км', geoError: 'Не удалось определить местоположение. Выберите филиал по адресу.' },
+    kk: { osm: 'OpenStreetMap картасы', precision: { building: 'Ғимарат мекенжайы бойынша нүкте.', street: 'Көше бойынша нүкте: үй нөмірі картада табылмады.', town: 'Елді мекен көрсетілген: нақты мекенжай картада табылмады.' }, verify: 'Координаттар мекенжай бойынша автоматты анықталды, архивтің растауын күтеді.', route2gis: '2ГИС-те бағыт', routeGoogle: 'Google Maps-та бағыт', nearest: 'Ең жақын филиалды табу', nearestHint: 'Орналасқан жер тек браузерде қолданылады, ешқайда жіберілмейді.', km: 'км', geoError: 'Орналасқан жерді анықтау мүмкін болмады. Филиалды мекенжай бойынша таңдаңыз.' },
+    en: { osm: 'OpenStreetMap', precision: { building: 'Marker at the building address.', street: 'Marker on the street: the house number was not found on the map.', town: 'The settlement is shown: the exact address was not found on the map.' }, verify: 'Coordinates were derived automatically from the address and await confirmation by the archive.', route2gis: 'Route in 2GIS', routeGoogle: 'Route in Google Maps', nearest: 'Find the nearest branch', nearestHint: 'Your location stays in the browser and is not sent anywhere.', km: 'km', geoError: 'Could not determine your location. Choose a branch by address.' }
+  };
+  const osmEmbedUrl = ({ lat, lng }) => `https://www.openstreetmap.org/export/embed.html?bbox=${lng - 0.012},${lat - 0.006},${lng + 0.012},${lat + 0.006}&layer=mapnik&marker=${lat},${lng}`;
+  const route2gisUrl = ({ lat, lng }) => `https://2gis.kz/directions/points/%7C${lng}%2C${lat}`;
+  const routeGoogleUrl = ({ lat, lng }) => `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
+  function distanceKm(a, b) {
+    const rad = Math.PI / 180;
+    const h = Math.sin((b.lat - a.lat) * rad / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin((b.lng - a.lng) * rad / 2) ** 2;
+    return 12742 * Math.asin(Math.sqrt(h));
+  }
 
   function mapPanel(record, t) {
+    const g = geoText[t.lang] || geoText.ru;
+    if (!record.map && record.lat) {
+      return `<section class="branch-map" aria-labelledby="branch-map-heading"><div class="branch-map-heading">${icon('pin')}<h3 id="branch-map-heading">${t.map}</h3></div>
+        <p class="branch-map-status">${g.precision[record.precision] || ''} ${g.verify}</p>
+        <iframe class="branch-map-frame" title="${g.osm} — ${record.name}" src="${osmEmbedUrl(record)}" loading="lazy" referrerpolicy="no-referrer"></iframe></section>`;
+    }
     if (!record.map) {
       return `<div class="branch-map"><p class="branch-map-fallback">${t.mapMissing}</p></div>`;
     }
@@ -124,11 +144,11 @@
       <dl class="branches-detail-list"><div><dt>${icon('pin')} ${t.address}</dt><dd lang="ru">${record.address}</dd></div><div><dt>${icon('phone')} ${t.phone}</dt><dd>${record.phone ? `<a href="${phoneUrl(record.phone)}">${record.phone}</a>` : t.noPhone}</dd></div></dl>
       <div class="branches-divider"></div>${mapPanel(record, t)}
       <div class="branches-divider"></div><h3>${t.route}</h3><p class="branches-route-note">${t.routeNote}</p>
-      <div class="branches-route-links"><a class="branches-route" href="${mapUrl(record.address)}" target="_blank" rel="noopener noreferrer">${icon('external')} ${t.find2gis} <span class="branches-visually-hidden">(${t.newTab})</span></a><a class="branches-route branches-route-secondary" href="${googleMapUrl(record.address)}" target="_blank" rel="noopener noreferrer">${icon('external')} Google Maps <span class="branches-visually-hidden">(${t.newTab})</span></a></div></div>`;
+      ${record.lat ? `<div class="branches-route-links"><a class="branches-route" href="${route2gisUrl(record)}" target="_blank" rel="noopener noreferrer">${icon('external')} ${(geoText[t.lang] || geoText.ru).route2gis} <span class="branches-visually-hidden">(${t.newTab})</span></a><a class="branches-route branches-route-secondary" href="${routeGoogleUrl(record)}" target="_blank" rel="noopener noreferrer">${icon('external')} ${(geoText[t.lang] || geoText.ru).routeGoogle} <span class="branches-visually-hidden">(${t.newTab})</span></a>` : `<div class="branches-route-links"><a class="branches-route" href="${mapUrl(record.address)}" target="_blank" rel="noopener noreferrer">${icon('external')} ${t.find2gis} <span class="branches-visually-hidden">(${t.newTab})</span></a><a class="branches-route branches-route-secondary" href="${googleMapUrl(record.address)}" target="_blank" rel="noopener noreferrer">${icon('external')} Google Maps <span class="branches-visually-hidden">(${t.newTab})</span></a>`}</div></div>`;
   }
 
   function renderBranches(container, params, language = 'ru') {
-    const t = translations[language] || translations.ru;
+    const t = { ...(translations[language] || translations.ru), lang: language };
     const urlParams = params instanceof URLSearchParams ? params : new URLSearchParams();
     let selected = records.find(item => item.id === urlParams.get('id')) || records[0];
     let renderedSelection;
@@ -165,9 +185,10 @@
         const typeMatch = filter === 'all' || (filter === 'main' && item.isMain) || (filter === 'branch' && !item.isMain);
         return typeMatch && (!q || normalize(item.name + ' ' + item.address).includes(q));
       });
+      if (filtered.some(item => item.distance !== undefined)) filtered.sort((a, b) => (a.distance ?? Infinity) - (b.distance ?? Infinity));
       if (!filtered.some(item => item.id === selected?.id)) selected = filtered[0] || null;
       count.textContent = filtered.length ? `${t.count}: ${filtered.length}` : t.noResults;
-      list.innerHTML = filtered.length ? filtered.map(item => `<button type="button" class="branches-card${selected?.id === item.id ? ' is-selected' : ''}" data-branch="${item.id}" aria-pressed="${selected?.id === item.id}"><span class="branches-card-icon">${icon('archive')}</span><span class="branches-card-copy" lang="ru"><strong>${item.name}</strong><span>${item.address}</span></span><span class="branches-card-arrow" aria-hidden="true">›</span></button>`).join('') : `<div class="branches-empty"><strong>${t.empty}</strong><p>${t.emptyHint}</p></div>`;
+      list.innerHTML = filtered.length ? filtered.map(item => `<button type="button" class="branches-card${selected?.id === item.id ? ' is-selected' : ''}" data-branch="${item.id}" aria-pressed="${selected?.id === item.id}"><span class="branches-card-icon">${icon('archive')}</span><span class="branches-card-copy" lang="ru"><strong>${item.name}</strong><span>${item.address}</span>${item.distance !== undefined ? `<span class="branches-distance">≈ ${item.distance.toFixed(1)} ${(geoText[t.lang] || geoText.ru).km}</span>` : ''}</span><span class="branches-card-arrow" aria-hidden="true">›</span></button>`).join('') : `<div class="branches-empty"><strong>${t.empty}</strong><p>${t.emptyHint}</p></div>`;
       if (renderedSelection !== selected) {
         detailContainer.innerHTML = detail(selected, t);
         renderedSelection = selected;
@@ -229,6 +250,36 @@
         });
       }
     });
+    const g = geoText[t.lang] || geoText.ru;
+    const nearest = document.createElement('div');
+    nearest.className = 'branches-nearest';
+    nearest.innerHTML = `<button type="button" class="branches-route branches-route-secondary">${icon('pin')} ${g.nearest}</button><small>${g.nearestHint}</small><p role="status"></p>`;
+    nearest.hidden = true;
+    count.before(nearest);
+    nearest.querySelector('button').addEventListener('click', () => {
+      const status = nearest.querySelector('p');
+      if (!navigator.geolocation) { status.textContent = g.geoError; return; }
+      navigator.geolocation.getCurrentPosition(({ coords }) => {
+        const here = { lat: coords.latitude, lng: coords.longitude };
+        records.forEach(item => { if (item.lat) item.distance = distanceKm(here, item); });
+        selected = records.filter(item => item.distance !== undefined).sort((a, b) => a.distance - b.distance)[0] || selected;
+        status.textContent = '';
+        renderedSelection = null;
+        update();
+      }, () => { status.textContent = g.geoError; }, { timeout: 10000, maximumAge: 600000 });
+    });
+    const api = window.archiveApi;
+    if (api) api.ready.then(async available => {
+      if (!available) return;
+      const { items } = await api.get('/branches');
+      items.forEach(branch => {
+        const record = records.find(item => item.id === branch.id);
+        if (record && branch.lat !== null) Object.assign(record, { lat: Number(branch.lat), lng: Number(branch.lng), precision: branch.coords_precision });
+      });
+      nearest.hidden = false;
+      renderedSelection = null;
+      update();
+    }).catch(() => {});
     update();
   }
 

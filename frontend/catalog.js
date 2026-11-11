@@ -277,7 +277,7 @@
           <div class="catalog-demo-note" role="note"><span class="catalog-note-mark" aria-hidden="true">i</span><p><strong>${t.demo}</strong> ${t.demoText}</p></div>
           <p><a class="response-link" href="#/section/personal-funds">${t.personal} <span aria-hidden="true">→</span></a></p>
           <form id="catalog-search-form" class="catalog-search" role="search"><label class="catalog-sr-only" for="catalog-query">${t.searchLabel}</label><svg class="catalog-search-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="m16.2 16.2 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><input id="catalog-query" name="q" type="search" placeholder="${t.placeholder}" autocomplete="off"><button class="catalog-search-button" type="submit">${t.find}</button></form>
-          <div class="portal-catalog-layout"><aside class="portal-catalog-sidebar"><details class="catalog-filter-panel"><summary>${t.showFilters}</summary><div class="catalog-filters" aria-label="${t.filters}"><label class="catalog-select-wrap"><span>${t.type}</span><select id="catalog-type"><option value="all">${t.allMaterials}</option><option value="fund">${t.fonds}</option><option value="document">${t.documents}</option><option value="photo">${t.photos}</option></select></label><label class="catalog-select-wrap"><span>${t.period}</span><select id="catalog-period"><option value="all">${t.allPeriods}</option><option value="before1926">${t.before}</option><option value="1926-1950">1926–1950</option><option value="1951-2000">1951–2000</option><option value="after2000">${t.after}</option></select></label><button type="button" class="catalog-clear">${t.clearFilters}</button></div>
+          <div class="portal-catalog-layout"><aside class="portal-catalog-sidebar"><details class="catalog-filter-panel"><summary>${t.showFilters}</summary><div class="catalog-filters" aria-label="${t.filters}"><label class="catalog-select-wrap"><span>${t.type}</span><select id="catalog-type"><option value="all">${t.allMaterials}</option><option value="fund">${t.fonds}</option><option value="document">${t.documents}</option><option value="photo">${t.photos}</option><option value="newspaper">${({ru:'Газеты',kk:'Газеттер',en:'Newspapers'})[language] || 'Газеты'}</option></select></label><label class="catalog-select-wrap"><span>${t.period}</span><select id="catalog-period"><option value="all">${t.allPeriods}</option><option value="before1926">${t.before}</option><option value="1926-1950">1926–1950</option><option value="1951-2000">1951–2000</option><option value="after2000">${t.after}</option></select></label><button type="button" class="catalog-clear">${t.clearFilters}</button></div>
           <details class="catalog-advanced"><summary>${t.referenceSearch}</summary><div class="catalog-reference-fields"><label>${t.fond}<input id="catalog-fund" maxlength="50" placeholder="${t.exampleFund}" form="catalog-search-form"></label><label>${t.inventory}<input id="catalog-inventory" maxlength="50" placeholder="${t.exampleInventory}" form="catalog-search-form"></label><label>${t.case}<input id="catalog-case" maxlength="50" placeholder="${t.exampleCase}" form="catalog-search-form"></label></div><p>${t.combine}</p><button type="submit" form="catalog-search-form" class="catalog-search-button">${t.apply}</button></details>
           <div class="catalog-extra-filters"><h2>${t.extraFilters}</h2><div class="catalog-extra-fields">
             <label for="catalog-year-from">${t.yearFrom}<input id="catalog-year-from" type="number" min="1" max="9999" inputmode="numeric" form="catalog-search-form"></label>
@@ -288,7 +288,7 @@
             <label for="catalog-branch">${t.branch}<input id="catalog-branch" aria-describedby="catalog-extra-note" type="text" maxlength="100" form="catalog-search-form"></label>
           </div><p class="catalog-extra-note" id="catalog-extra-note">${t.unknownFields}</p><button type="submit" form="catalog-search-form" class="catalog-search-button">${t.apply}</button></div></details>
           </aside><div class="portal-catalog-results"><div class="catalog-result-controls">
-            <label class="catalog-select-wrap"><span>${t.sort}</span><select id="catalog-sort"><option value="title-asc">${t.titleAsc}</option><option value="title-desc">${t.titleDesc}</option><option value="year-asc">${t.yearAsc}</option><option value="year-desc">${t.yearDesc}</option></select></label>
+            <label class="catalog-select-wrap"><span>${t.sort}</span><select id="catalog-sort"><option value="relevance">${({ru:'По релевантности',kk:'Сәйкестігі бойынша',en:'Relevance'})[language] || 'По релевантности'}</option><option value="title-asc">${t.titleAsc}</option><option value="title-desc">${t.titleDesc}</option><option value="year-asc">${t.yearAsc}</option><option value="year-desc">${t.yearDesc}</option></select></label>
             <label class="catalog-select-wrap"><span>${t.pageSize}</span><select id="catalog-page-size"><option value="1">1</option><option value="10" selected>10</option><option value="20">20</option></select></label>
           </div>
           <div class="catalog-results-heading"><h2>${t.results}</h2><p class="catalog-result-count" role="status" aria-live="polite"></p></div><div class="catalog-results"></div>
@@ -371,7 +371,22 @@
       history.replaceState(null, '', hash);
     }
 
+    let requestSequence = 0;
+    // Серверный каталог (backend/). Если API нет, работают локальные примеры updateResultsLocal.
     function updateResults() {
+      const live = window.archiveApi;
+      if (!live || !window.archiveCatalogLive) { updateResultsLocal(); return; }
+      const sequence = ++requestSequence;
+      live.ready.then((available) => {
+        if (sequence !== requestSequence) return;
+        if (!available) { updateResultsLocal(); return; }
+        saveFilters();
+        window.archiveCatalogLive.render({ params: getFilterParams(), page: currentPage, language, t, result, count, pagination, pageStatus, previousPage, nextPage, container,
+          isCurrent: () => sequence === requestSequence, setPage: (page) => { currentPage = page; }, onReset: clear });
+      });
+    }
+
+    function updateResultsLocal() {
       const selected = period.value;
       const periodMatches = selected === 'all' || (selected === '1926-1950' && record.startYear <= 1950 && record.endYear >= 1926) || (selected === '1951-2000' && record.startYear <= 2000 && record.endYear >= 1951);
       // Both sample records lack confirmed metadata for these fields, so they must not match guesses.

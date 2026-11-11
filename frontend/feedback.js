@@ -1,4 +1,4 @@
-/* Layout preview only: feedback is never transmitted or stored on disk. */
+/* Отзывы и предложения о сайте: при работающем API отправляются на модерацию (не официальные обращения). */
 (function () {
   'use strict';
   const draft = { topic: 'suggestion', message: '' };
@@ -24,9 +24,27 @@
     message.value = draft.message;
     topic.addEventListener('change', () => { draft.topic = topic.value; });
     message.addEventListener('input', () => { draft.message = message.value; });
-    container.querySelector('.feedback-form').addEventListener('submit', (event) => {
+    const sent = { ru: 'Спасибо! Сообщение отправлено на модерацию. Это не официальное обращение: ответ и номер не присваиваются.', kk: 'Рақмет! Хабарлама модерацияға жіберілді. Бұл ресми өтініш емес.', en: 'Thank you! Your message was sent for moderation. This is not an official appeal.' }[language] || '';
+    const failed = { ru: 'Не удалось отправить. Черновик сохранён — попробуйте ещё раз.', kk: 'Жіберу мүмкін болмады. Жоба сақталды — қайталап көріңіз.', en: 'Sending failed. Your draft is kept — please try again.' }[language] || '';
+    window.archiveApi?.ready.then((available) => { if (available) container.querySelector('.feedback-notice')?.setAttribute('hidden', ''); });
+    container.querySelector('.feedback-form').addEventListener('submit', async (event) => {
       event.preventDefault();
-      container.querySelector('.feedback-result').textContent = t.result;
+      const result = container.querySelector('.feedback-result');
+      const api = window.archiveApi;
+      if (!api || !(await api.ready)) { result.textContent = t.result; return; }
+      const button = event.target.querySelector('button[type="submit"]');
+      button.disabled = true;
+      try {
+        // Успех показываем только после ответа сервера; при ошибке черновик остаётся.
+        await api.post('/feedback', { kind: topic.value, message: message.value });
+        result.textContent = sent;
+        draft.message = '';
+        message.value = '';
+      } catch (error) {
+        result.textContent = error.status === 400 ? error.message : failed;
+      } finally {
+        button.disabled = false;
+      }
     });
   };
 }());

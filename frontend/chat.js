@@ -75,7 +75,31 @@
     function sourceCard(label, href, caption) {
       return `<a class="chat-source-card" href="${escape(href)}"><span class="chat-source-icon">${icon('file')}</span><span><small>${escape(caption)}</small><strong>${escape(label)}</strong></span><span class="chat-arrow">${icon('arrowRight')}</span></a>`;
     }
+    const liveText = { ru: { label: 'Помощник архива · программа на основе ИИ', search: 'Ответ по результатам поиска', thinking: 'Ищу в каталоге и материалах сайта…', catalog: 'Открыть в каталоге с этими фильтрами', applied: 'Помощник применил фильтры', sources: 'Источники', more: 'Можно уточнить', copy: 'Скопировать', copied: 'Скопировано', helpful: 'Ответ был полезен?', yes: 'Да', no: 'Нет', thanks: 'Спасибо, оценка учтена.', noResults: 'Подходящих открытых материалов не нашлось.' },
+      kk: { label: 'Архив көмекшісі · ЖИ негізіндегі бағдарлама', search: 'Іздеу нәтижесі бойынша жауап', thinking: 'Каталог пен сайт материалдарынан іздеп жатырмын…', catalog: 'Осы сүзгілермен каталогта ашу', applied: 'Көмекші қолданған сүзгілер', sources: 'Дереккөздер', more: 'Нақтылауға болады', copy: 'Көшіру', copied: 'Көшірілді', helpful: 'Жауап пайдалы болды ма?', yes: 'Иә', no: 'Жоқ', thanks: 'Рақмет, баға есепке алынды.', noResults: 'Сәйкес ашық материал табылмады.' },
+      en: { label: 'Archive assistant · AI-based program', search: 'Answer from search results', thinking: 'Searching the catalogue and site materials…', catalog: 'Open in the catalogue with these filters', applied: 'Filters applied by the assistant', sources: 'Sources', more: 'You can refine', copy: 'Copy', copied: 'Copied', helpful: 'Was this answer helpful?', yes: 'Yes', no: 'No', thanks: 'Thank you, your rating was saved.', noResults: 'No matching open materials were found.' } }[language] || {};
+    const api = window.archiveApi;
+    // Закон РК «Об искусственном интеллекте»: посетитель видит, что отвечает программа, и знает её ограничения.
+    const disclosure = { ru: ['ИИ-помощник', 'Отвечает программа на основе ИИ — только по открытым материалам сайта архива, со ссылками на источники. Проверяйте важное в карточке. Сайт не принимает заявления; можно пользоваться каталогом без помощника.'], kk: ['ЖИ-көмекші', 'ЖИ негізіндегі бағдарлама тек архив сайтының ашық материалдары бойынша, дереккөз сілтемелерімен жауап береді. Маңыздысын карточкадан тексеріңіз. Сайт өтініш қабылдамайды; каталогты көмекшісіз де пайдалануға болады.'], en: ['AI assistant', 'An AI-based program answers only from open materials on the archive site, with links to sources. Check important details in the record. The site does not accept applications; you can use the catalogue without the assistant.'] }[language];
+    const isLive = Boolean(api && api.health && api.health.ok);
+    const bannerLabel = isLive ? disclosure[0] : t.label;
+    const bannerText = isLive ? disclosure[1] : t.demo;
+    function liveEntry(message, index) {
+      const user = `<div class="chat-user-row"><div class="chat-user-bubble"><span class="chat-visually-hidden">${t.question}: </span>${escape(message.question)}</div></div>`;
+      const label = `<div class="chat-answer-label"><span class="chat-assistant-icon">${icon('assistant')}</span><span>${message.reply && message.reply.mode === 'search' ? liveText.search : liveText.label}</span></div>`;
+      if (message.pending) return `<div class="chat-turn">${user}<div class="chat-answer">${label}<div class="chat-waiting" role="status"><span class="chat-waiting-dot" aria-hidden="true"></span>${liveText.thinking}</div></div></div>`;
+      if (message.error) return `<div class="chat-turn">${user}<div class="chat-answer">${label}<p>${escape(message.error)}</p></div></div>`;
+      const reply = message.reply;
+      const chips = reply.filters.length ? `<div class="chat-live-filters" aria-label="${liveText.applied}">${reply.filters.map((f) => `<span class="chat-live-chip">${escape(f.label)}</span>`).join('')}${reply.catalogHref ? `<a class="chat-live-catalog" href="${api.safeHref(reply.catalogHref)}">${liveText.catalog} →</a>` : ''}</div>` : (reply.catalogHref ? `<p><a class="chat-live-catalog" href="${api.safeHref(reply.catalogHref)}">${liveText.catalog} →</a></p>` : '');
+      const notice = reply.notice ? `<p class="chat-live-notice">${escape(reply.notice)}</p>` : '';
+      const sources = reply.sources.map((source) => `<a class="chat-source-card" href="${api.safeHref(source.href)}">${source.imageUrl ? `<img class="chat-source-thumb" src="${escape(source.imageUrl)}" alt="" loading="lazy">` : `<span class="chat-source-icon">${icon('file')}</span>`}<span><small>${escape([source.reference, source.period].filter(Boolean).join(' · ') || liveText.sources)}</small><strong>${escape(source.title)}</strong></span><span class="chat-arrow">${icon('arrowRight')}</span></a>`).join('');
+      const links = reply.links.map((link) => `<a class="chat-source-card" href="${api.safeHref(link.href)}"${/^https:/.test(link.href) ? ' target="_blank" rel="noopener noreferrer"' : ''}><span class="chat-source-icon">${icon('arrowRight')}</span><span><strong>${escape(link.label)}</strong></span><span class="chat-arrow">${icon('arrowRight')}</span></a>`).join('');
+      const followups = reply.followups.length ? `<div class="chat-live-followups"><span>${liveText.more}:</span>${reply.followups.map((text) => `<button type="button" class="chat-live-followup">${escape(text)}</button>`).join('')}</div>` : '';
+      const rating = `<div class="chat-rating" role="group" aria-label="${liveText.helpful}"><span>${liveText.helpful}</span><button type="button" data-live-rating="1" data-chat-index="${index}" aria-pressed="${message.rating === 1}">${liveText.yes}</button><button type="button" data-live-rating="-1" data-chat-index="${index}" aria-pressed="${message.rating === -1}">${liveText.no}</button><span class="chat-rating-status" role="status">${message.rating ? liveText.thanks : ''}</span></div>`;
+      return `<div class="chat-turn">${user}<div class="chat-answer">${label}${chips}<p>${escape(reply.answer || liveText.noResults)}</p>${notice}${sources || links ? `<div class="chat-source-list">${sources}${links}</div>` : ''}${followups}<div class="chat-answer-actions"><button type="button" class="chat-copy" data-live-copy="${index}">${liveText.copy}</button><span class="chat-copy-status" role="status"></span></div>${rating}</div></div>`;
+    }
     const entries = messages.map((message, index) => {
+      if (message.kind === 'live') return liveEntry(message, index);
       const answer = getAnswer(message.kind);
       const loading = message.kind === 'demo-loading' && !message.previewShown;
       const related = message.kind.startsWith('demo-') ? scenarios.related : t.source;
@@ -87,10 +111,10 @@
     }).join('');
     const empty = `<div class="chat-empty"><span class="chat-empty-icon">${icon('assistant')}</span><h1>${t.empty}</h1><p>${t.emptyText}</p><div class="chat-suggestions"><button type="button" data-chat-example="address">${t.example1}</button><button type="button" data-chat-example="terms">${t.example2}</button><button type="button" data-chat-example="fund">${t.example3}</button></div><div class="chat-scenario-examples"><p>${scenarios.examples}</p><div class="chat-suggestions"><button type="button" data-chat-example="demo-restricted">${scenarios.restricted}</button><button type="button" data-chat-example="demo-error">${scenarios.error}</button><button type="button" data-chat-example="demo-no-result">${preview.noResult}</button><button type="button" data-chat-example="demo-sources">${preview.sources}</button><button type="button" data-chat-example="demo-loading">${preview.waiting}</button></div></div></div>`;
     container.innerHTML = `<section class="chat-layout${messages.length ? '' : ' chat-layout-empty'}" aria-label="${t.title}">
-      <aside class="chat-sidebar"><a class="chat-sidebar-brand" href="#/"><span class="chat-sidebar-mark">${icon('assistant')}</span><span><strong>${t.brandShort}</strong><small>${t.title}</small></span></a><button type="button" class="chat-new">${icon('arrowRight')}<span>${t.new}</span></button><p class="chat-nav-title">${t.nav}</p><nav class="chat-side-nav" aria-label="${t.nav}">${nav.map(([href,symbol,label])=>`<a href="${href}">${icon(symbol)}<span>${t[label]}</span></a>`).join('')}</nav><div class="chat-side-foot"><span>${t.label}</span><p>${t.demo}</p></div></aside>
+      <aside class="chat-sidebar"><a class="chat-sidebar-brand" href="#/"><span class="chat-sidebar-mark">${icon('assistant')}</span><span><strong>${t.brandShort}</strong><small>${t.title}</small></span></a><button type="button" class="chat-new">${icon('arrowRight')}<span>${t.new}</span></button><p class="chat-nav-title">${t.nav}</p><nav class="chat-side-nav" aria-label="${t.nav}">${nav.map(([href,symbol,label])=>`<a href="${href}">${icon(symbol)}<span>${t[label]}</span></a>`).join('')}</nav><div class="chat-side-foot"><span>${bannerLabel}</span><p>${bannerText}</p></div></aside>
       <div class="chat-main"><div class="chat-top"><div><strong>${t.title}</strong><span>${t.sub}</span></div><button type="button" class="chat-clear" aria-label="${t.clear}" title="${t.clear}">+</button></div>
-        <div class="chat-thread-wrap"><div class="chat-demo-banner" role="note"><strong>${t.label}.</strong> ${t.demo}</div><div class="chat-thread" aria-live="polite">${entries || empty}</div></div>
-        <div class="chat-composer-wrap"><form class="chat-composer"><label class="chat-visually-hidden" for="chat-followup">${t.input}</label><span class="chat-composer-search">${icon('search')}</span><input id="chat-followup" type="search" maxlength="500" autocomplete="off" placeholder="${t.input}"><button type="submit" aria-label="${t.send}">${icon('arrowUp')}</button></form><p>${t.demo}</p></div>
+        <div class="chat-thread-wrap"><div class="chat-demo-banner" role="note"><strong>${bannerLabel}.</strong> ${bannerText}</div><div class="chat-thread" aria-live="polite">${entries || empty}</div></div>
+        <div class="chat-composer-wrap"><form class="chat-composer"><label class="chat-visually-hidden" for="chat-followup">${t.input}</label><span class="chat-composer-search">${icon('search')}</span><input id="chat-followup" type="search" maxlength="500" autocomplete="off" placeholder="${t.input}"><button type="submit" aria-label="${t.send}">${icon('arrowUp')}</button></form><p>${bannerText}</p></div>
       </div></section>`;
     container.querySelector('.chat-composer').addEventListener('submit', (event)=>{
       event.preventDefault();
@@ -119,6 +143,19 @@
       const group = button.closest('.chat-rating');
       group.querySelectorAll('[data-chat-rating]').forEach(choice=>choice.setAttribute('aria-pressed', String(choice.dataset.chatRating === message.rating)));
       group.querySelector('.chat-rating-status').textContent = preview.rated;
+    }));
+    container.querySelectorAll('.chat-live-followup').forEach(button=>button.addEventListener('click',()=>onSubmit(button.textContent)));
+    container.querySelectorAll('[data-live-rating]').forEach(button=>button.addEventListener('click',()=>{
+      const message = messages[Number(button.dataset.chatIndex)];
+      message.rating = Number(button.dataset.liveRating);
+      api.put('/chat/messages/' + encodeURIComponent(message.reply.messageId) + '/rating', {rating: message.rating}).catch(() => {});
+      const group = button.closest('.chat-rating');
+      group.querySelectorAll('[data-live-rating]').forEach(choice=>choice.setAttribute('aria-pressed', String(Number(choice.dataset.liveRating) === message.rating)));
+      group.querySelector('.chat-rating-status').textContent = liveText.thanks;
+    }));
+    container.querySelectorAll('[data-live-copy]').forEach(button=>button.addEventListener('click',async()=>{
+      const status = button.parentElement.querySelector('.chat-copy-status');
+      try { await navigator.clipboard.writeText(messages[Number(button.dataset.liveCopy)].reply.answer); status.textContent = liveText.copied; } catch { status.textContent = ''; }
     }));
     container.querySelectorAll('[data-chat-copy]').forEach(button=>button.addEventListener('click',async()=>{
       const status = button.parentElement.querySelector('.chat-copy-status');
