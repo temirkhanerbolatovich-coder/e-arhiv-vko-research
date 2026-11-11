@@ -14,7 +14,7 @@ export function setGatewayToken(token: string | undefined): void {
 }
 
 function apiKey(): string {
-  return config.llm.apiKey || (config.llm.useGateway ? gatewayToken || process.env.VERCEL_OIDC_TOKEN || '' : '');
+  return config.llm.apiKey || (config.llm.useGateway ? config.llm.gatewayApiKey || gatewayToken || process.env.VERCEL_OIDC_TOKEN || '' : '');
 }
 
 function headers(): Record<string, string> {
@@ -41,6 +41,7 @@ async function post<T>(pathName: string, body: unknown, timeoutMs = config.llm.t
 }
 
 export async function embed(texts: string[]): Promise<number[][]> {
+  if (!config.llm.queryEmbeddings) throw new LlmUnavailableError('Query embeddings are disabled');
   const result = await post<{ data: Array<{ embedding: number[]; index: number }> }>('/embeddings', {
     model: config.llm.embeddingModel, input: texts, dimensions: config.llm.embeddingDimensions,
   }, 60000);
