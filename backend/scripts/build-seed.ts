@@ -179,7 +179,7 @@ function buildNewspapers(resources: SeedResource[]): void {
   let lastOrgan = '';
   for (const row of rows) {
     const title = clean(row[1]).replace(/^«|»$/g, '');
-    if (!title || /^наименование/i.test(title)) continue;
+    if (!title || /^наименование/i.test(title) || /^\d+$/.test(title)) continue; // строка нумерации колонок
     const organ = clean(row[2]) === '-/-' ? lastOrgan : clean(row[2]);
     lastOrgan = organ || lastOrgan;
     const [from, to] = yearsFrom(clean(row[4]));
@@ -205,7 +205,7 @@ function buildPhotos(resources: SeedResource[], downloaded: Set<string>): void {
     const albumTitle = clean(row[col('album_title')]);
     if (!album || /album$/i.test(albumTitle)) continue; // тестовые альбомы «Test/JSON/PUT/CSRF Album»
     const caption = clean(row[col('caption')]);
-    if (!caption) continue;
+    if (!caption || /^[-–—\s]*$/.test(caption)) continue; // фото без подписи нечего показать в поиске
     const photoId = clean(row[col('photo_id')]);
     const [from, to] = yearsFrom(caption);
     const firstSentence = caption.split(/(?<=[.!?])\s/)[0]!.slice(0, 160);
