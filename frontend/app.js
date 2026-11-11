@@ -151,7 +151,7 @@
     app.innerHTML = `<div class="shell home-page">
       <div class="portal-search-area"><figure class="hero-figure" aria-hidden="true"><img src="assets/hero.jpg" alt="" fetchpriority="high"><figcaption>${{ru:'Усть-Каменогорск. Вид города с собора · фотогалерея архива',kk:'Өскемен. Собордан қала көрінісі · архив фотогалереясы',en:'Ust-Kamenogorsk. View of the town from the cathedral · archive photo gallery'}[state.language] || ''}</figcaption></figure><section class="hero" aria-labelledby="hero-title"><div class="hero-content"><p class="hero-eyebrow">${tr('heroEyebrow')}</p><h1 id="hero-title">${tr('heroTitle')}</h1><p class="hero-desc">${tr('heroDescription')}</p></div></section>
       <section class="assistant-wrap" aria-label="${tr('assistantLabel')}"><form class="composer" id="chat-form"><span class="composer-icon">${icon('assistant')}</span><label class="sr-only" for="chat-input">${tr('assistantLabel')}</label><input id="chat-input" name="question" type="search" placeholder="${tr('placeholder')}" autocomplete="off" maxlength="500"><button class="submit-button" type="submit" aria-label="${tr('send')}">${icon('arrowUp')}</button></form>
-        <div class="assistant-meta">${icon('shield')}<span>${tr('assistantLabel')}</span><span aria-hidden="true">·</span><a href="#/catalog">${tr('advanced')}</a></div><p class="demo-note">${tr('demo')}</p>
+        <div class="assistant-meta">${icon('shield')}<span>${tr('assistantLabel')}</span><span aria-hidden="true">·</span><a href="#/catalog">${tr('advanced')}</a></div>
         <div class="example-list"><button class="example" type="button" data-question="ridder">${window.ridderRecord.questions[state.language]}</button><button class="example" type="button" data-question="address">${tr('example2')}</button><button class="example" type="button" data-question="terms">${tr('example3')}</button></div><div id="response-area" aria-live="polite"></div>
       </section>
       </div><nav class="section-tiles" aria-label="${tr('sections')}">${tile('#/catalog','layers',tr('tileCatalog'))}${tile('#/exhibition','image',tr('tileExhibitions'))}${tile('#/section/branches','pin',tr('tileBranches'))}${tile('#/section/history','history',tr('tileHistory'))}${tile('#/section/all','grid',tr('tileAll'))}</nav>
@@ -171,10 +171,6 @@
       previewDate.textContent = newsPreview.dateLabel;
       previewDate.hidden = !newsPreview.dateLabel;
     }
-    window.archiveApi.ready.then((available) => {
-      const note = app.querySelector('.demo-note');
-      if (available && note) note.textContent = {ru:'Отвечает программа на основе ИИ — только по открытым материалам архива, со ссылками на источники.',kk:'ЖИ негізіндегі бағдарлама тек архивтің ашық материалдары бойынша жауап береді.',en:'An AI-based program answers only from the archive’s open materials, with sources.'}[state.language];
-    });
     const input = document.getElementById('chat-input');
     document.getElementById('chat-form').addEventListener('submit', (event) => { event.preventDefault(); ask(input.value); });
     app.querySelectorAll('[data-question]').forEach((button) => button.addEventListener('click', () => { input.value = button.textContent; ask(input.value,button.dataset.question); }));

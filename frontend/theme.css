@@ -384,3 +384,5 @@ html[data-theme=dark] .site-footer { background:#0a0d12; border-top:1px solid va
 @media (max-width:760px) { .chat-composer .voice-button { width:48px !important; height:48px !important; padding:0; } }
 .chat-composer .voice-button { display:inline-flex !important; flex:0 0 auto !important; min-width:max-content; white-space:nowrap; gap:8px; }
 @media (max-width:760px) { .chat-composer .voice-button { min-width:0; } }
+/* Единственная пометка об ИИ в разговоре — короткая строка под полем ввода, видна и на телефоне. */
+@media (max-width:760px) { .chat-composer-wrap>p { display:block !important; margin-top:6px; } }
