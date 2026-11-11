@@ -1,0 +1,9 @@
+# В деплой попадают только сайт и сервер; исследовательские датасеты и документы остаются в репозитории.
+/*
+!/frontend
+!/backend
+!/vercel.json
+/backend/node_modules
+/backend/data/seed.json
+/backend/data/embeddings.cache.json.gz
+/backend/data/branch-geocode.raw.json
