@@ -72,7 +72,7 @@ frontend/ (статические модули) ──fetch──▶ /api/v1 (Ho
 
 ## Развёртывание
 
-- **Vercel:** `npm run build:vercel` собирает `../.vercel/output` (Build Output API: статика + функция API). Корневой `vercel.json` запускает эту сборку при деплое. Обязательная переменная — `SESSION_SECRET`. Без `OPENAI_API_KEY` модель вызывается через Vercel AI Gateway с OIDC-токеном проекта.
+- **Vercel:** `npm run build:vercel` собирает `../.vercel/output` (Build Output API: статика + функция API). Корневой `vercel.json` запускает эту сборку при деплое. Обязательная переменная — `SESSION_SECRET`. Без `OPENAI_API_KEY` модель вызывается через Vercel AI Gateway (`AI_GATEWAY_API_KEY` или OIDC-токен проекта). Сейчас стенд на бесплатных кредитах Gateway: в них нет GPT-6 Luna и эмбеддингов, поэтому заданы `LLM_MODEL=gpt-5.1` (reasoning `none`) и `QUERY_EMBEDDINGS=off` (поиск по запросу без смыслового слоя). После пополнения кредитов удалить эти две переменные и передеплоить — вернутся GPT-6 Luna и смысловой поиск.
 - **Свой сервер:** `NODE_ENV=production SESSION_SECRET=... DATABASE_URL=postgres://... HOST=0.0.0.0 npm start` за обратным прокси с HTTPS.
 
 ## Ограничения и техдолг
