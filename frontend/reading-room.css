@@ -1,0 +1,16 @@
+.reading-room .info-two-col > * { min-width: 0; overflow-wrap: anywhere; }
+
+.reading-room-steps {
+  margin: 0 0 24px;
+  padding-inline-start: 1.4em;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.reading-room-steps li + li { margin-top: 12px; }
+.reading-room-steps a, .reading-room-contact a { color: var(--ink); text-decoration: underline; }
+.reading-room-contact div + div { margin-top: 16px; }
+.reading-room-contact dt { color: var(--muted); }
+.reading-room-contact dd { margin-inline-start: 0; font-weight: 650; }
+.reading-room-rules a { max-width: 100%; overflow-wrap: anywhere; }
+.reading-room .info-text-link { display: inline; }

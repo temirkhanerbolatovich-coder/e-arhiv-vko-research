@@ -1,0 +1,27 @@
+/* Administrative preview: shared components for the additional screens. */
+.admin-route .site-footer,.admin-route .mobile-dock { display:none; }
+.admin-layout { min-height:calc(100vh - 160px); }
+.admin-sidebar { gap:18px; }
+.admin-sidebar nav a { border-radius:4px; padding:9px 10px; overflow-wrap:anywhere; }
+.admin-nav-group + .admin-nav-group { margin-top:16px; }
+.admin-nav-group > p { color:var(--muted); font-size:.8125rem; font-weight:700; margin:0 0 6px; padding:0 10px; }
+.admin-brand>span:first-child,.admin-notice,.admin-panel,.admin-metric,.admin-file-preview,.admin-editor-note,.admin-recommendation { border-radius:6px; }
+.admin-layout button,.admin-status-list span,.admin-badge { border-radius:4px; }
+.admin-layout button { min-height:44px; }
+.admin-main h1,.admin-main h2,.admin-main h3,.admin-main p,.admin-main label,.admin-main a,.admin-main legend { overflow-wrap:anywhere; }
+.admin-layout a:focus-visible,.admin-layout summary:focus-visible { outline:3px solid #537ba9; outline-offset:3px; }
+.admin-form input,.admin-form textarea,.admin-form select { border-radius:4px; }
+.admin-form select { font:inherit; width:100%; min-width:0; border:1px solid var(--line); padding:11px; color:var(--muted); background:var(--surface-2); opacity:1; }
+.admin-screen-actions { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin:20px 0; }
+.admin-screen-actions a { border:1px solid var(--line-strong); border-radius:4px; padding:10px 14px; min-height:44px; font-weight:650; }
+.admin-empty-compact { padding:24px 8px; }
+@media(max-width:760px) {
+ .admin-mobile-nav nav { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .admin-mobile-nav nav a { border-radius:4px; overflow-wrap:anywhere; }
+ .admin-screen-actions { align-items:stretch; }
+ .admin-screen-actions>* { max-width:100%; }
+}
+@media(max-width:400px) { html:is([data-font-scale="150"],[data-font-scale="200"]) .admin-mobile-nav nav { grid-template-columns:minmax(0,1fr); } }
+.admin-mobile-menu { margin-top:14px; border:1px solid var(--line); border-radius:4px; background:var(--surface); padding:12px; }
+.admin-mobile-menu summary { cursor:pointer; font-weight:650; overflow-wrap:anywhere; }
+.admin-mobile-menu summary::marker { color:var(--muted); }

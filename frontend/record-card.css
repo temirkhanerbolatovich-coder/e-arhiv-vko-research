@@ -1,0 +1,18 @@
+/* Archival record: original metadata and a separate, explicitly labelled state gallery. */
+.record-document-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); align-items:start; gap:32px; }
+.record-document-grid > * { min-width:0; }
+.record-viewer { padding:24px; background:var(--surface-2); border:1px solid var(--line); border-radius:6px; }
+.record-viewer h2 { font-size:1.125rem; margin:0 0 16px; }
+.record-viewer-empty { min-height:300px; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:32px; text-align:center; border:1px dashed var(--line-strong); color:var(--muted); background:var(--surface); }
+.record-viewer-empty span { font-size:2.5rem; }
+.record-viewer-empty p { max-width:30ch; }
+.record-examples { margin-top:32px; border:1px solid var(--line); border-radius:6px; padding:20px; }
+.record-examples summary { font-weight:700; cursor:pointer; }
+.record-examples > p,.record-example-output p { color:var(--muted); }
+.record-example-controls { display:flex; flex-wrap:wrap; gap:8px; }
+.record-example-controls button,.record-example-output button { min-height:44px; padding:8px 12px; border:1px solid var(--line-strong); background:var(--surface); color:var(--ink); border-radius:4px; font:inherit; }
+.record-example-controls button[aria-pressed=true] { background:var(--primary); color:var(--primary-text); border-color:var(--primary); }
+.record-example-output { margin-top:20px; padding:16px; border-left:3px solid var(--brass); background:var(--surface-2); overflow-wrap:anywhere; }
+.record-example-output img { width:min(100%,420px); max-height:360px; object-fit:contain; object-position:left top; margin:16px 0; }
+.record-example-output a { display:inline-block; font-weight:700; text-decoration:underline; }
+@media(max-width:760px) { .record-document-grid { grid-template-columns:minmax(0,1fr); gap:20px; } .record-viewer-empty { min-height:190px; } .record-examples { padding:16px; } }

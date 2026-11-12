@@ -1,0 +1,147 @@
+/* Exact-string copy for the static core administrative previews and their shell. */
+(function () {
+  'use strict';
+  const rows = [
+    ['Госархив ВКО','ШҚО мемлекеттік архиві','East Kazakhstan Archive'],
+    ['Панель сотрудника','Қызметкер панелі','Staff panel'],
+    ['ПРЕДПРОСМОТР','АЛДЫН АЛА ҚАРАУ','PREVIEW'],
+    ['Обзор и модерация','Шолу және модерация','Overview and moderation'],
+    ['Модерация','Модерация','Moderation'],
+    ['Новая запись','Жаңа жазба','New record'],
+    ['ИИ-аналитика','ЖИ талдауы','AI analytics'],
+    ['Каталог и файлы','Каталог және файлдар','Catalogue and files'],
+    ['Содержание сайта','Сайт мазмұны','Website content'],
+    ['Управление','Басқару','Management'],
+    ['Пример ограничения доступа','Шектеулі қолжетімділік мысалы','Restricted access example'],
+    ['На сайт','Сайтқа','Public website'],
+    ['Разделы панели','Панель бөлімдері','Panel sections'],
+    ['Выбрать раздел','Бөлімді таңдау','Choose a section'],
+    ['Демонстрация интерфейса.','Интерфейс көрсетілімі.','Interface preview.'],
+    ['Авторизация, данные, обработка файлов и сохранение не подключены. Это не защищённая рабочая панель.','Авторизация, деректер, файлдарды өңдеу және сақтау қосылмаған. Бұл қорғалған жұмыс панелі емес.','Authentication, data, file processing and saving are not connected. This is not a secured working panel.'],
+    ['Демонстрационные экраны для сотрудников','Қызметкерлерге арналған демонстрациялық экрандар','Staff preview screens'],
+    ['Разделы демонстрации','Көрсетілім бөлімдері','Preview sections'],
+    ['РАБОТА С ПУБЛИКАЦИЯМИ','ЖАРИЯЛАНЫМДАРМЕН ЖҰМЫС','PUBLICATION WORKFLOW'],
+    ['Модерация публикаций','Жарияланымдарды тексеру','Publication moderation'],
+    ['Проверка материалов и управление статусами публикаций','Материалдарды тексеру және жарияланым күйлерін басқару','Review materials and publication status'],
+    ['На проверке','Тексерілуде','Under review'],
+    ['Требует доработки','Толықтыру қажет','Changes required'],
+    ['Одобрено','Мақұлданды','Approved'],
+    ['Опубликовано','Жарияланды','Published'],
+    ['Материалы','Материалдар','Materials'],
+    ['Здесь будет список публикаций для проверки','Мұнда тексерілетін жарияланымдар тізімі болады','Publications awaiting review will appear here'],
+    ['Предпросмотр','Алдын ала қарау','Preview'],
+    ['МАТЕРИАЛ','МАТЕРИАЛ','MATERIAL'],
+    ['РАЗДЕЛ','БӨЛІМ','SECTION'],
+    ['АВТОР','АВТОР','AUTHOR'],
+    ['СТАТУС','КҮЙІ','STATUS'],
+    ['Список пока не подключён','Тізім әлі қосылмаған','List not connected'],
+    ['После подключения системы здесь появятся материалы, доступные сотруднику.','Жүйе қосылғаннан кейін мұнда қызметкерге қолжетімді материалдар көрсетіледі.','Once the system is connected, materials available to the staff member will appear here.'],
+    ['История проверки','Тексеру тарихы','Review history'],
+    ['Выберите материал, чтобы увидеть его сведения и этапы модерации.','Мәліметтері мен тексеру кезеңдерін көру үшін материалды таңдаңыз.','Select a material to see its information and review stages.'],
+    ['Черновик','Жоба','Draft'],
+    ['Архивировано','Архивке жіберілді','Archived'],
+    ['Одобрить','Мақұлдау','Approve'],
+    ['На доработку','Толықтыруға жіберу','Request changes'],
+    ['Нет данных','Деректер жоқ','No data'],
+    ['КАТАЛОГ','КАТАЛОГ','CATALOGUE'],
+    ['Новая запись каталога','Каталогтың жаңа жазбасы','New catalogue record'],
+    ['Предпросмотр рабочего места сотрудника архива','Архив қызметкерінің жұмыс орнының көрсетілімі','Preview of an archive staff workspace'],
+    ['Предпросмотр документа','Құжатты алдын ала қарау','Document preview'],
+    ['Изображение появится после подключения загрузки файлов.','Сурет файлдарды жүктеу мүмкіндігі қосылғаннан кейін көрсетіледі.','The image will appear once file uploads are connected.'],
+    ['Файл не выбран','Файл таңдалмаған','No file selected'],
+    ['Загрузка, распознавание текста и поиск дублей ещё не подключены.','Жүктеу, мәтінді тану және қайталанатын жазбаларды іздеу әлі қосылмаған.','Uploading, text recognition and duplicate detection are not connected.'],
+    ['Выбрать файл','Файлды таңдау','Choose file'],
+    ['Карточка материала','Материал карточкасы','Material record'],
+    ['Поля для проверки и заполнения сотрудником','Қызметкер тексеріп, толтыратын өрістер','Fields for staff to complete and review'],
+    ['ИИ-подсказки и сохранение не подключены. Поля показаны для ознакомления.','ЖИ кеңестері мен сақтау қосылмаған. Өрістер танысу үшін көрсетілген.','AI suggestions and saving are not connected. Fields are shown for preview.'],
+    ['Заголовок','Тақырып','Title'],
+    ['Фонд','Қор','Fund'],
+    ['Опись','Тізімдеме','Inventory'],
+    ['Дело','Іс','Case'],
+    ['Лист','Парақ','Leaf'],
+    ['Дата','Күні','Date'],
+    ['Тип документа','Құжат түрі','Document type'],
+    ['Место','Орын','Place'],
+    ['Ключевые слова','Кілт сөздер','Keywords'],
+    ['Описание','Сипаттама','Description'],
+    ['Язык оригинала','Түпнұсқа тілі','Original language'],
+    ['Выберите язык','Тілді таңдаңыз','Choose language'],
+    ['Казахский','Қазақша','Kazakh'],
+    ['Русский','Орысша','Russian'],
+    ['Другой','Басқа','Other'],
+    ['Источник','Дереккөз','Source'],
+    ['Хранение','Сақтау орны','Storage'],
+    ['Доступ','Қолжетімділік','Access'],
+    ['Требует проверки','Тексеру қажет','Needs verification'],
+    ['Открытые метаданные','Ашық метадеректер','Public metadata'],
+    ['Ограниченные метаданные','Қолжетімділігі шектеулі метадеректер','Restricted metadata'],
+    ['Копия','Көшірме','Copy'],
+    ['Наличие не подтверждено','Бар екені расталмаған','Availability unconfirmed'],
+    ['Разрешена публикация копии','Көшірмені жариялауға рұқсат берілген','Copy approved for publication'],
+    ['Только описание','Тек сипаттама','Description only'],
+    ['Доступ к копии ограничен','Көшірмеге қолжетімділік шектеулі','Copy access restricted'],
+    ['Сохранить черновик','Жобаны сақтау','Save draft'],
+    ['Отправить на проверку','Тексеруге жіберу','Send for review'],
+    ['Название материала','Материалдың атауы','Material title'],
+    ['Выберите фонд','Қорды таңдаңыз','Choose fund'],
+    ['Выберите опись фонда','Қор тізімдемесін таңдаңыз','Choose fund inventory'],
+    ['Выберите дело описи','Тізімдемеден істі таңдаңыз','Choose inventory case'],
+    ['Лист или диапазон листов','Парақ немесе парақтар аралығы','Leaf or leaf range'],
+    ['Дата документа','Құжат күні','Document date'],
+    ['Выберите тип','Түрін таңдаңыз','Choose type'],
+    ['Место или регион','Орын немесе өңір','Place or region'],
+    ['Добавьте ключевые слова','Кілт сөздерді қосыңыз','Add keywords'],
+    ['Краткое описание','Қысқаша сипаттама','Short description'],
+    ['Ссылка или документ-основание','Сілтеме немесе негіздеме құжат','Link or supporting document'],
+    ['Архив или филиал','Архив немесе филиал','Archive or branch'],
+    ['АНАЛИТИКА','ТАЛДАУ','ANALYTICS'],
+    ['ИИ-аналитика качества сайта','Сайт сапасының ЖИ талдауы','AI website quality analytics'],
+    ['Сводка по работе помощника и потребностям посетителей','Көмекші жұмысы мен келушілер қажеттіліктері туралы жиынтық','Overview of assistant usage and visitor needs'],
+    ['Вопросов к помощнику','Көмекшіге қойылған сұрақтар','Questions to the assistant'],
+    ['Ответов с источником','Дереккөзі бар жауаптар','Answers with a source'],
+    ['Без результата','Нәтиже жоқ','No result'],
+    ['Оценок «Помогло»','«Пайдалы» бағалары','Helpful ratings'],
+    ['Запросы без результата','Нәтижесіз сұраулар','Queries without results'],
+    ['Обезличенная сводка тем, по которым не найден ответ','Жауап табылмаған тақырыптардың дербес деректерсіз жиынтығы','Anonymous summary of topics with no answer'],
+    ['Данные пока недоступны','Деректер әзірге қолжетімсіз','Data not available yet'],
+    ['Аналитика не подключена. Примеры запросов и показатели здесь не представлены.','Талдау жүйесі қосылмаған. Мұнда сұрау мысалдары мен көрсеткіштер берілмеген.','Analytics is not connected. Query examples and metrics are not shown.'],
+    ['Популярные разделы','Танымал бөлімдер','Popular sections'],
+    ['Сводка появится после подключения аналитики.','Жиынтық талдау жүйесі қосылғаннан кейін көрсетіледі.','The summary will appear once analytics is connected.'],
+    ['Рекомендации','Ұсынымдар','Recommendations'],
+    ['Здесь могут отображаться предложения по улучшению содержания сайта. Решение принимает сотрудник.','Мұнда сайт мазмұнын жақсарту бойынша ұсыныстар көрсетілуі мүмкін. Шешімді қызметкер қабылдайды.','Suggestions for improving website content may appear here. A staff member makes the decision.'],
+    ['Рекомендаций пока нет','Ұсынымдар әзірге жоқ','No recommendations yet'],
+    ['Генерация рекомендаций не подключена.','Ұсынымдарды жасау қосылмаған.','Recommendation generation is not connected.'],
+    ['ПРИМЕР СОСТОЯНИЯ','КҮЙ МЫСАЛЫ','STATE EXAMPLE'],
+    ['Доступ к разделу ограничен','Бөлімге қолжетімділік шектеулі','Access to this section is restricted'],
+    ['Макет сообщения об отсутствии необходимых полномочий.','Қажетті өкілеттіктердің жоқтығы туралы хабарлама макеті.','Preview of a message about missing permissions.'],
+    ['Проверьте область доступа','Қолжетімділік аясын тексеріңіз','Check your access scope'],
+    ['В рабочей системе доступ будет зависеть от роли сотрудника и назначенного филиала. Для изменения полномочий потребуется обратиться к администратору.','Жұмыс жүйесінде қолжетімділік қызметкердің рөлі мен тағайындалған филиалына байланысты болады. Өкілеттіктерді өзгерту үшін әкімшіге жүгіну қажет.','In the working system, access will depend on the staff role and assigned branch. Contact an administrator to change permissions.'],
+    ['В этом прототипе роли не проверяются. Этот экран показывает только оформление сообщения.','Бұл прототипте рөлдер тексерілмейді. Экран тек хабарламаның көрінісін көрсетеді.','Roles are not checked in this prototype. This screen only previews the message layout.'],
+    ['К обзору панели →','Панель шолуына →','Panel overview →'],
+    ['Макет ролей →','Рөлдер макеті →','Roles preview →'],
+    ['Экран не найден','Экран табылмады','Screen not found'],
+    ['Выберите раздел в меню демонстрации.','Көрсетілім мәзірінен бөлімді таңдаңыз.','Choose a section from the preview menu.'],
+    ['К модерации →','Модерацияға →','Go to moderation →']
+  ];
+  const dictionary = new Map(rows.map(([ru,kk,en]) => [ru,{kk,en}]));
+  function text(value, language) { return dictionary.get(value)?.[language] || value; }
+  function html(markup, language) {
+    if (language === 'ru') return markup;
+    const template = document.createElement('template');
+    template.innerHTML = markup;
+    const walker = document.createTreeWalker(template.content, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) {
+      const node = walker.currentNode;
+      const source = node.textContent.trim();
+      if (dictionary.has(source)) node.textContent = node.textContent.replace(source, text(source,language));
+    }
+    template.content.querySelectorAll('[placeholder],[aria-label],[value]').forEach(element => {
+      for (const attribute of ['placeholder','aria-label','value']) {
+        const source = element.getAttribute(attribute);
+        if (source && dictionary.has(source)) element.setAttribute(attribute,text(source,language));
+      }
+    });
+    return template.innerHTML;
+  }
+  window.adminCoreCopy = {text,html};
+}());
