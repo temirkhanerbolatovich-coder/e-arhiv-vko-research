@@ -38,24 +38,31 @@
 
   window.renderAdmin = function renderAdmin(container, path, language = 'ru') {
     const t = value => window.adminCoreCopy.text(value, language);
+    const allScreens = [...coreScreens, ...(window.adminCatalogScreens || []), ...(window.adminContentScreens || []), ...(window.adminManagementScreens || []), {id:'access-denied', label:'Пример ограничения доступа', render:accessDenied}];
     const groups = [
-      ['Обзор и модерация', coreScreens],
-      ['Каталог и файлы', window.adminCatalogScreens || []],
-      ['Содержание сайта', window.adminContentScreens || []],
-      ['Управление', [...(window.adminManagementScreens || []), {id:'access-denied', label:'Пример ограничения доступа', render:accessDenied}]]
-    ];
-    const screens = groups.flatMap(([,items]) => items);
+      ['Рабочие задачи', ['moderation']],
+      ['Архивный каталог', ['editor', 'catalogue', 'files', 'imports']],
+      ['Публикации сайта', ['content', 'translations', 'review']],
+      ['Гостевая книга', ['feedback']],
+      ['Филиалы', ['branch-editor']],
+      ['Управление', ['analytics', 'users', 'roles', 'audit', 'settings', 'login', 'session', 'access-denied']]
+    ].map(([title, ids]) => [title, ids.map(id => allScreens.find(item => item.id === id)).filter(Boolean)]);
+    const screens = allScreens;
     const key = path || 'moderation';
     const screen = screens.find(item => item.id === key);
     const label = item => item.labels?.[language] || t(item.label);
-    const screenLink = item => `<a href="#/admin/${item.id}" ${item.id === key ? 'aria-current="page"' : ''}>${label(item)}</a>`;
+    const screenLink = (item, text = label(item)) => `<a href="#/admin/${item.id}" ${item.id === key ? 'aria-current="page"' : ''}>${text}</a>`;
+    const groupLinks = () => groups.filter(([,items]) => items.length).map(([title,items]) => {
+      if (items.length === 1) return screenLink(items[0], title === 'Рабочие задачи' ? label(items[0]) : t(title));
+      return `<details class="admin-nav-group" ${items.some(item => item.id === key) ? 'open' : ''}><summary>${t(title)}</summary>${items.map(screenLink).join('')}</details>`;
+    }).join('');
     let body = screen ? screen.render(language) : '<div class="admin-heading"><div><h1>Экран не найден</h1><p>Выберите раздел в меню демонстрации.</p><a href="#/admin/moderation">К модерации →</a></div></div>';
     if (!screen || coreScreens.includes(screen) || key === 'access-denied') body = window.adminCoreCopy.html(body,language);
     container.innerHTML = `<section class="admin-layout">
       <aside class="admin-sidebar"><a class="admin-brand" href="#/"><span aria-hidden="true">▣</span><span><strong>${t('Госархив ВКО')}</strong><small>${t('Панель сотрудника')}</small></span></a>
-        <p class="admin-side-label">${t('ПРЕДПРОСМОТР')}</p><nav aria-label="${t('Демонстрационные экраны для сотрудников')}">${groups.filter(([,items]) => items.length).map(([title,items])=>`<div class="admin-nav-group"><p>${t(title)}</p>${items.map(screenLink).join('')}</div>`).join('')}</nav><a class="admin-back" href="#/">← ${t('На сайт')}</a>
+        <nav aria-label="${t('Разделы панели')}">${groupLinks()}</nav><a class="admin-back" href="#/">← ${t('На сайт')}</a>
       </aside>
-      <div class="admin-main"><div class="admin-mobile-nav"><a href="#/">← ${t('На сайт')}</a><details class="admin-mobile-menu"><summary>${t('Разделы панели')} · ${screen ? label(screen) : t('Выбрать раздел')}</summary><nav aria-label="${t('Разделы демонстрации')}">${screens.map(screenLink).join('')}</nav></details></div>
+      <div class="admin-main"><div class="admin-mobile-nav"><a href="#/">← ${t('На сайт')}</a><details class="admin-mobile-menu"><summary>${t('Разделы панели')} · ${screen ? label(screen) : t('Выбрать раздел')}</summary><nav aria-label="${t('Разделы панели')}">${groupLinks()}</nav></details></div>
         <div class="admin-notice" role="note"><strong>${t('Демонстрация интерфейса.')}</strong> ${t('Авторизация, данные, обработка файлов и сохранение не подключены. Это не защищённая рабочая панель.')}</div>${body}
       </div></section>`;
   };

@@ -383,6 +383,61 @@ html[data-theme=dark] .site-footer { background:#0a0d12; border-top:1px solid va
 .voice-listen:hover { background:var(--surface-2) !important; }
 @media (max-width:760px) { .chat-composer .voice-button { width:48px !important; height:48px !important; padding:0; } }
 .chat-composer .voice-button { display:inline-flex !important; flex:0 0 auto !important; min-width:max-content; white-space:nowrap; gap:8px; }
+
+/* Official portal palette and a compact entry point for the archive assistant. */
+:root {
+  --paper:#fff; --surface:#fff; --surface-2:#f2f5f9; --surface-3:#e4ebf3;
+  --line:#dce3ec; --line-strong:#b5c3d4;
+  --ink:#102541; --ink-2:#34465f; --muted:#53647b;
+  --primary:#103859; --primary-hover:#214966; --primary-text:#fff; --primary-soft:#eef4fa;
+  --brass:#806017; --brass-soft:#fbf7e9;
+  --shadow:0 3px 12px rgb(16 37 65 / 5%);
+  --shadow-strong:0 8px 24px rgb(16 37 65 / 9%);
+  --r-sm:4px; --r-md:6px; --r:8px; --r-xl:8px; --r-pill:6px;
+  --serif:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+html[data-theme=dark] {
+  --paper:#101923; --surface:#152332; --surface-2:#1c2d3f; --surface-3:#233b52;
+  --line:#35475c; --line-strong:#6f849c;
+  --ink:#eff5fc; --ink-2:#d0dbe8; --muted:#b5c4d5;
+  --primary:#bdd9f3; --primary-hover:#d5e9fb; --primary-text:#102541; --primary-soft:#233b52;
+  --brass:#e5c473; --brass-soft:#352f20;
+  --shadow:none; --shadow-strong:none;
+}
+.portal-utility { background:#103859; color:#fff; }
+.portal-utility .icon-button,.portal-utility .language-label { color:#fff; }
+.portal-utility .icon-button:hover,.portal-utility .language-label:hover { background:#214966; }
+.portal-utility select { color:#fff; }
+.portal-utility select option { color:#102541; background:#fff; }
+.site-header { background:var(--surface); border-bottom:1px solid var(--line); }
+.desktop-nav a,.mobile-menu a { border-radius:4px; }
+.portal-search-area { display:block; padding:48px 0 24px; }
+.hero-figure { display:none; }
+.hero { display:block; min-height:0; padding:0; background:transparent; overflow:visible; }
+.hero::before { display:none; }
+.hero-content { max-width:840px; margin:0; padding:0; text-align:left; }
+.hero h1 { color:var(--ink); font-size:clamp(2rem,3.6vw,3rem); line-height:1.15; margin:0; }
+.hero .hero-desc { color:var(--ink-2); margin:14px 0 24px; }
+.assistant-wrap { width:min(840px,100%); margin:0; }
+.composer { min-height:68px; padding:8px 8px 8px 16px; border-color:var(--line-strong); border-radius:8px; }
+.submit-button { border-radius:6px; }
+.assistant-meta,.example-list { justify-content:flex-start; text-align:left; }
+.demo-note { text-align:left; margin-left:0; }
+.section-tiles { margin-top:28px; }
+.site-footer { background:var(--surface); border-top:1px solid var(--line); color:var(--ink-2); }
+.site-footer :is(strong,.footer-brand,.footer-brand span) { color:var(--ink); }
+.site-footer :is(p,a,small,span,.footer-note) { color:var(--ink-2) !important; }
+.site-footer a:hover { color:var(--primary) !important; }
+.site-footer .footer-bottom { border-top-color:var(--line); color:var(--muted); }
+html[data-theme=dark] .site-footer { background:var(--surface); }
+@media (max-width:760px) {
+  .portal-search-area { padding:30px 0 16px; }
+  .hero { padding:0; }
+  .hero h1 { font-size:2rem; }
+  .hero .hero-desc { display:block; margin:12px 0 20px; }
+  .assistant-wrap { width:100%; margin:0; }
+  .composer { min-height:64px; }
+}
 @media (max-width:760px) { .chat-composer .voice-button { min-width:0; } }
 /* Единственная пометка об ИИ в разговоре — короткая строка под полем ввода, видна и на телефоне. */
 @media (max-width:760px) { .chat-composer-wrap>p { display:block !important; margin-top:6px; } }

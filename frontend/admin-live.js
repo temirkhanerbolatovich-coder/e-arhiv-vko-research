@@ -61,14 +61,18 @@
       <div class="admin-live-grid"><section class="admin-panel"><h2>Скан документа</h2><input type="file" id="scan-file" accept="image/png,image/jpeg,image/webp"><div id="scan-preview"></div><button type="button" id="scan-run" disabled>Распознать с помощью ИИ</button><div id="scan-result"></div></section>
       <section class="admin-panel"><h2>Карточка</h2><form class="admin-live-form" id="draft-form">
         <label>Тип<select name="kind"><option value="document">Документ</option><option value="photo">Фотодокумент</option><option value="case">Дело</option><option value="fund">Фонд</option></select></label>
-        <label>Заголовок *<input name="title" required minlength="3"></label><label>Фонд<input name="fundNo" placeholder="Р-1"></label><label>Опись<input name="inventoryNo"></label><label>Дело<input name="caseNo"></label><label>Листы<input name="sheets"></label>
+        <label>Заголовок *<input name="title" required minlength="3"></label>
+        <details class="admin-editor-fields"><summary>Архивные реквизиты и описание</summary><div class="admin-editor-fields-content"><label>Фонд<input name="fundNo" placeholder="Р-1"></label><label>Опись<input name="inventoryNo"></label><label>Дело<input name="caseNo"></label><label>Листы<input name="sheets"></label>
         <label>Год с<input name="yearFrom" type="number" min="1600" max="2100"></label><label>Год по<input name="yearTo" type="number" min="1600" max="2100"></label>
         <label>Тип документа<input name="docType"></label><label>Место<input name="place"></label><label>Ключевые слова (через запятую)<input name="topics"></label>
-        <label>Описание<textarea name="description" rows="4"></textarea></label>
+        <label>Описание<textarea name="description" rows="4"></textarea></label></div></details>
         <label>Доступ<select name="access"><option value="metadata_only">Открыто только описание</option><option value="open">Открытый</option><option value="restricted">Ограниченный</option></select></label>
         <button type="submit">Сохранить черновик</button><div id="draft-result"></div></form></section></div>`;
     let image = null;
     const form = main.querySelector('#draft-form');
+    form.elements.kind.addEventListener('change', () => {
+      if (form.elements.kind.value === 'case') form.querySelector('.admin-editor-fields').open = true;
+    });
     main.querySelector('#scan-file').addEventListener('change', (event) => {
       const file = event.target.files[0];
       if (!file) return;
@@ -82,6 +86,7 @@
       box.innerHTML = message('ИИ распознаёт документ…');
       try {
         const { card, duplicates } = await api().post('/admin/extract', { image });
+        form.querySelector('.admin-editor-fields').open = true;
         const set = (name, value) => { if (value) form.elements[name].value = value; };
         set('title', card.title); set('yearFrom', card.year_from || ''); set('yearTo', card.year_to || ''); set('docType', card.doc_type);
         set('place', card.places.join(', ')); set('topics', card.keywords.join(', '));
