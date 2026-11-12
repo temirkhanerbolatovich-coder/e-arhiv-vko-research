@@ -72,7 +72,7 @@ frontend/ (статические модули) ──fetch──▶ /api/v1 (Ho
 
 ## Развёртывание
 
-- **Vercel:** `npm run build:vercel` собирает `../.vercel/output` (Build Output API: статика + функция API). Корневой `vercel.json` запускает сборку; `SESSION_SECRET` обязателен. На [стенде владельца](https://e-arhiv-vko-portal.vercel.app/) вызовы модели отключены: `LLM_GATEWAY=off`, `QUERY_EMBEDDINGS=off`. Без собственного ключа и при разрешённом Gateway код может использовать `AI_GATEWAY_API_KEY` или OIDC проекта; провайдера и модель настраивают отдельно. Полный порядок — [публикация на Vercel](../docs/deployment/vercel.md).
+- **Vercel:** `npm run build:vercel` собирает `../.vercel/output` (Build Output API: статика + функция API). Корневой `vercel.json` запускает сборку; `SESSION_SECRET` обязателен. Основной стенд — [e-arhiv-vko.vercel.app](https://e-arhiv-vko.vercel.app/): помощник на GPT-5.1 через Vercel AI Gateway (`AI_GATEWAY_API_KEY`, `LLM_MODEL=gpt-5.1`, `QUERY_EMBEDDINGS=off` — бесплатные кредиты Gateway не включают эмбеддинги). На резервном [стенде владельца](https://e-arhiv-vko-portal.vercel.app/) вызовы модели отключены: `LLM_GATEWAY=off`. Без собственного ключа и при разрешённом Gateway код может использовать `AI_GATEWAY_API_KEY` или OIDC проекта; провайдера и модель настраивают отдельно. Полный порядок — [публикация на Vercel](../docs/deployment/vercel.md).
 - **Свой сервер:** `NODE_ENV=production SESSION_SECRET=... DATABASE_URL=postgres://... HOST=0.0.0.0 npm start` за обратным прокси с HTTPS.
 
 ## Ограничения и техдолг

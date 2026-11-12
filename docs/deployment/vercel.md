@@ -1,21 +1,17 @@
 # Публикация на Vercel
 
-## Действующий стенд
+## Действующие стенды
 
-| Параметр | Значение |
-|---|---|
-| Сайт | [e-arhiv-vko-portal.vercel.app](https://e-arhiv-vko-portal.vercel.app/) |
-| Проект | [e-arhiv-vko-portal](https://vercel.com/temirkhanerbolatovich-coder/e-arhiv-vko-portal) |
-| Аккаунт | `temirkhanerbolatovich-coder` |
-| Production-ветка | `main` |
-| Node.js | `22.x` |
-| Корневая папка | Корень репозитория |
-| Установка | `npm ci --prefix backend` |
-| Сборка | `npm run build:vercel --prefix backend` |
-| Конфигурация | [vercel.json](../../vercel.json) |
-| Результат | `.vercel/output` со статикой и функцией API |
+| | Основной стенд | Резервный стенд владельца |
+|---|---|---|
+| Сайт | [e-arhiv-vko.vercel.app](https://e-arhiv-vko.vercel.app/) | [e-arhiv-vko-portal.vercel.app](https://e-arhiv-vko-portal.vercel.app/) |
+| Проект Vercel | `e-arhiv-vko-research` (аккаунт напарника) | [e-arhiv-vko-portal](https://vercel.com/temirkhanerbolatovich-coder/e-arhiv-vko-portal) |
+| Обновление | Вручную из `main`: `npm run build:vercel --prefix backend`, затем `vercel deploy --prebuilt --prod` | Автоматически при каждом push в `main` |
+| Помощник | GPT-5.1 через Vercel AI Gateway (`AI_GATEWAY_API_KEY`, `LLM_MODEL=gpt-5.1`, `QUERY_EMBEDDINGS=off`) | Вызовы модели отключены (`LLM_GATEWAY=off`), работает обычный поиск |
 
-Первая публикация в аккаунте владельца выполнена 12 ноября 2026 года из `feat/backend` на коммите `405ffb8`. При подготовке репозитория для жюри опубликованный код и документы объединены в `main`. Первоначальный стенд напарника доступен по адресу [e-arhiv-vko.vercel.app](https://e-arhiv-vko.vercel.app/).
+Общее для обоих: Node.js `22.x`, корень репозитория, установка `npm ci --prefix backend`, сборка `npm run build:vercel --prefix backend` ([vercel.json](../../vercel.json)), результат — `.vercel/output` со статикой и функцией API, отдельный `SESSION_SECRET` в настройках проекта.
+
+Основной адрес для жюри и ссылок в документации — **e-arhiv-vko.vercel.app**. Первая публикация в аккаунте владельца выполнена 12 ноября 2026 года из `feat/backend` на коммите `405ffb8`.
 
 ## Обновление сайта
 

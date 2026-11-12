@@ -2,7 +2,7 @@
 
 ## Публикация в аккаунте владельца от 12.11.2026
 
-[Сайт](https://e-arhiv-vko-portal.vercel.app/) развёрнут в [проекте e-arhiv-vko-portal](https://vercel.com/temirkhanerbolatovich-coder/e-arhiv-vko-portal) аккаунта `temirkhanerbolatovich-coder`. Репозиторий подключён через GitHub. Production-ветка — `main`; первый опубликованный коммит из `feat/backend` — `405ffb85bc4f188bca7ad0a2721f9facf8f5b90d`. Согласованные изменения публикуются через PR в `main`. Другие ветки используются для preview.
+Основной сайт — [e-arhiv-vko.vercel.app](https://e-arhiv-vko.vercel.app/). Резервная копия [сайта](https://e-arhiv-vko-portal.vercel.app/) развёрнута в [проекте e-arhiv-vko-portal](https://vercel.com/temirkhanerbolatovich-coder/e-arhiv-vko-portal) аккаунта `temirkhanerbolatovich-coder`. Репозиторий подключён через GitHub. Production-ветка — `main`; первый опубликованный коммит из `feat/backend` — `405ffb85bc4f188bca7ad0a2721f9facf8f5b90d`. Согласованные изменения публикуются через PR в `main`. Другие ветки используются для preview.
 
 Сборка работает на Node.js 22. Команды установки и сборки берутся из корневого `vercel.json`. В настройках Vercel задан отдельный `SESSION_SECRET` для production и preview. Ключ хранится в переменных проекта.
 
