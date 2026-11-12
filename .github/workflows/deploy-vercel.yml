@@ -1,0 +1,52 @@
+name: Deploy Vercel
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: vercel-production-manual
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Request production deployment
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    env:
+      VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+    steps:
+      - name: Deploy latest main
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import sys
+          import urllib.error
+          import urllib.request
+
+          hook = os.environ.get('VERCEL_DEPLOY_HOOK', '')
+          expected = 'https://api.vercel.com/v1/integrations/deploy/prj_Bd8nn7LE9vtc31X2HD6upyWw0bX5/'
+          if not hook.startswith(expected):
+              sys.exit('Missing or invalid VERCEL_DEPLOY_HOOK repository secret.')
+          request = urllib.request.Request(hook, data=b'', method='POST')
+          try:
+              with urllib.request.urlopen(request, timeout=45) as response:
+                  result = json.load(response)
+              job = result.get('job')
+              if not isinstance(job, dict) or not job.get('id'):
+                  sys.exit('Vercel did not confirm a deployment job.')
+          except (urllib.error.URLError, TimeoutError, ValueError):
+              # Do not log the exception: it can contain the secret hook URL.
+              sys.exit('Vercel deployment request failed. Check the project and retry.')
+          print('Vercel accepted the production deployment request for main.')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as summary:
+              summary.write('### Production deployment requested\n\n')
+              summary.write('Vercel accepted the request to build the latest `main`. ')
+              summary.write('This confirms job creation, not build completion. ')
+              summary.write('Check the Vercel status on the latest commit.\n\n')
+              summary.write('[Open website](https://e-arhiv-vko-portal.vercel.app/)\n')
+          PY
