@@ -135,6 +135,187 @@
     });
     return template.innerHTML;
   }
+  const branchEditorCopy = {
+    ru: {
+      title: 'Редактор филиала', intro: 'Обновите контакты, которые посетители видят в справочнике.',
+      branch: 'Подразделение', address: 'Адрес', phone: 'Телефон', email: 'Электронная почта', hours: 'График работы',
+      hoursHint: 'Для графика читального зала добавьте отдельную строку «Читальный зал: …».',
+      map: 'Показывать отметку на карте', mapHint: 'Отметка появится, если в справочнике есть координаты. При смене адреса проверьте точку на карте.',
+      save: 'Сохранить изменения', reset: 'Сбросить правки', public: 'Открыть публичную карточку',
+      loading: 'Загружаем филиалы…', loadError: 'Не удалось загрузить филиалы.', retry: 'Повторить загрузку',
+      saving: 'Сохраняем…', saved: 'Контакты сохранены.', refreshError: 'Изменения сохранены. Не удалось перечитать справочник.',
+      saveError: 'Не удалось подтвердить сохранение. Введённые данные остались в форме.',
+      forbidden: 'У вашей роли нет доступа к изменению этого филиала.', empty: 'Нет доступных для редактирования подразделений.'
+    },
+    kk: {
+      title: 'Филиал редакторы', intro: 'Келушілер анықтамалықтан көретін байланыс деректерін жаңартыңыз.',
+      branch: 'Бөлімше', address: 'Мекенжай', phone: 'Телефон', email: 'Электрондық пошта', hours: 'Жұмыс кестесі',
+      hoursHint: 'Оқу залының кестесін «Читальный зал: …» деген жеке жолға жазыңыз.',
+      map: 'Белгіні картада көрсету', mapHint: 'Белгі анықтамалықта координаттар болса көрсетіледі. Мекенжай өзгерсе, картадағы нүктені тексеріңіз.',
+      save: 'Өзгерістерді сақтау', reset: 'Өзгерістерді тазалау', public: 'Жария карточканы ашу',
+      loading: 'Филиалдар жүктелуде…', loadError: 'Филиалдарды жүктеу мүмкін болмады.', retry: 'Қайта жүктеу',
+      saving: 'Сақталуда…', saved: 'Байланыс деректері сақталды.', refreshError: 'Өзгерістер сақталды. Анықтамалықты қайта жүктеу мүмкін болмады.',
+      saveError: 'Сақтауды растау мүмкін болмады. Енгізілген деректер нысанда қалды.',
+      forbidden: 'Рөліңізге бұл филиалды өзгерту құқығы берілмеген.', empty: 'Өңдеуге болатын бөлімшелер жоқ.'
+    },
+    en: {
+      title: 'Branch editor', intro: 'Update the contact details visitors see in the archive directory.',
+      branch: 'Office', address: 'Address', phone: 'Telephone', email: 'Email', hours: 'Opening hours',
+      hoursHint: 'Put the reading room hours on a separate line beginning with “Читальный зал:”.',
+      map: 'Show the marker on the map', mapHint: 'The marker appears when coordinates are available. Check the map if the address changes.',
+      save: 'Save changes', reset: 'Reset changes', public: 'Open public branch record',
+      loading: 'Loading offices…', loadError: 'Could not load the offices.', retry: 'Retry loading',
+      saving: 'Saving…', saved: 'Contact details saved.', refreshError: 'Changes were saved. Could not reload the directory.',
+      saveError: 'Could not confirm the save. Your changes are still in the form.',
+      forbidden: 'Your role cannot edit this office.', empty: 'There are no offices you can edit.'
+    }
+  };
+  const branchEditorStates = new WeakMap();
+  const branchContactFields = ['address', 'phone', 'email', 'hours'];
+
+  window.renderLiveBranchEditor = async function renderLiveBranchEditor(main, language, user, expireSession) {
+    const t = branchEditorCopy[language] || branchEditorCopy.ru;
+    const api = window.archiveApi;
+    const esc = api.escape;
+    if (!branchEditorStates.has(user)) {
+      branchEditorStates.set(user, { selectedId: user.branchId, drafts: new Map(), pending: null, outcome: null });
+    }
+    const state = branchEditorStates.get(user);
+    main.innerHTML = `<header class="admin-heading"><div><h1>${t.title}</h1><p>${t.intro}</p></div></header>
+      <section class="admin-panel admin-branch-live">
+        <p class="admin-live-message" data-branch-result role="status" tabindex="-1">${t.loading}</p>
+        <button type="button" class="admin-button-secondary" data-branch-retry hidden>${t.retry}</button>
+        <div data-branch-form></div>
+      </section>`;
+    const section = main.querySelector('.admin-branch-live');
+    const result = section.querySelector('[data-branch-result]');
+    const retry = section.querySelector('[data-branch-retry]');
+    const body = section.querySelector('[data-branch-form]');
+    let branches = [];
+
+    function report(key, error = false) {
+      result.textContent = key ? t[key] : '';
+      result.hidden = !key;
+      result.dataset.kind = error ? 'error' : 'info';
+    }
+
+    function render() {
+      const branch = branches.find(item => item.id === state.selectedId) || branches[0];
+      if (!branch) { report('empty'); return; }
+      state.selectedId = branch.id;
+      const saved = Object.fromEntries(branchContactFields.map(key => [key, branch[key]?.trim() || '']));
+      saved.show_on_map = branch.lat != null && branch.lng != null;
+      const values = { ...saved, ...state.drafts.get(branch.id) };
+      const name = item => item[`name_${language}`] || item.name_ru || item.id;
+      const textInput = (key, type) => `<label>${t[key]}<input type="${type}" name="${key}" maxlength="300" value="${esc(values[key])}"></label>`;
+      body.innerHTML = `<div class="admin-content-tools"><label>${t.branch}<select data-branch-select${branches.length === 1 ? ' disabled' : ''}>${branches.map(item => `<option value="${esc(item.id)}"${item.id === branch.id ? ' selected' : ''}>${esc(name(item))}</option>`).join('')}</select></label></div>
+        <form class="admin-content-form" id="admin-branch-form">
+          <fieldset>
+            ${textInput('address', 'text')}
+            ${textInput('phone', 'tel')}
+            ${textInput('email', 'email')}
+            <label>${t.hours}<textarea name="hours" rows="3" maxlength="300"${branch.kind === 'main' ? ' aria-describedby="admin-branch-hours-hint"' : ''}>${esc(values.hours)}</textarea></label>
+            ${branch.kind === 'main' ? `<p class="admin-muted" id="admin-branch-hours-hint">${t.hoursHint}</p>` : ''}
+            <label class="admin-content-check"><input type="checkbox" name="show_on_map" aria-describedby="admin-branch-map-hint"${values.show_on_map ? ' checked' : ''}> ${t.map}</label>
+            <p class="admin-muted" id="admin-branch-map-hint">${t.mapHint}</p>
+            <div class="admin-content-actions"><button type="submit">${t.save}</button><button type="button" class="admin-button-secondary" data-branch-reset>${t.reset}</button></div>
+          </fieldset>
+          <a class="admin-content-link" href="#/section/branches?id=${encodeURIComponent(branch.id)}">${t.public} <span aria-hidden="true">→</span></a>
+        </form>`;
+      const selector = body.querySelector('[data-branch-select]');
+      const form = body.querySelector('form');
+      const submit = form.querySelector('[type="submit"]');
+      const reset = form.querySelector('[data-branch-reset]');
+      const map = form.elements.namedItem('show_on_map');
+      const address = form.elements.namedItem('address');
+      let mapEdited = values.address !== saved.address && values.show_on_map;
+
+      function readChanges() {
+        const entries = branchContactFields.map(key => [key, form.elements.namedItem(key).value.trim()]);
+        entries.push(['show_on_map', map.checked]);
+        const changes = Object.fromEntries(entries.filter(([key, value]) => value !== saved[key]));
+        const hasChanges = Object.keys(changes).length > 0;
+        if (hasChanges) state.drafts.set(branch.id, changes);
+        else state.drafts.delete(branch.id);
+        submit.disabled = reset.disabled = !hasChanges;
+        return changes;
+      }
+
+      readChanges();
+      const outcome = state.outcome?.id === branch.id ? state.outcome : null;
+      report(outcome?.key, outcome?.key !== 'saved');
+      selector.addEventListener('change', () => {
+        state.selectedId = selector.value;
+        render();
+        body.querySelector('[data-branch-select]').focus();
+      });
+      form.addEventListener('input', event => {
+        if (event.target === map) mapEdited = true;
+        if (event.target === address && !mapEdited) map.checked = address.value.trim() === saved.address && saved.show_on_map;
+        if (state.outcome?.id === branch.id && state.outcome.key === 'saved') {
+          state.outcome = null;
+          report();
+        }
+        readChanges();
+      });
+      reset.addEventListener('click', () => {
+        state.drafts.delete(branch.id);
+        state.outcome = null;
+        render();
+        body.querySelector('[name="address"]').focus();
+      });
+      form.addEventListener('submit', async event => {
+        event.preventDefault();
+        if (state.pending || submit.disabled) return;
+        const changes = readChanges();
+        if (!Object.keys(changes).length) return;
+        form.querySelector('fieldset').disabled = selector.disabled = true;
+        report('saving');
+        state.pending = api.post('/admin/branches/' + encodeURIComponent(branch.id), changes)
+          .then(response => {
+            if (response?.ok !== true) throw new Error('Missing save confirmation');
+            state.drafts.delete(branch.id);
+            state.outcome = { id: branch.id, key: 'saved' };
+          })
+          .catch(error => {
+            const key = error.status === 403 ? 'forbidden' : 'saveError';
+            state.outcome = { id: branch.id, key };
+            if (error.status === 401) expireSession();
+          })
+          .finally(() => { state.pending = null; });
+        await state.pending;
+        if (!section.isConnected) return;
+        if (state.outcome?.key === 'saved') {
+          await load(true);
+          if (branch.id === 'main') window.refreshMainBranchContacts?.(language);
+        } else render();
+        if (section.isConnected && !result.hidden && document.activeElement === document.body) result.focus();
+      });
+    }
+
+    async function load(fresh = false) {
+      retry.hidden = true;
+      body.replaceChildren();
+      report(state.pending ? 'saving' : 'loading');
+      if (state.pending) await state.pending;
+      if (!section.isConnected) return;
+      try {
+        const items = await window.loadArchiveBranches(fresh);
+        if (!section.isConnected) return;
+        branches = user.role === 'branch_admin' ? items.filter(item => item.id === user.branchId) : items;
+        render();
+      } catch (error) {
+        if (!section.isConnected) return;
+        if (error.status === 401) { expireSession(); return; }
+        report(state.outcome?.key === 'saved' ? 'refreshError' : 'loadError', true);
+        retry.hidden = false;
+      }
+    }
+
+    retry.addEventListener('click', () => load(true));
+    await load();
+  };
+
   window.adminContentScreens = [
     {id:'content',label:'Контент',labels:{ru:'Контент',kk:'Мазмұн',en:'Content'},render:(language='ru')=>localizedMarkup(content(),language)},
     {id:'translations',label:'Переводы',labels:{ru:'Переводы',kk:'Аудармалар',en:'Translations'},render:(language='ru')=>localizedMarkup(translations(),language)},

@@ -139,11 +139,11 @@
       </nav>
       <div class="document-toolbar">
         <button type="button" class="document-previous">← ${t.previous}</button>
+        <button type="button" class="document-next">${t.next} →</button>
         <label for="document-page-number">${t.page}
           <select id="document-page-number">${Array.from({length: fileInfo.pages}, (_, index) => `<option value="${index + 1}">${index + 1}</option>`).join('')}</select>
           <span class="document-page-count">${t.of} ${fileInfo.pages}</span>
         </label>
-        <button type="button" class="document-next">${t.next} →</button>
         <label for="document-zoom">${t.zoom}<select id="document-zoom"><option value="fit">${t.fit}</option><option value="100">100%</option><option value="150">150%</option><option value="200">200%</option></select></label>
       </div>
       <p class="document-load-status" role="status" aria-live="polite"></p>

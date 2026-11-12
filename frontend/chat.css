@@ -4,8 +4,12 @@
 @media(prefers-reduced-motion:reduce){.chat-source-card{transition:none}.chat-source-card:hover{transform:none}}
 @media(max-width:760px){.chat-composer-wrap>p{display:none}}
 .chat-answer-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-top:12px}.chat-copy{display:inline-flex;align-items:center;gap:7px;min-height:38px;padding:6px 10px;border:1px solid var(--line);border-radius:10px;background:transparent;color:var(--muted);font:inherit;font-size:.875rem;font-weight:600}.chat-copy:hover{background:var(--surface-2);color:var(--ink)}.chat-copy:focus-visible{outline:2px solid #537ba9;outline-offset:3px}.chat-copy svg{width:17px;height:17px;flex-shrink:0}.chat-copy-status{color:var(--muted);font-size:.875rem;line-height:1.4}
-.chat-scenario-examples{margin-top:28px}.chat-scenario-examples p{margin:0 0 12px;color:var(--muted);font-size:.9375rem;font-weight:600}.chat-scenario-examples button{max-width:100%;overflow-wrap:anywhere}
+.chat-scenario-examples{margin-top:22px;text-align:left}.chat-scenario-examples summary{color:var(--muted);font-size:.9375rem;font-weight:600;cursor:pointer}.chat-scenario-examples .chat-suggestions{margin-top:12px}.chat-scenario-examples button{max-width:100%;overflow-wrap:anywhere;scroll-margin-bottom:160px}
+.chat-layout-empty .chat-composer-wrap{position:static}
 @media(max-width:760px){.chat-route .mobile-dock{position:static;transform:none;margin:0 auto 16px}.chat-layout-empty .chat-composer-wrap{position:static}.chat-composer-wrap{padding-bottom:16px}.chat-copy,.chat-suggestions button{scroll-margin-bottom:100px}}
+
+/* Keep the question field usable beside voice and send controls on narrow phones. */
+@media(max-width:400px){.chat-composer-search{display:none}.chat-composer{gap:6px;padding-left:12px}}
 .chat-source-list { display:grid; gap:8px; max-width:510px; }
 .chat-waiting { display:flex; align-items:center; gap:10px; margin:12px 0; padding:12px 14px; border:1px solid var(--line); border-radius:6px; color:var(--muted); background:var(--surface-2); }
 .chat-waiting-dot { flex:none; width:10px; height:10px; border-radius:50%; background:var(--primary); }

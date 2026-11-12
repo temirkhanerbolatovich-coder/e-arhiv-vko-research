@@ -3,10 +3,16 @@
   'use strict';
 
   const coreScreens = [
+    {id:'dashboard', label:'Рабочий стол', render:dashboard},
     {id:'moderation', label:'Модерация', render:moderation},
     {id:'editor', label:'Новая запись', render:editor},
     {id:'analytics', label:'ИИ-аналитика', render:analytics}
   ];
+
+  function dashboard() {
+    return `<div class="admin-heading"><div><h1>Рабочий стол</h1><p>Выберите задачу для работы с материалами архива.</p></div></div>
+      <section class="admin-panel"><p>Войдите в панель сотрудника, чтобы увидеть доступные задачи.</p><a href="#/admin/login">Войти</a></section>`;
+  }
 
   function cards(labels) {
     return `<div class="admin-metrics">${labels.map(label => `<div class="admin-metric"><span>${label}</span><strong aria-label="Нет данных">—</strong></div>`).join('')}</div>`;
@@ -38,25 +44,75 @@
 
   window.renderAdmin = function renderAdmin(container, path, language = 'ru') {
     const t = value => window.adminCoreCopy.text(value, language);
+    const allScreens = [...coreScreens, ...(window.adminCatalogScreens || []), ...(window.adminContentScreens || []), ...(window.adminManagementScreens || []), {id:'access-denied', label:'Пример ограничения доступа', render:accessDenied}];
     const groups = [
-      ['Обзор и модерация', coreScreens],
-      ['Каталог и файлы', window.adminCatalogScreens || []],
-      ['Содержание сайта', window.adminContentScreens || []],
-      ['Управление', [...(window.adminManagementScreens || []), {id:'access-denied', label:'Пример ограничения доступа', render:accessDenied}]]
-    ];
-    const screens = groups.flatMap(([,items]) => items);
-    const key = path || 'moderation';
+      ['Рабочие задачи', ['dashboard', 'moderation']],
+      ['Архивный каталог', ['editor', 'catalogue', 'files', 'imports']],
+      ['Публикации сайта', ['content', 'translations']],
+      ['Гостевая книга', ['feedback']],
+      ['Филиалы', ['branch-editor']],
+      ['Управление', ['analytics', 'users', 'roles', 'audit', 'settings', 'login', 'session', 'access-denied']]
+    ].map(([title, ids]) => [title, ids.map(id => allScreens.find(item => item.id === id)).filter(Boolean)]);
+    const screens = allScreens;
+    const key = path || 'dashboard';
     const screen = screens.find(item => item.id === key);
     const label = item => item.labels?.[language] || t(item.label);
-    const screenLink = item => `<a href="#/admin/${item.id}" ${item.id === key ? 'aria-current="page"' : ''}>${label(item)}</a>`;
+    const screenLink = (item, text = label(item)) => `<a href="#/admin/${item.id}" ${item.id === key ? 'aria-current="page"' : ''}>${text}</a>`;
+    const groupLinks = () => groups.filter(([,items]) => items.length).map(([title,items]) => {
+      if (items.length === 1) return screenLink(items[0], title === 'Рабочие задачи' ? label(items[0]) : t(title));
+      return `<details class="admin-nav-group" ${items.some(item => item.id === key) ? 'open' : ''}><summary>${t(title)}</summary>${items.map(item => screenLink(item)).join('')}</details>`;
+    }).join('');
     let body = screen ? screen.render(language) : '<div class="admin-heading"><div><h1>Экран не найден</h1><p>Выберите раздел в меню демонстрации.</p><a href="#/admin/moderation">К модерации →</a></div></div>';
     if (!screen || coreScreens.includes(screen) || key === 'access-denied') body = window.adminCoreCopy.html(body,language);
     container.innerHTML = `<section class="admin-layout">
       <aside class="admin-sidebar"><a class="admin-brand" href="#/"><span aria-hidden="true">▣</span><span><strong>${t('Госархив ВКО')}</strong><small>${t('Панель сотрудника')}</small></span></a>
-        <p class="admin-side-label">${t('ПРЕДПРОСМОТР')}</p><nav aria-label="${t('Демонстрационные экраны для сотрудников')}">${groups.filter(([,items]) => items.length).map(([title,items])=>`<div class="admin-nav-group"><p>${t(title)}</p>${items.map(screenLink).join('')}</div>`).join('')}</nav><a class="admin-back" href="#/">← ${t('На сайт')}</a>
+        <nav aria-label="${t('Разделы панели')}">${groupLinks()}</nav><a class="admin-back" href="#/">← ${t('На сайт')}</a>
       </aside>
-      <div class="admin-main"><div class="admin-mobile-nav"><a href="#/">← ${t('На сайт')}</a><details class="admin-mobile-menu"><summary>${t('Разделы панели')} · ${screen ? label(screen) : t('Выбрать раздел')}</summary><nav aria-label="${t('Разделы демонстрации')}">${screens.map(screenLink).join('')}</nav></details></div>
+      <div class="admin-main"><div class="admin-mobile-nav"><div class="admin-mobile-header"><strong>${t('Госархив ВКО')} · ${t('Панель сотрудника')}</strong><a href="#/">← ${t('На сайт')}</a></div><details class="admin-mobile-menu"><summary>${t('Разделы панели')} · ${screen ? label(screen) : t('Выбрать раздел')}</summary><nav aria-label="${t('Разделы панели')}">${groupLinks()}</nav></details></div>
         <div class="admin-notice" role="note"><strong>${t('Демонстрация интерфейса.')}</strong> ${t('Авторизация, данные, обработка файлов и сохранение не подключены. Это не защищённая рабочая панель.')}</div>${body}
       </div></section>`;
+
+    const layout = container.querySelector('.admin-layout');
+    const api = window.archiveApi;
+    if (!api) return;
+    api.ready.then(async available => {
+      if (!available) return;
+      let user;
+      try {
+        ({ user } = await api.get('/admin/session'));
+      } catch (error) {
+        if (error.status !== 401) return;
+      }
+      if (!layout.isConnected) return;
+      const permissions = user?.permissions || [];
+      const allowed = {
+        dashboard: Boolean(user),
+        moderation: permissions.includes('moderation.review') || permissions.includes('content.create') || permissions.includes('catalog.edit'),
+        editor: permissions.includes('catalog.edit') || permissions.includes('content.create'),
+        catalogue: permissions.includes('catalog.edit'),
+        files: ['catalog.edit', 'content.create', 'content.publish'].some(permission => permissions.includes(permission)),
+        imports: permissions.includes('catalog.import'),
+        content: permissions.includes('content.create') || permissions.includes('content.publish'),
+        translations: permissions.includes('content.create') || permissions.includes('content.publish'),
+        review: permissions.includes('moderation.review'),
+        feedback: permissions.includes('feedback.moderate'),
+        'branch-editor': permissions.includes('branches.edit'),
+        analytics: permissions.includes('analytics.read'),
+        users: permissions.includes('users.manage'),
+        roles: permissions.includes('users.manage'),
+        audit: permissions.includes('audit.read'),
+        settings: permissions.includes('settings.manage'),
+        login: !user,
+        session: false,
+        'access-denied': false
+      };
+      layout.querySelectorAll('nav a[href^="#/admin/"]').forEach(link => {
+        const id = link.getAttribute('href').slice('#/admin/'.length);
+        link.hidden = !allowed[id];
+      });
+      layout.querySelectorAll('.admin-nav-group').forEach(group => {
+        group.hidden = !Array.from(group.querySelectorAll('a')).some(link => !link.hidden);
+      });
+    }).catch(() => {});
   };
 }());

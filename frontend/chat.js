@@ -1,4 +1,4 @@
-/* Presentation-only chat. Answers are prepared locally, never sent to a model. */
+/* Chat presentation for server responses and offline examples. */
 (function () {
   'use strict';
   const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -83,7 +83,9 @@
     // Одна короткая пометка под полем ввода; у каждого ответа есть подпись «программа на основе ИИ».
     const disclosure = { ru: ['ИИ-помощник', 'Отвечает программа на основе ИИ — проверяйте важное в карточке источника.'], kk: ['ЖИ-көмекші', 'ЖИ негізіндегі бағдарлама жауап береді — маңыздысын дереккөз карточкасынан тексеріңіз.'], en: ['AI assistant', 'Answers come from an AI program — check important details in the source record.'] }[language];
     const isLive = Boolean(api && api.health && api.health.ok);
-    const bannerText = isLive ? disclosure[1] : t.demo;
+    const searchOnly = { ru: 'ИИ временно недоступен. Работает поиск по материалам архива.', kk: 'ЖИ уақытша қолжетімсіз. Архив материалдары бойынша іздеу жұмыс істейді.', en: 'AI is temporarily unavailable. Search across archive materials remains available.' }[language] || '';
+    const bannerText = isLive ? (api.health.ai ? disclosure[1] : searchOnly) : t.demo;
+    const ratingError = { ru: 'Не удалось сохранить оценку. Попробуйте ещё раз.', kk: 'Бағаны сақтау мүмкін болмады. Қайталап көріңіз.', en: 'Could not save your rating. Please try again.' }[language] || '';
     function liveEntry(message, index) {
       const user = `<div class="chat-user-row"><div class="chat-user-bubble"><span class="chat-visually-hidden">${t.question}: </span>${escape(message.question)}</div></div>`;
       const label = `<div class="chat-answer-label"><span class="chat-assistant-icon">${icon('assistant')}</span><span>${message.reply && message.reply.mode === 'search' ? liveText.search : liveText.label}</span></div>`;
@@ -109,13 +111,18 @@
       return `<div class="chat-turn"><div class="chat-user-row"><div class="chat-user-bubble"><span class="chat-visually-hidden">${t.question}: </span>${escape(message.question)}</div></div>
         <div class="chat-answer"><div class="chat-answer-label"><span class="chat-assistant-icon">${icon('assistant')}</span><span>${t.title} · ${t.prepared}</span></div>${loading ? `<div class="chat-waiting" role="status"><span class="chat-waiting-dot" aria-hidden="true"></span>${preview.waitingText}</div><button type="button" class="chat-copy" data-chat-show="${index}">${preview.showAnswer}</button>` : `<p>${escape(response)}</p><div class="chat-source-list">${sources}</div><div class="chat-answer-actions">${message.kind === 'demo-error' ? `<button type="button" class="chat-copy" data-chat-retry="${index}">${scenarios.retry}</button>` : ''}<button type="button" class="chat-copy" data-chat-copy="${index}"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="8" y="8" width="11" height="12" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M16 8V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h1" stroke="currentColor" stroke-width="1.7"/></svg><span>${copy.button}</span></button><span class="chat-copy-status" role="status"></span></div><div class="chat-rating" role="group" aria-label="${preview.ratingGroup}"><span>${preview.rate}</span><button type="button" data-chat-rating="yes" data-chat-index="${index}" aria-pressed="${message.rating === 'yes'}">${preview.yes}</button><button type="button" data-chat-rating="no" data-chat-index="${index}" aria-pressed="${message.rating === 'no'}">${preview.no}</button><span class="chat-rating-status" role="status">${message.rating ? preview.rated : ''}</span></div>`}</div></div>`;
     }).join('');
-    const empty = `<div class="chat-empty"><span class="chat-empty-icon">${icon('assistant')}</span><h1>${t.empty}</h1><p>${t.emptyText}</p><div class="chat-suggestions"><button type="button" data-chat-example="address">${t.example1}</button><button type="button" data-chat-example="terms">${t.example2}</button><button type="button" data-chat-example="fund">${t.example3}</button></div><div class="chat-scenario-examples"><p>${scenarios.examples}</p><div class="chat-suggestions"><button type="button" data-chat-example="demo-restricted">${scenarios.restricted}</button><button type="button" data-chat-example="demo-error">${scenarios.error}</button><button type="button" data-chat-example="demo-no-result">${preview.noResult}</button><button type="button" data-chat-example="demo-sources">${preview.sources}</button><button type="button" data-chat-example="demo-loading">${preview.waiting}</button></div></div></div>`;
+    const empty = `<div class="chat-empty"><span class="chat-empty-icon">${icon('assistant')}</span><h1>${t.empty}</h1><p>${t.emptyText}</p><div class="chat-suggestions"><button type="button" data-chat-example="address">${t.example1}</button><button type="button" data-chat-example="terms">${t.example2}</button><button type="button" data-chat-example="fund">${t.example3}</button></div><details class="chat-scenario-examples"><summary>${scenarios.examples}</summary><div class="chat-suggestions"><button type="button" data-chat-example="demo-restricted">${scenarios.restricted}</button><button type="button" data-chat-example="demo-error">${scenarios.error}</button><button type="button" data-chat-example="demo-no-result">${preview.noResult}</button><button type="button" data-chat-example="demo-sources">${preview.sources}</button><button type="button" data-chat-example="demo-loading">${preview.waiting}</button></div></details></div>`;
     container.innerHTML = `<section class="chat-layout${messages.length ? '' : ' chat-layout-empty'}" aria-label="${t.title}">
       <aside class="chat-sidebar"><a class="chat-sidebar-brand" href="#/"><span class="chat-sidebar-mark">${icon('assistant')}</span><span><strong>${t.brandShort}</strong><small>${t.title}</small></span></a><button type="button" class="chat-new">${icon('arrowRight')}<span>${t.new}</span></button><p class="chat-nav-title">${t.nav}</p><nav class="chat-side-nav" aria-label="${t.nav}">${nav.map(([href,symbol,label])=>`<a href="${href}">${icon(symbol)}<span>${t[label]}</span></a>`).join('')}</nav></aside>
       <div class="chat-main"><div class="chat-top"><div><strong>${t.title}</strong><span>${t.sub}</span></div><button type="button" class="chat-clear" aria-label="${t.clear}" title="${t.clear}"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button></div>
         <div class="chat-thread-wrap"><div class="chat-thread" aria-live="polite">${entries || empty}</div></div>
         <div class="chat-composer-wrap"><form class="chat-composer"><label class="chat-visually-hidden" for="chat-followup">${t.input}</label><span class="chat-composer-search">${icon('search')}</span><input id="chat-followup" type="search" maxlength="500" autocomplete="off" placeholder="${t.input}"><button type="submit" aria-label="${t.send}">${icon('arrowUp')}</button></form><p>${bannerText}</p></div>
       </div></section>`;
+    const banner = container.querySelector('.chat-composer-wrap > p');
+    if (api && api.ready && !api.health) api.ready.then(available => {
+      if (!banner.isConnected) return;
+      banner.textContent = available ? (api.health.ai ? disclosure[1] : searchOnly) : t.demo;
+    });
     container.querySelector('.chat-composer').addEventListener('submit', (event)=>{
       event.preventDefault();
       const field = container.querySelector('#chat-followup');
@@ -145,17 +152,28 @@
       group.querySelector('.chat-rating-status').textContent = preview.rated;
     }));
     container.querySelectorAll('.chat-live-followup').forEach(button=>button.addEventListener('click',()=>onSubmit(button.textContent)));
-    container.querySelectorAll('[data-live-rating]').forEach(button=>button.addEventListener('click',()=>{
+    container.querySelectorAll('[data-live-rating]').forEach(button=>button.addEventListener('click',async()=>{
       const message = messages[Number(button.dataset.chatIndex)];
-      message.rating = Number(button.dataset.liveRating);
-      api.put('/chat/messages/' + encodeURIComponent(message.reply.messageId) + '/rating', {rating: message.rating}).catch(() => {});
       const group = button.closest('.chat-rating');
-      group.querySelectorAll('[data-live-rating]').forEach(choice=>choice.setAttribute('aria-pressed', String(Number(choice.dataset.liveRating) === message.rating)));
-      group.querySelector('.chat-rating-status').textContent = liveText.thanks;
+      const choices = group.querySelectorAll('[data-live-rating]');
+      const status = group.querySelector('.chat-rating-status');
+      const rating = Number(button.dataset.liveRating);
+      choices.forEach(choice => { choice.disabled = true; });
+      status.textContent = '';
+      try {
+        await api.put('/chat/messages/' + encodeURIComponent(message.reply.messageId) + '/rating', {rating});
+        message.rating = rating;
+        choices.forEach(choice => choice.setAttribute('aria-pressed', String(Number(choice.dataset.liveRating) === rating)));
+        status.textContent = liveText.thanks;
+      } catch {
+        status.textContent = ratingError;
+      } finally {
+        choices.forEach(choice => { choice.disabled = false; });
+      }
     }));
     container.querySelectorAll('[data-live-copy]').forEach(button=>button.addEventListener('click',async()=>{
       const status = button.parentElement.querySelector('.chat-copy-status');
-      try { await navigator.clipboard.writeText(messages[Number(button.dataset.liveCopy)].reply.answer); status.textContent = liveText.copied; } catch { status.textContent = ''; }
+      try { await navigator.clipboard.writeText(messages[Number(button.dataset.liveCopy)].reply.answer); status.textContent = liveText.copied; } catch { status.textContent = copy.failed; }
     }));
     container.querySelectorAll('[data-chat-copy]').forEach(button=>button.addEventListener('click',async()=>{
       const status = button.parentElement.querySelector('.chat-copy-status');
