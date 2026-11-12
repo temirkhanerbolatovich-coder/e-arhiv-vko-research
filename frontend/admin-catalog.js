@@ -661,6 +661,124 @@
       <section class="admin-panel admin-import-result"><h2>Пример отчёта проверки</h2><p class="admin-muted">Это статический пример, а не результат обработки файла.</p><ul class="admin-import-rows"><li><span class="admin-catalog-label">Строка-пример A</span><div><strong>Готова к проверке сотрудником</strong><p>Обязательные поля в примере заполнены. Запись ещё не импортирована.</p></div></li><li><span class="admin-catalog-label">Строка-пример B</span><div><strong>Ошибка · отсутствует родитель</strong><p>Укажите родительскую запись и повторите проверку после исправления файла.</p></div></li><li><span class="admin-catalog-label">Строка-пример C</span><div><strong>Предупреждение · возможный дубль</strong><p>Сотрудник должен сравнить записи до импорта.</p></div></li></ul><div class="admin-catalog-actions"><button type="button" disabled>Импортировать проверенные записи</button><button type="button" disabled class="admin-button-secondary">Скачать отчёт ошибок</button></div></section></div>`;
   }
 
+  const publishedCopy = {
+    ru: {
+      title: 'Опубликованный каталог', intro: 'Найдите опубликованную запись по названию или шифру и откройте её публичную карточку.',
+      query: 'Название или шифр', kind: 'Тип материала', all: 'Все материалы',
+      documents: 'Описи, дела и документы', kinds: { fund:'Фонд', inventory:'Опись', case:'Дело', document:'Документ', photo:'Фотодокумент', newspaper:'Газета' },
+      search: 'Найти', reset: 'Сбросить', add: 'Новая запись', drafts: 'Черновики и проверка',
+      loading: 'Загружаем записи…', found: 'Найдено: ', empty: 'Ничего не найдено.', error: 'Не удалось загрузить записи.',
+      retry: 'Повторить загрузку', previous: 'Назад', next: 'Дальше', page: 'Страница', newTab: 'откроется в новой вкладке',
+    },
+    kk: {
+      title: 'Жарияланған каталог', intro: 'Жарияланған жазбаны атауы немесе шифры бойынша тауып, оның ашық карточкасын көріңіз.',
+      query: 'Атауы немесе шифры', kind: 'Материал түрі', all: 'Барлық материалдар',
+      documents: 'Тізімдемелер, істер және құжаттар', kinds: { fund:'Қор', inventory:'Тізімдеме', case:'Іс', document:'Құжат', photo:'Фотоқұжат', newspaper:'Газет' },
+      search: 'Табу', reset: 'Тазалау', add: 'Жаңа жазба', drafts: 'Жобалар және тексеру',
+      loading: 'Жазбалар жүктелуде…', found: 'Табылды: ', empty: 'Ештеңе табылмады.', error: 'Жазбаларды жүктеу мүмкін болмады.',
+      retry: 'Қайта жүктеу', previous: 'Артқа', next: 'Алға', page: 'Бет', newTab: 'жаңа қойындыда ашылады',
+    },
+    en: {
+      title: 'Published catalogue', intro: 'Search published records by title or reference and open their public records.',
+      query: 'Title or reference', kind: 'Material type', all: 'All materials',
+      documents: 'Inventories, cases and documents', kinds: { fund:'Fund', inventory:'Inventory', case:'Case', document:'Document', photo:'Photograph', newspaper:'Newspaper' },
+      search: 'Search', reset: 'Reset', add: 'New record', drafts: 'Drafts and review',
+      loading: 'Loading records…', found: 'Found: ', empty: 'No records found.', error: 'Could not load records.',
+      retry: 'Retry loading', previous: 'Previous', next: 'Next', page: 'Page', newTab: 'opens in a new tab',
+    }
+  };
+  const publishedKinds = ['fund', 'document', 'photo', 'newspaper'];
+  const publishedPageSize = 12;
+
+  window.renderPublishedAdminCatalogue = async function renderPublishedAdminCatalogue(main, language, user) {
+    if (new URLSearchParams(location.hash.split('?')[1]).has('record')) {
+      return window.archiveWorkbench.record(main, language, user);
+    }
+    const t = publishedCopy[language] || publishedCopy.ru;
+    const api = window.archiveApi;
+    const esc = api.escape;
+    const params = new URLSearchParams(location.hash.split('?')[1]);
+    const q = (params.get('q') || '').slice(0, 300);
+    const type = params.get('type');
+    let page = Math.min(1000, Number(params.get('page')) || 1);
+    let requestNumber = 0;
+    main.innerHTML = `<div class="admin-catalog-demo">
+      <header class="admin-heading"><div><h1>${t.title}</h1><p>${t.intro}</p></div></header>
+      <section class="admin-panel admin-catalog-published">
+        <div class="admin-catalog-actions"><a href="#/admin/editor">${t.add} →</a><a href="#/admin/moderation">${t.drafts} →</a></div>
+        <form class="admin-catalog-toolbar" role="search">
+          <label>${t.query}<input type="search" name="q" maxlength="300" value="${esc(q)}"></label>
+          <label>${t.kind}<select name="type"><option value="">${t.all}</option>${publishedKinds.map(key => `<option value="${key}"${key === type ? ' selected' : ''}>${key === 'document' ? t.documents : t.kinds[key]}</option>`).join('')}</select></label>
+          <div class="admin-live-actions"><button type="submit">${t.search}</button><button type="reset" class="admin-button-secondary">${t.reset}</button></div>
+        </form>
+        <p role="status" data-admin-catalog-status>${t.loading}</p><button type="button" class="admin-button-secondary" data-admin-catalog-retry hidden>${t.retry}</button>
+        <ul class="admin-catalog-tree" data-admin-catalog-list></ul>
+        <nav class="admin-live-actions" aria-label="${t.page}" data-admin-catalog-nav hidden>
+          <button type="button" class="admin-button-secondary" data-admin-catalog-prev>${t.previous}</button>
+          <span data-admin-catalog-page></span>
+          <button type="button" class="admin-button-secondary" data-admin-catalog-next>${t.next}</button>
+        </nav>
+      </section></div>`;
+    const form = main.querySelector('form');
+    const input = form.elements.namedItem('q');
+    const kind = form.elements.namedItem('type');
+    const list = main.querySelector('[data-admin-catalog-list]');
+    const status = main.querySelector('[data-admin-catalog-status]');
+    const retry = main.querySelector('[data-admin-catalog-retry]');
+    const pager = main.querySelector('[data-admin-catalog-nav]');
+    const previous = pager.querySelector('[data-admin-catalog-prev]');
+    const next = pager.querySelector('[data-admin-catalog-next]');
+
+    async function load() {
+      page = Math.max(1, Math.trunc(page));
+      const request = ++requestNumber;
+      const filters = new URLSearchParams();
+      if (input.value.trim()) filters.set('q', input.value.trim());
+      if (kind.value) filters.set('type', kind.value);
+      if (page > 1) filters.set('page', String(page));
+      history.replaceState(null, '', '#/admin/catalogue' + (filters.size ? '?' + filters : ''));
+      filters.set('size', String(publishedPageSize));
+      filters.set('locale', language);
+      if (user.role === 'branch_admin' && user.branchId) filters.set('branch', user.branchId);
+      retry.hidden = pager.hidden = true;
+      status.textContent = t.loading;
+      list.textContent = '';
+      try {
+        const data = await api.get('/catalog?' + filters);
+        if (!form.isConnected || request !== requestNumber) return;
+        const pages = Math.max(1, Math.ceil(data.total / data.size));
+        if (page > pages) { page = pages; return load(); }
+        status.textContent = data.total ? t.found + data.total.toLocaleString(language) : t.empty;
+        list.innerHTML = data.items.map(item => `<li><span class="admin-catalog-level">${esc(t.kinds[item.kind] || item.kind)}</span><div>
+          <h3><a class="admin-catalog-record-link" href="#/resource/${encodeURIComponent(item.id)}" target="_blank" rel="noopener"><span lang="ru">${esc(item.title)}</span><span class="sr-only"> (${t.newTab})</span></a></h3>
+          <p lang="ru">${[item.reference, item.branchName, item.period].filter(Boolean).map(esc).join(' · ')}</p>
+          <a class="admin-content-link" href="${esc(location.hash + (location.hash.includes('?') ? '&' : '?') + 'record=' + encodeURIComponent(item.id))}">${window.adminWorkbenchText('Подготовить изменения', language)} →</a>
+        </div></li>`).join('');
+        pager.querySelector('[data-admin-catalog-page]').textContent = `${t.page} ${page} / ${pages}`;
+        previous.disabled = page <= 1;
+        next.disabled = page >= pages || page >= 1000;
+        pager.hidden = pages <= 1;
+      } catch {
+        if (!form.isConnected || request !== requestNumber) return;
+        status.textContent = t.error;
+        retry.hidden = false;
+      }
+    }
+
+    form.addEventListener('submit', event => { event.preventDefault(); page = 1; load(); });
+    form.addEventListener('reset', event => {
+      event.preventDefault();
+      input.value = kind.value = '';
+      page = 1;
+      load();
+      input.focus();
+    });
+    previous.addEventListener('click', () => { page--; load(); });
+    next.addEventListener('click', () => { page++; load(); });
+    retry.addEventListener('click', load);
+    await load();
+  };
+
   window.adminCatalogScreens = [
     {id:'catalogue', label:'Каталог', labels:{ru:'Каталог',kk:'Каталог',en:'Catalogue'}, render:(language='ru') => localize(catalogue(),language)},
     {id:'files', label:'Файлы', labels:{ru:'Файлы',kk:'Файлдар',en:'Files'}, render:(language='ru') => localize(files(),language)},

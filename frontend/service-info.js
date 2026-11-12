@@ -28,23 +28,35 @@
     }
   };
 
-  function externalLink(url, label, t, className) {
-    return `<a class="${className || 'service-info-link'}" href="${url}" target="_blank" rel="noopener noreferrer">${label} <span aria-hidden="true">↗</span><span class="sr-only">${t.external}</span></a>`;
+  function externalLink(url, label, t, { className = 'service-info-link', brand } = {}) {
+    const linkLabel = `${label} <span aria-hidden="true">↗</span>`;
+    const content = brand
+      ? `<span class="service-info-brand service-info-brand--${brand}"><img src="assets/${brand}-logo.png" alt=""></span><span class="service-info-link-label">${linkLabel}</span>`
+      : linkLabel;
+    return `<a class="${className}${brand ? ' service-info-branded' : ''}" href="${url}" target="_blank" rel="noopener noreferrer">${content}<span class="sr-only">${t.external}</span></a>`;
   }
 
-  window.renderServiceInfo = function renderServiceInfo(container, language = 'ru') {
+  window.renderServiceInfo = function renderServiceInfo(container, language = 'ru', showReports = false) {
     const t = copy[language] || copy.ru;
     container.innerHTML = `<section class="service-info-page" aria-labelledby="service-info-title"><div class="service-info-shell">
       <nav class="service-info-breadcrumbs" aria-label="${t.breadcrumb}"><a href="#/">${t.home}</a><span aria-hidden="true">/</span><span aria-current="page">${t.section}</span></nav>
       <header class="service-info-heading"><p class="service-info-eyebrow">${t.eyebrow}</p><h1 id="service-info-title">${t.title}</h1><p>${t.intro}</p></header>
       <div class="service-info-note" role="note">${t.note}</div>
-      <div class="service-info-grid"><article class="service-info-card"><h2>${t.service}</h2><p>${t.description}</p><dl class="service-info-facts"><div><dt>${t.recipients}</dt><dd>${t.recipientsValue}</dd></div><div><dt>${t.cost}</dt><dd>${t.costValue}</dd></div><div><dt>${t.duration}</dt><dd>${t.durationValue}</dd></div></dl><p class="service-info-caption">${t.checked}</p>${externalLink(serviceUrl, t.serviceLink, t, 'service-info-primary')}<p class="service-info-external">${t.externalSource}</p></article>
+      <div class="service-info-grid"><article class="service-info-card"><h2>${t.service}</h2><p>${t.description}</p><dl class="service-info-facts"><div><dt>${t.recipients}</dt><dd>${t.recipientsValue}</dd></div><div><dt>${t.cost}</dt><dd>${t.costValue}</dd></div><div><dt>${t.duration}</dt><dd>${t.durationValue}</dd></div></dl><p class="service-info-caption">${t.checked}</p>${externalLink(serviceUrl, t.serviceLink, t, { className: 'service-info-primary', brand: 'egov' })}<p class="service-info-external">${t.externalSource}</p></article>
       <aside class="service-info-aside"><h2>${t.before}</h2><ol class="service-info-steps">${t.steps.map(step => `<li>${step}</li>`).join('')}</ol><div class="service-info-contact"><h3>${t.contacts}</h3><p>${t.contactText}</p><a href="#/section/branches">${t.branches} →</a></div></aside></div>
-      <section class="service-info-documents" aria-labelledby="service-info-docs"><h2 id="service-info-docs">${t.documents}</h2><div class="service-info-document-grid"><article class="service-info-card"><h3>${t.law}</h3><p>${t.lawText}</p>${externalLink(lawUrl, t.lawLink, t)}</article><article class="service-info-card"><h3>${t.rules}</h3><p>${t.rulesText}</p>${externalLink(rulesUrl, t.rulesLink, t)}</article></div></section>
-      <section class="service-info-reports"><div><h2>${t.reports}</h2><p>${t.reportsText}</p><p class="service-info-caption">${t.reportsLanguage}</p>
+      <section class="service-info-documents" aria-labelledby="service-info-docs"><h2 id="service-info-docs">${t.documents}</h2><div class="service-info-document-grid"><article class="service-info-card"><h3>${t.law}</h3><p>${t.lawText}</p>${externalLink(lawUrl, t.lawLink, t, { brand: 'adilet' })}</article><article class="service-info-card"><h3>${t.rules}</h3><p>${t.rulesText}</p>${externalLink(rulesUrl, t.rulesLink, t, { brand: 'adilet' })}</article></div></section>
+      <section class="service-info-reports" aria-labelledby="branch-reports-title"><div><h2 id="branch-reports-title" tabindex="-1">${t.reports}</h2><p>${t.reportsText}</p><p class="service-info-caption">${t.reportsLanguage}</p>
         <ul>${branchReports.map(([id, branch]) => `<li>${externalLink('https://www.gov.kz/org/vko-uca/documents/details/' + id + '?lang=ru', `<span lang="ru">${branch}</span> · ${t.reportLabel}`, t)}</li>`).join('')}</ul>
         <p>${t.missingReport}</p></div><a href="#/section/branches">${t.branches} →</a></section>
       <p class="service-info-caption">${t.caption}</p>
     </div></section>`;
+    if (showReports) {
+      const reports = container.querySelector('#branch-reports-title');
+      requestAnimationFrame(() => {
+        if (!reports.isConnected) return;
+        reports.scrollIntoView({ block: 'start' });
+        reports.focus({ preventScroll: true });
+      });
+    }
   };
 }());

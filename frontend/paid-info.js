@@ -2,8 +2,6 @@
 (function () {
   'use strict';
 
-  const contactsSource = 'https://github.com/temirkhanerbolatovich-coder/e-arhiv-vko-research/blob/main/docs/data/customer/2026-11-10/originals/' + encodeURIComponent('Контакты.docx');
-  const archiveSource = 'https://github.com/temirkhanerbolatovich-coder/e-arhiv-vko-research/blob/main/docs/data/customer/2026-11-11/originals/' + encodeURIComponent('Платные услуги.7z');
   const text = {
     ru: {
       breadcrumbs: 'Навигационная цепочка',
@@ -24,16 +22,13 @@
       download: 'Скачать PDF',
       openOriginal: 'Открыть оригинал PDF',
       newTab: 'откроется в новой вкладке',
-      archiveSource: 'Архив файлов заказчика на GitHub',
       officialText: 'Официальный текст в «Әділет»',
-      accessNote: 'Доступ к исходному архиву на GitHub может требовать участия в репозитории.',
       contactTitle: 'Уточнить информацию',
       contactIntro: 'По вопросам опубликованных сведений можно связаться с приёмной архива.',
       reception: 'Приёмная',
       email: 'Электронная почта',
       address: 'Адрес',
       contactNote: 'Контакты взяты из документа заказчика; актуальность уточняется.',
-      contactSource: 'Источник контактных данных',
       related: 'Связанные разделы',
       publicService: 'Государственная услуга',
       branches: 'Филиалы и контакты'
@@ -57,16 +52,13 @@
       download: 'PDF жүктеу',
       openOriginal: 'Түпнұсқа PDF файлын ашу',
       newTab: 'жаңа қойындыда ашылады',
-      archiveSource: 'Тапсырыс берушінің файлдары GitHub-та',
       officialText: '«Әділеттегі» ресми мәтін',
-      accessNote: 'GitHub-тағы бастапқы архивке қол жеткізу үшін репозиторийге кіру құқығы қажет болуы мүмкін.',
       contactTitle: 'Ақпаратты нақтылау',
       contactIntro: 'Жарияланған мәліметтер бойынша архивтің қабылдау бөліміне хабарласуға болады.',
       reception: 'Қабылдау бөлімі',
       email: 'Электрондық пошта',
       address: 'Мекенжай',
       contactNote: 'Байланыс деректері тапсырыс берушінің құжатынан алынған; өзектілігі нақтылануда.',
-      contactSource: 'Байланыс деректерінің дереккөзі',
       related: 'Байланысты бөлімдер',
       publicService: 'Мемлекеттік қызмет',
       branches: 'Филиалдар мен байланыс'
@@ -90,16 +82,13 @@
       download: 'Download PDF',
       openOriginal: 'Open original PDF',
       newTab: 'opens in a new tab',
-      archiveSource: 'Customer source archive on GitHub',
       officialText: 'Official text in Russian on Adilet',
-      accessNote: 'The source archive on GitHub may require repository access.',
       contactTitle: 'Clarify the information',
       contactIntro: 'Contact the archive reception desk with questions about the published information.',
       reception: 'Reception',
       email: 'Email',
       address: 'Address',
       contactNote: 'Contact details come from the customer document and need confirmation.',
-      contactSource: 'Contact details source',
       related: 'Related sections',
       publicService: 'Public service',
       branches: 'Branches and contacts'
@@ -139,20 +128,15 @@
             <p class="paid-info-lead">${t.resolution}</p>
             <a class="paid-info-source" href="${officialTextUrl}" target="_blank" rel="noopener noreferrer">${t.officialText} <span aria-hidden="true">↗</span></a>
             ${documents.map(document => documentCard(document, t)).join('')}
-            <div class="paid-info-provenance">
-              <a class="paid-info-source" href="${archiveSource}" target="_blank" rel="noopener noreferrer">${t.archiveSource} <span aria-hidden="true">↗</span></a>
-              <p class="paid-info-source-note">${t.accessNote}</p>
-            </div>
           </section>
           <aside class="paid-info-contact" aria-labelledby="paid-contact-title">
             <h2 id="paid-contact-title">${t.contactTitle}</h2><p>${t.contactIntro}</p>
             <dl>
-              <div><dt>${t.reception}</dt><dd><a href="tel:+77232255976">8 (7232) 25-59-76</a></dd></div>
-              <div><dt>${t.email}</dt><dd><a href="mailto:arhiv-ukg@yandex.kz">arhiv-ukg@yandex.kz</a></dd></div>
-              <div><dt>${t.address}</dt><dd lang="ru">г. Усть-Каменогорск,<br>ул. Бейбітшілік, 26/1</dd></div>
+              <div><dt>${t.reception}</dt><dd><a href="tel:+77232255976" data-main-contact="phone">8 (7232) 25-59-76</a></dd></div>
+              <div><dt>${t.email}</dt><dd><a href="mailto:arhiv-ukg@yandex.kz" data-main-contact="email">arhiv-ukg@yandex.kz</a></dd></div>
+              <div><dt>${t.address}</dt><dd lang="ru" data-main-contact="address">г. Усть-Каменогорск,<br>ул. Бейбітшілік, 26/1</dd></div>
             </dl>
             <p class="paid-info-source-note">${t.contactNote}</p>
-            <a class="paid-info-source" href="${contactsSource}" target="_blank" rel="noopener noreferrer">${t.contactSource} <span aria-hidden="true">↗</span></a>
           </aside>
         </div>
         <nav class="paid-info-links" aria-label="${t.related}">

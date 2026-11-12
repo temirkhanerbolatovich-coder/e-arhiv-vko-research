@@ -65,3 +65,55 @@
   .branches-route { width: 100%; }
 }
 @media (prefers-reduced-motion: reduce) { .branches-page * { scroll-behavior: auto; transition: none; } }
+
+/* Contact directory: a compact list with a clearly identified detail panel. */
+.branches-page .branches-notice { border-left: 3px solid var(--primary); border-radius: 4px; }
+.branches-page .branches-search { min-height: 52px; border-radius: 6px; }
+.branches-page .branches-filters button { border-radius: 6px; }
+.branches-page .branches-card {
+  min-height: 0;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: none;
+}
+.branches-page .branches-card:hover { transform: none; box-shadow: none; border-color: var(--primary); }
+.branches-page .branches-card.is-selected { padding: 15px; border-color: var(--primary); box-shadow: none; }
+.branches-page .branches-card-icon { flex-basis: 36px; width: 36px; height: 36px; border-radius: 4px; color: var(--primary); }
+.branches-page .branches-card-copy { gap: 6px; }
+.branches-page .branches-card-copy .branches-card-action { color: var(--primary); font-weight: 650; margin-top: 3px; }
+.branches-page .branches-detail { padding: 24px; border-radius: 6px; box-shadow: none; }
+.branches-page .branches-detail-content { padding: 0; }
+.branches-page .branches-detail-type { color: var(--muted); }
+.branches-page .branches-route { border-radius: 6px; }
+.branches-page .branch-map, .branches-page .branch-map-frame { border-radius: 6px; }
+.branches-page .branch-map-actions button { border-radius: 6px; }
+.branches-nearest p:empty { display: none; }
+@media (max-width: 760px) {
+  .branches-page .branches-detail { padding: 20px; }
+  .branches-page .branches-card { padding: 14px; }
+  .branches-page .branches-card.is-selected { padding: 13px; }
+}
+.branches-building { margin:20px 0 8px; }
+.branches-building img { width:100%; aspect-ratio:4/3; object-fit:cover; border:1px solid var(--line); border-radius:6px; }
+.branches-building figcaption,.branches-panorama { margin:8px 0 0; color:var(--muted); font-size:.875rem; }
+.branches-building a,.branches-panorama a { text-decoration:underline; text-underline-offset:3px; }
+
+/* Consistent media, including offices whose photograph has not been supplied. */
+.branches-card-photo { display:grid; place-items:center; width:72px; height:64px; flex:0 0 72px; overflow:hidden; border:1px solid var(--archive-edge,var(--line)); border-radius:5px; color:var(--brass); background:var(--archive-paper,var(--surface-2)); }
+.branches-card-photo img { width:100%; height:100%; object-fit:cover; }
+.branches-card-photo svg { width:36px; height:36px; }
+.branches-building { margin:22px 0; }
+.branches-photo-media { overflow:hidden; border:1px solid var(--line); border-radius:6px; }
+.branches-photo-media>a { display:block; }
+.branches-building .branches-photo-media img { display:block; width:100%; aspect-ratio:16/10; object-fit:cover; border:0; border-radius:0; }
+.branches-photo-placeholder { display:flex; min-height:160px; align-items:center; justify-content:center; flex-direction:column; gap:10px; padding:22px; text-align:center; color:var(--muted); background:var(--archive-paper,var(--surface-2)); }
+.branches-photo-placeholder svg { width:54px; height:54px; color:var(--brass); }
+.branches-photo-placeholder strong { font-size:.9375rem; line-height:1.5; }
+.branches-photo-placeholder span { font-size:.8125rem; line-height:1.5; }
+.branches-building figcaption span { display:block; line-height:1.5; margin-top:7px; }
+@media(max-width:480px) {
+  .branches-page .branches-heading h1 { font-size:1.5rem; line-height:1.35; }
+  .branches-card-photo { width:54px; height:54px; flex-basis:54px; }
+  html[data-font-scale="200"] .branches-card-photo { display:none; }
+  .branches-photo-placeholder { padding:16px; }
+}

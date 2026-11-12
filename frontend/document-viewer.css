@@ -91,7 +91,7 @@
   padding: 10px 15px;
   min-height: 44px;
   border: 1px solid var(--line-strong);
-  border-radius: 100px;
+  border-radius: 6px;
   background: var(--surface);
   color: var(--ink);
   font: inherit;
@@ -108,7 +108,7 @@
   min-height: 44px;
   padding: 6px 10px;
   border: 1px solid var(--line-strong);
-  border-radius: 10px;
+  border-radius: 4px;
   background: var(--paper);
   color: var(--ink);
 }
@@ -163,11 +163,17 @@
     margin-top: 28px;
   }
   .document-toolbar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 115px), 1fr));
     align-items: stretch;
-    flex-direction: column;
   }
   .document-toolbar button {
-    width: 100%;
+    min-width: 0;
+    padding-inline: 10px;
+    border-radius: 6px;
+  }
+  .document-toolbar label {
+    grid-column: 1 / -1;
   }
   .document-file-actions {
     flex-direction: column;

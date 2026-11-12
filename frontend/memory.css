@@ -57,6 +57,7 @@
 .memory-photo img{width:100%;height:180px;object-fit:cover;filter:grayscale(1)}
 .memory-photo figcaption{padding:18px}
 .memory-photo h3{font-size:1rem;line-height:1.4;margin:10px 0 4px}
+.memory-photo h3 a{text-decoration:underline;text-underline-offset:3px}
 .memory-photo p{font-size:.9375rem;line-height:1.5;margin:0;color:var(--muted)}
 .memory-bottom{display:flex;align-items:center;justify-content:space-between;gap:22px;margin-top:24px;padding:20px 22px;background:var(--surface);border:1px solid var(--line);border-radius:6px}
 .memory-bottom p{margin:2px 0;font-size:.9375rem;color:var(--muted)}

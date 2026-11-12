@@ -12,3 +12,15 @@
 @media(max-width:760px){.fund-page{padding:20px 16px 105px}.fund-breadcrumbs{margin-bottom:22px}.fund-grid{grid-template-columns:minmax(0,1fr);gap:22px}.fund-viewer{min-height:270px;padding:32px 24px}.fund-details h1{font-size:clamp(1.75rem,7vw,2.3rem)}.fund-ask{margin-top:12px}.fund-actions{gap:8px}.fund-primary,.fund-secondary{flex:1 1 auto}}
 @media(max-width:390px){.fund-metadata>div{grid-template-columns:minmax(0,1fr);gap:4px}.fund-metadata dd{text-align:left}.fund-actions a{width:100%}.fund-ask-arrow{flex:0 0 42px}.fund-number{align-items:flex-start;flex-direction:column}}
 .fund-copy{border:1px solid currentColor;border-radius:99px;background:transparent;color:inherit;font-size:.85rem;font-weight:700;padding:7px 12px}.fund-copy:hover{text-decoration:underline;text-underline-offset:3px}.fund-copy-status{flex-basis:100%;font-size:.875rem;overflow-wrap:anywhere}.fund-copy-status:empty{display:none}
+
+/* Server catalogue records share a readable content width and a compact metadata layout. */
+.resource-shell .fund-details{max-width:960px;padding:24px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+.resource-shell .fund-number{justify-content:flex-start}
+.resource-shell .fund-number strong{margin-right:auto}
+.resource-shell .fund-metadata>div{grid-template-columns:minmax(160px,.65fr) minmax(0,1fr)}
+.resource-shell .fund-metadata dd{text-align:left}
+.resource-shell .resource-viewer{max-width:100%}
+.resource-shell .resource-open-copy{display:inline-block;max-width:100%;padding:.65rem .9rem;border-radius:6px;background:var(--primary);color:var(--primary-text)}
+.resource-shell .resource-zoom{max-width:100%;border-radius:6px}
+.resource-shell .resource-restricted{border-radius:6px}
+@media(max-width:760px){.resource-shell .fund-details{padding:18px}.resource-shell .fund-metadata>div{grid-template-columns:minmax(0,1fr);gap:4px}.resource-shell .fund-number strong{flex-basis:100%}}

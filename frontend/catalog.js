@@ -66,8 +66,7 @@
       "unknown": "Сведения не предоставлены",
       "recordNote": "Это одна строка исторической выгрузки за 2018 год. Наличие документов, цифровых копий и актуальность сведений не подтверждены.",
       "openFond": "Открыть карточку фонда",
-      "openSource": "Открыть исходную таблицу на GitHub",
-      "noResults": "Записей не найдено",
+            "noResults": "Записей не найдено",
       "emptyTitle": "Ничего не найдено",
       "emptyHint": "Попробуйте другое название, номер фонда или измените фильтры.",
       "resetSearch": "Сбросить поиск",
@@ -138,8 +137,7 @@
       "unknown": "Мәліметтер ұсынылмаған",
       "recordNote": "Бұл — 2018 жылғы тарихи деректердің бір жазбасы. Құжаттардың, цифрлық көшірмелердің болуы және мәліметтердің өзектілігі расталмаған.",
       "openFond": "Қор карточкасын ашу",
-      "openSource": "GitHub-та бастапқы кестені ашу",
-      "noResults": "Жазбалар табылмады",
+            "noResults": "Жазбалар табылмады",
       "emptyTitle": "Ештеңе табылмады",
       "emptyHint": "Басқа атауды, қор нөмірін қолданып көріңіз немесе сүзгілерді өзгертіңіз.",
       "resetSearch": "Іздеуді тазалау",
@@ -210,8 +208,7 @@
       "unknown": "Information not provided",
       "recordNote": "This is one row of the historical 2018 export. Document holdings, digital copies and current information have not been confirmed.",
       "openFond": "Open the fond record",
-      "openSource": "Open the source table on GitHub",
-      "noResults": "No records found",
+            "noResults": "No records found",
       "emptyTitle": "No results",
       "emptyHint": "Try another title or fond number, or change the filters.",
       "resetSearch": "Reset search",
@@ -225,7 +222,6 @@
   Object.assign(translations.kk, {showFilters:'Сүзгілер', extraFilters:'Қосымша сүзгілер', author:'Автор немесе ұйым', topic:'Тақырып', place:'Орын', branch:'Филиал', yearFrom:'Бастапқы жыл', yearTo:'Соңғы жыл', unknownFields:'Екі демонстрациялық жазбада бұл өрістер расталмаған: оларды толтырсаңыз, жазбалар нәтижелерге кірмейді.', yearsError:'Бастапқы жыл соңғы жылдан кеш болмауы керек.'});
   Object.assign(translations.en, {showFilters:'Filters', extraFilters:'Additional filters', author:'Author or organisation', topic:'Subject', place:'Place', branch:'Branch', yearFrom:'From year', yearTo:'To year', unknownFields:'These fields are unconfirmed in the two sample records: filling them excludes the records from results.', yearsError:'The start year must not be later than the end year.'});
 
-  const sourceUrl = 'https://github.com/temirkhanerbolatovich-coder/e-arhiv-vko-research/blob/main/datasets/structured_data/funds_2018.csv';
   const record = {
     number: 'Р-1 ч.с.',
     name: 'Усть-Каменогорский городской Совет рабочих, крестьянских и красноармейских депутатов г. Усть-Каменогорск Семипалатинского округа',
@@ -260,34 +256,51 @@
           <dl><div><dt>${t.fondNumber}</dt><dd lang="ru">${record.number}</dd></div><div><dt>${t.fondPeriod}</dt><dd>1926–1993, ${t.accordingExport}</dd></div><div><dt>${t.nameDates}</dt><dd>${record.namePeriod}, ${t.asSource}</dd></div><div><dt>${t.digitalCopy}</dt><dd>${t.unknown}</dd></div></dl>
           <p>${t.recordNote}</p>
           <p><a class="catalog-source-link" href="#/fund/r1">${t.openFond} <span aria-hidden="true">→</span></a></p>
-          <a class="catalog-source-link" href="${sourceUrl}" target="_blank" rel="noopener noreferrer">${t.openSource} <span aria-hidden="true">↗</span></a>
         </section>
       </article>`;
   }
 
   function renderCatalog(container, params, language = 'ru') {
-    const t = translations[language] || translations.ru;
     params = params instanceof URLSearchParams ? params : new URLSearchParams();
+    const siteSearch = params.get('scope') === 'all';
+    const siteSearchText = {
+      ru: {heading:'Поиск по сайту', lead:'Ищите опубликованные материалы архива, страницы, новости и памятные даты.', placeholder:'Введите название, тему или архивный шифр', demoText:'Поиск по сайту недоступен. Показаны локальные примеры каталога.'},
+      kk: {heading:'Сайт бойынша іздеу', lead:'Жарияланған архив материалдарын, беттерді, жаңалықтар мен атаулы күндерді іздеңіз.', placeholder:'Атауын, тақырыбын немесе архивтік шифрын енгізіңіз', demoText:'Сайт бойынша іздеу қолжетімсіз. Каталогтың жергілікті мысалдары көрсетілген.'},
+      en: {heading:'Site search', lead:'Search published archive materials, pages, news and commemorative dates.', placeholder:'Enter a title, topic or archival reference', demoText:'Site search is unavailable. Local catalogue examples are shown.'}
+    };
+    const copy = siteSearchText[language] || siteSearchText.ru;
+    const base = translations[language] || translations.ru;
+    const t = siteSearch ? {...base, ...copy, catalog:copy.heading, searchLabel:copy.heading} : base;
+    const filterCopy = {
+      ru: { title: 'Фильтры', close: 'Закрыть фильтры', apply: 'Показать результаты', active: 'Применённые фильтры', remove: 'Снять фильтр' },
+      kk: { title: 'Сүзгілер', close: 'Сүзгілерді жабу', apply: 'Нәтижелерді көрсету', active: 'Қолданылған сүзгілер', remove: 'Сүзгіні алып тастау' },
+      en: { title: 'Filters', close: 'Close filters', apply: 'Show results', active: 'Applied filters', remove: 'Remove filter' }
+    }[language] || { title: 'Filters', close: 'Close filters', apply: 'Show results', active: 'Applied filters', remove: 'Remove filter' };
     const query = params.get('q') || '';
     container.innerHTML = `
       <section class="catalog-page" aria-labelledby="catalog-heading">
         <div class="catalog-container">
           <nav class="catalog-breadcrumbs" aria-label="${t.breadcrumbs}"><a href="#/">${t.home}</a><span aria-hidden="true">/</span><span aria-current="page">${t.catalog}</span></nav>
-          <div class="catalog-heading-row"><div><p class="catalog-eyebrow">${t.eyebrow}</p><h1 id="catalog-heading">${t.heading}</h1><p class="catalog-lead">${t.lead}</p></div><a class="catalog-help-link" href="#/">${t.ask} <span aria-hidden="true">↗</span></a></div>
+          <div class="catalog-heading-row"><div>${siteSearch ? '' : `<p class="catalog-eyebrow">${t.eyebrow}</p>`}<h1 id="catalog-heading">${t.heading}</h1><p class="catalog-lead">${t.lead}</p></div><a class="catalog-help-link" href="#/">${t.ask} <span aria-hidden="true">↗</span></a></div>
           <div class="catalog-demo-note" role="note"><span class="catalog-note-mark" aria-hidden="true">i</span><p><strong>${t.demo}</strong> ${t.demoText}</p></div>
           <p><a class="response-link" href="#/section/personal-funds">${t.personal} <span aria-hidden="true">→</span></a></p>
-          <form id="catalog-search-form" class="catalog-search" role="search"><label class="catalog-sr-only" for="catalog-query">${t.searchLabel}</label><svg class="catalog-search-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="m16.2 16.2 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><input id="catalog-query" name="q" type="search" placeholder="${t.placeholder}" autocomplete="off"><button class="catalog-search-button" type="submit">${t.find}</button></form>
-          <div class="portal-catalog-layout"><aside class="portal-catalog-sidebar"><details class="catalog-filter-panel"><summary>${t.showFilters}</summary><div class="catalog-filters" aria-label="${t.filters}"><label class="catalog-select-wrap"><span>${t.type}</span><select id="catalog-type"><option value="all">${t.allMaterials}</option><option value="fund">${t.fonds}</option><option value="document">${t.documents}</option><option value="photo">${t.photos}</option><option value="newspaper">${({ru:'Газеты',kk:'Газеттер',en:'Newspapers'})[language] || 'Газеты'}</option></select></label><label class="catalog-select-wrap"><span>${t.period}</span><select id="catalog-period"><option value="all">${t.allPeriods}</option><option value="before1926">${t.before}</option><option value="1926-1950">1926–1950</option><option value="1951-2000">1951–2000</option><option value="after2000">${t.after}</option></select></label><button type="button" class="catalog-clear">${t.clearFilters}</button></div>
-          <details class="catalog-advanced"><summary>${t.referenceSearch}</summary><div class="catalog-reference-fields"><label>${t.fond}<input id="catalog-fund" maxlength="50" placeholder="${t.exampleFund}" form="catalog-search-form"></label><label>${t.inventory}<input id="catalog-inventory" maxlength="50" placeholder="${t.exampleInventory}" form="catalog-search-form"></label><label>${t.case}<input id="catalog-case" maxlength="50" placeholder="${t.exampleCase}" form="catalog-search-form"></label></div><p>${t.combine}</p><button type="submit" form="catalog-search-form" class="catalog-search-button">${t.apply}</button></details>
-          <div class="catalog-extra-filters"><h2>${t.extraFilters}</h2><div class="catalog-extra-fields">
-            <label for="catalog-year-from">${t.yearFrom}<input id="catalog-year-from" type="number" min="1" max="9999" inputmode="numeric" form="catalog-search-form"></label>
-            <label for="catalog-year-to">${t.yearTo}<input id="catalog-year-to" type="number" min="1" max="9999" inputmode="numeric" form="catalog-search-form"></label>
-            <label for="catalog-author">${t.author}<input id="catalog-author" aria-describedby="catalog-extra-note" type="text" maxlength="100" form="catalog-search-form"></label>
-            <label for="catalog-topic">${t.topic}<input id="catalog-topic" aria-describedby="catalog-extra-note" type="text" maxlength="100" form="catalog-search-form"></label>
-            <label for="catalog-place">${t.place}<input id="catalog-place" aria-describedby="catalog-extra-note" type="text" maxlength="100" form="catalog-search-form"></label>
-            <label for="catalog-branch">${t.branch}<input id="catalog-branch" aria-describedby="catalog-extra-note" type="text" maxlength="100" form="catalog-search-form"></label>
-          </div><p class="catalog-extra-note" id="catalog-extra-note">${t.unknownFields}</p><button type="submit" form="catalog-search-form" class="catalog-search-button">${t.apply}</button></div></details>
-          </aside><div class="portal-catalog-results"><div class="catalog-result-controls">
+          <form id="catalog-search-form" class="catalog-search" role="search" aria-label="${t.searchLabel}"><label class="catalog-sr-only" for="catalog-query">${t.searchLabel}</label><svg class="catalog-search-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="m16.2 16.2 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><input id="catalog-query" name="q" type="search" maxlength="300" placeholder="${t.placeholder}" autocomplete="off"><button class="catalog-filter-toggle" type="button" aria-haspopup="dialog" aria-controls="catalog-filter-dialog"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 7h18M3 17h18"/><circle cx="9" cy="7" r="3" fill="var(--surface-2)"/><circle cx="15" cy="17" r="3" fill="var(--surface-2)"/></svg><span>${filterCopy.title}</span><span class="catalog-filter-count" hidden></span></button><button class="catalog-search-button" type="submit">${t.find}</button></form>
+          <ul class="catalog-active-filters" aria-label="${filterCopy.active}" hidden></ul>
+          <dialog id="catalog-filter-dialog" class="catalog-filter-dialog" aria-labelledby="catalog-filter-heading"><form id="catalog-filter-form" class="catalog-filter-form">
+          <header class="catalog-filter-header"><h2 id="catalog-filter-heading">${filterCopy.title}</h2><button type="button" class="catalog-filter-close" aria-label="${filterCopy.close}">×</button></header>
+          <div class="catalog-filter-body"><div class="catalog-filters"><label class="catalog-select-wrap"><span>${t.type}</span><select id="catalog-type"><option value="all">${t.allMaterials}</option><option value="fund">${t.fonds}</option><option value="document">${t.documents}</option><option value="photo">${t.photos}</option><option value="newspaper">${({ru:'Газеты',kk:'Газеттер',en:'Newspapers'})[language] || 'Газеты'}</option></select></label><label class="catalog-select-wrap"><span>${t.period}</span><select id="catalog-period"><option value="all">${t.allPeriods}</option><option value="before1926">${t.before}</option><option value="1926-1950">1926–1950</option><option value="1951-2000">1951–2000</option><option value="after2000">${t.after}</option></select></label></div>
+          <section class="catalog-advanced"><h3>${t.referenceSearch}</h3><div class="catalog-reference-fields"><label>${t.fond}<input id="catalog-fund" maxlength="50" placeholder="${t.exampleFund}"></label><label>${t.inventory}<input id="catalog-inventory" maxlength="50" placeholder="${t.exampleInventory}"></label><label>${t.case}<input id="catalog-case" maxlength="50" placeholder="${t.exampleCase}"></label></div></section>
+          <section class="catalog-extra-filters"><h3>${t.extraFilters}</h3><div class="catalog-extra-fields">
+            <label for="catalog-year-from">${t.yearFrom}<input id="catalog-year-from" type="number" min="1" max="9999" inputmode="numeric"></label>
+            <label for="catalog-year-to">${t.yearTo}<input id="catalog-year-to" type="number" min="1" max="9999" inputmode="numeric"></label>
+            <label for="catalog-author">${t.author}<input id="catalog-author" aria-describedby="catalog-extra-note" type="text" maxlength="100"></label>
+            <label for="catalog-topic">${t.topic}<input id="catalog-topic" aria-describedby="catalog-extra-note" type="text" maxlength="100"></label>
+            <label for="catalog-place">${t.place}<input id="catalog-place" aria-describedby="catalog-extra-note" type="text" maxlength="100"></label>
+            <label for="catalog-branch">${t.branch}<input id="catalog-branch" aria-describedby="catalog-extra-note" type="text" maxlength="100"></label>
+          </div><p class="catalog-extra-note" id="catalog-extra-note">${t.unknownFields}</p></section></div>
+          <footer class="catalog-filter-footer"><button type="button" class="catalog-clear">${t.clearFilters}</button><button type="submit" class="catalog-search-button">${filterCopy.apply}</button></footer>
+          </form></dialog>
+          <div class="portal-catalog-layout"><div class="portal-catalog-results"><div class="catalog-result-controls">
             <label class="catalog-select-wrap"><span>${t.sort}</span><select id="catalog-sort"><option value="relevance">${({ru:'По релевантности',kk:'Сәйкестігі бойынша',en:'Relevance'})[language] || 'По релевантности'}</option><option value="title-asc">${t.titleAsc}</option><option value="title-desc">${t.titleDesc}</option><option value="year-asc">${t.yearAsc}</option><option value="year-desc">${t.yearDesc}</option></select></label>
             <label class="catalog-select-wrap"><span>${t.pageSize}</span><select id="catalog-page-size"><option value="1">1</option><option value="10" selected>10</option><option value="20">20</option></select></label>
           </div>
@@ -330,33 +343,63 @@
       const value = (params.get(key) || '').slice(0, key.startsWith('year-') ? 4 : 100);
       field.value = key.startsWith('year-') && !/^[1-9][0-9]{0,3}$/.test(value) ? '' : value;
     }
-    container.querySelector('.catalog-filter-panel').open = !window.matchMedia('(max-width: 760px)').matches || [...Object.values(referenceFields), ...Object.values(extraFields)].some(field => field.value) || type.value !== 'all' || period.value !== 'all';
     for (const [key, select] of [['type', type], ['period', period], ['sort', sort], ['size', pageSize]]) {
       const value = params.get(key);
       if (Array.from(select.options).some(option => option.value === value)) select.value = value;
     }
-    container.querySelector('.catalog-filter-panel').open ||= type.value !== 'all' || period.value !== 'all';
-    container.querySelector('.catalog-advanced').open = Object.values(referenceFields).some(field => field.value);
+
+    const dialog = container.querySelector('.catalog-filter-dialog');
+    const filterForm = container.querySelector('.catalog-filter-form');
+    const filterToggle = container.querySelector('.catalog-filter-toggle');
+    const activeFilters = container.querySelector('.catalog-active-filters');
+    const filterCount = container.querySelector('.catalog-filter-count');
+    const filterFields = { type, period, ...referenceFields, ...extraFields };
+    const filterLabels = { type: t.type, period: t.period, fund: t.fond, inventory: t.inventory, case: t.case,
+      'year-from': t.yearFrom, 'year-to': t.yearTo, author: t.author, topic: t.topic, place: t.place, branch: t.branch };
+    const defaultValue = key => key === 'type' || key === 'period' ? 'all' : '';
+    const readFilters = () => Object.fromEntries(Object.entries(filterFields).map(([key, field]) => [key, field.value.trim()]));
+    let applied = readFilters();
+
+    function restoreFilters(values) {
+      for (const [key, field] of Object.entries(filterFields)) field.value = values[key] ?? defaultValue(key);
+      extraFields['year-to'].setCustomValidity('');
+    }
+
+    function renderFilterSummary() {
+      const entries = Object.entries(applied).filter(([key, value]) => value !== defaultValue(key));
+      activeFilters.replaceChildren();
+      for (const [key, value] of entries) {
+        const options = filterFields[key].options;
+        const label = options ? Array.from(options).find(option => option.value === value)?.textContent || value : value;
+        const item = document.createElement('li');
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.dataset.filterKey = key;
+        button.textContent = filterLabels[key] + ': ' + label + ' ×';
+        button.setAttribute('aria-label', filterCopy.remove + ': ' + filterLabels[key] + ', ' + label);
+        item.append(button);
+        activeFilters.append(item);
+      }
+      activeFilters.hidden = entries.length === 0;
+      filterCount.hidden = entries.length === 0;
+      filterCount.textContent = entries.length ? String(entries.length) : '';
+    }
 
     function referenceMatches(fund, inventory, archiveCase) {
       const expected = { fund, inventory, case: archiveCase };
-      return Object.entries(referenceFields).every(([key, field]) => {
-        const value = normalize(field.value);
+      return Object.keys(referenceFields).every(key => {
+        const value = normalize(applied[key]);
         return !value || (expected[key] !== null && value === normalize(expected[key]));
       });
     }
 
     function getFilterParams() {
       const next = new URLSearchParams();
+      if (siteSearch) next.set('scope', 'all');
       if (input.value.trim()) next.set('q', input.value.trim());
-      for (const [key, field] of Object.entries(referenceFields)) {
-        if (field.value.trim()) next.set(key, field.value.trim());
+      for (const [key, value] of Object.entries(applied)) {
+        if (value !== defaultValue(key)) next.set(key, value);
       }
-      for (const [key, field] of Object.entries(extraFields)) {
-        if (field.value.trim()) next.set(key, field.value.trim());
-      }
-      if (type.value !== 'all') next.set('type', type.value);
-      if (period.value !== 'all') next.set('period', period.value);
       if (sort.value !== 'title-asc') next.set('sort', sort.value);
       if (pageSize.value !== '10') next.set('size', pageSize.value);
       if (currentPage > 1) next.set('page', String(currentPage));
@@ -375,25 +418,26 @@
     // Серверный каталог (backend/). Если API нет, работают локальные примеры updateResultsLocal.
     function updateResults() {
       const live = window.archiveApi;
+      renderFilterSummary();
       if (!live || !window.archiveCatalogLive) { updateResultsLocal(); return; }
       const sequence = ++requestSequence;
       live.ready.then((available) => {
-        if (sequence !== requestSequence) return;
+        if (sequence !== requestSequence || !result.isConnected) return;
         if (!available) { updateResultsLocal(); return; }
         saveFilters();
         window.archiveCatalogLive.render({ params: getFilterParams(), page: currentPage, language, t, result, count, pagination, pageStatus, previousPage, nextPage, container,
-          isCurrent: () => sequence === requestSequence, setPage: (page) => { currentPage = page; }, onReset: clear });
+          isCurrent: () => sequence === requestSequence && result.isConnected, setPage: (page) => { currentPage = page; updateResults(); }, onReset: clear });
       });
     }
 
     function updateResultsLocal() {
-      const selected = period.value;
+      const selected = applied.period;
       const periodMatches = selected === 'all' || (selected === '1926-1950' && record.startYear <= 1950 && record.endYear >= 1926) || (selected === '1951-2000' && record.startYear <= 2000 && record.endYear >= 1951);
       // Both sample records lack confirmed metadata for these fields, so they must not match guesses.
-      const metadataMatches = ['author', 'topic', 'place', 'branch'].every(key => !extraFields[key].value.trim());
-      const rangeMatches = (start, end) => (!extraFields['year-from'].value || end >= Number(extraFields['year-from'].value)) && (!extraFields['year-to'].value || start <= Number(extraFields['year-to'].value));
-      const found = metadataMatches && rangeMatches(record.startYear, record.endYear) && queryMatches(input.value) && (type.value === 'all' || type.value === 'fund') && periodMatches && referenceMatches(record.number, null, null);
-      const documentFound = metadataMatches && rangeMatches(1939, 1945) && (type.value === 'all' || type.value === 'document') && (selected === 'all' || selected === '1926-1950') && window.ridderRecord.search(input.value) && referenceMatches('261', '1', '248');
+      const metadataMatches = ['author', 'topic', 'place', 'branch'].every(key => !applied[key]);
+      const rangeMatches = (start, end) => (!applied['year-from'] || end >= Number(applied['year-from'])) && (!applied['year-to'] || start <= Number(applied['year-to']));
+      const found = metadataMatches && rangeMatches(record.startYear, record.endYear) && queryMatches(input.value) && (applied.type === 'all' || applied.type === 'fund') && periodMatches && referenceMatches(record.number, null, null);
+      const documentFound = metadataMatches && rangeMatches(1939, 1945) && (applied.type === 'all' || applied.type === 'document') && (selected === 'all' || selected === '1926-1950') && window.ridderRecord.search(input.value) && referenceMatches('261', '1', '248');
       const matches = [];
       if (found) matches.push({ title: record.name, startYear: record.startYear, markup: resultMarkup(t) });
       if (documentFound) {
@@ -438,10 +482,8 @@
 
     function clear() {
       input.value = '';
-      Object.values(referenceFields).forEach(field => { field.value = ''; });
-      Object.values(extraFields).forEach(field => { field.value = ''; field.setCustomValidity(''); });
-      type.value = 'all';
-      period.value = 'all';
+      restoreFilters({});
+      applied = readFilters();
       sort.value = 'title-asc';
       pageSize.value = '10';
       currentPage = 1;
@@ -453,10 +495,9 @@
       const from = extraFields['year-from'];
       const to = extraFields['year-to'];
       to.setCustomValidity(from.value && to.value && Number(from.value) > Number(to.value) ? t.yearsError : '');
-      return form.reportValidity();
+      return filterForm.reportValidity();
     }
     function applyFilters() {
-      if (!validateYears()) return;
       currentPage = 1;
       updateResults();
     }
@@ -465,7 +506,31 @@
       event.preventDefault();
       applyFilters();
     });
-    [type, period, sort, pageSize].forEach(control => control.addEventListener('change', applyFilters));
+    [sort, pageSize].forEach(control => control.addEventListener('change', applyFilters));
+    filterToggle.addEventListener('click', () => {
+      restoreFilters(applied);
+      dialog.showModal();
+    });
+    dialog.querySelector('.catalog-filter-close').addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+    dialog.addEventListener('close', () => {
+      restoreFilters(applied);
+      filterToggle.focus({preventScroll:true});
+    });
+    filterForm.addEventListener('submit', event => {
+      event.preventDefault();
+      if (!validateYears()) return;
+      applied = readFilters();
+      dialog.close();
+      applyFilters();
+    });
+    activeFilters.addEventListener('click', event => {
+      const chip = event.target.closest('[data-filter-key]');
+      if (!chip) return;
+      applied[chip.dataset.filterKey] = defaultValue(chip.dataset.filterKey);
+      applyFilters();
+      filterToggle.focus({preventScroll:true});
+    });
     previousPage.addEventListener('click', () => {
       currentPage -= 1;
       updateResults();
@@ -474,8 +539,9 @@
       currentPage += 1;
       updateResults();
     });
-    container.querySelector('.catalog-clear').addEventListener('click', clear);
+    dialog.querySelector('.catalog-clear').addEventListener('click', () => restoreFilters({}));
     updateResults();
+    if (params.get('advanced') === '1') dialog.showModal();
   }
 
   window.renderCatalog = renderCatalog;

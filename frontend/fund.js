@@ -2,7 +2,6 @@
 (function () {
   'use strict';
 
-  const source = 'https://github.com/temirkhanerbolatovich-coder/e-arhiv-vko-research/blob/main/datasets/structured_data/funds_2018.csv';
   const back = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   const arrow = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   const documentIcon = '<svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M12 5h17l7 7v30H12V5Zm17 0v8h7M17 21h14M17 27h14M17 33h9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
@@ -20,7 +19,7 @@
       access: 'Статус доступа', unconfirmed: 'Не подтверждён', copyUnconfirmed: 'Наличие не подтверждено',
       source: 'Источник записи',
       sourceNote: 'Строка перечня фондов из выгрузки 2018 года. Текущее состояние фонда и доступность материалов требуют проверки.',
-      openSource: 'Открыть исходную таблицу на GitHub', ask: 'Спросить архив', back: 'Вернуться в каталог',
+ask: 'Спросить архив', back: 'Вернуться в каталог',
       question: 'Что известно о фонде Р-1 ч.с.?', copied: 'Номер скопирован',
       failed: 'Не удалось скопировать. Выделите номер вручную.'
     },
@@ -37,7 +36,7 @@
       access: 'Қолжетімділік мәртебесі', unconfirmed: 'Расталмаған', copyUnconfirmed: 'Бар екені расталмаған',
       source: 'Жазбаның дереккөзі',
       sourceNote: '2018 жылғы қорлар тізімінен алынған жазба. Қордың қазіргі жағдайы мен материалдардың қолжетімділігін тексеру қажет.',
-      openSource: 'GitHub-тағы бастапқы кестені ашу', ask: 'Архивтен сұрау', back: 'Каталогқа оралу',
+ask: 'Архивтен сұрау', back: 'Каталогқа оралу',
       question: 'Р-1 ч.с. қоры туралы не белгілі?', copied: 'Нөмір көшірілді',
       failed: 'Көшіру мүмкін болмады. Нөмірді қолмен белгілеңіз.'
     },
@@ -54,7 +53,7 @@
       access: 'Access status', unconfirmed: 'Unconfirmed', copyUnconfirmed: 'Availability unconfirmed',
       source: 'Record source',
       sourceNote: 'A row from the 2018 fund list export. The current state of the fund and access to its materials require verification.',
-      openSource: 'Open source table on GitHub', ask: 'Ask the archive', back: 'Back to catalogue',
+ask: 'Ask the archive', back: 'Back to catalogue',
       question: 'What is known about fund Р-1 ч.с.?', copied: 'Number copied',
       failed: 'Could not copy. Select the number manually.'
     }
@@ -76,7 +75,7 @@
         <p class="fund-chat-note">${t.original}</p>
         <div class="fund-number"><span>${t.number}</span><strong lang="ru">Р-1 ч.с.</strong><button class="fund-copy" type="button">${t.copyNumber}</button><span class="fund-copy-status" role="status" aria-live="polite"></span></div>
         <dl class="fund-metadata"><div><dt>${t.dates}</dt><dd>1926–1993</dd></div><div><dt>${t.namePeriod}</dt><dd>[03]1926–19.02.1932</dd></div><div><dt>${t.inventoryCase}</dt><dd>${t.noInfo}</dd></div><div><dt>${t.access}</dt><dd>${t.unconfirmed}</dd></div><div><dt>${t.digitalCopy}</dt><dd>${t.copyUnconfirmed}</dd></div></dl>
-        <div class="fund-source"><strong>${t.source}</strong><p>${t.sourceNote}</p><a href="${source}" target="_blank" rel="noopener noreferrer">${t.openSource} ${arrow}</a></div>
+        <div class="fund-source"><strong>${t.source}</strong><p>${t.sourceNote}</p></div>
         <div class="fund-actions"><a class="fund-primary" href="${askUrl}">${t.ask} ${arrow}</a><a class="fund-secondary" href="#/catalog">${back} ${t.back}</a></div>
       </article></div>
     </div></section>`;

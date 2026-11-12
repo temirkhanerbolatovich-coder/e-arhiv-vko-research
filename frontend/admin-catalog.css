@@ -49,3 +49,7 @@
 @media(max-width:760px) { .admin-catalog-toolbar { grid-template-columns:minmax(0,1fr); } .admin-catalog-tree li { grid-template-columns:minmax(0,1fr); gap:6px; } .admin-catalog-facts div { grid-template-columns:minmax(0,1fr); gap:5px; } .admin-import-steps { grid-template-columns:repeat(2,minmax(0,1fr)); } .admin-import-mapping label,.admin-import-rows li { grid-template-columns:minmax(0,1fr); gap:8px; } }
 /* Long labels remain readable when the interface text is enlarged. */
 .admin-catalog-demo h1,.admin-catalog-demo h2,.admin-catalog-demo label,.admin-catalog-demo strong,.admin-catalog-demo span { overflow-wrap:anywhere; }
+.admin-catalog-published .admin-catalog-toolbar { align-items:end; }
+.admin-catalog-published .admin-catalog-actions { margin:0; }
+.admin-catalog-published .admin-live-actions { align-items:center; }
+.admin-catalog-record-link { text-decoration:underline; text-underline-offset:3px; }

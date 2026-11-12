@@ -10,6 +10,7 @@
     image: '<rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="8.5" cy="9" r="1.4"/><path d="m5 17 5-5 3 3 2-2 4 4"/>',
     pin: '<path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/>',
     history: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/>',
+    calendar: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18M8 14h2M14 14h2M8 18h2"/>',
     grid: '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',
     phone: '<path d="M6 3h3l1.5 4-2 1.8a15 15 0 0 0 6.7 6.7L17 13.5l4 1.5v3a3 3 0 0 1-3.3 3C10 20 4 14 3 6.3A3 3 0 0 1 6 3Z"/>',
     moon: '<path d="M20 15.4A8 8 0 0 1 8.6 4 8 8 0 1 0 20 15.4Z"/>',
@@ -22,9 +23,9 @@
   };
   const icon = (name) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[name] || ''}</svg>`;
   const translations = {
-    ru: {brandSub:'Государственный архив ВКО',catalog:'Каталог',exhibitions:'Выставки',memory:'Архив памяти',branches:'Филиалы',contacts:'Контакты',sections:'Разделы',askShort:'Спросить',footerTitle:'Государственный архив Восточно-Казахстанской области',footerDemo:'Локальный прототип · информация требует подтверждения',footerNav:'Разделы',about:'Об архиве',allSections:'Все разделы',contactDisclaimer:'Данные предоставлены заказчиком; актуальность уточняется.',footerInfo:'Информационный сайт · демонстрационная версия',heroEyebrow:'ЦИФРОВОЙ ЧИТАЛЬНЫЙ ЗАЛ',heroTitle:'Найдите документ, фото или фонд — просто спросите',heroDescription:'Помогаем находить историю Восточного Казахстана.',placeholder:'Спросите архив или введите шифр, название, место',assistantLabel:'Помощник архива · программа на основе ИИ',advanced:'Расширенный поиск',demo:'Демонстрационный режим: ИИ-поиск ещё не подключён.',example1:'Фото Усть-Каменогорска 1960-х',example2:'Где находится архив?',example3:'Что такое опись и дело?',tileCatalog:'Электронный каталог',tileExhibitions:'Онлайн-выставки',tileBranches:'Филиалы и контакты',tileMemory:'Большой архив памяти',tileAll:'Все разделы',historyTitle:'История в документах',allCollections:'Все подборки',historyTag:'Фотоматериалы',history1:'Город и его история',history2:'Улицы и повседневная жизнь',history3:'Люди и события региона',historySource:'Фото из макета · описание уточняется',branchesTitle:'Наши филиалы',allBranches:'Все филиалы',mapNote:'Координаты филиалов уточняются',mainArchive:'Головной архив',mainAddress:'Усть-Каменогорск, ул. Бейбітшілік, 26/1',branchMore:'Адреса и контакты →',newsTitle:'Новости и события',allNews:'Все новости',newsEmpty:'Публикации появятся после подтверждения материалов заказчиком.',newsLink:'О разделе новостей →',quick1:'Как пользоваться каталогом',quick2:'Что такое фонд, опись и дело',quick3:'Информация об услугах',responseLabel:'Помощник архива · демонстрационный сценарий',yourQuestion:'Ваш вопрос:',send:'Отправить',needQuestion:'Введите вопрос, чтобы продолжить.',languageNote:''},
-    kk: {brandSub:'ШҚО мемлекеттік архиві',catalog:'Каталог',exhibitions:'Көрмелер',memory:'Архив жады',branches:'Филиалдар',contacts:'Байланыс',sections:'Бөлімдер',askShort:'Сұрау',footerTitle:'Шығыс Қазақстан облысының мемлекеттік архиві',footerDemo:'Жергілікті прототип · ақпарат тексерілуде',footerNav:'Бөлімдер',about:'Архив туралы',allSections:'Барлық бөлімдер',contactDisclaimer:'Тапсырыс беруші ұсынған мәліметтердің өзектілігі нақтылануда.',footerInfo:'Ақпараттық сайт · демонстрациялық нұсқа',heroEyebrow:'ЦИФРЛЫҚ ОҚУ ЗАЛЫ',heroTitle:'Құжатты, фотоны немесе қорды табу үшін жай ғана сұраңыз',heroDescription:'Шығыс Қазақстан тарихын табуға көмектесеміз.',placeholder:'Архивтен сұраңыз немесе шифрды, атауды енгізіңіз',assistantLabel:'Архив көмекшісі · жасанды интеллектке негізделген бағдарлама',advanced:'Кеңейтілген іздеу',demo:'Демонстрациялық режим: ЖИ іздеуі әлі қосылған жоқ.',example1:'Өскеменнің 1960 жылдардағы суреттері',example2:'Архив қайда орналасқан?',example3:'Тізімдеме мен іс деген не?',tileCatalog:'Электрондық каталог',tileExhibitions:'Онлайн көрмелер',tileBranches:'Филиалдар мен байланыс',tileMemory:'Үлкен архив жады',tileAll:'Барлық бөлімдер',historyTitle:'Құжаттардағы тарих',allCollections:'Барлық жинақтар',historyTag:'Фотоматериалдар',history1:'Қала және оның тарихы',history2:'Көшелер мен күнделікті өмір',history3:'Өңірдегі адамдар мен оқиғалар',historySource:'Макеттегі сурет · сипаттамасы нақтылануда',branchesTitle:'Біздің филиалдар',allBranches:'Барлық филиалдар',mapNote:'Филиалдардың координаттары нақтылануда',mainArchive:'Бас архив',mainAddress:'Өскемен, Бейбітшілік көшесі, 26/1',branchMore:'Мекенжай мен байланыс →',newsTitle:'Жаңалықтар мен оқиғалар',allNews:'Барлық жаңалықтар',newsEmpty:'Жарияланымдар тапсырыс беруші материалдарды растағаннан кейін шығады.',newsLink:'Жаңалықтар бөлімі →',quick1:'Каталогты пайдалану',quick2:'Қор, тізімдеме және іс',quick3:'Қызметтер туралы ақпарат',responseLabel:'Архив көмекшісі · демонстрациялық сценарий',yourQuestion:'Сіздің сұрағыңыз:',send:'Жіберу',needQuestion:'Жалғастыру үшін сұрақ енгізіңіз.',languageNote:'Бұл бөлімнің аудармасы дайындалуда. Түпнұсқа орыс тілінде көрсетілген.'},
-    en: {brandSub:'East Kazakhstan State Archive',catalog:'Catalogue',exhibitions:'Exhibitions',memory:'Memory archive',branches:'Branches',contacts:'Contacts',sections:'Sections',askShort:'Ask',footerTitle:'State Archive of East Kazakhstan Region',footerDemo:'Local prototype · information is subject to verification',footerNav:'Explore',about:'About the archive',allSections:'All sections',contactDisclaimer:'Information supplied by the customer; accuracy is being verified.',footerInfo:'Information website · demonstration version',heroEyebrow:'DIGITAL READING ROOM',heroTitle:'Find a document, photo or collection — just ask',heroDescription:'Explore the history of East Kazakhstan.',placeholder:'Ask the archive or enter a reference, title or place',assistantLabel:'Archive assistant · an AI-based program',advanced:'Advanced search',demo:'Demo mode: AI search is not connected yet.',example1:'Photos of Ust-Kamenogorsk in the 1960s',example2:'Where is the archive?',example3:'What are an inventory and a case?',tileCatalog:'Electronic catalogue',tileExhibitions:'Online exhibitions',tileBranches:'Branches and contacts',tileMemory:'Memory archive',tileAll:'All sections',historyTitle:'History in documents',allCollections:'All collections',historyTag:'Photographs',history1:'The city and its history',history2:'Streets and everyday life',history3:'People and events in the region',historySource:'Photo from the mockup · caption to be verified',branchesTitle:'Our branches',allBranches:'All branches',mapNote:'Branch coordinates are being verified',mainArchive:'Main archive',mainAddress:'Ust-Kamenogorsk, 26/1 Beibitshilik Street',branchMore:'Addresses and contacts →',newsTitle:'News and events',allNews:'All news',newsEmpty:'Updates will appear after the content is approved.',newsLink:'News section →',quick1:'How to use the catalogue',quick2:'Funds, inventories and cases',quick3:'Information about services',responseLabel:'Archive assistant · demonstration scenario',yourQuestion:'Your question:',send:'Send',needQuestion:'Enter a question to continue.',languageNote:'Translation of this section is in progress. The Russian original is shown.'}
+    ru: {brandSub:'Государственный архив ВКО',catalog:'Каталог',exhibitions:'Выставки',memory:'Архив памяти',branches:'Филиалы',contacts:'Контакты',sections:'Разделы',askShort:'Спросить',footerTitle:'Государственный архив Восточно-Казахстанской области и его филиалы',footerDemo:'Локальный прототип · информация требует подтверждения',footerNav:'Разделы',about:'Об архиве',allSections:'Все разделы',contactDisclaimer:'Данные предоставлены заказчиком; актуальность уточняется.',footerInfo:'Информационный сайт · демонстрационная версия',heroEyebrow:'ЦИФРОВОЙ ЧИТАЛЬНЫЙ ЗАЛ',heroTitle:'Найдите документ, фото или фонд — просто спросите',heroDescription:'Помогаем находить историю Восточного Казахстана.',placeholder:'Спросите архив или введите шифр, название, место',assistantLabel:'Помощник архива · программа на основе ИИ',advanced:'Расширенный поиск',demo:'Демонстрационный режим: ИИ-поиск ещё не подключён.',example1:'Фото Усть-Каменогорска 1960-х',example2:'Где находится архив?',example3:'Что такое опись и дело?',tileCatalog:'Электронный каталог',tileExhibitions:'Онлайн-выставки',tileBranches:'Филиалы и контакты',tileMemory:'Большой архив памяти',tileAll:'Все разделы',historyTitle:'История в документах',allCollections:'Все подборки',historyTag:'Фотоматериалы',history1:'Город и его история',history2:'Улицы и повседневная жизнь',history3:'Люди и события региона',historySource:'Фото из макета · описание уточняется',branchesTitle:'Наши филиалы',allBranches:'Все филиалы',mapNote:'Координаты филиалов уточняются',mainArchive:'Головной архив',mainAddress:'Усть-Каменогорск, ул. Бейбітшілік, 26/1',branchMore:'Адреса и контакты →',newsTitle:'Новости и события',allNews:'Все новости',newsEmpty:'Публикации появятся после подтверждения материалов заказчиком.',newsLink:'О разделе новостей →',quick1:'Как пользоваться каталогом',quick2:'Что такое фонд, опись и дело',quick3:'Информация об услугах',responseLabel:'Помощник архива · демонстрационный сценарий',yourQuestion:'Ваш вопрос:',send:'Отправить',needQuestion:'Введите вопрос, чтобы продолжить.',languageNote:''},
+    kk: {brandSub:'ШҚО мемлекеттік архиві',catalog:'Каталог',exhibitions:'Көрмелер',memory:'Архив жады',branches:'Филиалдар',contacts:'Байланыс',sections:'Бөлімдер',askShort:'Сұрау',footerTitle:'Шығыс Қазақстан облысының мемлекеттік архиві және оның филиалдары',footerDemo:'Жергілікті прототип · ақпарат тексерілуде',footerNav:'Бөлімдер',about:'Архив туралы',allSections:'Барлық бөлімдер',contactDisclaimer:'Тапсырыс беруші ұсынған мәліметтердің өзектілігі нақтылануда.',footerInfo:'Ақпараттық сайт · демонстрациялық нұсқа',heroEyebrow:'ЦИФРЛЫҚ ОҚУ ЗАЛЫ',heroTitle:'Құжатты, фотоны немесе қорды табу үшін жай ғана сұраңыз',heroDescription:'Шығыс Қазақстан тарихын табуға көмектесеміз.',placeholder:'Архивтен сұраңыз немесе шифрды, атауды енгізіңіз',assistantLabel:'Архив көмекшісі · жасанды интеллектке негізделген бағдарлама',advanced:'Кеңейтілген іздеу',demo:'Демонстрациялық режим: ЖИ іздеуі әлі қосылған жоқ.',example1:'Өскеменнің 1960 жылдардағы суреттері',example2:'Архив қайда орналасқан?',example3:'Тізімдеме мен іс деген не?',tileCatalog:'Электрондық каталог',tileExhibitions:'Онлайн көрмелер',tileBranches:'Филиалдар мен байланыс',tileMemory:'Үлкен архив жады',tileAll:'Барлық бөлімдер',historyTitle:'Құжаттардағы тарих',allCollections:'Барлық жинақтар',historyTag:'Фотоматериалдар',history1:'Қала және оның тарихы',history2:'Көшелер мен күнделікті өмір',history3:'Өңірдегі адамдар мен оқиғалар',historySource:'Макеттегі сурет · сипаттамасы нақтылануда',branchesTitle:'Біздің филиалдар',allBranches:'Барлық филиалдар',mapNote:'Филиалдардың координаттары нақтылануда',mainArchive:'Бас архив',mainAddress:'Өскемен, Бейбітшілік көшесі, 26/1',branchMore:'Мекенжай мен байланыс →',newsTitle:'Жаңалықтар мен оқиғалар',allNews:'Барлық жаңалықтар',newsEmpty:'Жарияланымдар тапсырыс беруші материалдарды растағаннан кейін шығады.',newsLink:'Жаңалықтар бөлімі →',quick1:'Каталогты пайдалану',quick2:'Қор, тізімдеме және іс',quick3:'Қызметтер туралы ақпарат',responseLabel:'Архив көмекшісі · демонстрациялық сценарий',yourQuestion:'Сіздің сұрағыңыз:',send:'Жіберу',needQuestion:'Жалғастыру үшін сұрақ енгізіңіз.',languageNote:'Бұл бөлімнің аудармасы дайындалуда. Түпнұсқа орыс тілінде көрсетілген.'},
+    en: {brandSub:'East Kazakhstan State Archive',catalog:'Catalogue',exhibitions:'Exhibitions',memory:'Memory archive',branches:'Branches',contacts:'Contacts',sections:'Sections',askShort:'Ask',footerTitle:'State Archive of East Kazakhstan Region and its branches',footerDemo:'Local prototype · information is subject to verification',footerNav:'Explore',about:'About the archive',allSections:'All sections',contactDisclaimer:'Information supplied by the customer; accuracy is being verified.',footerInfo:'Information website · demonstration version',heroEyebrow:'DIGITAL READING ROOM',heroTitle:'Find a document, photo or collection — just ask',heroDescription:'Explore the history of East Kazakhstan.',placeholder:'Ask the archive or enter a reference, title or place',assistantLabel:'Archive assistant · an AI-based program',advanced:'Advanced search',demo:'Demo mode: AI search is not connected yet.',example1:'Photos of Ust-Kamenogorsk in the 1960s',example2:'Where is the archive?',example3:'What are an inventory and a case?',tileCatalog:'Electronic catalogue',tileExhibitions:'Online exhibitions',tileBranches:'Branches and contacts',tileMemory:'Memory archive',tileAll:'All sections',historyTitle:'History in documents',allCollections:'All collections',historyTag:'Photographs',history1:'The city and its history',history2:'Streets and everyday life',history3:'People and events in the region',historySource:'Photo from the mockup · caption to be verified',branchesTitle:'Our branches',allBranches:'All branches',mapNote:'Branch coordinates are being verified',mainArchive:'Main archive',mainAddress:'Ust-Kamenogorsk, 26/1 Beibitshilik Street',branchMore:'Addresses and contacts →',newsTitle:'News and events',allNews:'All news',newsEmpty:'Updates will appear after the content is approved.',newsLink:'News section →',quick1:'How to use the catalogue',quick2:'Funds, inventories and cases',quick3:'Information about services',responseLabel:'Archive assistant · demonstration scenario',yourQuestion:'Your question:',send:'Send',needQuestion:'Enter a question to continue.',languageNote:'Translation of this section is in progress. The Russian original is shown.'}
   };
   translations.ru.brandShort='Госархив ВКО'; translations.kk.brandShort='ШҚО архиві'; translations.en.brandShort='East Kazakhstan Archive';
   Object.assign(translations.ru,{openMenu:'Открыть меню',closeMenu:'Закрыть меню'});
@@ -88,9 +89,15 @@
   Object.assign(translations.kk,{homeExhibitionTitle:'Онлайн көрме',homeExhibitionKicker:'ДЕМОНСТРАЦИЯЛЫҚ ЖИНАҚ',homeExhibitionName:'Фотосуреттердегі тарих',homeExhibitionDescription:'Виртуалды көрме үлгісі: суреттер макеттен алынған, сипаттамасы мен құқықтары нақтылануда.',homeExhibitionAction:'Көрмені көру'});
   Object.assign(translations.en,{homeExhibitionTitle:'Online exhibition',homeExhibitionKicker:'DEMONSTRATION COLLECTION',homeExhibitionName:'History in photographs',homeExhibitionDescription:'A virtual exhibition example: images are from the mockup; captions and rights need verification.',homeExhibitionAction:'Explore the exhibition'});
 
-  Object.assign(translations.ru,{portalStatus:'Информационный ресурс · прототип',referenceInfo:'Справочная информация',symbols:'Государственные символы Республики Казахстан',heroTitle:'Найдите информацию в архиве',heroDescription:'Задайте вопрос ИИ-помощнику или перейдите к поиску архивных документов и сведений.',heroEyebrow:'ГОСУДАРСТВЕННЫЙ АРХИВ ВКО',placeholder:'Спросите об архиве или документах…',assistantLabel:'ИИ-помощник архива',tileHistory:'История архива'});
-  Object.assign(translations.kk,{portalStatus:'Ақпараттық ресурс · прототип',referenceInfo:'Анықтамалық ақпарат',symbols:'Қазақстан Республикасының мемлекеттік рәміздері',heroTitle:'Архивтен ақпарат табыңыз',heroDescription:'ЖИ көмекшісіне сұрақ қойыңыз немесе архив құжаттары мен мәліметтерін іздеуге өтіңіз.',heroEyebrow:'ШҚО МЕМЛЕКЕТТІК АРХИВІ',placeholder:'Архив немесе құжаттар туралы сұраңыз…',assistantLabel:'Архивтің ЖИ көмекшісі',tileHistory:'Архив тарихы'});
-  Object.assign(translations.en,{portalStatus:'Information resource · prototype',referenceInfo:'Visitor information',symbols:'State symbols of the Republic of Kazakhstan',heroTitle:'Find information in the archive',heroDescription:'Ask the AI assistant or search for archival documents and information.',heroEyebrow:'EAST KAZAKHSTAN STATE ARCHIVE',placeholder:'Ask about the archive or documents…',assistantLabel:'Archive AI assistant',tileHistory:'Archive history'});
+  Object.assign(translations.ru,{portalStatus:'Информационный ресурс · прототип',referenceInfo:'Справочная информация',symbols:'Государственные символы Республики Казахстан',heroTitle:'Поиск информации в архиве',heroDescription:'Задайте вопрос ИИ-помощнику или перейдите к поиску архивных документов и сведений.',heroEyebrow:'ГОСУДАРСТВЕННЫЙ АРХИВ ВКО',placeholder:'Задайте вопрос…',assistantLabel:'ИИ-помощник архива',tileHistory:'История архива',tileCalendar:'Памятные даты'});
+  Object.assign(translations.kk,{portalStatus:'Ақпараттық ресурс · прототип',referenceInfo:'Анықтамалық ақпарат',symbols:'Қазақстан Республикасының мемлекеттік рәміздері',heroTitle:'Архивтен ақпарат іздеу',heroDescription:'ЖИ көмекшісіне сұрақ қойыңыз немесе архив құжаттары мен мәліметтерін іздеуге өтіңіз.',heroEyebrow:'ШҚО МЕМЛЕКЕТТІК АРХИВІ',placeholder:'Сұрақ қойыңыз…',assistantLabel:'Архивтің ЖИ көмекшісі',tileHistory:'Архив тарихы',tileCalendar:'Атаулы күндер'});
+  Object.assign(translations.en,{portalStatus:'Information resource · prototype',referenceInfo:'Visitor information',symbols:'State symbols of the Republic of Kazakhstan',heroTitle:'Search the archive',heroDescription:'Ask the AI assistant or search for archival documents and information.',heroEyebrow:'EAST KAZAKHSTAN STATE ARCHIVE',placeholder:'Ask a question…',assistantLabel:'Archive AI assistant',tileHistory:'Archive history',tileCalendar:'Memorable dates'});
+  translations.ru.guestbook = 'Гостевая книга';
+  translations.kk.guestbook = 'Қонақ кітабы';
+  translations.en.guestbook = 'Guestbook';
+  Object.assign(translations.ru, {siteSearch:'Поиск по сайту', siteSearchSubmit:'Найти'});
+  Object.assign(translations.kk, {siteSearch:'Сайт бойынша іздеу', siteSearchSubmit:'Іздеу'});
+  Object.assign(translations.en, {siteSearch:'Search the site', siteSearchSubmit:'Search'});
   Object.assign(translations.ru, {
     footerHours:'Режим работы: понедельник–пятница, 08:00–17:00',
     footerResources:'Государственные ресурсы и полезные ссылки',
@@ -123,6 +130,9 @@
     root.querySelectorAll('[data-i18n-label]').forEach(el => {
       el.setAttribute('aria-label', tr(el.dataset.i18nLabel));
     });
+    root.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+      el.placeholder = tr(el.dataset.i18nPlaceholder);
+    });
   }
   function applySettings() {
     document.documentElement.lang = state.language;
@@ -137,30 +147,35 @@
     document.getElementById('font-toggle').setAttribute('aria-label', fontLabel);
     document.getElementById('font-toggle').title = fontLabel;
     document.getElementById('skip-link').textContent = tr('skipContent');
-    document.title = tr('footerTitle');
     document.getElementById('menu-toggle').setAttribute('aria-label',tr(document.getElementById('mobile-menu').hidden ? 'openMenu' : 'closeMenu'));
     translateStatic(document.querySelector('.site-header'));
+    translateStatic(document.querySelector('.header-search-bar'));
     translateStatic(document.querySelector('.site-footer'));
     translateStatic(document.querySelector('.mobile-dock'));
+    window.refreshMainBranchContacts?.(state.language);
   }
   function tile(href, symbol, label) { return `<a class="section-tile" href="${href}"><span class="tile-icon">${icon(symbol)}</span><span class="tile-text">${label}</span></a>`; }
-  function historyCard(photo,title) { return `<a class="history-card" href="#/memory"><img src="assets/${photo}" alt="" loading="lazy"><div class="history-body"><span class="history-tag">${tr('historyTag')}</span><h3>${title}</h3><p>${tr('historySource')}</p></div></a>`; }
+  function historyCard(item, album) {
+    return `<a class="history-card" href="#/exhibition?item=${item.id}"><img src="${item.image}" alt="" loading="lazy"><div class="history-body"><span class="history-tag">${tr('historyTag')}</span><h3 lang="ru">${item.title}</h3><p lang="ru">${album.title}</p></div></a>`;
+  }
   function renderHome(focusQuestion) {
     const newsPreview = window.getNewsPreview?.();
+    const exhibition = window.archiveExhibition;
     app.innerHTML = `<div class="shell home-page">
       <div class="portal-search-area"><section class="hero" aria-labelledby="hero-title"><div class="hero-content"><p class="hero-eyebrow">${tr('heroEyebrow')}</p><h1 id="hero-title">${tr('heroTitle')}</h1><p class="hero-desc">${tr('heroDescription')}</p></div></section>
       <section class="assistant-wrap" aria-label="${tr('assistantLabel')}"><form class="composer" id="chat-form"><span class="composer-icon">${icon('assistant')}</span><label class="sr-only" for="chat-input">${tr('assistantLabel')}</label><input id="chat-input" name="question" type="search" placeholder="${tr('placeholder')}" autocomplete="off" maxlength="500"><button class="submit-button" type="submit" aria-label="${tr('send')}">${icon('arrowUp')}</button></form>
-        <div class="assistant-meta">${icon('shield')}<span>${tr('assistantLabel')}</span><span aria-hidden="true">·</span><a href="#/catalog">${tr('advanced')}</a></div>
+        <div class="assistant-meta">${icon('shield')}<span>${tr('assistantLabel')}</span><span aria-hidden="true">·</span><a href="#/catalog?advanced=1">${tr('advanced')}</a></div>
         <div class="example-list"><button class="example" type="button" data-question="ridder">${window.ridderRecord.questions[state.language]}</button><button class="example" type="button" data-question="address">${tr('example2')}</button><button class="example" type="button" data-question="terms">${tr('example3')}</button></div><div id="response-area" aria-live="polite"></div>
       </section>
-      </div><nav class="section-tiles" aria-label="${tr('sections')}">${tile('#/catalog','layers',tr('tileCatalog'))}${tile('#/exhibition','image',tr('tileExhibitions'))}${tile('#/section/branches','pin',tr('tileBranches'))}${tile('#/section/history','history',tr('tileHistory'))}${tile('#/section/all','grid',tr('tileAll'))}</nav>
-      <section class="section-block" aria-labelledby="history-title"><div class="section-title"><h2 id="history-title">${tr('historyTitle')}</h2><a href="#/memory">${tr('allCollections')} →</a></div><div class="history-grid">${historyCard('history-flood.jpg',tr('history1'))}${historyCard('history-street.jpg',tr('history2'))}${historyCard('history-wharf.jpg',tr('history3'))}</div></section>
-      <section class="section-block" aria-labelledby="home-exhibition-title"><div class="section-title"><h2 id="home-exhibition-title">${tr('homeExhibitionTitle')}</h2><a href="#/exhibition">${tr('homeExhibitionAction')} →</a></div><a class="home-exhibition" href="#/exhibition"><img src="assets/history-street.jpg" alt="" loading="lazy"><span class="home-exhibition-copy"><span class="home-exhibition-kicker">${tr('homeExhibitionKicker')}</span><strong>${tr('homeExhibitionName')}</strong><span>${tr('homeExhibitionDescription')}</span><span class="home-exhibition-link">${tr('homeExhibitionAction')} →</span></span></a></section>
-      <div class="home-grid"><section class="home-panel"><div class="panel-heading"><h2 class="panel-title">${tr('branchesTitle')}</h2><a href="#/section/branches">${tr('allBranches')} →</a></div><div class="branch-inner"><a class="map-placeholder home-map-link" href="#/section/branches?id=main"><span>${icon('pin')}${tr('mainMap')} →</span></a><div class="branch-address"><strong>${tr('mainArchive')}</strong><span>${tr('mainAddress')}</span><a href="#/section/branches">${tr('branchMore')}</a></div></div></section>
+      </div><nav class="section-tiles" aria-label="${tr('sections')}">${tile('#/catalog','layers',tr('tileCatalog'))}${tile('#/section/exhibitions','image',tr('tileExhibitions'))}${tile('#/calendar','calendar',tr('tileCalendar'))}${tile('#/section/branches','pin',tr('tileBranches'))}${tile('#/section/all','grid',tr('tileAll'))}</nav>
+      <section class="section-block" aria-labelledby="history-title"><div class="section-title"><h2 id="history-title">${tr('historyTitle')}</h2><a href="#/memory">${tr('allCollections')} →</a></div><div class="history-grid">${exhibition.items.map(item => historyCard(item, exhibition.album)).join('')}</div></section>
+      <section class="section-block" aria-labelledby="home-exhibition-title"><div class="section-title"><h2 id="home-exhibition-title">${tr('homeExhibitionTitle')}</h2><a href="#/section/exhibitions">${tr('exhibitions')} →</a></div><a class="home-exhibition" href="#/exhibition"><img src="assets/history-street.jpg" alt="" loading="lazy"><span class="home-exhibition-copy"><span class="home-exhibition-kicker">${tr('homeExhibitionKicker')}</span><strong>${tr('homeExhibitionName')}</strong><span>${tr('homeExhibitionDescription')}</span><span class="home-exhibition-link">${tr('homeExhibitionAction')} →</span></span></a></section>
+      <div class="home-grid"><section class="home-panel"><div class="panel-heading"><h2 class="panel-title">${tr('branchesTitle')}</h2><a href="#/section/branches">${tr('allBranches')} →</a></div><div class="branch-inner"><a class="map-placeholder home-map-link" href="#/section/branches?id=main"><span>${icon('pin')}${tr('mainMap')} →</span></a><div class="branch-address"><strong>${tr('mainArchive')}</strong><span data-main-contact="address">${tr('mainAddress')}</span><a href="#/section/branches">${tr('branchMore')}</a></div></div></section>
       <section class="home-panel" aria-labelledby="home-news-title"><div class="panel-heading"><h2 class="panel-title" id="home-news-title">${tr('newsTitle')}</h2><a href="#/section/news">${tr('allNews')} →</a></div><div class="news-empty home-news-preview"><p>${tr(newsPreview ? 'archivedNews' : 'newsEmpty')}</p><p class="home-news-date" lang="ru" hidden></p><a class="home-news-link" href="#/section/news">${tr('newsLink')}</a></div></section></div>
       <nav class="quick-info" aria-label="${tr('sections')}"><a href="#/section/help"><span class="tile-icon">${icon('book')}</span><span>${tr('quick1')}</span></a><a href="#/section/help"><span class="tile-icon">${icon('layers')}</span><span>${tr('quick2')}</span></a><a href="#/section/services"><span class="tile-icon">${icon('file')}</span><span>${tr('quick3')}</span></a></nav>
     </div>`;
     window.renderHomeExtras?.(app, state.language);
+    window.refreshMainBranchContacts?.(state.language);
     if (newsPreview) {
       const previewLink = app.querySelector('.home-news-link');
       previewLink.href = newsPreview.href;
@@ -170,6 +185,7 @@
       previewDate.textContent = newsPreview.dateLabel;
       previewDate.hidden = !newsPreview.dateLabel;
     }
+    window.refreshHomeNews?.(app.querySelector('.home-news-preview'), state.language);
     const input = document.getElementById('chat-input');
     document.getElementById('chat-form').addEventListener('submit', (event) => { event.preventDefault(); ask(input.value); });
     app.querySelectorAll('[data-question]').forEach((button) => button.addEventListener('click', () => { input.value = button.textContent; ask(input.value,button.dataset.question); }));
@@ -186,10 +202,25 @@
       // Живой ответ сервера; если API недоступен, остаётся подготовленный локальный ответ.
       const message = {question,kind:'live',pending:true,fallbackKind:kind};
       state.messages.push(message);
-      const refresh = () => { if (location.hash.split('?')[0] === '#/chat') renderChat(); };
+      const language = state.language;
+      const refresh = () => {
+        if (location.hash.split('?')[0] !== '#/chat' || !state.messages.includes(message)) return;
+        const field = app.querySelector('#chat-followup');
+        const draft = field?.value || '';
+        const focused = document.activeElement === field;
+        const selection = focused ? [field.selectionStart, field.selectionEnd] : null;
+        renderChat();
+        const nextField = app.querySelector('#chat-followup');
+        if (!nextField) return;
+        nextField.value = draft;
+        if (focused) {
+          nextField.focus({preventScroll:true});
+          if (selection && selection[0] !== null) nextField.setSelectionRange(...selection);
+        }
+      };
       window.archiveApi.ready.then((available) => {
         if (!available) { message.kind = kind; return; }
-        return window.archiveApi.post('/chat/messages',{question,locale:state.language}).then((reply) => { message.reply = reply; })
+        return window.archiveApi.post('/chat/messages',{question,locale:language}).then((reply) => { message.reply = reply; })
           .catch((error) => { if (error.status === 429 || error.status === 400) message.error = error.message; else message.kind = kind; });
       }).finally(() => { message.pending = false; refresh(); });
     }
@@ -220,11 +251,13 @@
     app.innerHTML = `<section class="shell page-shell"><h1>${tr('notFound')}</h1><p>${tr('notFoundHelp')}</p><a class="response-link" href="#/">${tr('home')} →</a></section>`;
   }
   function route() {
+    document.title = tr('footerTitle');
     const value = (location.hash || '#/').slice(1);
     const [path,query=''] = value.split('?');
     const navigationPath = path.startsWith('/fund/') || path.startsWith('/ridder/') || path.startsWith('/resource/') ? '/catalog'
-      : path === '/exhibition' ? '/section/exhibitions' : path;
-    document.querySelectorAll('.desktop-nav a, .mobile-menu a').forEach(link => {
+      : path === '/exhibition' ? '/section/exhibitions'
+      : path === '/memory' ? '/section/memory' : path;
+    document.querySelectorAll('.desktop-nav a, .mobile-menu a, .mobile-dock a').forEach(link => {
       if (link.getAttribute('href') === '#' + navigationPath) link.setAttribute('aria-current', 'page');
       else link.removeAttribute('aria-current');
     });
@@ -239,8 +272,12 @@
     else if (path === '/catalog') { window.renderCatalog(app,new URLSearchParams(query),state.language); }
     else if (window.ridderRecord.routes.includes(path)) { window.ridderRecord.render(app,path,state.language); }
     else if (path === '/fund/r1') { window.renderFund(app,state.language); }
-    else if (path.startsWith('/resource/')) { window.renderResource(app,decodeURIComponent(path.slice('/resource/'.length)),state.language); }
-    else if (path === '/exhibition' || path === '/section/exhibitions') { window.renderExhibition(app,new URLSearchParams(query),state.language); }
+    else if (path.startsWith('/resource/')) { window.renderResource(app,decodeURIComponent(path.slice('/resource/'.length)),state.language,new URLSearchParams(query).get('from')); }
+    else if (path === '/exhibition' || path === '/section/exhibitions') {
+      const params = new URLSearchParams(query);
+      if (path === '/exhibition' || params.has('item')) window.renderExhibition(app,params,state.language);
+      else window.renderExhibitionDirectory(app,state.language);
+    }
     else if (path === '/memory' || path === '/section/memory') { window.renderMemory(app,new URLSearchParams(query),state.language); }
     else if (path === '/section/branches') { window.renderBranches(app,new URLSearchParams(query),state.language); }
     else if (path === '/section/feedback') { window.renderFeedback(app,state.language); }
@@ -252,7 +289,7 @@
     else if (path === '/calendar' || path === '/section/calendar') { window.renderCalendar(app,state.language); }
     else if (path === '/section/history') { window.renderArchiveHistory(app,state.language); }
     else if (path === '/places' || path === '/section/places') { window.renderPlaces(app,new URLSearchParams(query),state.language); }
-    else if (path === '/section/services') { window.renderServiceInfo(app,state.language); }
+    else if (path === '/section/services') { window.renderServiceInfo(app,state.language,new URLSearchParams(query).get('reports') === '1'); }
     else if (path === '/section/paid') { window.renderPaidInfo(app,state.language); }
     else if (path === '/document') { window.renderDocumentViewer(app,new URLSearchParams(query),state.language); }
     else if (path === '/section/reading-room') { window.renderReadingRoom(app,state.language); }
@@ -274,10 +311,23 @@
     if (state.language !== 'ru' && !localized) {
       const note=document.createElement('p'); note.className='translation-note shell'; note.lang=state.language; note.setAttribute('role','note'); note.textContent=tr('languageNote'); app.prepend(note);
     }
+    if (app.querySelector('[data-main-contact]')) window.refreshMainBranchContacts?.(state.language);
     window.scrollTo({top:0,behavior:'instant'});
   }
   injectIcons(document);
   applySettings();
+  document.querySelectorAll('[data-site-search]').forEach(form => {
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      const input = form.elements.namedItem('q');
+      const query = input.value.trim();
+      if (!query) { input.focus(); return; }
+      const hash = '#/catalog?' + new URLSearchParams({scope:'all', q:query});
+      if (location.hash !== hash) history.pushState(null, '', hash);
+      route();
+      document.getElementById('main').focus({preventScroll:true});
+    });
+  });
   document.getElementById('skip-link').addEventListener('click', (event) => { event.preventDefault(); const main=document.getElementById('main'); main.focus(); main.scrollIntoView(); });
   document.getElementById('language').addEventListener('change', (event) => {
     const draftField = app.querySelector('#chat-input, #chat-followup');
@@ -298,7 +348,11 @@
   document.getElementById('theme-toggle').addEventListener('click', () => { state.theme=state.theme==='light'?'dark':'light'; safeSet('sandyq-theme',state.theme); applySettings(); });
   document.getElementById('font-toggle').addEventListener('click', () => { const levels=['100','125','150','200']; state.font=levels[(levels.indexOf(state.font)+1)%levels.length]; safeSet('sandyq-font',state.font); applySettings(); if (getComputedStyle(document.getElementById('menu-toggle')).display === 'none') closeMenu(false); });
   document.getElementById('menu-toggle').addEventListener('click', (event) => { const menu=document.getElementById('mobile-menu'); menu.hidden=!menu.hidden; event.currentTarget.setAttribute('aria-expanded',String(!menu.hidden)); event.currentTarget.setAttribute('aria-label',tr(menu.hidden ? 'openMenu' : 'closeMenu')); });
-  document.getElementById('mobile-menu').addEventListener('click', (event) => { if (event.target.closest('a')) closeMenu(false); });
+  document.getElementById('mobile-menu').addEventListener('click', (event) => {
+    if (!event.target.closest('a')) return;
+    closeMenu(false);
+    requestAnimationFrame(() => document.getElementById('main').focus({preventScroll:true}));
+  });
   document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && !document.getElementById('mobile-menu').hidden) closeMenu(true); });
   window.addEventListener('resize', () => { if (getComputedStyle(document.getElementById('menu-toggle')).display === 'none') closeMenu(false); });
   window.addEventListener('hashchange',route);

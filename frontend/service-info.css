@@ -101,15 +101,47 @@
   color: var(--primary-text);
   font-weight: 700;
 }
-.service-info-primary > span[aria-hidden] {
-  flex-shrink: 0;
-}
 .service-info-link,
 .service-info-contact a,
 .service-info-reports a {
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+.service-info-branded {
+  display: inline-grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+}
+.service-info-link.service-info-branded {
+  text-decoration: none;
+}
+.service-info-link.service-info-branded .service-info-link-label {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.service-info-brand {
+  display: grid;
+  place-items: center;
+  inline-size: 72px;
+  block-size: 34px;
+  border-radius: 4px;
+}
+.service-info-brand img {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+.service-info-brand--egov {
+  padding: 5px 8px;
+  background: #fff;
+}
+.service-info-brand--adilet {
+  padding-inline: 2px;
+  background: #103859;
 }
 .service-info-page a:focus-visible {
   outline: 3px solid #537ba9;
