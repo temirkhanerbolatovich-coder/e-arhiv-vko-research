@@ -59,4 +59,3 @@ Preview защищён Vercel Authentication. Используйте аккау�
 Первый автодеплой подтверждён коммитом [b352c2e](https://github.com/temirkhanerbolatovich-coder/e-arhiv-vko-research/commit/b352c2e462a44db32e650fc4858b21b536b2c865). Тестовый файл проверен авторизованным CLI. Временный доступ для проверки отозван после её завершения.
 
 Порядок production и preview описан в [документации Vercel](https://vercel.com/docs/git).
-
