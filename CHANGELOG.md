@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-12 — Репозиторий для жюри и стенд владельца
+
+- В `main` объединены ранее опубликованные исходники и документы с сохранением истории разработки.
+- Обновлены главная страница репозитория, индекс документации и различия между проектной и реализованной БД.
+- Добавлены маршрут просмотра для жюри, инструкция Vercel и отчёт о проверке стенда.
+- Стенд владельца: [e-arhiv-vko-portal.vercel.app](https://e-arhiv-vko-portal.vercel.app/), production из `main`.
+- Новый локальный редизайн не входит в эту публикацию.
+
 ## 2026-11-11 — Оформление и голос
 
 - Единый слой `frontend/theme.css`: главный экран на архивной фотографии Усть-Каменогорска, заголовки шрифтом Literata, крупный текст, одна карточка и одна кнопка на весь сайт, тёмный подвал.
@@ -37,4 +45,4 @@
 - Added existing-data profile, migration mapping, architecture, security, decisions, team workflow and validation guidance.
 - Preserved source research datasets. No website design or UI mockups included; design is not approved.
 
-This release contains research and planning, not an implemented website or production database.
+The initial release of 9 November contained research and planning, not an implemented website or production database. Later implementation is recorded above.

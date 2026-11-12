@@ -31,7 +31,7 @@ npm run check                # tsc --noEmit + node:test (тесты не обр�
 
 ## Демо-учётки панели (`#/admin/login`)
 
-Пароль всех учёток: `archive-demo-2026` (переменная `DEMO_PASSWORD`). Одна учётка на роль из ТЗ 6.1:
+Пароль учёток готового демо-снимка: `archive-demo-2026`. `DEMO_PASSWORD` применяется при создании демо-пользователей; смена переменной не меняет хеши существующих пользователей в снимке. Одна учётка на роль из ТЗ 6.1:
 
 | Почта | Роль |
 |---|---|
@@ -72,7 +72,7 @@ frontend/ (статические модули) ──fetch──▶ /api/v1 (Ho
 
 ## Развёртывание
 
-- **Vercel:** `npm run build:vercel` собирает `../.vercel/output` (Build Output API: статика + функция API). Корневой `vercel.json` запускает эту сборку при деплое. Обязательная переменная — `SESSION_SECRET`. Без `OPENAI_API_KEY` модель вызывается через Vercel AI Gateway (`AI_GATEWAY_API_KEY` или OIDC-токен проекта). Сейчас стенд на бесплатных кредитах Gateway: в них нет GPT-6 Luna и эмбеддингов, поэтому задан `LLM_MODEL=gpt-5.1` (reasoning `none`) и `QUERY_EMBEDDINGS=off` (поиск по запросу без смыслового слоя). После пополнения кредитов удалить эти переменные и передеплоить — вернутся GPT-6 Luna и смысловой поиск.
+- **Vercel:** `npm run build:vercel` собирает `../.vercel/output` (Build Output API: статика + функция API). Корневой `vercel.json` запускает сборку; `SESSION_SECRET` обязателен. На [стенде владельца](https://e-arhiv-vko-portal.vercel.app/) вызовы модели отключены: `LLM_GATEWAY=off`, `QUERY_EMBEDDINGS=off`. Без собственного ключа и при разрешённом Gateway код может использовать `AI_GATEWAY_API_KEY` или OIDC проекта; провайдера и модель настраивают отдельно. Полный порядок — [публикация на Vercel](../docs/deployment/vercel.md).
 - **Свой сервер:** `NODE_ENV=production SESSION_SECRET=... DATABASE_URL=postgres://... HOST=0.0.0.0 npm start` за обратным прокси с HTTPS.
 
 ## Ограничения и техдолг
